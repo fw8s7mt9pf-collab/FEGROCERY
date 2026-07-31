@@ -1,6 +1,6 @@
 # Add scheduled refresh and publish workflow
 
-Status: Open
+Status: Closed
 Labels: wayfinder:task
 Parent: Wayfinder Map: Grocery Deal Tracker MVP
 
@@ -22,3 +22,26 @@ Refresh sources automatically 2-3 times per day and publish updated static data.
 - Workflow has scheduled triggers.
 - Public data updates without a server or database.
 - Failures are visible in Actions logs.
+
+## Result
+
+Added `.github/workflows/refresh-and-publish.yml`.
+
+The workflow:
+
+- runs manually with `workflow_dispatch`
+- runs three times per day on GitHub's UTC cron schedule
+- installs dependencies with `npm ci`
+- runs `npm run refresh:data`
+- validates with tests, typecheck, and build
+- commits changed `public/data/*.json` files back to the repository
+- uploads `dist` and deploys to GitHub Pages
+
+Added `npm run refresh:data` as the single local command used by the workflow.
+
+Verified locally with:
+
+- `npm run refresh:data`
+- `npm test`
+- `npm run typecheck`
+- `npm run build`

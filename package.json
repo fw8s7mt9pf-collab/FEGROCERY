@@ -6,6 +6,7 @@
   "scripts": {
     "collect:sources": "tsx scripts/collect-sources.ts",
     "extract:flyers": "tsx scripts/extract-flyers.ts",
+    "refresh:data": "npm run collect:sources && npm run extract:flyers",
     "dev": "vite --host 127.0.0.1",
     "build": "tsc && vite build",
     "test": "vitest run",
