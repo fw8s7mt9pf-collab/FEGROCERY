@@ -48,7 +48,7 @@ export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedA
       sourceUrl: input.sourceUrl,
       validFrom: parsedDates.validFrom?.toISOString(),
       validUntil: parsedDates.validUntil?.toISOString(),
-      expiresAt: (parsedDates.validUntil ?? addHours(refreshedAt, 48)).toISOString(),
+      expiresAt: (parsedDates.validUntil ?? addHours(new Date(input.discoveredAt), 48)).toISOString(),
       lastRefreshed: refreshedAt.toISOString(),
       warning: warningParts.length ? warningParts.join(" ") : undefined,
     };

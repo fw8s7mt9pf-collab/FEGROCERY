@@ -60,7 +60,7 @@ describe("extractDealsFromCandidates", () => {
           supermarket: "Grupo Roxo",
           sourceUrl: "https://www.instagram.com/p/example/",
           imageUrl: "https://www.gruporoxo.com.br/wp-content/uploads/flyer.jpg",
-          discoveredAt: refreshedAt.toISOString(),
+          discoveredAt: "2026-07-30T10:00:00.000Z",
           rawCaption: "Ofertas imperdiveis",
         },
       ],
@@ -69,7 +69,7 @@ describe("extractDealsFromCandidates", () => {
 
     expect(result.deals[0]).toMatchObject({
       category: "Other",
-      expiresAt: "2026-08-02T15:00:00.000Z",
+      expiresAt: "2026-08-01T10:00:00.000Z",
     });
     expect(result.deals[0].warning).toContain("Validade nao encontrada");
     expect(result.warnings).toHaveLength(1);
