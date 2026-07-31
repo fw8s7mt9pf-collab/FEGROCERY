@@ -4,12 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "collect:sources": "tsx scripts/collect-sources.ts",
     "dev": "vite --host 127.0.0.1",
     "build": "tsc && vite build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "tsx": "^4.21.0",
     "typescript": "^7.0.2",
     "vite": "^8.2.0",
     "vitest": "^4.1.10"
