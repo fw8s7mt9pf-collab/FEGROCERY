@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "collect:sources": "tsx scripts/collect-sources.ts",
+    "extract:flyers": "tsx scripts/extract-flyers.ts",
     "dev": "vite --host 127.0.0.1",
     "build": "tsc && vite build",
     "test": "vitest run",

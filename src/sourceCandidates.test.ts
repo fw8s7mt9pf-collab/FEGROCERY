@@ -56,7 +56,7 @@ describe("collectKrolowCandidates", () => {
 
     expect(collectKrolowCandidates(html, discoveredAt).candidates).toEqual([
       {
-        id: "krolow-https-macroatacadokrolow-com-br",
+        id: "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-whatsapp-image-2026-07-30-at-20-00-14-jpeg",
         supermarket: "Krolow",
         sourceUrl: "https://macroatacadokrolow.com.br/",
         imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.14.jpeg",

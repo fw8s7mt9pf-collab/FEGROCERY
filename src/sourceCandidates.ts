@@ -55,7 +55,7 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
 
   for (const imageUrl of flyerUrls) {
     candidates.push({
-      id: stableCandidateId("krolow", "https://macroatacadokrolow.com.br/", imageUrl),
+      id: stableCandidateId("krolow", imageUrl, imageUrl),
       supermarket: "Krolow",
       sourceUrl: "https://macroatacadokrolow.com.br/",
       imageUrl,

@@ -28,7 +28,10 @@ let selectedCategory: "All" | Category = "All";
 let selectedSupermarket = "All";
 
 async function loadDeals(): Promise<Deal[]> {
-  const response = await fetch("./data/deals.sample.json");
+  let response = await fetch("./data/deals.json");
+  if (!response.ok) {
+    response = await fetch("./data/deals.sample.json");
+  }
   if (!response.ok) {
     throw new Error(`Could not load deals: ${response.status}`);
   }
