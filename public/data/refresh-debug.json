@@ -1,5 +1,12 @@
 {
   "generatedAt": "2026-07-31T20:41:11.071Z",
+  "sourceGeneratedAt": "2026-07-31T20:41:07.209Z",
+  "sourceCandidateCount": 14,
+  "sourceSkippedCount": 0,
+  "sourceSkipped": [],
+  "publicDealCount": 14,
+  "expiredDealCount": 0,
+  "warningCount": 13,
   "warnings": [
     "grupo-roxo-https-www-instagram-com-p-dbcb0tjfshn: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbb90weiksg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",

@@ -7,6 +7,8 @@ export type ExtractionInput = SourceCandidate & {
 
 export type ExtractionResult = {
   deals: Deal[];
+  currentDeals: Deal[];
+  expiredDeals: Deal[];
   warnings: string[];
 };
 
@@ -58,7 +60,14 @@ export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedA
     return deal;
   });
 
-  return { deals, warnings };
+  const currentDeals = getVisibleDeals(deals, refreshedAt);
+  const expiredDeals = deals.filter((deal) => !currentDeals.includes(deal));
+
+  return { deals, currentDeals, expiredDeals, warnings };
+}
+
+export function getVisibleDeals(deals: Deal[], now: Date): Deal[] {
+  return deals.filter((deal) => new Date(deal.expiresAt) >= now);
 }
 
 export function classifyCategory(text: string): Category {

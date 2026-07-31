@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { classifyCategory, extractDealsFromCandidates, parseValidityDates } from "./flyerExtraction";
+import { classifyCategory, extractDealsFromCandidates, getVisibleDeals, parseValidityDates } from "./flyerExtraction";
 import type { SourceCandidate } from "./sourceCandidates";
 
 const refreshedAt = new Date("2026-07-31T15:00:00.000Z");
@@ -91,5 +91,37 @@ describe("extractDealsFromCandidates", () => {
     );
 
     expect(result.deals[0].title).toBe("Ofertas de Início de Semana ROXO💜");
+  });
+});
+
+describe("getVisibleDeals", () => {
+  it("separates public current deals from expired debug records", () => {
+    expect(
+      getVisibleDeals(
+        [
+          {
+            id: "current",
+            supermarket: "Krolow",
+            category: "Meats",
+            title: "Atual",
+            imageUrl: "https://example.com/current.jpg",
+            sourceUrl: "https://example.com",
+            expiresAt: "2026-08-01T00:00:00.000Z",
+            lastRefreshed: refreshedAt.toISOString(),
+          },
+          {
+            id: "expired",
+            supermarket: "Krolow",
+            category: "Meats",
+            title: "Expirada",
+            imageUrl: "https://example.com/expired.jpg",
+            sourceUrl: "https://example.com",
+            expiresAt: "2026-07-01T00:00:00.000Z",
+            lastRefreshed: refreshedAt.toISOString(),
+          },
+        ],
+        refreshedAt,
+      ).map((deal) => deal.id),
+    ).toEqual(["current"]);
   });
 });
