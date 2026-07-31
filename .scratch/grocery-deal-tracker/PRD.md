@@ -43,11 +43,11 @@ Known source notes:
 
 ## Implementation Queue
 
-- [Scaffold static flyer website](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/7)
-- [Implement website source collectors](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/8)
-- [Implement flyer extraction pipeline](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/9)
-- [Add scheduled refresh and publish workflow](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/10)
-- [Add refresh debug artifacts](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/11)
+- [Scaffold static flyer website](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/7) - Done
+- [Implement website source collectors](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/8) - Done
+- [Implement flyer extraction pipeline](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/9) - Done
+- [Add scheduled refresh and publish workflow](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/10) - Done
+- [Add refresh debug artifacts](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/11) - Done
 
 ## Out of scope
 
