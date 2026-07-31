@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson 0001: Wayfinder End To End</title>
+  <style>
+    body{margin:0;background:#f4f6f8;color:#17212b;font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+    main{max-width:980px;margin:0 auto;padding:42px 24px 64px}
+    header{background:#ffffff;border:1px solid #d9e0e7;border-radius:8px;padding:28px;margin-bottom:22px}
+    h1{font-size:36px;line-height:1.1;margin:0 0 12px}
+    h2{font-size:24px;margin:32px 0 12px}
+    h3{font-size:18px;margin:22px 0 8px}
+    section{background:#ffffff;border:1px solid #d9e0e7;border-radius:8px;padding:24px;margin:18px 0}
+    .note{border-left:4px solid #2f7d68;padding-left:14px;background:#f5fbf8}
+    .exercise{border-left:4px solid #b45309;padding-left:14px;background:#fff8ed}
+    code{background:#eef2f6;border-radius:4px;padding:2px 5px}
+    a{color:#235a97}
+    li{margin:8px 0}
+    .flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .box{border:1px solid #d9e0e7;border-radius:8px;padding:14px;background:#fbfcfd}
+    .small{font-size:14px;color:#52616f}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="small">Lesson 0001</p>
+    <h1>Wayfinder End To End</h1>
+    <p>One practical lesson on how to use Wayfinder and adjacent Matt Pocock-style skills to move from a foggy idea to buildable work.</p>
+  </header>
+
+  <section>
+    <h2>The One Thing</h2>
+    <p><strong>Wayfinder is for clearing decision fog before implementation.</strong> It is not the build phase. It creates a shared map and works decision tickets until the route is clear.</p>
+    <p>Primary sources describe Wayfinder as a tool for efforts too large or foggy for one session. It uses a map on the issue tracker and resolves tickets one by one until there is nothing left to decide before building. See the <a href="https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md">Wayfinder skill source</a> and the <a href="https://www.aihero.dev/skills-wayfinder">AI Hero Wayfinder explainer</a>.</p>
+  </section>
+
+  <section>
+    <h2>The Process</h2>
+    <div class="flow">
+      <div class="box"><strong>1. Setup</strong><br>Configure tracker, labels, and domain docs. In this repo, GitHub issues mirror local <code>.scratch/</code> files.</div>
+      <div class="box"><strong>2. Destination</strong><br>Name what success means. For us: a low-cost grocery flyer site for Camaqua/RS.</div>
+      <div class="box"><strong>3. Map</strong><br>Create one canonical map issue with destination, notes, decisions, fog, and out-of-scope items.</div>
+      <div class="box"><strong>4. Frontier</strong><br>Create precise decision tickets for what can be questioned now.</div>
+      <div class="box"><strong>5. Resolve</strong><br>Use grilling, research, prototype, or task work depending on the ticket type.</div>
+      <div class="box"><strong>6. Record</strong><br>Close the ticket, record the answer there, and add a one-line pointer to the map.</div>
+      <div class="box"><strong>7. Graduate</strong><br>When decisions are clear, switch to spec/build tickets.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How The Skills Fit</h2>
+    <ul>
+      <li><strong>setup-matt-pocock-skills:</strong> run once per repo so the agent knows where issues, labels, and docs live.</li>
+      <li><strong>wayfinder:</strong> use when the project is too foggy to spec directly.</li>
+      <li><strong>grilling:</strong> use when the blocker is your intent or preference.</li>
+      <li><strong>research:</strong> use when the blocker is external facts, docs, APIs, pricing, rules, or source behavior.</li>
+      <li><strong>domain-modeling:</strong> use to make a shared vocabulary, usually in <code>CONTEXT.md</code>.</li>
+      <li><strong>prototype:</strong> use when a small throwaway build will answer a UX or technical question faster than talking.</li>
+      <li><strong>to-spec / to-tickets:</strong> use after Wayfinder when the route is clear enough to schedule implementation.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Your Grocery Tracker Example</h2>
+    <p>We used Wayfinder correctly because the original idea had real fog: sources, Instagram/WhatsApp legality and access, flyer granularity, categories, refresh cadence, hosting cost, extraction accuracy, and UX.</p>
+    <p>The map now says: use direct supermarket website sources for Roxo and Krolow, keep WhatsApp and stories out of v1, treat flyers as the deal unit, classify by category, refresh with GitHub Actions, keep hosting static and low-cost, use AI vision/OCR during refresh only, and show flyer-first browsing.</p>
+    <p class="note">The important shift: we are no longer asking “what is this product?” We are asking “which current flyer should a user open today?” That makes the MVP much cheaper and simpler.</p>
+  </section>
+
+  <section>
+    <h2>How To Know Wayfinder Is Done</h2>
+    <ul>
+      <li>The map has a clear destination.</li>
+      <li>All major decision tickets are closed.</li>
+      <li>Remaining unknowns are implementation details, not product fog.</li>
+      <li>The next tickets are build tickets, not questions.</li>
+    </ul>
+    <p>For this project, Wayfinder is effectively done for MVP planning. The next phase is implementation: scaffold site, implement collectors, implement extraction, add schedule, add debug artifacts.</p>
+  </section>
+
+  <section class="exercise">
+    <h2>Five-Minute Exercise</h2>
+    <p>Open the map issue and answer these:</p>
+    <ol>
+      <li>What is the destination in one sentence?</li>
+      <li>Name one thing explicitly out of scope.</li>
+      <li>Name one closed decision that changed the implementation plan.</li>
+      <li>What is the next build ticket?</li>
+    </ol>
+    <p>Ask the agent to check your answers. That feedback loop is the point of the lesson.</p>
+  </section>
+
+  <section>
+    <h2>Quick Rule</h2>
+    <p>If the next useful sentence starts with <strong>“We need to decide…”</strong>, stay in Wayfinder. If it starts with <strong>“Build the…”</strong>, leave Wayfinder and implement.</p>
+  </section>
+
+  <section>
+    <h2>References</h2>
+    <ul>
+      <li><a href="https://github.com/mattpocock/skills">Matt Pocock skills repository</a></li>
+      <li><a href="https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md">Wayfinder skill source</a></li>
+      <li><a href="https://www.aihero.dev/skills-wayfinder">AI Hero Wayfinder explainer</a></li>
+      <li><a href="../reference/wayfinder-cheat-sheet.html">Local Wayfinder cheat sheet</a></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

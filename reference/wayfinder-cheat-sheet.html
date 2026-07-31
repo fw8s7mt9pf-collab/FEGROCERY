@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wayfinder Cheat Sheet</title>
+  <style>
+    body{font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.5;margin:0;color:#1f2933;background:#f6f7f9}
+    main{max-width:900px;margin:0 auto;padding:40px 24px}
+    h1{font-size:34px;margin:0 0 8px}
+    h2{margin-top:28px;border-top:1px solid #d8dee6;padding-top:20px}
+    .card{background:white;border:1px solid #d8dee6;border-radius:8px;padding:20px;margin:16px 0}
+    code{background:#eef2f6;padding:2px 5px;border-radius:4px}
+    li{margin:8px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Wayfinder Cheat Sheet</h1>
+  <p>Use Wayfinder when the idea is too foggy to build directly. The output is a clear route, not the finished product.</p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Core Artifacts</h2>
+      <ul>
+        <li><strong>Map:</strong> one canonical issue describing destination, decisions, fog, and scope.</li>
+        <li><strong>Decision ticket:</strong> one question that must be resolved before building.</li>
+        <li><strong>Frontier:</strong> open, unblocked, unclaimed tickets.</li>
+        <li><strong>Context:</strong> shared domain language in <code>CONTEXT.md</code>.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Ticket Types</h2>
+      <ul>
+        <li><strong>grilling:</strong> ask the human until the decision is clear.</li>
+        <li><strong>research:</strong> agent investigates external facts.</li>
+        <li><strong>prototype:</strong> build a throwaway thing to learn.</li>
+        <li><strong>task:</strong> do manual unblocker work.</li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>End-To-End Flow</h2>
+    <ol>
+      <li>Set up tracker and domain docs.</li>
+      <li>Name the destination.</li>
+      <li>Create the map issue.</li>
+      <li>Capture known decisions, fog, and out-of-scope work.</li>
+      <li>Create decision tickets at the frontier.</li>
+      <li>Resolve one ticket at a time using the right skill.</li>
+      <li>Record the answer on the ticket, close it, and add a one-line gist to the map.</li>
+      <li>When no decision fog remains, switch to spec/build tickets.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>For This Grocery Tracker</h2>
+    <p>Wayfinder answered product and architecture questions: sources, WhatsApp scope, flyer-vs-product granularity, categories, refresh cadence, hosting cost, extraction strategy, and browsing UX. The map is now ready to feed implementation issues.</p>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "krolow-meats-2026-07-31",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Ofertas de carnes Krolow",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.49.jpeg",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-07-31T00:00:00-03:00",
+    "validUntil": "2026-08-02T23:59:59-03:00",
+    "expiresAt": "2026-08-02T23:59:59-03:00",
+    "lastRefreshed": "2026-07-31T12:00:00-03:00"
+  },
+  {
+    "id": "prado-meats-2026-07-28",
+    "supermarket": "Prado",
+    "category": "Meats",
+    "title": "Pernil suino kg",
+    "imageUrl": "https://placehold.co/900x1100/f8d33b/1a1a1a?text=Pernil+Suino+R%24+11%2C99",
+    "sourceUrl": "https://www.instagram.com/",
+    "validFrom": "2026-07-28T00:00:00-03:00",
+    "validUntil": "2026-08-03T23:59:59-03:00",
+    "expiresAt": "2026-08-03T23:59:59-03:00",
+    "lastRefreshed": "2026-07-31T12:00:00-03:00"
+  },
+  {
+    "id": "roxo-produce-uncertain",
+    "supermarket": "Grupo Roxo",
+    "category": "Produce",
+    "title": "Ofertas do hortifruti",
+    "imageUrl": "https://placehold.co/900x1100/e9f5df/1f4d2f?text=Hortifruti+Roxo",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "expiresAt": "2026-08-02T12:00:00-03:00",
+    "lastRefreshed": "2026-07-31T12:00:00-03:00",
+    "warning": "Validade inferida automaticamente; expira em 48 horas se nao for confirmada."
+  },
+  {
+    "id": "expired-example",
+    "supermarket": "Grupo Roxo",
+    "category": "Cleaning",
+    "title": "Oferta antiga de limpeza",
+    "imageUrl": "https://placehold.co/900x1100/f4f4f4/333333?text=Expirada",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-07-01T00:00:00-03:00",
+    "validUntil": "2026-07-02T23:59:59-03:00",
+    "expiresAt": "2026-07-02T23:59:59-03:00",
+    "lastRefreshed": "2026-07-03T12:00:00-03:00"
+  }
+]
