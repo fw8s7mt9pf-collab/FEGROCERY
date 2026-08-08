@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T15:28:02.110Z",
-  "sourceGeneratedAt": "2026-08-08T15:28:00.601Z",
+  "generatedAt": "2026-08-08T15:29:34.171Z",
+  "sourceGeneratedAt": "2026-08-08T15:29:30.466Z",
   "sourceCandidateCount": 6,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
-    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
   ],
   "publicDealCount": 6,
   "expiredDealCount": 0,
@@ -19,11 +19,18 @@
   ],
   "ocr": {
     "provider": "google-cloud-vision",
-    "enabled": false,
-    "attempted": 0,
+    "enabled": true,
+    "attempted": 6,
     "succeeded": 0,
-    "failed": 0,
-    "skipped": 6,
-    "errors": []
+    "failed": 6,
+    "skipped": 0,
+    "errors": [
+      "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Vision API returned 403",
+      "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Vision API returned 403",
+      "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Vision API returned 403",
+      "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Vision API returned 403",
+      "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Vision API returned 403",
+      "grupo-roxo-https-www-instagram-com-p-dbo3qavk33c: Vision API returned 403"
+    ]
   }
 }
