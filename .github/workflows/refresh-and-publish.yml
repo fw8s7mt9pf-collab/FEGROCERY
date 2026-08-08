@@ -2,9 +2,6 @@ name: Refresh and publish deals
 
 "on":
   workflow_dispatch:
-  push:
-    branches:
-      - codex/scaffold-static-flyer-site
   schedule:
     - cron: "20 8 * * *"
     - cron: "20 14 * * *"
