@@ -62,7 +62,10 @@ export async function enrichCandidatesWithVision(
         headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
         body: JSON.stringify({ requests: [{ image: { content }, features: [{ type: "DOCUMENT_TEXT_DETECTION" }] }] }),
       });
-      if (!response.ok) throw new Error(`Vision API returned ${response.status}`);
+      if (!response.ok) {
+        const detail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
+        throw new Error(`Vision API returned ${response.status}${detail ? `: ${detail}` : ""}`);
+      }
       const payload = (await response.json()) as VisionResponse;
       const result = payload.responses?.[0];
       if (result?.error?.message) throw new Error(result.error.message);
