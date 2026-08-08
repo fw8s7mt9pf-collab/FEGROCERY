@@ -40,6 +40,8 @@ jobs:
 
       - name: Refresh source data
         run: npm run refresh:data
+        env:
+          GOOGLE_CLOUD_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CLOUD_CREDENTIALS_JSON }}
 
       - name: Validate
         run: |
