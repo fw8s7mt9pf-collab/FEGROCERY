@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-08T15:31:15.075Z",
-  "sourceGeneratedAt": "2026-08-08T15:31:12.037Z",
+  "generatedAt": "2026-08-08T20:49:46.940Z",
+  "sourceGeneratedAt": "2026-08-08T20:49:43.990Z",
   "sourceCandidateCount": 6,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
@@ -10,12 +10,12 @@
   "expiredDealCount": 0,
   "warningCount": 6,
   "warnings": [
+    "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbo3qavk33c: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "google-cloud-vision",
@@ -25,12 +25,12 @@
     "failed": 6,
     "skipped": 0,
     "errors": [
-      "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Vision API returned 403",
-      "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Vision API returned 403",
-      "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Vision API returned 403",
-      "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Vision API returned 403",
-      "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Vision API returned 403",
-      "grupo-roxo-https-www-instagram-com-p-dbo3qavk33c: Vision API returned 403"
+      "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en",
+      "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en",
+      "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en",
+      "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en",
+      "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en",
+      "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Vision API returned 403: { \"error\": { \"code\": 403, \"message\": \"This API method requires billing to be enabled. Please enable billing on project #694318164686 by visiting https://console.developers.google.com/billing/enable?project=694318164686 then retry. If you en"
     ]
   }
 }
