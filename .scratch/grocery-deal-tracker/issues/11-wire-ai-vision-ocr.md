@@ -1,6 +1,6 @@
 # Wire AI vision OCR refresh extraction
 
-Status: Open
+Status: Closed
 Labels: wayfinder:task
 Parent: Wayfinder Map: Grocery Deal Tracker MVP
 
@@ -23,3 +23,7 @@ Populate the existing `visionText` extraction seam with real AI vision/OCR outpu
 - Missing API key does not break local development; the pipeline falls back to caption/title-only extraction with warnings.
 - Debug output records OCR failures and skipped AI calls.
 - Cost remains bounded by the small source count and scheduled refresh cadence.
+
+## Resolution
+
+Implemented Google Vision OCR through the scheduled extraction script. The adapter uses the `GOOGLE_CLOUD_CREDENTIALS_JSON` secret, fetches each public flyer image, submits document text detection, enriches the existing `visionText` seam, and falls back per flyer when credentials, image fetches, or OCR calls fail.

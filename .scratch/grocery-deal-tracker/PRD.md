@@ -48,6 +48,11 @@ Known source notes:
 - [Implement flyer extraction pipeline](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/9) - Done
 - [Add scheduled refresh and publish workflow](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/10) - Done
 - [Add refresh debug artifacts](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/11) - Done
+- [Wire AI vision OCR refresh extraction](https://github.com/fw8s7mt9pf-collab/FEGROCERY/issues/12) - Done
+- Add flyer OCR fixtures and extraction tests - Done
+- Harden source refresh and duplicate handling - Done
+- Add refresh health summary - Done
+- Verify first end-to-end scheduled publication - Blocked on Google Cloud credentials
 
 ## Out of scope
 
