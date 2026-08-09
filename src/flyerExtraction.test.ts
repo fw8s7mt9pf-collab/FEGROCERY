@@ -31,6 +31,13 @@ describe("parseValidityDates", () => {
       validUntil: new Date("2026-08-10T02:59:59.000Z"),
     });
   });
+
+  it("extracts a bare month-name range returned by Mistral from a flyer banner", () => {
+    expect(parseValidityDates("UMA VIDA COM VOCÊ 6 À 9 DE AGOSTO enquanto durarem os estoques", refreshedAt)).toEqual({
+      validFrom: new Date("2026-08-06T03:00:00.000Z"),
+      validUntil: new Date("2026-08-10T02:59:59.000Z"),
+    });
+  });
 });
 
 describe("extractDealsFromCandidates", () => {

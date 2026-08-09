@@ -105,6 +105,17 @@ export function parseValidityDates(text: string, referenceDate: Date): { validFr
     }
   }
 
+  const bareDays = normalized.match(/\b(\d{1,2})\s*(?:e|a|à|ate|até)\s*(\d{1,2})(?:\s+de)?\s+([a-zç]+)/i);
+  if (bareDays) {
+    const month = monthNumber(bareDays[3]);
+    if (month) {
+      return {
+        validFrom: dateInBrazil(Number(bareDays[1]), month, referenceDate.getUTCFullYear()),
+        validUntil: endOfDay(dateInBrazil(Number(bareDays[2]), month, referenceDate.getUTCFullYear())),
+      };
+    }
+  }
+
   return {};
 }
 
