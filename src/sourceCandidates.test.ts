@@ -99,31 +99,23 @@ describe("collectKrolowCandidates", () => {
 describe("collectMercadoPradoCandidates", () => {
   it("collects images from posts published during the last seven days", () => {
     const result = collectMercadoPradoCandidates(
-      {
-        data: {
-          user: {
-            edge_owner_to_timeline_media: {
-              edges: [
-                {
-                  node: {
-                    shortcode: "recent",
-                    taken_at_timestamp: Date.parse("2026-07-30T15:00:00.000Z") / 1_000,
-                    display_url: "https://scontent.cdninstagram.com/recent.jpg",
-                    edge_media_to_caption: { edges: [{ node: { text: "Ofertas validas esta semana" } }] },
-                  },
-                },
-                {
-                  node: {
-                    shortcode: "old",
-                    taken_at_timestamp: Date.parse("2026-07-20T15:00:00.000Z") / 1_000,
-                    display_url: "https://scontent.cdninstagram.com/old.jpg",
-                  },
-                },
-              ],
-            },
-          },
+      [
+        {
+          type: "Image",
+          shortCode: "recent",
+          url: "https://www.instagram.com/p/recent/",
+          timestamp: "2026-07-30T15:00:00.000Z",
+          displayUrl: "https://scontent.cdninstagram.com/recent.jpg",
+          caption: "Ofertas validas esta semana",
         },
-      },
+        {
+          type: "Image",
+          shortCode: "old",
+          url: "https://www.instagram.com/p/old/",
+          timestamp: "2026-07-20T15:00:00.000Z",
+          displayUrl: "https://scontent.cdninstagram.com/old.jpg",
+        },
+      ],
       discoveredAt,
     );
 
@@ -140,29 +132,18 @@ describe("collectMercadoPradoCandidates", () => {
 
   it("expands carousel images and excludes video slides", () => {
     const result = collectMercadoPradoCandidates(
-      {
-        data: {
-          user: {
-            edge_owner_to_timeline_media: {
-              edges: [
-                {
-                  node: {
-                    shortcode: "carousel",
-                    taken_at_timestamp: Date.parse("2026-07-31T12:00:00.000Z") / 1_000,
-                    edge_sidecar_to_children: {
-                      edges: [
-                        { node: { display_url: "https://scontent.cdninstagram.com/one.jpg" } },
-                        { node: { display_url: "https://scontent.cdninstagram.com/video.jpg", is_video: true } },
-                        { node: { display_url: "https://scontent.cdninstagram.com/two.webp" } },
-                      ],
-                    },
-                  },
-                },
-              ],
-            },
-          },
+      [
+        {
+          type: "Sidecar",
+          shortCode: "carousel",
+          timestamp: "2026-07-31T12:00:00.000Z",
+          childPosts: [
+            { type: "Image", displayUrl: "https://scontent.cdninstagram.com/one.jpg" },
+            { type: "Video", displayUrl: "https://scontent.cdninstagram.com/video.jpg" },
+            { type: "Image", displayUrl: "https://scontent.cdninstagram.com/two.webp" },
+          ],
         },
-      },
+      ],
       discoveredAt,
     );
 
@@ -171,6 +152,38 @@ describe("collectMercadoPradoCandidates", () => {
       "https://scontent.cdninstagram.com/two.webp",
     ]);
     expect(new Set(result.candidates.map((candidate) => candidate.id)).size).toBe(2);
+  });
+
+  it("uses Apify image arrays when child posts are unavailable and excludes video posts", () => {
+    const result = collectMercadoPradoCandidates(
+      [
+        {
+          type: "Sidecar",
+          shortCode: "carousel-images",
+          timestamp: "2026-07-31T12:00:00.000Z",
+          carouselImages: ["https://cdn.example/one.jpg", "https://cdn.example/two.jpg"],
+        },
+        {
+          type: "Sidecar",
+          shortCode: "images",
+          timestamp: "2026-07-31T11:00:00.000Z",
+          images: ["https://cdn.example/three.jpg"],
+        },
+        {
+          type: "Video",
+          shortCode: "video",
+          timestamp: "2026-07-31T10:00:00.000Z",
+          displayUrl: "https://cdn.example/video-cover.jpg",
+        },
+      ],
+      discoveredAt,
+    );
+
+    expect(result.candidates.map((candidate) => candidate.imageUrl)).toEqual([
+      "https://cdn.example/one.jpg",
+      "https://cdn.example/two.jpg",
+      "https://cdn.example/three.jpg",
+    ]);
   });
 });
 

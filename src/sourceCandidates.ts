@@ -14,25 +14,16 @@ export type CollectorResult = {
   skipped: string[];
 };
 
-export type InstagramProfileResponse = {
-  data?: {
-    user?: {
-      edge_owner_to_timeline_media?: {
-        edges?: InstagramTimelineEdge[];
-      };
-    };
-  };
-};
-
-type InstagramTimelineEdge = {
-  node?: {
-    shortcode?: string;
-    taken_at_timestamp?: number;
-    display_url?: string;
-    is_video?: boolean;
-    edge_media_to_caption?: { edges?: Array<{ node?: { text?: string } }> };
-    edge_sidecar_to_children?: { edges?: InstagramTimelineEdge[] };
-  };
+export type ApifyInstagramPost = {
+  type?: "Image" | "Sidecar" | "Video" | string;
+  shortCode?: string;
+  url?: string;
+  caption?: string;
+  timestamp?: string;
+  displayUrl?: string;
+  childPosts?: ApifyInstagramPost[];
+  carouselImages?: string[];
+  images?: string[];
 };
 
 const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp|avif)/gi;
@@ -100,7 +91,7 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
 }
 
 export function collectMercadoPradoCandidates(
-  payload: InstagramProfileResponse,
+  posts: ApifyInstagramPost[],
   discoveredAt: string,
   lookbackDays = 7,
 ): CollectorResult {
@@ -108,30 +99,37 @@ export function collectMercadoPradoCandidates(
   const skipped: string[] = [];
   const discoveredAtTime = new Date(discoveredAt).getTime();
   const cutoff = discoveredAtTime - lookbackDays * 24 * 60 * 60 * 1_000;
-  const posts = payload.data?.user?.edge_owner_to_timeline_media?.edges ?? [];
+  for (const post of posts) {
+    const publishedAt = Date.parse(post.timestamp ?? "");
+    if (
+      !post.shortCode ||
+      post.type?.toLowerCase() === "video" ||
+      !Number.isFinite(publishedAt) ||
+      publishedAt < cutoff ||
+      publishedAt > discoveredAtTime
+    ) continue;
 
-  for (const { node } of posts) {
-    const publishedAt = (node?.taken_at_timestamp ?? 0) * 1_000;
-    if (!node?.shortcode || publishedAt < cutoff || publishedAt > discoveredAtTime) continue;
-
-    const sourceUrl = `https://www.instagram.com/p/${node.shortcode}/`;
-    const rawCaption = node.edge_media_to_caption?.edges?.[0]?.node?.text ?? "";
+    const sourceUrl = post.url || `https://www.instagram.com/p/${post.shortCode}/`;
+    const rawCaption = post.caption ?? "";
     const rawTitle = rawCaption.split("\n")[0]?.trim() || "Mercado Prado";
-    const media = node.edge_sidecar_to_children?.edges?.length
-      ? node.edge_sidecar_to_children.edges.map((edge) => edge.node)
-      : [node];
+    const imageUrls = post.carouselImages?.length ? post.carouselImages : post.images;
+    const media = post.childPosts?.length
+      ? post.childPosts
+      : imageUrls?.length
+        ? imageUrls.map((displayUrl) => ({ type: "Image", displayUrl }))
+        : [post];
 
     media.forEach((item, index) => {
-      if (!item?.display_url || item.is_video) return;
+      if (!item.displayUrl || item.type?.toLowerCase() === "video") return;
       candidates.push({
-        id: stableCandidateId("mercado-prado", `${sourceUrl}slide-${index + 1}`, item.display_url),
+        id: stableCandidateId("mercado-prado", `${sourceUrl}slide-${index + 1}`, item.displayUrl),
         supermarket: "Mercado Prado",
         sourceUrl,
-        imageUrl: decodeHtml(item.display_url),
+        imageUrl: decodeHtml(item.displayUrl),
         discoveredAt,
         rawTitle,
         rawCaption,
-        mediaType: fileExtension(item.display_url) ?? "image",
+        mediaType: fileExtension(item.displayUrl) ?? "image",
       });
     });
   }

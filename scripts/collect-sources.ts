@@ -5,8 +5,8 @@ import {
   collectKrolowCandidates,
   collectMercadoPradoCandidates,
   retainMissingSources,
+  type ApifyInstagramPost,
   type CollectorResult,
-  type InstagramProfileResponse,
   type SourceCandidate,
 } from "../src/sourceCandidates";
 
@@ -16,8 +16,16 @@ type WordpressPage = {
   };
 };
 
+type ApifyRun = {
+  data?: {
+    id?: string;
+    status?: string;
+    defaultDatasetId?: string;
+  };
+};
+
 const outputPath = "public/data/raw-candidates.json";
-const mercadoPradoUsername = "sigamercadoprado";
+const mercadoPradoProfileUrl = "https://www.instagram.com/sigamercadoprado/";
 const sourceSupermarkets = ["Grupo Roxo", "Krolow", "Mercado Prado"];
 
 async function main(): Promise<void> {
@@ -83,21 +91,74 @@ async function collectKrolow(discoveredAt: string): Promise<CollectorResult> {
 }
 
 async function collectMercadoPrado(discoveredAt: string): Promise<CollectorResult> {
-  const sessionId = process.env.INSTAGRAM_SESSION_ID?.trim();
-  if (!sessionId) {
-    throw new Error("Mercado Prado requires the INSTAGRAM_SESSION_ID secret because Instagram restricts anonymous access");
-  }
-  const payload = await fetchJson<InstagramProfileResponse>(
-    `https://www.instagram.com/api/v1/users/web_profile_info/?username=${mercadoPradoUsername}`,
+  const token = process.env.APIFY_TOKEN?.trim();
+  if (!token) throw new Error("Mercado Prado requires the APIFY_TOKEN secret");
+
+  const run = await startApifyInstagramRun(token);
+  const finishedRun = await waitForApifyRun(run, token);
+  const datasetId = finishedRun.data?.defaultDatasetId;
+  if (!datasetId) throw new Error("Apify Instagram Scraper finished without a dataset");
+
+  const posts = await fetchApifyJson<ApifyInstagramPost[]>(
+    `https://api.apify.com/v2/datasets/${datasetId}/items?clean=true&format=json`,
+    token,
+  );
+  return collectMercadoPradoCandidates(posts, discoveredAt);
+}
+
+async function startApifyInstagramRun(token: string): Promise<ApifyRun> {
+  return fetchApifyJson<ApifyRun>(
+    "https://api.apify.com/v2/actors/apify~instagram-scraper/runs?waitForFinish=60&maxItems=30&maxTotalChargeUsd=0.25",
+    token,
     {
-      "x-ig-app-id": "936619743392459",
-      referer: `https://www.instagram.com/${mercadoPradoUsername}/`,
-      cookie: `sessionid=${sessionId}`,
-      "user-agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      method: "POST",
+      body: JSON.stringify({
+        directUrls: [mercadoPradoProfileUrl],
+        resultsType: "posts",
+        resultsLimit: 30,
+        onlyPostsNewerThan: "7 days",
+      }),
     },
   );
-  return collectMercadoPradoCandidates(payload, discoveredAt);
+}
+
+async function waitForApifyRun(initialRun: ApifyRun, token: string): Promise<ApifyRun> {
+  let run = initialRun;
+  const runId = run.data?.id;
+  if (!runId) throw new Error("Apify Instagram Scraper did not return a run ID");
+
+  const deadline = Date.now() + 10 * 60 * 1_000;
+  while (!isTerminalApifyStatus(run.data?.status)) {
+    if (Date.now() >= deadline) throw new Error(`Apify Instagram Scraper run ${runId} timed out`);
+    run = await fetchApifyJson<ApifyRun>(
+      `https://api.apify.com/v2/actor-runs/${runId}?waitForFinish=60`,
+      token,
+    );
+  }
+
+  if (run.data?.status !== "SUCCEEDED") {
+    throw new Error(`Apify Instagram Scraper run ${runId} ended with status ${run.data?.status ?? "UNKNOWN"}`);
+  }
+  return run;
+}
+
+function isTerminalApifyStatus(status?: string): boolean {
+  return ["SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"].includes(status ?? "");
+}
+
+async function fetchApifyJson<T>(url: string, token: string, init: RequestInit = {}): Promise<T> {
+  const response = await fetch(url, {
+    ...init,
+    headers: {
+      authorization: `Bearer ${token}`,
+      "content-type": "application/json",
+      "user-agent": "FEGROCERY/0.1 (+https://github.com/fw8s7mt9pf-collab/FEGROCERY)",
+      ...init.headers,
+    },
+    signal: AbortSignal.timeout(70_000),
+  });
+  if (!response.ok) throw new Error(`Apify API returned ${response.status} for ${response.url}`);
+  return response.json() as Promise<T>;
 }
 
 async function fetchJson<T>(url: string, extraHeaders: Record<string, string> = {}): Promise<T> {
