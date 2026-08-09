@@ -42,7 +42,7 @@ export async function enrichCandidatesWithOcrSpace(
   for (const candidate of candidates) {
     stats.attempted += 1;
     try {
-      const image = await fetcher(candidate.imageUrl);
+      const image = await fetcher(candidate.imageUrl, { signal: AbortSignal.timeout(30_000) });
       if (!image.ok) throw new Error(`image fetch returned ${image.status}`);
       const file = new Blob([await image.arrayBuffer()], { type: image.headers.get("content-type") ?? "image/jpeg" });
       const form = new FormData();
@@ -56,6 +56,7 @@ export async function enrichCandidatesWithOcrSpace(
         method: "POST",
         headers: { apikey: apiKey },
         body: form,
+        signal: AbortSignal.timeout(30_000),
       });
       if (!response.ok) {
         const detail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
