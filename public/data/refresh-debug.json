@@ -1,29 +1,36 @@
 {
-  "generatedAt": "2026-08-09T12:46:37.573Z",
-  "sourceGeneratedAt": "2026-08-09T12:46:31.319Z",
-  "sourceCandidateCount": 6,
-  "sourceSkippedCount": 1,
-  "sourceSkipped": [
-    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
-  ],
-  "publicDealCount": 6,
+  "generatedAt": "2026-08-09T12:48:52.636Z",
+  "sourceGeneratedAt": "2026-08-09T12:48:32.509Z",
+  "sourceCandidateCount": 9,
+  "sourceSkippedCount": 0,
+  "sourceSkipped": [],
+  "publicDealCount": 9,
   "expiredDealCount": 0,
-  "warningCount": 6,
+  "warningCount": 9,
   "warnings": [
     "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-203x300-avif: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-694x1024-avif: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "ocr.space",
     "enabled": true,
-    "attempted": 6,
-    "succeeded": 6,
-    "failed": 0,
+    "attempted": 9,
+    "succeeded": 4,
+    "failed": 5,
     "skipped": 0,
-    "errors": []
+    "errors": [
+      "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: fetch failed",
+      "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: fetch failed",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif: OCR.Space returned 400: {\"error\":\"E501: Not an image or PDF\",\"details\":\"Invalid file signature.\"}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-203x300-avif: OCR.Space returned 400: {\"error\":\"E501: Not an image or PDF\",\"details\":\"Invalid file signature.\"}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-694x1024-avif: OCR.Space returned 400: {\"error\":\"E501: Not an image or PDF\",\"details\":\"Invalid file signature.\"}"
+    ]
   }
 }
