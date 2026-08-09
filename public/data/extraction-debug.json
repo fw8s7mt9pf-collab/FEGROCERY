@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T16:52:36.339Z",
+  "generatedAt": "2026-08-09T16:59:38.116Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca.",
@@ -34,7 +34,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer promoting three types of refrigerated beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to 9, 2026.",
+        "summary": "Flyer for Grupo Roxo featuring beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -58,11 +58,11 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer válido de 7 a 9 de agosto de 2026 com 3 produtos em destaque: Batata Branca, Cebola e Ovo Branco.",
+        "summary": "Grocery flyer from Grupo Roxo with promotions on 3 products in the Produce category, valid from August 7 to August 9, 2026.",
         "productNames": [
-          "Batata Branca",
-          "Cebola",
-          "Ovo Branco"
+          "BATATA BRANCA",
+          "CEBOLA",
+          "OVO BRANCO"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -106,7 +106,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket with multiple meat and related product promotions valid from 2026-08-07 to 2026-08-09.",
+        "summary": "Flyer from Krolow supermarket with multiple meat and poultry promotions, including beef, chicken, and frozen products, valid from August 7 to August 9, 2026.",
         "productNames": [],
         "productCount": 7,
         "hasMoreThanThreeProducts": true
@@ -122,7 +122,7 @@
         "category": "Other",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer contains no identifiable product names in the OCR text.",
+        "summary": "No distinct promoted products visible in the provided OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -142,7 +142,7 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow with 10 distinct produce items promoted, valid from August 7 to August 9, 2026.",
+        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09.",
         "productNames": [],
         "productCount": 10,
         "hasMoreThanThreeProducts": true

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T16:52:36.339Z",
-  "sourceGeneratedAt": "2026-08-09T16:51:27.681Z",
+  "generatedAt": "2026-08-09T16:59:38.116Z",
+  "sourceGeneratedAt": "2026-08-09T16:58:11.186Z",
   "sourceCandidateCount": 9,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
-    "Mercado Prado had no image posts from the last 7 days"
+    "Mercado Prado Apify error (no_items): Empty or private data for provided input"
   ],
   "publicDealCount": 9,
   "expiredDealCount": 0,
