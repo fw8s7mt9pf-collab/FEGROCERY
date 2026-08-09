@@ -1,6 +1,6 @@
 # Verify first end-to-end scheduled publication
 
-Status: Open
+Status: Closed
 Labels: wayfinder:task
 Parent: Wayfinder Map: Grocery Deal Tracker MVP
 
@@ -18,3 +18,7 @@ Configure Google Cloud Vision in GitHub Actions and verify one real scheduled re
 ## Blocked by
 
 - Google Cloud Vision project and service-account setup by the repository owner.
+
+## Resolution
+
+Replaced Google Vision with OCR.Space Free API, configured the `OCR_SPACE_API_KEY` GitHub secret, and completed a real scheduled-style refresh. The run processed 6 of 6 flyer images successfully, passed validation, and deployed the website through GitHub Pages. Current flyers still show expected warnings where validity dates are not present or readable.
