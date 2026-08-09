@@ -88,6 +88,10 @@ export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedA
       validUntil: parsedDates.validUntil?.toISOString(),
       expiresAt: (parsedDates.validUntil ?? addHours(new Date(input.discoveredAt), 48)).toISOString(),
       lastRefreshed: refreshedAt.toISOString(),
+      regularPrice: input.structuredOffer?.regularPrice,
+      dealPrice: input.structuredOffer?.dealPrice,
+      unitText: input.structuredOffer?.unitText,
+      limitText: input.structuredOffer?.limitText,
       warning: warningParts.length ? warningParts.join(" ") : undefined,
     };
 

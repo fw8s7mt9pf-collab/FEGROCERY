@@ -148,6 +148,25 @@ select {
   font-weight: 700;
 }
 
+.price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.price-row strong {
+  color: #1f6f5b;
+  font-size: 22px;
+}
+
+.price-row s,
+.price-row span,
+.limit {
+  margin: 0;
+  color: #52616f;
+  font-size: 13px;
+}
+
 .warning {
   margin: 0;
   border-left: 3px solid #b45309;

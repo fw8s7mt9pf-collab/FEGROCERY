@@ -54,6 +54,11 @@ export async function enrichCandidatesWithMistralOcr(
   const fetcher = options.fetcher ?? fetch;
   const enriched: MistralOcrCandidate[] = [];
   for (const candidate of candidates) {
+    if (candidate.parsedListing) {
+      stats.skipped += 1;
+      enriched.push(candidate);
+      continue;
+    }
     stats.attempted += 1;
     try {
       let response = await fetcher(mistralOcrUrl, ocrRequest(apiKey, candidate.imageUrl));

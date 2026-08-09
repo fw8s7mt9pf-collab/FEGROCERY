@@ -43,6 +43,10 @@ function formatDate(value?: string): string {
   return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit" }).format(new Date(value));
 }
 
+function formatPrice(value: number): string {
+  return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(value);
+}
+
 function render(): void {
   const supermarkets = getSupermarkets(allDeals);
   const deals = getCurrentDeals(allDeals, {
@@ -104,6 +108,16 @@ function render(): void {
                         <h2>${deal.title}</h2>
                       </div>
                       <p class="category">${categoryLabels[deal.category]}</p>
+                      ${
+                        deal.dealPrice !== undefined
+                          ? `<div class="price-row">
+                              <strong>${formatPrice(deal.dealPrice)}</strong>
+                              ${deal.regularPrice !== undefined && deal.regularPrice > deal.dealPrice ? `<s>${formatPrice(deal.regularPrice)}</s>` : ""}
+                              ${deal.unitText ? `<span>${deal.unitText}</span>` : ""}
+                            </div>`
+                          : ""
+                      }
+                      ${deal.limitText ? `<p class="limit">${deal.limitText}</p>` : ""}
                       <p class="validity">Valido: ${formatDate(deal.validFrom)} ate ${formatDate(deal.validUntil)}</p>
                       ${deal.warning ? `<p class="warning">${deal.warning}</p>` : ""}
                       <a href="${deal.sourceUrl}" target="_blank" rel="noreferrer">Fonte</a>

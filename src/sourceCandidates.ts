@@ -7,6 +7,21 @@ export type SourceCandidate = {
   rawTitle?: string;
   rawCaption?: string;
   mediaType?: string;
+  parsedListing?: {
+    title?: string;
+    category?: import("./deals").Category;
+    validFrom?: string;
+    validUntil?: string;
+    productNames?: string[];
+    productCount?: number;
+    hasMoreThanThreeProducts?: boolean;
+  };
+  structuredOffer?: {
+    regularPrice?: number;
+    dealPrice?: number;
+    unitText?: string;
+    limitText?: string;
+  };
 };
 
 export type CollectorResult = {

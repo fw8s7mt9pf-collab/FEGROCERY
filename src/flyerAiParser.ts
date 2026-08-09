@@ -55,6 +55,11 @@ export async function enrichCandidatesWithAiParsedListings(
   const fetcher = options.fetcher ?? fetch;
   const enriched: AiParsedCandidate[] = [];
   for (const candidate of candidates) {
+    if (candidate.parsedListing) {
+      stats.skipped += 1;
+      enriched.push(candidate);
+      continue;
+    }
     if (!candidate.visionText?.trim()) {
       stats.skipped += 1;
       enriched.push(candidate);

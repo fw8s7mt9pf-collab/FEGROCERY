@@ -23,6 +23,10 @@ export type Deal = {
   validUntil?: string;
   expiresAt: string;
   lastRefreshed: string;
+  regularPrice?: number;
+  dealPrice?: number;
+  unitText?: string;
+  limitText?: string;
   warning?: string;
 };
 
