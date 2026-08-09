@@ -26,4 +26,4 @@ Populate the existing `visionText` extraction seam with real AI vision/OCR outpu
 
 ## Resolution
 
-Implemented Google Vision OCR through the scheduled extraction script. The adapter uses the `GOOGLE_CLOUD_CREDENTIALS_JSON` secret, fetches each public flyer image, submits document text detection, enriches the existing `visionText` seam, and falls back per flyer when credentials, image fetches, or OCR calls fail.
+Implemented scheduled OCR through OCR.Space. The adapter uses the `OCR_SPACE_API_KEY` secret, submits each public flyer URL with Portuguese OCR settings, enriches the existing `visionText` seam, and falls back per flyer when credentials or OCR calls fail. Google Vision was evaluated but ruled out because this account required a €25 prepayment.

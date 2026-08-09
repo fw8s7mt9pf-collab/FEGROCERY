@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import { extractDealsFromCandidates } from "../src/flyerExtraction";
 import type { SourceCandidate } from "../src/sourceCandidates";
-import { enrichCandidatesWithVision, readVisionCredentials } from "../src/visionOcr";
+import { enrichCandidatesWithOcrSpace, readOcrSpaceApiKey } from "../src/ocrSpace";
 
 type RawCandidatePayload = {
   generatedAt?: string;
@@ -19,7 +19,7 @@ const refreshDebugOutputPath = "public/data/refresh-debug.json";
 async function main(): Promise<void> {
   const payload = JSON.parse(await readFile(inputPath, "utf8")) as RawCandidatePayload;
   const refreshedAt = new Date();
-  const ocr = await enrichCandidatesWithVision(payload.candidates, { credentials: readVisionCredentials() });
+  const ocr = await enrichCandidatesWithOcrSpace(payload.candidates, { apiKey: readOcrSpaceApiKey() });
   const result = extractDealsFromCandidates(ocr.candidates, refreshedAt);
 
   await mkdir(dirname(dealsOutputPath), { recursive: true });

@@ -38,7 +38,7 @@ jobs:
       - name: Refresh source data
         run: npm run refresh:data
         env:
-          GOOGLE_CLOUD_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CLOUD_CREDENTIALS_JSON }}
+          OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
 
       - name: Validate
         run: |
