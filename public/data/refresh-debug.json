@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T13:06:25.467Z",
-  "sourceGeneratedAt": "2026-08-09T13:06:10.238Z",
+  "generatedAt": "2026-08-09T14:48:07.338Z",
+  "sourceGeneratedAt": "2026-08-09T14:48:04.648Z",
   "sourceCandidateCount": 5,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
@@ -12,7 +12,7 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
-    "provider": "ocr.space",
+    "provider": "mistral-ocr",
     "enabled": true,
     "attempted": 5,
     "succeeded": 5,
