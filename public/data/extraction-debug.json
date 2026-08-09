@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-08-09T14:58:44.236Z",
+  "generatedAt": "2026-08-09T15:25:00.406Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocrDateDiagnostics": [
     {
@@ -9,7 +10,8 @@
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9402526161371428,
-      "minimumConfidence": 0.14141379933663614
+      "minimumConfidence": 0.14141379933663614,
+      "parsedListing": {}
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg",
@@ -20,7 +22,8 @@
         "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) A carne do Rio"
       ],
       "averageConfidence": 0.9514385539771351,
-      "minimumConfidence": 0.13018527338013203
+      "minimumConfidence": 0.13018527338013203,
+      "parsedListing": {}
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-763103924-1525156969649973-2705718353681761323-n-jpg",
@@ -31,7 +34,8 @@
         "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BATATA BRANCA ![i"
       ],
       "averageConfidence": 0.9487242489642714,
-      "minimumConfidence": 0.20144963360886547
+      "minimumConfidence": 0.20144963360886547,
+      "parsedListing": {}
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg",
@@ -42,7 +46,8 @@
         "dias ![img-3.jpeg](img-3.jpeg) UMA VIDA COM VOCÊ 6 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PIZZA EXCELSIO"
       ],
       "averageConfidence": 0.9489936023693261,
-      "minimumConfidence": 0.11268017421671184
+      "minimumConfidence": 0.11268017421671184,
+      "parsedListing": {}
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif",
