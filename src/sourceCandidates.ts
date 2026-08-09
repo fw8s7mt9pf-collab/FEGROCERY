@@ -14,6 +14,27 @@ export type CollectorResult = {
   skipped: string[];
 };
 
+export type InstagramProfileResponse = {
+  data?: {
+    user?: {
+      edge_owner_to_timeline_media?: {
+        edges?: InstagramTimelineEdge[];
+      };
+    };
+  };
+};
+
+type InstagramTimelineEdge = {
+  node?: {
+    shortcode?: string;
+    taken_at_timestamp?: number;
+    display_url?: string;
+    is_video?: boolean;
+    edge_media_to_caption?: { edges?: Array<{ node?: { text?: string } }> };
+    edge_sidecar_to_children?: { edges?: InstagramTimelineEdge[] };
+  };
+};
+
 const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp|avif)/gi;
 const grupoRoxoPromotionsUrl = "https://www.gruporoxo.com.br/promocoes/";
 
@@ -75,6 +96,48 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
     skipped.push('Krolow "Ofertas Especiais Feitas Para Voce" section did not expose flyer images');
   }
 
+  return dedupeResult(candidates, skipped);
+}
+
+export function collectMercadoPradoCandidates(
+  payload: InstagramProfileResponse,
+  discoveredAt: string,
+  lookbackDays = 7,
+): CollectorResult {
+  const candidates: SourceCandidate[] = [];
+  const skipped: string[] = [];
+  const discoveredAtTime = new Date(discoveredAt).getTime();
+  const cutoff = discoveredAtTime - lookbackDays * 24 * 60 * 60 * 1_000;
+  const posts = payload.data?.user?.edge_owner_to_timeline_media?.edges ?? [];
+
+  for (const { node } of posts) {
+    const publishedAt = (node?.taken_at_timestamp ?? 0) * 1_000;
+    if (!node?.shortcode || publishedAt < cutoff || publishedAt > discoveredAtTime) continue;
+
+    const sourceUrl = `https://www.instagram.com/p/${node.shortcode}/`;
+    const rawCaption = node.edge_media_to_caption?.edges?.[0]?.node?.text ?? "";
+    const rawTitle = rawCaption.split("\n")[0]?.trim() || "Mercado Prado";
+    const media = node.edge_sidecar_to_children?.edges?.length
+      ? node.edge_sidecar_to_children.edges.map((edge) => edge.node)
+      : [node];
+
+    media.forEach((item, index) => {
+      if (!item?.display_url || item.is_video) return;
+      candidates.push({
+        id: stableCandidateId("mercado-prado", `${sourceUrl}slide-${index + 1}`, item.display_url),
+        supermarket: "Mercado Prado",
+        sourceUrl,
+        imageUrl: decodeHtml(item.display_url),
+        discoveredAt,
+        rawTitle,
+        rawCaption,
+        mediaType: fileExtension(item.display_url) ?? "image",
+      });
+    });
+  }
+
+  if (!posts.length) skipped.push("Mercado Prado Instagram profile did not expose recent posts");
+  if (posts.length && !candidates.length) skipped.push(`Mercado Prado had no image posts from the last ${lookbackDays} days`);
   return dedupeResult(candidates, skipped);
 }
 

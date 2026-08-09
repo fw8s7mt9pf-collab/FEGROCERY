@@ -187,6 +187,25 @@ describe("extractDealsFromCandidates", () => {
     expect(result.deals[0].title).toBe("Ofertas variadas");
   });
 
+  it("does not use Mercado Prado's generic profile caption as a listing title", () => {
+    const result = extractDealsFromCandidates(
+      [
+        {
+          id: "mercado-prado-offer",
+          supermarket: "Mercado Prado",
+          sourceUrl: "https://www.instagram.com/p/example/",
+          imageUrl: "https://scontent.cdninstagram.com/flyer.jpg",
+          discoveredAt: refreshedAt.toISOString(),
+          rawTitle: "Mercado Prado",
+          visionText: "OFERTA arroz R$ 19,99",
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.deals[0].title).toBe("Mercearia");
+  });
+
   it("keeps a collected Krolow AVIF flyer visible with its real OCR shape", () => {
     const [candidate] = collectKrolowCandidates(
       '<h2>Ofertas Especiais <br>Feitas Para Você!</h2><img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif"><p>Verifique a data de validade das ofertas!</p>',

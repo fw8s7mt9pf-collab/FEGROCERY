@@ -191,7 +191,7 @@ function titleFor(input: ExtractionInput, category: Category): string {
   if (productNames.length) return productNames.join(", ").slice(0, 90);
   if (input.parsedListing?.productCount !== undefined) return categoryTitles[category];
   if (input.parsedListing?.title) return repairMojibake(input.parsedListing.title).slice(0, 90);
-  if (input.supermarket === "Krolow") return categoryTitles[category];
+  if (input.supermarket === "Krolow" || input.supermarket === "Mercado Prado") return categoryTitles[category];
   const raw = input.rawTitle || input.rawCaption;
   if (raw) return repairMojibake(raw).split("\n")[0].slice(0, 90);
   return `${input.supermarket} - ${categories.includes(category) ? category : "Oferta"}`;

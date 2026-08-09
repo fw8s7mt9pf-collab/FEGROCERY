@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { collectGrupoRoxoCandidates, collectKrolowCandidates, retainMissingSources } from "./sourceCandidates";
+import {
+  collectGrupoRoxoCandidates,
+  collectKrolowCandidates,
+  collectMercadoPradoCandidates,
+  retainMissingSources,
+} from "./sourceCandidates";
 
 const discoveredAt = "2026-07-31T15:00:00.000Z";
 
@@ -88,6 +93,84 @@ describe("collectKrolowCandidates", () => {
     `;
 
     expect(collectKrolowCandidates(html, discoveredAt).candidates).toHaveLength(1);
+  });
+});
+
+describe("collectMercadoPradoCandidates", () => {
+  it("collects images from posts published during the last seven days", () => {
+    const result = collectMercadoPradoCandidates(
+      {
+        data: {
+          user: {
+            edge_owner_to_timeline_media: {
+              edges: [
+                {
+                  node: {
+                    shortcode: "recent",
+                    taken_at_timestamp: Date.parse("2026-07-30T15:00:00.000Z") / 1_000,
+                    display_url: "https://scontent.cdninstagram.com/recent.jpg",
+                    edge_media_to_caption: { edges: [{ node: { text: "Ofertas validas esta semana" } }] },
+                  },
+                },
+                {
+                  node: {
+                    shortcode: "old",
+                    taken_at_timestamp: Date.parse("2026-07-20T15:00:00.000Z") / 1_000,
+                    display_url: "https://scontent.cdninstagram.com/old.jpg",
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+      discoveredAt,
+    );
+
+    expect(result.candidates).toEqual([
+      expect.objectContaining({
+        supermarket: "Mercado Prado",
+        sourceUrl: "https://www.instagram.com/p/recent/",
+        imageUrl: "https://scontent.cdninstagram.com/recent.jpg",
+        rawTitle: "Ofertas validas esta semana",
+        rawCaption: "Ofertas validas esta semana",
+      }),
+    ]);
+  });
+
+  it("expands carousel images and excludes video slides", () => {
+    const result = collectMercadoPradoCandidates(
+      {
+        data: {
+          user: {
+            edge_owner_to_timeline_media: {
+              edges: [
+                {
+                  node: {
+                    shortcode: "carousel",
+                    taken_at_timestamp: Date.parse("2026-07-31T12:00:00.000Z") / 1_000,
+                    edge_sidecar_to_children: {
+                      edges: [
+                        { node: { display_url: "https://scontent.cdninstagram.com/one.jpg" } },
+                        { node: { display_url: "https://scontent.cdninstagram.com/video.jpg", is_video: true } },
+                        { node: { display_url: "https://scontent.cdninstagram.com/two.webp" } },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+      discoveredAt,
+    );
+
+    expect(result.candidates.map((candidate) => candidate.imageUrl)).toEqual([
+      "https://scontent.cdninstagram.com/one.jpg",
+      "https://scontent.cdninstagram.com/two.webp",
+    ]);
+    expect(new Set(result.candidates.map((candidate) => candidate.id)).size).toBe(2);
   });
 });
 

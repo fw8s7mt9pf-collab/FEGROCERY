@@ -3,8 +3,11 @@ import { dirname } from "node:path";
 import {
   collectGrupoRoxoCandidates,
   collectKrolowCandidates,
+  collectMercadoPradoCandidates,
   retainMissingSources,
   type CollectorResult,
+  type InstagramProfileResponse,
+  type SourceCandidate,
 } from "../src/sourceCandidates";
 
 type WordpressPage = {
@@ -14,13 +17,15 @@ type WordpressPage = {
 };
 
 const outputPath = "public/data/raw-candidates.json";
-const sourceSupermarkets = ["Grupo Roxo", "Krolow"];
+const mercadoPradoUsername = "sigamercadoprado";
+const sourceSupermarkets = ["Grupo Roxo", "Krolow", "Mercado Prado"];
 
 async function main(): Promise<void> {
   const discoveredAt = new Date().toISOString();
   const results = await Promise.allSettled([
     collectGrupoRoxo(discoveredAt),
     collectKrolow(discoveredAt),
+    collectMercadoPrado(discoveredAt),
   ]);
 
   const candidates = results.flatMap((result) => (result.status === "fulfilled" ? result.value.candidates : []));
@@ -77,13 +82,32 @@ async function collectKrolow(discoveredAt: string): Promise<CollectorResult> {
   }
 }
 
-async function fetchJson<T>(url: string): Promise<T> {
+async function collectMercadoPrado(discoveredAt: string): Promise<CollectorResult> {
+  const sessionId = process.env.INSTAGRAM_SESSION_ID?.trim();
+  if (!sessionId) {
+    throw new Error("Mercado Prado requires the INSTAGRAM_SESSION_ID secret because Instagram restricts anonymous access");
+  }
+  const payload = await fetchJson<InstagramProfileResponse>(
+    `https://www.instagram.com/api/v1/users/web_profile_info/?username=${mercadoPradoUsername}`,
+    {
+      "x-ig-app-id": "936619743392459",
+      referer: `https://www.instagram.com/${mercadoPradoUsername}/`,
+      cookie: `sessionid=${sessionId}`,
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    },
+  );
+  return collectMercadoPradoCandidates(payload, discoveredAt);
+}
+
+async function fetchJson<T>(url: string, extraHeaders: Record<string, string> = {}): Promise<T> {
   let lastError: unknown;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
       const response = await fetch(url, {
         headers: {
           "user-agent": "FEGROCERY/0.1 (+https://github.com/fw8s7mt9pf-collab/FEGROCERY)",
+          ...extraHeaders,
         },
         signal: AbortSignal.timeout(30_000),
       });
