@@ -23,11 +23,26 @@ describe("Mistral OCR", () => {
 
   it("sends the public flyer URL to Mistral and preserves the extracted markdown", async () => {
     const fetcher = vi.fn<typeof fetch>();
-    fetcher.mockResolvedValueOnce(new Response(JSON.stringify({ pages: [{ markdown: "Ofertas válidas de 01/08 até 02/08/2026" }] }), { status: 200 }));
+    fetcher.mockResolvedValueOnce(
+      new Response(
+        JSON.stringify({
+          pages: [
+            {
+              markdown: "Ofertas válidas de 01/08 até 02/08/2026",
+              blocks: [{ content: "Válidas para os dias 1 a 2 de agosto" }],
+              confidence_scores: { average_page_confidence_score: 0.97, minimum_page_confidence_score: 0.81 },
+            },
+          ],
+        }),
+        { status: 200 },
+      ),
+    );
 
     const result = await enrichCandidatesWithMistralOcr([candidate], { apiKey: "test-key", fetcher });
 
     expect(result.candidates[0].visionText).toContain("Ofertas válidas");
+    expect(result.candidates[0].visionText).toContain("Válidas para os dias");
+    expect(result.candidates[0].ocrDiagnostics).toMatchObject({ averageConfidence: 0.97, minimumConfidence: 0.81 });
     expect(result.stats).toMatchObject({ attempted: 1, succeeded: 1, failed: 0 });
     expect(fetcher).toHaveBeenCalledWith(
       "https://api.mistral.ai/v1/ocr",

@@ -27,7 +27,21 @@ async function main(): Promise<void> {
   await writeFile(expiredDealsOutputPath, `${JSON.stringify(result.expiredDeals, null, 2)}\n`, "utf8");
   await writeFile(
     debugOutputPath,
-    `${JSON.stringify({ generatedAt: refreshedAt.toISOString(), warnings: result.warnings }, null, 2)}\n`,
+    `${JSON.stringify(
+      {
+        generatedAt: refreshedAt.toISOString(),
+        warnings: result.warnings,
+        ocrDateDiagnostics: ocr.candidates.map((candidate) => ({
+          id: candidate.id,
+          markdownEvidence: dateEvidence(candidate.ocrDiagnostics?.markdown),
+          blockEvidence: dateEvidence(candidate.ocrDiagnostics?.blockText),
+          averageConfidence: candidate.ocrDiagnostics?.averageConfidence,
+          minimumConfidence: candidate.ocrDiagnostics?.minimumConfidence,
+        })),
+      },
+      null,
+      2,
+    )}\n`,
     "utf8",
   );
   await writeFile(
@@ -56,6 +70,14 @@ async function main(): Promise<void> {
   if (result.warnings.length) {
     console.warn(`Extraction warnings: ${result.warnings.length}`);
   }
+}
+
+function dateEvidence(text: string | undefined): string[] {
+  if (!text) return [];
+  const normalized = text.replace(/\s+/g, " ");
+  return [...normalized.matchAll(/.{0,50}(?:valid|\d{1,2}\s*(?:à|a|e|ate|até)\s*\d{1,2}|janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro).{0,80}/gi)]
+    .map((match) => match[0].trim())
+    .slice(0, 3);
 }
 
 main().catch((error: unknown) => {

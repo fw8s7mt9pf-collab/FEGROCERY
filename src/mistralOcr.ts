@@ -11,8 +11,22 @@ export type OcrStats = {
 };
 
 type MistralOcrResponse = {
-  pages?: Array<{ markdown?: string }>;
+  pages?: Array<{
+    markdown?: string;
+    blocks?: Array<{ content?: string }>;
+    confidence_scores?: { average_page_confidence_score?: number; minimum_page_confidence_score?: number };
+  }>;
   message?: string;
+};
+
+export type MistralOcrCandidate = SourceCandidate & {
+  visionText?: string;
+  ocrDiagnostics?: {
+    markdown: string;
+    blockText: string;
+    averageConfidence?: number;
+    minimumConfidence?: number;
+  };
 };
 
 const mistralOcrUrl = "https://api.mistral.ai/v1/ocr";
@@ -29,7 +43,7 @@ export function createOcrStats(enabled: boolean): OcrStats {
 export async function enrichCandidatesWithMistralOcr(
   candidates: SourceCandidate[],
   options: { apiKey?: string; fetcher?: typeof fetch } = {},
-): Promise<{ candidates: Array<SourceCandidate & { visionText?: string }>; stats: OcrStats }> {
+): Promise<{ candidates: MistralOcrCandidate[]; stats: OcrStats }> {
   const apiKey = options.apiKey;
   const stats = createOcrStats(Boolean(apiKey));
   if (!apiKey) {
@@ -38,7 +52,7 @@ export async function enrichCandidatesWithMistralOcr(
   }
 
   const fetcher = options.fetcher ?? fetch;
-  const enriched: Array<SourceCandidate & { visionText?: string }> = [];
+  const enriched: MistralOcrCandidate[] = [];
   for (const candidate of candidates) {
     stats.attempted += 1;
     try {
@@ -52,6 +66,8 @@ export async function enrichCandidatesWithMistralOcr(
           model: "mistral-ocr-latest",
           document: { type: "image_url", image_url: candidate.imageUrl },
           include_image_base64: false,
+          include_blocks: true,
+          confidence_scores_granularity: "page",
         }),
         signal: AbortSignal.timeout(45_000),
       });
@@ -61,10 +77,25 @@ export async function enrichCandidatesWithMistralOcr(
       }
 
       const payload = (await response.json()) as MistralOcrResponse;
-      const visionText = payload.pages?.map((page) => page.markdown ?? "").filter(Boolean).join("\n");
+      const markdown = payload.pages?.map((page) => page.markdown ?? "").filter(Boolean).join("\n") ?? "";
+      const blockText = payload.pages
+        ?.flatMap((page) => page.blocks?.map((block) => block.content ?? "") ?? [])
+        .filter(Boolean)
+        .join("\n") ?? "";
+      const visionText = [markdown, blockText].filter(Boolean).join("\n");
       if (!visionText) throw new Error(payload.message ?? "Mistral OCR did not return extracted text");
 
-      enriched.push({ ...candidate, visionText });
+      const confidenceScores = payload.pages?.[0]?.confidence_scores;
+      enriched.push({
+        ...candidate,
+        visionText,
+        ocrDiagnostics: {
+          markdown,
+          blockText,
+          averageConfidence: confidenceScores?.average_page_confidence_score,
+          minimumConfidence: confidenceScores?.minimum_page_confidence_score,
+        },
+      });
       stats.succeeded += 1;
     } catch (error) {
       stats.failed += 1;
