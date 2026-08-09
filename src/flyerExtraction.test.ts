@@ -144,7 +144,7 @@ describe("extractDealsFromCandidates", () => {
 
   it("keeps a collected Krolow AVIF flyer visible with its real OCR shape", () => {
     const [candidate] = collectKrolowCandidates(
-      '<img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif">',
+      '<h2>Ofertas Especiais <br>Feitas Para Você!</h2><img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif"><p>Verifique a data de validade das ofertas!</p>',
       "2026-08-01T10:00:00.000Z",
     ).candidates;
     const result = extractDealsFromCandidates(
@@ -161,7 +161,7 @@ describe("extractDealsFromCandidates", () => {
     expect(result.currentDeals[0]).toMatchObject({
       supermarket: "Krolow",
       title: "Ofertas Krolow",
-      imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif",
+      imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif",
     });
   });
 

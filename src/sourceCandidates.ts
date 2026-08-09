@@ -53,8 +53,10 @@ export function collectGrupoRoxoCandidates(html: string, discoveredAt: string): 
 export function collectKrolowCandidates(html: string, discoveredAt: string): CollectorResult {
   const candidates: SourceCandidate[] = [];
   const skipped: string[] = [];
-  const urls = [...html.matchAll(imageUrlPattern)].map((match) => canonicalImageUrl(decodeHtml(match[0])));
-  const flyerUrls = urls.filter((url) => /WhatsApp-Image|macro-atacado/i.test(url));
+  const offersSection = krolowOffersSection(html);
+  const flyerUrls = offersSection
+    ? [...offersSection.matchAll(imageUrlPattern)].map((match) => canonicalImageUrl(decodeHtml(match[0])))
+    : [];
 
   for (const imageUrl of flyerUrls) {
     candidates.push({
@@ -70,10 +72,20 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
   }
 
   if (!flyerUrls.length) {
-    skipped.push("Krolow homepage did not expose a current flyer image");
+    skipped.push('Krolow "Ofertas Especiais Feitas Para Voce" section did not expose flyer images');
   }
 
   return dedupeResult(candidates, skipped);
+}
+
+function krolowOffersSection(html: string): string | undefined {
+  const heading = /Ofertas\s+Especiais[\s\S]{0,160}?Feitas\s+Para\s+Voc(?:e|ê|&ecirc;)/i.exec(html);
+  if (heading?.index === undefined) return undefined;
+
+  const sectionStart = heading.index + heading[0].length;
+  const remainder = html.slice(sectionStart);
+  const end = /Verifique\s+a\s+data\s+de\s+validade\s+das\s+ofertas/i.exec(remainder)?.index;
+  return remainder.slice(0, end ?? undefined);
 }
 
 export function stableCandidateId(supermarket: string, sourceUrl: string, imageUrl: string): string {

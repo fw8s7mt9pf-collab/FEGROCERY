@@ -47,37 +47,44 @@ describe("collectGrupoRoxoCandidates", () => {
 });
 
 describe("collectKrolowCandidates", () => {
-  it("extracts full-size WhatsApp flyer images and removes resized duplicates", () => {
+  it("extracts only full-size images from the special offers carousel", () => {
     const html = `
-      <a href="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.14.jpeg">
-        <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.14-819x1024.jpeg">
+      <section class="hero">
+        <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-hero.avif">
+      </section>
+      <h2>Ofertas Especiais <br>Feitas Para Você!</h2>
+      <a href="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif">
+        <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-819x1024.avif">
       </a>
+      <p>Verifique a data de validade das ofertas!</p>
     `;
 
     expect(collectKrolowCandidates(html, discoveredAt).candidates).toEqual([
       {
-        id: "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-whatsapp-image-2026-07-30-at-20-00-14-jpeg",
+        id: "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-avif",
         supermarket: "Krolow",
         sourceUrl: "https://macroatacadokrolow.com.br/",
-        imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.14.jpeg",
+        imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif",
         discoveredAt,
         rawTitle: "Ofertas Krolow",
         rawCaption: "Ofertas Krolow",
-        mediaType: "jpeg",
+        mediaType: "avif",
       },
     ]);
   });
 
   it("records a skipped reason when no flyer-like image is found", () => {
     expect(collectKrolowCandidates("<img src='/logo.png'>", discoveredAt).skipped).toEqual([
-      "Krolow homepage did not expose a current flyer image",
+      'Krolow "Ofertas Especiais Feitas Para Voce" section did not expose flyer images',
     ]);
   });
 
   it("extracts a current AVIF flyer once, ignoring resized copies", () => {
     const html = `
-      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif">
-      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1-203x300.avif">
+      <h2>Ofertas Especiais <br>Feitas Para Você!</h2>
+      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif">
+      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-203x300.avif">
+      <p>Verifique a data de validade das ofertas!</p>
     `;
 
     expect(collectKrolowCandidates(html, discoveredAt).candidates).toHaveLength(1);
