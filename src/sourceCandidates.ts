@@ -24,6 +24,9 @@ export type ApifyInstagramPost = {
   childPosts?: ApifyInstagramPost[];
   carouselImages?: string[];
   images?: string[];
+  error?: string;
+  errorDescription?: string;
+  inputUrl?: string;
 };
 
 const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp|avif)/gi;
@@ -100,6 +103,12 @@ export function collectMercadoPradoCandidates(
   const discoveredAtTime = new Date(discoveredAt).getTime();
   const cutoff = discoveredAtTime - lookbackDays * 24 * 60 * 60 * 1_000;
   for (const post of posts) {
+    if (post.error) {
+      skipped.push(
+        `Mercado Prado Apify error (${post.error}): ${post.errorDescription || "No description provided"}`,
+      );
+      continue;
+    }
     const publishedAt = Date.parse(post.timestamp ?? "");
     if (
       !post.shortCode ||
@@ -135,7 +144,9 @@ export function collectMercadoPradoCandidates(
   }
 
   if (!posts.length) skipped.push("Mercado Prado Instagram profile did not expose recent posts");
-  if (posts.length && !candidates.length) skipped.push(`Mercado Prado had no image posts from the last ${lookbackDays} days`);
+  if (posts.length && !candidates.length && !skipped.length) {
+    skipped.push(`Mercado Prado had no image posts from the last ${lookbackDays} days`);
+  }
   return dedupeResult(candidates, skipped);
 }
 

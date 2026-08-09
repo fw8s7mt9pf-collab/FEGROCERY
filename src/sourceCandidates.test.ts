@@ -185,6 +185,24 @@ describe("collectMercadoPradoCandidates", () => {
       "https://cdn.example/three.jpg",
     ]);
   });
+
+  it("reports Apify access errors returned in place of posts", () => {
+    const result = collectMercadoPradoCandidates(
+      [
+        {
+          error: "no_items",
+          errorDescription: "Empty or private data for provided input",
+          inputUrl: "https://www.instagram.com/sigamercadoprado/",
+        },
+      ],
+      discoveredAt,
+    );
+
+    expect(result).toEqual({
+      candidates: [],
+      skipped: ["Mercado Prado Apify error (no_items): Empty or private data for provided input"],
+    });
+  });
 });
 
 describe("retainMissingSources", () => {
