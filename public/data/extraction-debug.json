@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-08-09T16:59:38.116Z",
+  "generatedAt": "2026-08-09T18:42:11.545Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif: Categoria inferida com baixa confianca."
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
     {
@@ -34,7 +33,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo featuring beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to 9, 2026.",
+        "summary": "Grocery flyer for Grupo Roxo featuring three meat products on promotion from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -58,35 +57,11 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with promotions on 3 products in the Produce category, valid from August 7 to August 9, 2026.",
+        "summary": "Flyer válido para os dias 7 a 9 de agosto de 2026, com ofertas em produtos como batata branca, cebola e ovo branco.",
         "productNames": [
           "BATATA BRANCA",
           "CEBOLA",
           "OVO BRANCO"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg",
-      "markdownEvidence": [
-        "dias ![img-3.jpeg](img-3.jpeg) UMA VIDA COM VOCÊ 6 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PIZZA EXCELSIO"
-      ],
-      "blockEvidence": [
-        "dias ![img-3.jpeg](img-3.jpeg) UMA VIDA COM VOCÊ 6 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PIZZA EXCELSIO"
-      ],
-      "averageConfidence": 0.9489936023693261,
-      "minimumConfidence": 0.11268017421671184,
-      "parsedListing": {
-        "category": "Frozen",
-        "validFrom": "2026-08-06T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer válido de 6 a 9 de agosto de 2026 com 3 produtos congelados promovidos.",
-        "productNames": [
-          "PIZZA EXCELSIOR",
-          "PASTA DE ALHO SEARA",
-          "SOBRECOXA AGROSUL CONGELADA"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -106,9 +81,9 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket with multiple meat and poultry promotions, including beef, chicken, and frozen products, valid from August 7 to August 9, 2026.",
+        "summary": "Flyer from Krolow supermarket with meat promotions valid from 2026-08-07 to 2026-08-09, featuring more than three products.",
         "productNames": [],
-        "productCount": 7,
+        "productCount": 6,
         "hasMoreThanThreeProducts": true
       }
     },
@@ -117,16 +92,7 @@
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9473779858198671,
-      "minimumConfidence": 0.19339297871568822,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.19339297871568822
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-3-avif",
@@ -137,16 +103,7 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9461267108843202,
-      "minimumConfidence": 0.14383988767870837,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09.",
-        "productNames": [],
-        "productCount": 10,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.14383988767870837
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif",
@@ -164,7 +121,16 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9414161318432139,
-      "minimumConfidence": 0.21724286474398052
+      "minimumConfidence": 0.21724286474398052,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-07T03:00:00.000Z",
+        "validUntil": "2026-08-10T02:59:59.000Z",
+        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09.",
+        "productNames": [],
+        "productCount": 7,
+        "hasMoreThanThreeProducts": true
+      }
     }
   ]
 }
