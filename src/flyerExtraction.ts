@@ -3,6 +3,12 @@ import type { SourceCandidate } from "./sourceCandidates";
 
 export type ExtractionInput = SourceCandidate & {
   visionText?: string;
+  parsedListing?: {
+    title?: string;
+    category?: Category;
+    validFrom?: string;
+    validUntil?: string;
+  };
 };
 
 export type ExtractionResult = {
@@ -13,22 +19,38 @@ export type ExtractionResult = {
 };
 
 const categoryTerms: Array<{ category: Category; terms: string[] }> = [
-  { category: "Meats", terms: ["carne", "carnes", "bovina", "suino", "suíno", "frango", "linguica", "linguiça", "costela", "bife", "pernil"] },
+  { category: "Meats", terms: ["carne", "carnes", "bovina", "suino", "frango", "linguica", "costela", "bife", "pernil"] },
   { category: "Produce", terms: ["hortifruti", "fruta", "frutas", "verdura", "verduras", "legume", "legumes", "banana", "tomate"] },
-  { category: "Basic Groceries", terms: ["cesta", "arroz", "feijao", "feijão", "oleo", "óleo", "acucar", "açúcar", "mercearia", "basica", "básica"] },
-  { category: "Cleaning", terms: ["limpeza", "detergente", "sabao", "sabão", "amaciante", "desinfetante"] },
-  { category: "Hygiene", terms: ["higiene", "shampoo", "sabonete", "creme dental", "papel higienico", "papel higiênico"] },
-  { category: "Beverages", terms: ["bebida", "bebidas", "refrigerante", "cerveja", "suco", "agua", "água"] },
-  { category: "Bakery", terms: ["padaria", "pao", "pão", "bolo", "cuca"] },
+  { category: "Basic Groceries", terms: ["cesta", "arroz", "feijao", "oleo", "acucar", "mercearia", "basica"] },
+  { category: "Cleaning", terms: ["limpeza", "detergente", "sabao", "amaciante", "desinfetante"] },
+  { category: "Hygiene", terms: ["higiene", "shampoo", "sabonete", "creme dental", "papel higienico"] },
+  { category: "Beverages", terms: ["bebida", "bebidas", "refrigerante", "cerveja", "suco", "agua"] },
+  { category: "Bakery", terms: ["padaria", "pao", "bolo", "cuca"] },
   { category: "Frozen", terms: ["congelado", "congelada", "congelados", "frozen"] },
 ];
+
+export const fallbackDateCaptionPatterns = [
+  "Ofertas validas de DD/MM ate DD/MM/YYYY",
+  "Validade DD/MM a DD/MM",
+  "De DD/MM ate DD/MM",
+  "DD/MM - DD/MM",
+  "DD a DD de mes",
+  "Dias DD e DD de mes",
+  "DD de mes a DD de mes",
+  "De DD a DD/mes",
+  "Valido ate DD/MM/YYYY",
+  "Ate DD de mes",
+  "Somente dia DD/MM",
+  "Somente hoje",
+  "Hoje e amanha",
+] as const;
 
 export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedAt: Date): ExtractionResult {
   const warnings: string[] = [];
   const deals = inputs.flatMap((input) => {
     const text = candidateText(input);
-    const category = classifyCategory(text);
-    const parsedDates = parseValidityDates(text, refreshedAt);
+    const category = input.parsedListing?.category ?? classifyCategory(text);
+    const parsedDates = parsedListingDates(input) ?? parseValidityDates(text, refreshedAt);
     if (!isOfferCandidate(text, parsedDates)) return [];
     const warningParts: string[] = [];
 
@@ -68,7 +90,8 @@ export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedA
 }
 
 function isOfferCandidate(text: string, dates: { validFrom?: Date; validUntil?: Date }): boolean {
-  return Boolean(dates.validUntil) || /ofertas?|promo[cç]|r\$\s*\d|pre[cç]o/i.test(text);
+  const normalized = normalizeText(repairMojibake(text));
+  return Boolean(dates.validUntil) || /ofertas?|promoc|r\$\s*\d|preco/i.test(normalized);
 }
 
 export function getVisibleDeals(deals: Deal[], now: Date): Deal[] {
@@ -76,7 +99,7 @@ export function getVisibleDeals(deals: Deal[], now: Date): Deal[] {
 }
 
 export function classifyCategory(text: string): Category {
-  const normalized = normalizeText(text);
+  const normalized = normalizeText(repairMojibake(text));
   for (const { category, terms } of categoryTerms) {
     if (terms.some((term) => normalized.includes(normalizeText(term)))) {
       return category;
@@ -86,34 +109,52 @@ export function classifyCategory(text: string): Category {
 }
 
 export function parseValidityDates(text: string, referenceDate: Date): { validFrom?: Date; validUntil?: Date } {
-  const normalized = text.replace(/\s+/g, " ");
-  const range = normalized.match(/(?:validas?|válidas?|validade|ofertas validas?|ofertas válidas?)\D{0,20}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?\D{0,20}(?:ate|até|a)\D{0,10}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?/i);
-  if (range) {
-    const from = dateInBrazil(Number(range[1]), Number(range[2]), yearFrom(range[3], referenceDate));
-    const until = endOfDay(dateInBrazil(Number(range[4]), Number(range[5]), yearFrom(range[6] ?? range[3], referenceDate)));
-    return { validFrom: from, validUntil: until };
-  }
+  const normalized = normalizeText(repairMojibake(text)).replace(/\s+/g, " ");
 
-  const days = normalized.match(/(?:dias?|válido dias?|valido dias?)\D{0,10}(\d{1,2})\D{1,8}(?:e|a|à|ate|até)\D{0,8}(\d{1,2})(?:\s+de)?\s+([a-zç]+)/i);
-  if (days) {
-    const month = monthNumber(days[3]);
-    if (month) {
+  const explicitRange = normalized.match(/(?:validas?|validade|ofertas validas?)\D{0,20}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?\D{0,20}(?:ate|a)\D{0,10}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?/i);
+  if (explicitRange) return numericRangeDates(explicitRange, referenceDate);
+
+  const numericRange = normalized.match(/\b(?:validade|validas?|de|dias?)?\D{0,12}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?\s*(?:-|a|ate|e)\s*(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?/i);
+  if (numericRange) return numericRangeDates(numericRange, referenceDate);
+
+  const days = normalized.match(/(?:dias?|valido dias?)\D{0,10}(\d{1,2})\D{1,8}(?:e|a|ate)\D{0,8}(\d{1,2})(?:\s+de)?\s+([a-z]+)/i);
+  if (days) return sameMonthRangeDates(days[1], days[2], days[3], referenceDate);
+
+  const monthToMonth = normalized.match(/\b(\d{1,2})(?:\s+de)?\s+([a-z]+)\s*(?:a|ate|-)\s*(\d{1,2})(?:\s+de)?\s+([a-z]+)/i);
+  if (monthToMonth) {
+    const fromMonth = monthNumber(monthToMonth[2]);
+    const untilMonth = monthNumber(monthToMonth[4]);
+    if (fromMonth && untilMonth) {
       return {
-        validFrom: dateInBrazil(Number(days[1]), month, referenceDate.getUTCFullYear()),
-        validUntil: endOfDay(dateInBrazil(Number(days[2]), month, referenceDate.getUTCFullYear())),
+        validFrom: dateInBrazil(Number(monthToMonth[1]), fromMonth, referenceDate.getUTCFullYear()),
+        validUntil: endOfDay(dateInBrazil(Number(monthToMonth[3]), untilMonth, referenceDate.getUTCFullYear())),
       };
     }
   }
 
-  const bareDays = normalized.match(/\b(\d{1,2})\s*(?:e|a|à|ate|até)\s*(\d{1,2})(?:\s+de)?\s+([a-zç]+)/i);
-  if (bareDays) {
-    const month = monthNumber(bareDays[3]);
-    if (month) {
-      return {
-        validFrom: dateInBrazil(Number(bareDays[1]), month, referenceDate.getUTCFullYear()),
-        validUntil: endOfDay(dateInBrazil(Number(bareDays[2]), month, referenceDate.getUTCFullYear())),
-      };
-    }
+  const bareDays = normalized.match(/\b(?:de\s*)?(\d{1,2})\s*(?:e|a|ate|-)\s*(\d{1,2})\s*(?:de\s+|\/\s*)?([a-z]+)/i);
+  if (bareDays) return sameMonthRangeDates(bareDays[1], bareDays[2], bareDays[3], referenceDate);
+
+  const untilNumeric = normalized.match(/\b(?:validade|validas?|valido|ate|somente dia|dia)\D{0,20}(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?/i);
+  if (untilNumeric) {
+    const date = dateInBrazil(Number(untilNumeric[1]), Number(untilNumeric[2]), yearFrom(untilNumeric[3], referenceDate));
+    return { validUntil: endOfDay(date) };
+  }
+
+  const untilMonthName = normalized.match(/\b(?:validade|validas?|valido|ate|somente dia|dia)\D{0,20}(\d{1,2})(?:\s+de)?\s+([a-z]+)/i);
+  if (untilMonthName) {
+    const month = monthNumber(untilMonthName[2]);
+    if (month) return { validUntil: endOfDay(dateInBrazil(Number(untilMonthName[1]), month, referenceDate.getUTCFullYear())) };
+  }
+
+  if (/\bhoje\s*(?:e|a|ate)\s*amanha\b/i.test(normalized)) {
+    const today = startOfReferenceDay(referenceDate);
+    return { validFrom: today, validUntil: endOfDay(addDays(today, 1)) };
+  }
+
+  if (/\b(?:somente\s+)?hoje\b/i.test(normalized)) {
+    const today = startOfReferenceDay(referenceDate);
+    return { validFrom: today, validUntil: endOfDay(today) };
   }
 
   return {};
@@ -127,9 +168,38 @@ function candidateText(input: ExtractionInput): string {
 }
 
 function titleFor(input: ExtractionInput, category: Category): string {
+  if (input.parsedListing?.title) return repairMojibake(input.parsedListing.title).slice(0, 90);
   const raw = input.rawTitle || input.rawCaption;
   if (raw) return repairMojibake(raw).split("\n")[0].slice(0, 90);
   return `${input.supermarket} - ${categories.includes(category) ? category : "Oferta"}`;
+}
+
+function parsedListingDates(input: ExtractionInput): { validFrom?: Date; validUntil?: Date } | undefined {
+  const validFrom = dateFromIso(input.parsedListing?.validFrom);
+  const validUntil = dateFromIso(input.parsedListing?.validUntil);
+  if (!validFrom && !validUntil) return undefined;
+  return { validFrom, validUntil };
+}
+
+function dateFromIso(value: string | undefined): Date | undefined {
+  if (!value) return undefined;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? undefined : parsed;
+}
+
+function numericRangeDates(match: RegExpMatchArray, referenceDate: Date): { validFrom?: Date; validUntil?: Date } {
+  const from = dateInBrazil(Number(match[1]), Number(match[2]), yearFrom(match[3], referenceDate));
+  const until = endOfDay(dateInBrazil(Number(match[4]), Number(match[5]), yearFrom(match[6] ?? match[3], referenceDate)));
+  return { validFrom: from, validUntil: until };
+}
+
+function sameMonthRangeDates(fromDay: string, untilDay: string, monthName: string, referenceDate: Date): { validFrom?: Date; validUntil?: Date } {
+  const month = monthNumber(monthName);
+  if (!month) return {};
+  return {
+    validFrom: dateInBrazil(Number(fromDay), month, referenceDate.getUTCFullYear()),
+    validUntil: endOfDay(dateInBrazil(Number(untilDay), month, referenceDate.getUTCFullYear())),
+  };
 }
 
 function normalizeText(text: string): string {
@@ -142,6 +212,14 @@ function dateInBrazil(day: number, month: number, year: number): Date {
 
 function endOfDay(date: Date): Date {
   return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), 26, 59, 59));
+}
+
+function startOfReferenceDay(date: Date): Date {
+  return dateInBrazil(date.getUTCDate(), date.getUTCMonth() + 1, date.getUTCFullYear());
+}
+
+function addDays(date: Date, days: number): Date {
+  return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
 }
 
 function yearFrom(value: string | undefined, referenceDate: Date): number {
@@ -173,7 +251,7 @@ function addHours(date: Date, hours: number): Date {
 }
 
 function repairMojibake(value: string): string {
-  if (!/[ÃÂð]/.test(value)) return value;
+  if (!/[ÃƒÃ‚Ã°]/.test(value)) return value;
   return new TextDecoder("utf-8").decode(Uint8Array.from([...value].map(windows1252Byte)));
 }
 

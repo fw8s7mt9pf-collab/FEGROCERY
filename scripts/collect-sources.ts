@@ -54,8 +54,14 @@ async function collectGrupoRoxo(discoveredAt: string): Promise<CollectorResult> 
 }
 
 async function collectKrolow(discoveredAt: string): Promise<CollectorResult> {
-  const pages = await fetchJson<WordpressPage[]>("https://macroatacadokrolow.com.br/wp-json/wp/v2/pages?slug=home");
-  return collectKrolowCandidates(pages[0]?.content?.rendered ?? "", discoveredAt);
+  try {
+    const pages = await fetchJson<WordpressPage[]>("https://macroatacadokrolow.com.br/wp-json/wp/v2/pages?slug=home");
+    return collectKrolowCandidates(pages[0]?.content?.rendered ?? "", discoveredAt);
+  } catch {
+    const html = await fetchText("https://macroatacadokrolow.com.br/");
+    const result = collectKrolowCandidates(html, discoveredAt);
+    return { ...result, skipped: ["Krolow WordPress API failed; used homepage HTML fallback.", ...result.skipped] };
+  }
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
@@ -72,6 +78,33 @@ async function fetchJson<T>(url: string): Promise<T> {
         throw new Error(`${url} returned ${response.status}`);
       }
       return response.json() as Promise<T>;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 2_000));
+    }
+  }
+  throw lastError;
+}
+
+async function fetchText(url: string): Promise<string> {
+  const response = await fetchWithRetry(url);
+  return response.text();
+}
+
+async function fetchWithRetry(url: string): Promise<Response> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          "user-agent": "FEGROCERY/0.1 (+https://github.com/fw8s7mt9pf-collab/FEGROCERY)",
+        },
+        signal: AbortSignal.timeout(30_000),
+      });
+      if (!response.ok) {
+        throw new Error(`${url} returned ${response.status}`);
+      }
+      return response;
     } catch (error) {
       lastError = error;
       if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 2_000));

@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import { extractDealsFromCandidates } from "../src/flyerExtraction";
 import type { SourceCandidate } from "../src/sourceCandidates";
+import { enrichCandidatesWithAiParsedListings } from "../src/flyerAiParser";
 import { enrichCandidatesWithMistralOcr, readMistralApiKey } from "../src/mistralOcr";
 
 type RawCandidatePayload = {
@@ -19,8 +20,10 @@ const refreshDebugOutputPath = "public/data/refresh-debug.json";
 async function main(): Promise<void> {
   const payload = JSON.parse(await readFile(inputPath, "utf8")) as RawCandidatePayload;
   const refreshedAt = new Date();
-  const ocr = await enrichCandidatesWithMistralOcr(payload.candidates, { apiKey: readMistralApiKey() });
-  const result = extractDealsFromCandidates(ocr.candidates, refreshedAt);
+  const apiKey = readMistralApiKey();
+  const ocr = await enrichCandidatesWithMistralOcr(payload.candidates, { apiKey });
+  const parser = await enrichCandidatesWithAiParsedListings(ocr.candidates, { apiKey, referenceDate: refreshedAt });
+  const result = extractDealsFromCandidates(parser.candidates, refreshedAt);
 
   await mkdir(dirname(dealsOutputPath), { recursive: true });
   await writeFile(dealsOutputPath, `${JSON.stringify(result.currentDeals, null, 2)}\n`, "utf8");
@@ -37,6 +40,7 @@ async function main(): Promise<void> {
           blockEvidence: dateEvidence(candidate.ocrDiagnostics?.blockText),
           averageConfidence: candidate.ocrDiagnostics?.averageConfidence,
           minimumConfidence: candidate.ocrDiagnostics?.minimumConfidence,
+          parsedListing: parser.candidates.find((parsed) => parsed.id === candidate.id)?.parsedListing,
         })),
       },
       null,
@@ -58,6 +62,7 @@ async function main(): Promise<void> {
         warningCount: result.warnings.length,
         warnings: result.warnings,
         ocr: ocr.stats,
+        aiParser: parser.stats,
       },
       null,
       2,

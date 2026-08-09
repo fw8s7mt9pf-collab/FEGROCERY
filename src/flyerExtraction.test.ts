@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { classifyCategory, extractDealsFromCandidates, getVisibleDeals, parseValidityDates } from "./flyerExtraction";
-import type { SourceCandidate } from "./sourceCandidates";
+import { classifyCategory, extractDealsFromCandidates, fallbackDateCaptionPatterns, getVisibleDeals, parseValidityDates } from "./flyerExtraction";
+import { collectKrolowCandidates, type SourceCandidate } from "./sourceCandidates";
 
 const refreshedAt = new Date("2026-07-31T15:00:00.000Z");
 
@@ -12,6 +12,10 @@ describe("classifyCategory", () => {
 });
 
 describe("parseValidityDates", () => {
+  it("documents at least twelve fallback caption patterns", () => {
+    expect(fallbackDateCaptionPatterns.length).toBeGreaterThanOrEqual(12);
+  });
+
   it("extracts numeric Brazilian validity ranges", () => {
     expect(parseValidityDates("Ofertas validas de 31/07 ate 02/08/2026", refreshedAt)).toEqual({
       validFrom: new Date("2026-07-31T03:00:00.000Z"),
@@ -37,6 +41,25 @@ describe("parseValidityDates", () => {
       validFrom: new Date("2026-08-06T03:00:00.000Z"),
       validUntil: new Date("2026-08-10T02:59:59.000Z"),
     });
+  });
+
+  it("extracts common OCR fallback date captions", () => {
+    const cases = [
+      ["Validade 01/08 a 02/08", "2026-08-03T02:59:59.000Z"],
+      ["De 01/08 ate 02/08", "2026-08-03T02:59:59.000Z"],
+      ["01/08 - 02/08", "2026-08-03T02:59:59.000Z"],
+      ["1 de agosto a 2 de agosto", "2026-08-03T02:59:59.000Z"],
+      ["De 1 a 2/agosto", "2026-08-03T02:59:59.000Z"],
+      ["Valido ate 02/08/2026", "2026-08-03T02:59:59.000Z"],
+      ["Ate 2 de agosto", "2026-08-03T02:59:59.000Z"],
+      ["Somente dia 02/08", "2026-08-03T02:59:59.000Z"],
+      ["Somente hoje", "2026-08-01T02:59:59.000Z"],
+      ["Hoje e amanha", "2026-08-02T02:59:59.000Z"],
+    ] as const;
+
+    for (const [caption, validUntil] of cases) {
+      expect(parseValidityDates(caption, refreshedAt).validUntil?.toISOString()).toBe(validUntil);
+    }
   });
 });
 
@@ -87,6 +110,59 @@ describe("extractDealsFromCandidates", () => {
     });
     expect(result.deals[0].warning).toContain("Validade nao encontrada");
     expect(result.warnings).toHaveLength(1);
+  });
+
+  it("uses AI parsed listing fields when OCR text was structured by the parser", () => {
+    const result = extractDealsFromCandidates(
+      [
+        {
+          id: "parsed",
+          supermarket: "Krolow",
+          sourceUrl: "https://macroatacadokrolow.com.br/",
+          imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/flyer.jpeg",
+          discoveredAt: refreshedAt.toISOString(),
+          visionText: "Oferta geral R$ 1,99",
+          parsedListing: {
+            title: "Ofertas de carnes Krolow",
+            category: "Meats",
+            validFrom: "2026-08-01T03:00:00.000Z",
+            validUntil: "2026-08-03T02:59:59.000Z",
+          },
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.deals[0]).toMatchObject({
+      title: "Ofertas de carnes Krolow",
+      category: "Meats",
+      validFrom: "2026-08-01T03:00:00.000Z",
+      validUntil: "2026-08-03T02:59:59.000Z",
+      warning: undefined,
+    });
+  });
+
+  it("keeps a collected Krolow AVIF flyer visible with its real OCR shape", () => {
+    const [candidate] = collectKrolowCandidates(
+      '<img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif">',
+      "2026-08-01T10:00:00.000Z",
+    ).candidates;
+    const result = extractDealsFromCandidates(
+      [
+        {
+          ...candidate,
+          visionText:
+            "E BOM FAZER PARTE DA SUA VIDA! Tricard mais 1234 567A 9A7L 5432 0000 DESDE VALIDADE 00/00 00/00 GABRIEL LINS MOLINA KROLOW",
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.currentDeals[0]).toMatchObject({
+      supermarket: "Krolow",
+      title: "Ofertas Krolow",
+      imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif",
+    });
   });
 
   it("excludes non-offer images without a price, promotion text, or validity date", () => {

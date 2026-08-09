@@ -63,6 +63,9 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
       sourceUrl: "https://macroatacadokrolow.com.br/",
       imageUrl,
       discoveredAt,
+      rawTitle: "Ofertas Krolow",
+      rawCaption: "Ofertas Krolow",
+      mediaType: fileExtension(imageUrl),
     });
   }
 
@@ -100,6 +103,10 @@ function firstMatch(value: string, pattern: RegExp): string | undefined {
 
 function canonicalImageUrl(url: string): string {
   return url.replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|avif)$)/i, "");
+}
+
+function fileExtension(url: string): string | undefined {
+  return url.match(/\.([a-z0-9]+)(?:[?#].*)?$/i)?.[1]?.toLowerCase();
 }
 
 function decodeHtml(value: string): string {

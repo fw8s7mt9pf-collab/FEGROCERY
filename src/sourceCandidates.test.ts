@@ -61,6 +61,9 @@ describe("collectKrolowCandidates", () => {
         sourceUrl: "https://macroatacadokrolow.com.br/",
         imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-30-at-20.00.14.jpeg",
         discoveredAt,
+        rawTitle: "Ofertas Krolow",
+        rawCaption: "Ofertas Krolow",
+        mediaType: "jpeg",
       },
     ]);
   });
