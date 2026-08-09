@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Frozen",
+    "title": "PIZZA EXCELSIOR, PASTA DE ALHO SEARA, SOBRECOXA AGROSUL CONGELADA",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/765769915_1524334669732203_5035713257261181849_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2025-08-06T03:00:00.000Z",
+    "validUntil": "2025-08-10T02:59:59.000Z",
+    "expiresAt": "2025-08-10T02:59:59.000Z",
+    "lastRefreshed": "2026-08-09T15:37:22.550Z"
+  }
+]
