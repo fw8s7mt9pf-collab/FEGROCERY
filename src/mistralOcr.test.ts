@@ -59,4 +59,24 @@ describe("Mistral OCR", () => {
     expect(result.candidates).toEqual([candidate]);
     expect(result.stats.errors[0]).toContain("429");
   });
+
+  it("downloads and resends an image when Mistral cannot fetch its public URL", async () => {
+    const fetcher = vi.fn<typeof fetch>();
+    fetcher
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ message: "File could not be fetched from url" }), { status: 400 }),
+      )
+      .mockResolvedValueOnce(new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { "content-type": "image/avif" } }))
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ pages: [{ markdown: "ARROZ R$ 9,99" }] }), { status: 200 }),
+      );
+
+    const result = await enrichCandidatesWithMistralOcr([candidate], { apiKey: "test-key", fetcher });
+
+    expect(result.candidates[0].visionText).toContain("ARROZ");
+    expect(result.stats).toMatchObject({ succeeded: 1, failed: 0 });
+    expect(fetcher).toHaveBeenNthCalledWith(2, candidate.imageUrl, expect.any(Object));
+    const retryBody = JSON.parse(String(fetcher.mock.calls[2]?.[1]?.body)) as { document: { image_url: string } };
+    expect(retryBody.document.image_url).toBe("data:image/avif;base64,AQID");
+  });
 });

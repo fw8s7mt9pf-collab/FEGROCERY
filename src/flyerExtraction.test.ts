@@ -168,6 +168,25 @@ describe("extractDealsFromCandidates", () => {
     expect(result.deals[0].title).toBe("Hortifruti");
   });
 
+  it("uses the category when product recognition is incomplete", () => {
+    const result = extractDealsFromCandidates(
+      [
+        {
+          id: "unreadable-products",
+          supermarket: "Krolow",
+          sourceUrl: "https://macroatacadokrolow.com.br/",
+          imageUrl: "https://macroatacadokrolow.com.br/flyer.avif",
+          discoveredAt: refreshedAt.toISOString(),
+          rawTitle: "Ofertas Krolow",
+          parsedListing: { category: "Other", productCount: 0, productNames: [] },
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.deals[0].title).toBe("Ofertas variadas");
+  });
+
   it("keeps a collected Krolow AVIF flyer visible with its real OCR shape", () => {
     const [candidate] = collectKrolowCandidates(
       '<h2>Ofertas Especiais <br>Feitas Para Você!</h2><img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif"><p>Verifique a data de validade das ofertas!</p>',
@@ -186,7 +205,7 @@ describe("extractDealsFromCandidates", () => {
 
     expect(result.currentDeals[0]).toMatchObject({
       supermarket: "Krolow",
-      title: "Ofertas Krolow",
+      title: "Ofertas variadas",
       imageUrl: "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif",
     });
   });

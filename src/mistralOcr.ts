@@ -56,24 +56,22 @@ export async function enrichCandidatesWithMistralOcr(
   for (const candidate of candidates) {
     stats.attempted += 1;
     try {
-      const response = await fetcher(mistralOcrUrl, {
-        method: "POST",
-        headers: {
-          authorization: `Bearer ${apiKey}`,
-          "content-type": "application/json",
-        },
-        body: JSON.stringify({
-          model: "mistral-ocr-latest",
-          document: { type: "image_url", image_url: candidate.imageUrl },
-          include_image_base64: false,
-          include_blocks: true,
-          confidence_scores_granularity: "page",
-        }),
-        signal: AbortSignal.timeout(45_000),
-      });
+      let response = await fetcher(mistralOcrUrl, ocrRequest(apiKey, candidate.imageUrl));
       if (!response.ok) {
         const detail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
-        throw new Error(`Mistral OCR returned ${response.status}${detail ? `: ${detail}` : ""}`);
+        if (response.status !== 400 || !/could not be fetched/i.test(detail)) {
+          throw new Error(`Mistral OCR returned ${response.status}${detail ? `: ${detail}` : ""}`);
+        }
+
+        const imageResponse = await fetcher(candidate.imageUrl, { signal: AbortSignal.timeout(45_000) });
+        if (!imageResponse.ok) throw new Error(`Flyer download returned ${imageResponse.status}`);
+        const mimeType = imageResponse.headers.get("content-type")?.split(";")[0] || mediaTypeFromUrl(candidate.imageUrl);
+        const dataUrl = `data:${mimeType};base64,${Buffer.from(await imageResponse.arrayBuffer()).toString("base64")}`;
+        response = await fetcher(mistralOcrUrl, ocrRequest(apiKey, dataUrl));
+        if (!response.ok) {
+          const retryDetail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
+          throw new Error(`Mistral OCR returned ${response.status}${retryDetail ? `: ${retryDetail}` : ""}`);
+        }
       }
 
       const payload = (await response.json()) as MistralOcrResponse;
@@ -105,4 +103,28 @@ export async function enrichCandidatesWithMistralOcr(
   }
 
   return { candidates: enriched, stats };
+}
+
+function ocrRequest(apiKey: string, imageUrl: string): RequestInit {
+  return {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${apiKey}`,
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "mistral-ocr-latest",
+      document: { type: "image_url", image_url: imageUrl },
+      include_image_base64: false,
+      include_blocks: true,
+      confidence_scores_granularity: "page",
+    }),
+    signal: AbortSignal.timeout(45_000),
+  };
+}
+
+function mediaTypeFromUrl(url: string): string {
+  const extension = url.match(/\.([a-z0-9]+)(?:[?#].*)?$/i)?.[1]?.toLowerCase();
+  if (extension === "jpg" || extension === "jpeg") return "image/jpeg";
+  return `image/${extension || "png"}`;
 }
