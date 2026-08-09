@@ -1,31 +1,23 @@
 {
-  "generatedAt": "2026-08-09T12:59:05.927Z",
-  "sourceGeneratedAt": "2026-08-09T12:58:55.311Z",
-  "sourceCandidateCount": 7,
+  "generatedAt": "2026-08-09T13:06:25.467Z",
+  "sourceGeneratedAt": "2026-08-09T13:06:10.238Z",
+  "sourceCandidateCount": 5,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 7,
+  "publicDealCount": 4,
   "expiredDealCount": 0,
-  "warningCount": 7,
+  "warningCount": 2,
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770387738-1730992494779375-5424401688215157176-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-763103924-1525156969649973-2705718353681761323-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765051092-1342701337948186-8328997329544628014-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "ocr.space",
     "enabled": true,
-    "attempted": 7,
+    "attempted": 5,
     "succeeded": 5,
-    "failed": 2,
+    "failed": 0,
     "skipped": 0,
-    "errors": [
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg: The operation was aborted due to timeout",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: The operation was aborted due to timeout"
-    ]
+    "errors": []
   }
 }
