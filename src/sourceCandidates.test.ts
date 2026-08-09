@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { collectGrupoRoxoCandidates, collectKrolowCandidates } from "./sourceCandidates";
+import { collectGrupoRoxoCandidates, collectKrolowCandidates, retainMissingSources } from "./sourceCandidates";
 
 const discoveredAt = "2026-07-31T15:00:00.000Z";
 
@@ -88,5 +88,23 @@ describe("collectKrolowCandidates", () => {
     `;
 
     expect(collectKrolowCandidates(html, discoveredAt).candidates).toHaveLength(1);
+  });
+});
+
+describe("retainMissingSources", () => {
+  it("keeps the previous candidates for a supermarket whose refresh returned nothing", () => {
+    const fresh = collectGrupoRoxoCandidates(
+      '<li class="wpzoom-instagram"><a title="Ofertas Roxo"><img data-src="https://www.gruporoxo.com.br/wp-content/uploads/roxo.jpg" alt="Ofertas Roxo"></a></li>',
+      discoveredAt,
+    ).candidates;
+    const previousKrolow = collectKrolowCandidates(
+      '<h2>Ofertas Especiais <br>Feitas Para Você!</h2><img src="https://macroatacadokrolow.com.br/wp-content/uploads/krolow.avif"><p>Verifique a data de validade das ofertas!</p>',
+      discoveredAt,
+    ).candidates;
+
+    expect(retainMissingSources(fresh, previousKrolow, ["Grupo Roxo", "Krolow"]).map((item) => item.supermarket)).toEqual([
+      "Grupo Roxo",
+      "Krolow",
+    ]);
   });
 });

@@ -92,6 +92,18 @@ export function stableCandidateId(supermarket: string, sourceUrl: string, imageU
   return `${supermarket}:${sourceUrl || imageUrl}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+export function retainMissingSources(
+  fresh: SourceCandidate[],
+  previous: SourceCandidate[],
+  supermarkets: string[],
+): SourceCandidate[] {
+  const refreshed = new Set(fresh.map((candidate) => candidate.supermarket));
+  const retained = previous.filter(
+    (candidate) => supermarkets.includes(candidate.supermarket) && !refreshed.has(candidate.supermarket),
+  );
+  return [...fresh, ...retained];
+}
+
 function dedupeResult(candidates: SourceCandidate[], skipped: string[]): CollectorResult {
   const seen = new Set<string>();
   return {

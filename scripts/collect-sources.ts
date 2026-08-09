@@ -1,6 +1,11 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
-import { collectGrupoRoxoCandidates, collectKrolowCandidates, type CollectorResult } from "../src/sourceCandidates";
+import {
+  collectGrupoRoxoCandidates,
+  collectKrolowCandidates,
+  retainMissingSources,
+  type CollectorResult,
+} from "../src/sourceCandidates";
 
 type WordpressPage = {
   content?: {
@@ -9,6 +14,7 @@ type WordpressPage = {
 };
 
 const outputPath = "public/data/raw-candidates.json";
+const sourceSupermarkets = ["Grupo Roxo", "Krolow"];
 
 async function main(): Promise<void> {
   const discoveredAt = new Date().toISOString();
@@ -22,8 +28,15 @@ async function main(): Promise<void> {
     result.status === "fulfilled" ? result.value.skipped : [`Collector failed: ${result.reason}`],
   );
   const previous = await readPreviousCandidates();
-  const publishedCandidates = candidates.length ? candidates : previous;
-  if (!candidates.length && previous.length) skipped.push("All source collectors failed; reused previous candidates.");
+  const publishedCandidates = retainMissingSources(candidates, previous, sourceSupermarkets);
+  const retainedSupermarkets = sourceSupermarkets.filter(
+    (supermarket) =>
+      !candidates.some((candidate) => candidate.supermarket === supermarket) &&
+      previous.some((candidate) => candidate.supermarket === supermarket),
+  );
+  if (retainedSupermarkets.length) {
+    skipped.push(`Reused previous candidates for: ${retainedSupermarkets.join(", ")}.`);
+  }
 
   const payload = {
     generatedAt: discoveredAt,
