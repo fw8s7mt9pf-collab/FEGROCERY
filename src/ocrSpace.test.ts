@@ -22,9 +22,9 @@ describe("OCR.Space", () => {
   });
 
   it("adds Portuguese OCR text while preserving the candidate", async () => {
-    const fetcher = vi.fn<typeof fetch>().mockResolvedValue(
-      new Response(JSON.stringify({ ParsedResults: [{ ParsedText: "Ofertas validas de 01/08 ate 02/08/2026" }] }), { status: 200 }),
-    );
+    const fetcher = vi.fn<typeof fetch>();
+    fetcher.mockResolvedValueOnce(new Response("flyer", { status: 200, headers: { "content-type": "image/jpeg" } }));
+    fetcher.mockResolvedValueOnce(new Response(JSON.stringify({ ParsedResults: [{ ParsedText: "Ofertas validas de 01/08 ate 02/08/2026" }] }), { status: 200 }));
     const result = await enrichCandidatesWithOcrSpace([candidate], { apiKey: "free-key", fetcher });
     expect(result.candidates[0].visionText).toContain("Ofertas validas");
     expect(result.stats).toMatchObject({ attempted: 1, succeeded: 1, failed: 0 });
@@ -32,9 +32,9 @@ describe("OCR.Space", () => {
   });
 
   it("keeps the flyer when OCR.Space reports a processing error", async () => {
-    const fetcher = vi.fn<typeof fetch>().mockResolvedValue(
-      new Response(JSON.stringify({ IsErroredOnProcessing: true, ErrorMessage: ["rate limit reached"] }), { status: 200 }),
-    );
+    const fetcher = vi.fn<typeof fetch>();
+    fetcher.mockResolvedValueOnce(new Response("flyer", { status: 200, headers: { "content-type": "image/jpeg" } }));
+    fetcher.mockResolvedValueOnce(new Response(JSON.stringify({ IsErroredOnProcessing: true, ErrorMessage: ["rate limit reached"] }), { status: 200 }));
     const result = await enrichCandidatesWithOcrSpace([candidate], { apiKey: "free-key", fetcher });
     expect(result.candidates).toEqual([candidate]);
     expect(result.stats.errors[0]).toContain("rate limit reached");

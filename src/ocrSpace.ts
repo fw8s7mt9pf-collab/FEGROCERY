@@ -42,17 +42,20 @@ export async function enrichCandidatesWithOcrSpace(
   for (const candidate of candidates) {
     stats.attempted += 1;
     try {
+      const image = await fetcher(candidate.imageUrl);
+      if (!image.ok) throw new Error(`image fetch returned ${image.status}`);
+      const file = new Blob([await image.arrayBuffer()], { type: image.headers.get("content-type") ?? "image/jpeg" });
+      const form = new FormData();
+      form.append("file", file, "flyer.jpg");
+      form.append("language", "por");
+      form.append("OCREngine", "2");
+      form.append("scale", "true");
+      form.append("detectOrientation", "true");
+      form.append("isTable", "true");
       const response = await fetcher("https://api.ocr.space/parse/image", {
         method: "POST",
-        headers: { apikey: apiKey, "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({
-          url: candidate.imageUrl,
-          language: "por",
-          OCREngine: "2",
-          scale: "true",
-          detectOrientation: "true",
-          isTable: "true",
-        }),
+        headers: { apikey: apiKey },
+        body: form,
       });
       if (!response.ok) {
         const detail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
