@@ -49,7 +49,7 @@ jobs:
         run: npm run refresh:data
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          APIFY_TOKEN: ${{ secrets.FEGROCERYAPIFY }}
 
       - name: Refuse empty publication
         run: node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/raw-candidates.json','utf8')); const d=JSON.parse(fs.readFileSync('public/data/deals.json','utf8')); if (!p.candidates?.length || !d.length) { console.error('Refresh returned zero publishable deals; refusing to publish.'); process.exit(1); }"
