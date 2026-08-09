@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-09T12:42:37.138Z",
-  "sourceGeneratedAt": "2026-08-09T12:42:26.221Z",
+  "generatedAt": "2026-08-09T12:44:02.840Z",
+  "sourceGeneratedAt": "2026-08-09T12:43:51.962Z",
   "sourceCandidateCount": 0,
   "sourceSkippedCount": 2,
   "sourceSkipped": [
     "Collector failed: TypeError: fetch failed",
-    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
   ],
   "publicDealCount": 0,
   "expiredDealCount": 0,

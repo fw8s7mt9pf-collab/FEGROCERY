@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T12:42:26.221Z",
+  "generatedAt": "2026-08-09T12:43:51.962Z",
   "candidates": [],
   "skipped": [
     "Collector failed: TypeError: fetch failed",
-    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
   ]
 }
