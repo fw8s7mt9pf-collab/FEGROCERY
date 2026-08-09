@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-08-09T16:21:03.272Z",
+  "generatedAt": "2026-08-09T16:40:00.786Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif: Categoria inferida com baixa confianca."
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
     {
@@ -14,7 +13,7 @@
       "minimumConfidence": 0.14141379933663614,
       "parsedListing": {
         "category": "Other",
-        "summary": "No distinct promoted products identified from OCR text.",
+        "summary": "No distinct promoted products identified in the OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -34,7 +33,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer for Grupo Roxo featuring three meat products: Picanha Bovina Resfriada, Vazio Bovino Resfriado, and Ripa da Chuleta Bovina Resfriada. Valid from August 7 to August 9, 2026.",
+        "summary": "Grocery flyer for Grupo Roxo featuring beef meat promotions valid from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -58,11 +57,11 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer válido de 7 a 9 de agosto de 2026 com 3 produtos em destaque: batata branca, cebola e ovo branco.",
+        "summary": "Flyer válido para 7 a 9 de agosto de 2026, promovendo 3 produtos da categoria Produce: Batata Branca, Cebola e Ovo Branco.",
         "productNames": [
-          "BATATA BRANCA",
-          "CEBOLA",
-          "OVO BRANCO"
+          "Batata Branca",
+          "Cebola",
+          "Ovo Branco"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -119,32 +118,14 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9461267108843202,
-      "minimumConfidence": 0.14383988767870837,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring 10 produce items, valid from August 7 to August 9, 2026.",
-        "productNames": [],
-        "productCount": 10,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.14383988767870837
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9483378609887623,
-      "minimumConfidence": 0.06311898406357921,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer from Krolow with 11 distinct promoted products, including chocolates, torta, pickles, beverages, wine, beer, kitchen appliances, hygiene products, and cleaning supplies. Valid from August 7 to August 9, 2026.",
-        "productNames": [],
-        "productCount": 11,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.06311898406357921
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif",
@@ -160,7 +141,7 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring 7 produce items, valid from 2026-08-07 to 2026-08-09.",
+        "summary": "Grocery flyer from Krolow with 7 produce items promoted, valid from 2026-08-07 to 2026-08-09.",
         "productNames": [],
         "productCount": 7,
         "hasMoreThanThreeProducts": true
