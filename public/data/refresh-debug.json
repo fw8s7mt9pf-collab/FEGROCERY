@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T20:49:46.940Z",
-  "sourceGeneratedAt": "2026-08-08T20:49:43.990Z",
+  "generatedAt": "2026-08-09T09:06:47.043Z",
+  "sourceGeneratedAt": "2026-08-09T09:06:43.790Z",
   "sourceCandidateCount": 6,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
-    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
+    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   ],
   "publicDealCount": 6,
   "expiredDealCount": 0,
