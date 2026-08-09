@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import { collectGrupoRoxoCandidates, collectKrolowCandidates, type CollectorResult } from "../src/sourceCandidates";
 
@@ -21,18 +21,30 @@ async function main(): Promise<void> {
   const skipped = results.flatMap((result) =>
     result.status === "fulfilled" ? result.value.skipped : [`Collector failed: ${result.reason}`],
   );
+  const previous = await readPreviousCandidates();
+  const publishedCandidates = candidates.length ? candidates : previous;
+  if (!candidates.length && previous.length) skipped.push("All source collectors failed; reused previous candidates.");
 
   const payload = {
     generatedAt: discoveredAt,
-    candidates,
+    candidates: publishedCandidates,
     skipped,
   };
 
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
-  console.log(`Wrote ${candidates.length} candidates to ${outputPath}`);
+  console.log(`Wrote ${publishedCandidates.length} candidates to ${outputPath}`);
   if (skipped.length) {
     console.warn(`Skipped ${skipped.length} items`);
+  }
+}
+
+async function readPreviousCandidates(): Promise<SourceCandidate[]> {
+  try {
+    const payload = JSON.parse(await readFile(outputPath, "utf8")) as { candidates?: SourceCandidate[] };
+    return payload.candidates ?? [];
+  } catch {
+    return [];
   }
 }
 

@@ -41,7 +41,7 @@ jobs:
           OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
 
       - name: Refuse empty publication
-        run: node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/raw-candidates.json','utf8')); if (!p.candidates?.length) { console.error('Source refresh returned zero candidates; refusing to publish.'); process.exit(1); }"
+        run: node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/raw-candidates.json','utf8')); const d=JSON.parse(fs.readFileSync('public/data/deals.json','utf8')); if (!p.candidates?.length || !d.length) { console.error('Refresh returned zero publishable deals; refusing to publish.'); process.exit(1); }"
 
       - name: Validate
         run: |
