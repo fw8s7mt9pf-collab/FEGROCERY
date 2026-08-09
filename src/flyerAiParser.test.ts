@@ -31,6 +31,9 @@ describe("AI flyer parser", () => {
                   validFrom: "2026-08-01T00:00:00-03:00",
                   validUntil: "2026-08-02T23:59:59-03:00",
                   summary: "Carnes em oferta.",
+                  productCount: 2,
+                  productNames: ["Bife de ancho", "Costela bovina"],
+                  hasMoreThanThreeProducts: false,
                 }),
               },
             },
@@ -51,12 +54,39 @@ describe("AI flyer parser", () => {
       category: "Meats",
       validFrom: "2026-08-01T03:00:00.000Z",
       validUntil: "2026-08-03T02:59:59.000Z",
+      productCount: 2,
+      productNames: ["Bife de ancho", "Costela bovina"],
+      hasMoreThanThreeProducts: false,
     });
     expect(result.stats).toMatchObject({ attempted: 1, succeeded: 1, failed: 0 });
     expect(fetcher).toHaveBeenCalledWith(
       "https://api.mistral.ai/v1/chat/completions",
       expect.objectContaining({ method: "POST", headers: expect.objectContaining({ authorization: "Bearer test-key" }) }),
     );
+  });
+
+  it("retries rate-limited chat requests", async () => {
+    const fetcher = vi.fn<typeof fetch>();
+    fetcher
+      .mockResolvedValueOnce(new Response("rate limited", { status: 429 }))
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            choices: [{ message: { content: JSON.stringify({ category: "Meats", productCount: 1, productNames: ["Bife"] }) } }],
+          }),
+          { status: 200 },
+        ),
+      );
+
+    const result = await enrichCandidatesWithAiParsedListings([candidate], {
+      apiKey: "test-key",
+      fetcher,
+      retryDelayMs: 0,
+    });
+
+    expect(fetcher).toHaveBeenCalledTimes(2);
+    expect(result.candidates[0].parsedListing?.productNames).toEqual(["Bife"]);
+    expect(result.stats).toMatchObject({ succeeded: 1, failed: 0 });
   });
 
   it("keeps the flyer when Mistral chat returns invalid data", async () => {

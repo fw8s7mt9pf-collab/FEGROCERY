@@ -8,6 +8,9 @@ export type ExtractionInput = SourceCandidate & {
     category?: Category;
     validFrom?: string;
     validUntil?: string;
+    productNames?: string[];
+    productCount?: number;
+    hasMoreThanThreeProducts?: boolean;
   };
 };
 
@@ -28,6 +31,18 @@ const categoryTerms: Array<{ category: Category; terms: string[] }> = [
   { category: "Bakery", terms: ["padaria", "pao", "bolo", "cuca"] },
   { category: "Frozen", terms: ["congelado", "congelada", "congelados", "frozen"] },
 ];
+
+const categoryTitles: Record<Category, string> = {
+  Meats: "Carnes",
+  Produce: "Hortifruti",
+  "Basic Groceries": "Mercearia",
+  Cleaning: "Limpeza",
+  Hygiene: "Higiene",
+  Beverages: "Bebidas",
+  Bakery: "Padaria",
+  Frozen: "Congelados",
+  Other: "Ofertas variadas",
+};
 
 export const fallbackDateCaptionPatterns = [
   "Ofertas validas de DD/MM ate DD/MM/YYYY",
@@ -168,6 +183,12 @@ function candidateText(input: ExtractionInput): string {
 }
 
 function titleFor(input: ExtractionInput, category: Category): string {
+  const productNames = input.parsedListing?.productNames?.map(repairMojibake).filter(Boolean) ?? [];
+  const productCount = input.parsedListing?.productCount ?? productNames.length;
+  if (input.parsedListing?.hasMoreThanThreeProducts || productCount > 3 || productNames.length > 3) {
+    return categoryTitles[category];
+  }
+  if (productNames.length) return productNames.join(", ").slice(0, 90);
   if (input.parsedListing?.title) return repairMojibake(input.parsedListing.title).slice(0, 90);
   const raw = input.rawTitle || input.rawCaption;
   if (raw) return repairMojibake(raw).split("\n")[0].slice(0, 90);

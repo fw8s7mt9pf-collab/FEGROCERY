@@ -123,8 +123,10 @@ describe("extractDealsFromCandidates", () => {
           discoveredAt: refreshedAt.toISOString(),
           visionText: "Oferta geral R$ 1,99",
           parsedListing: {
-            title: "Ofertas de carnes Krolow",
             category: "Meats",
+            productCount: 3,
+            productNames: ["Bife de ancho", "Costela bovina", "Frango inteiro"],
+            hasMoreThanThreeProducts: false,
             validFrom: "2026-08-01T03:00:00.000Z",
             validUntil: "2026-08-03T02:59:59.000Z",
           },
@@ -134,12 +136,36 @@ describe("extractDealsFromCandidates", () => {
     );
 
     expect(result.deals[0]).toMatchObject({
-      title: "Ofertas de carnes Krolow",
+      title: "Bife de ancho, Costela bovina, Frango inteiro",
       category: "Meats",
       validFrom: "2026-08-01T03:00:00.000Z",
       validUntil: "2026-08-03T02:59:59.000Z",
       warning: undefined,
     });
+  });
+
+  it("uses the flyer category as the title when more than three products are shown", () => {
+    const result = extractDealsFromCandidates(
+      [
+        {
+          id: "dense-produce",
+          supermarket: "Krolow",
+          sourceUrl: "https://macroatacadokrolow.com.br/",
+          imageUrl: "https://macroatacadokrolow.com.br/flyer.avif",
+          discoveredAt: refreshedAt.toISOString(),
+          rawTitle: "Ofertas Krolow",
+          parsedListing: {
+            category: "Produce",
+            productCount: 8,
+            productNames: [],
+            hasMoreThanThreeProducts: true,
+          },
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.deals[0].title).toBe("Hortifruti");
   });
 
   it("keeps a collected Krolow AVIF flyer visible with its real OCR shape", () => {

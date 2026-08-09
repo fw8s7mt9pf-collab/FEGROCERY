@@ -17,6 +17,9 @@ export type ParsedFlyerListing = {
   validFrom?: string;
   validUntil?: string;
   summary?: string;
+  productNames?: string[];
+  productCount?: number;
+  hasMoreThanThreeProducts?: boolean;
 };
 
 export type AiParsedCandidate = MistralOcrCandidate & {
@@ -40,7 +43,7 @@ export function createAiParserStats(enabled: boolean): AiParserStats {
 
 export async function enrichCandidatesWithAiParsedListings(
   candidates: MistralOcrCandidate[],
-  options: { apiKey?: string; fetcher?: typeof fetch; referenceDate?: Date } = {},
+  options: { apiKey?: string; fetcher?: typeof fetch; referenceDate?: Date; retryDelayMs?: number } = {},
 ): Promise<{ candidates: AiParsedCandidate[]; stats: AiParserStats }> {
   const apiKey = options.apiKey;
   const stats = createAiParserStats(Boolean(apiKey));
@@ -60,7 +63,7 @@ export async function enrichCandidatesWithAiParsedListings(
 
     stats.attempted += 1;
     try {
-      const response = await fetcher(mistralChatUrl, {
+      const response = await fetchMistralChat(fetcher, {
         method: "POST",
         headers: {
           authorization: `Bearer ${apiKey}`,
@@ -74,7 +77,7 @@ export async function enrichCandidatesWithAiParsedListings(
             {
               role: "system",
               content:
-                "Extract grocery flyer listing data from OCR. Return only JSON with optional keys: title, category, validFrom, validUntil, summary. category must be one of: Meats, Produce, Basic Groceries, Cleaning, Hygiene, Beverages, Bakery, Frozen, Other. Dates must be ISO 8601 strings for Brazil time when present. Do not invent dates or products.",
+                "Extract one grocery flyer from OCR. Return exactly one top-level JSON object with these keys: category, validFrom, validUntil, productCount, productNames, hasMoreThanThreeProducts, summary. category must be one of: Meats, Produce, Basic Groceries, Cleaning, Hygiene, Beverages, Bakery, Frozen, Other. Count distinct promoted products visible on this flyer. If it has 1 to 3 products, productNames must contain every product name and hasMoreThanThreeProducts must be false. If it has more than 3 products, productNames must be an empty array and hasMoreThanThreeProducts must be true. Dates must be ISO 8601 strings in Brazil time. Use null for unknown dates. Do not include prices in product names. Do not invent dates or products.",
             },
             {
               role: "user",
@@ -89,7 +92,7 @@ export async function enrichCandidatesWithAiParsedListings(
           ],
         }),
         signal: AbortSignal.timeout(45_000),
-      });
+      }, options.retryDelayMs ?? 2_000);
       if (!response.ok) {
         const detail = (await response.text()).replace(/\s+/g, " ").trim().slice(0, 240);
         throw new Error(`Mistral chat returned ${response.status}${detail ? `: ${detail}` : ""}`);
@@ -121,7 +124,20 @@ function normalizeParsedListing(value: unknown): ParsedFlyerListing {
     validFrom: parseIsoString(record.validFrom),
     validUntil: parseIsoString(record.validUntil),
     summary: cleanString(record.summary),
+    productNames: parseProductNames(record.productNames),
+    productCount: parseProductCount(record.productCount),
+    hasMoreThanThreeProducts: parseBoolean(record.hasMoreThanThreeProducts),
   };
+}
+
+async function fetchMistralChat(fetcher: typeof fetch, init: RequestInit, retryDelayMs: number): Promise<Response> {
+  let response: Response | undefined;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    response = await fetcher(mistralChatUrl, init);
+    if (response.status !== 429 || attempt === 2) return response;
+    await new Promise((resolve) => setTimeout(resolve, retryDelayMs * 2 ** attempt));
+  }
+  return response as Response;
 }
 
 function cleanString(value: unknown): string | undefined {
@@ -139,4 +155,19 @@ function parseIsoString(value: unknown): string | undefined {
   if (typeof value !== "string") return undefined;
   const parsed = new Date(value);
   return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString();
+}
+
+function parseProductNames(value: unknown): string[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const names = [...new Set(value.map(cleanString).filter((name): name is string => Boolean(name)))].slice(0, 20);
+  return names;
+}
+
+function parseProductCount(value: unknown): number | undefined {
+  if (typeof value !== "number" || !Number.isFinite(value) || value < 0) return undefined;
+  return Math.floor(value);
+}
+
+function parseBoolean(value: unknown): boolean | undefined {
+  return typeof value === "boolean" ? value : undefined;
 }
