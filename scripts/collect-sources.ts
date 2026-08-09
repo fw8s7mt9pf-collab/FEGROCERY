@@ -47,15 +47,25 @@ async function collectKrolow(discoveredAt: string): Promise<CollectorResult> {
 }
 
 async function fetchJson<T>(url: string): Promise<T> {
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": "FEGROCERY/0.1 (+https://github.com/fw8s7mt9pf-collab/FEGROCERY)",
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`${url} returned ${response.status}`);
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          "user-agent": "FEGROCERY/0.1 (+https://github.com/fw8s7mt9pf-collab/FEGROCERY)",
+        },
+        signal: AbortSignal.timeout(30_000),
+      });
+      if (!response.ok) {
+        throw new Error(`${url} returned ${response.status}`);
+      }
+      return response.json() as Promise<T>;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 2_000));
+    }
   }
-  return response.json() as Promise<T>;
+  throw lastError;
 }
 
 main().catch((error: unknown) => {
