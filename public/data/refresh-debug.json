@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T12:28:08.382Z",
-  "sourceGeneratedAt": "2026-08-09T12:27:59.126Z",
+  "generatedAt": "2026-08-09T12:34:46.288Z",
+  "sourceGeneratedAt": "2026-08-09T12:34:35.275Z",
   "sourceCandidateCount": 6,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
@@ -12,25 +12,18 @@
   "warnings": [
     "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "ocr.space",
     "enabled": true,
     "attempted": 6,
-    "succeeded": 0,
-    "failed": 6,
+    "succeeded": 6,
+    "failed": 0,
     "skipped": 0,
-    "errors": [
-      "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Download Failed",
-      "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Download Failed",
-      "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Download Failed",
-      "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Download Failed",
-      "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Download Failed",
-      "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Download Failed"
-    ]
+    "errors": []
   }
 }
