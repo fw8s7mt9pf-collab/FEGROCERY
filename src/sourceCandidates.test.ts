@@ -4,7 +4,7 @@ import { collectGrupoRoxoCandidates, collectKrolowCandidates } from "./sourceCan
 const discoveredAt = "2026-07-31T15:00:00.000Z";
 
 describe("collectGrupoRoxoCandidates", () => {
-  it("extracts mirrored flyer images with Instagram source metadata", () => {
+  it("extracts mirrored flyer images with the Roxo website as source", () => {
     const html = `
       <li class="zoom-instagram-widget__item wpzoom-instagram" data-media-type="carousel_album">
         <a href="https://www.instagram.com/p/DbcB0tjFSHN/" title="Ofertas do Hortifruti Roxo">
@@ -16,9 +16,9 @@ describe("collectGrupoRoxoCandidates", () => {
     expect(collectGrupoRoxoCandidates(html, discoveredAt)).toEqual({
       candidates: [
         {
-          id: "grupo-roxo-https-www-instagram-com-p-dbcb0tjfshn",
+          id: "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2026-07-hortifruti-jpg",
           supermarket: "Grupo Roxo",
-          sourceUrl: "https://www.instagram.com/p/DbcB0tjFSHN/",
+          sourceUrl: "https://www.gruporoxo.com.br/promocoes/",
           imageUrl: "https://www.gruporoxo.com.br/wp-content/uploads/2026/07/hortifruti.jpg",
           discoveredAt,
           rawTitle: "Ofertas do Hortifruti Roxo",
@@ -67,7 +67,16 @@ describe("collectKrolowCandidates", () => {
 
   it("records a skipped reason when no flyer-like image is found", () => {
     expect(collectKrolowCandidates("<img src='/logo.png'>", discoveredAt).skipped).toEqual([
-      "Krolow homepage did not expose WhatsApp-Image flyer URLs",
+      "Krolow homepage did not expose a current flyer image",
     ]);
+  });
+
+  it("extracts a current AVIF flyer once, ignoring resized copies", () => {
+    const html = `
+      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1.avif">
+      <img src="https://macroatacadokrolow.com.br/wp-content/uploads/2026/07/macro-atacado-13-1-768x1134-1-203x300.avif">
+    `;
+
+    expect(collectKrolowCandidates(html, discoveredAt).candidates).toHaveLength(1);
   });
 });

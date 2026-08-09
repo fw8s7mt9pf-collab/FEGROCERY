@@ -1,4 +1,5 @@
 import type { SourceCandidate } from "./sourceCandidates";
+import sharp from "sharp";
 
 export type OcrStats = {
   provider: "ocr.space";
@@ -44,7 +45,7 @@ export async function enrichCandidatesWithOcrSpace(
     try {
       const image = await fetcher(candidate.imageUrl, { signal: AbortSignal.timeout(30_000) });
       if (!image.ok) throw new Error(`image fetch returned ${image.status}`);
-      const file = new Blob([await image.arrayBuffer()], { type: image.headers.get("content-type") ?? "image/jpeg" });
+      const file = await imageForOcr(image, candidate.imageUrl);
       const form = new FormData();
       form.append("file", file, "flyer.jpg");
       form.append("language", "por");
@@ -81,6 +82,16 @@ export async function enrichCandidatesWithOcrSpace(
   }
 
   return { candidates: enriched, stats };
+}
+
+async function imageForOcr(image: Response, imageUrl: string): Promise<Blob> {
+  const contentType = image.headers.get("content-type")?.toLowerCase() ?? "image/jpeg";
+  const bytes = await image.arrayBuffer();
+  if (contentType.includes("image/avif") || imageUrl.toLowerCase().endsWith(".avif")) {
+    const jpeg = await sharp(Buffer.from(bytes)).jpeg({ quality: 90 }).toBuffer();
+    return new Blob([jpeg], { type: "image/jpeg" });
+  }
+  return new Blob([bytes], { type: contentType });
 }
 
 function formatApiError(payload: OcrSpaceResponse): string {

@@ -15,7 +15,7 @@ export type CollectorResult = {
 };
 
 const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp|avif)/gi;
-const instagramLinkPattern = /https?:\/\/(?:www\.)?instagram\.com\/[^"' <>)]+/i;
+const grupoRoxoPromotionsUrl = "https://www.gruporoxo.com.br/promocoes/";
 
 export function collectGrupoRoxoCandidates(html: string, discoveredAt: string): CollectorResult {
   const candidates: SourceCandidate[] = [];
@@ -31,11 +31,10 @@ export function collectGrupoRoxoCandidates(html: string, discoveredAt: string): 
       continue;
     }
 
-    const sourceUrl = firstMatch(item, /href=["']([^"']*instagram\.com[^"']*)["']/i) ?? "https://www.gruporoxo.com.br/promocoes/";
     candidates.push({
-      id: stableCandidateId("grupo-roxo", sourceUrl, imageUrl),
+      id: stableCandidateId("grupo-roxo", imageUrl, imageUrl),
       supermarket: "Grupo Roxo",
-      sourceUrl: decodeHtml(sourceUrl),
+      sourceUrl: grupoRoxoPromotionsUrl,
       imageUrl: decodeHtml(imageUrl),
       discoveredAt,
       rawTitle: repairMojibake(decodeHtml(firstMatch(item, /title=["']([^"']+)["']/i) ?? "")),
@@ -64,7 +63,7 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
   }
 
   if (!flyerUrls.length) {
-    skipped.push("Krolow homepage did not expose WhatsApp-Image flyer URLs");
+    skipped.push("Krolow homepage did not expose a current flyer image");
   }
 
   return dedupeResult(candidates, skipped);
@@ -78,7 +77,7 @@ function dedupeResult(candidates: SourceCandidate[], skipped: string[]): Collect
   const seen = new Set<string>();
   return {
     candidates: candidates.filter((candidate) => {
-      const key = candidate.sourceUrl.match(instagramLinkPattern)?.[0] ?? candidate.imageUrl;
+      const key = candidate.imageUrl;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
@@ -96,7 +95,7 @@ function firstMatch(value: string, pattern: RegExp): string | undefined {
 }
 
 function canonicalImageUrl(url: string): string {
-  return url.replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp)$)/i, "");
+  return url.replace(/-\d+x\d+(?=\.(?:jpe?g|png|webp|avif)$)/i, "");
 }
 
 function decodeHtml(value: string): string {
