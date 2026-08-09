@@ -1,8 +1,7 @@
 {
-  "generatedAt": "2026-08-09T14:54:04.191Z",
+  "generatedAt": "2026-08-09T14:58:44.236Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocrDateDiagnostics": [
     {
@@ -44,6 +43,17 @@
       ],
       "averageConfidence": 0.9489936023693261,
       "minimumConfidence": 0.11268017421671184
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-07-macro-atacado-13-1-768x1134-1-avif",
+      "markdownEvidence": [
+        "E BUM FAZER PARTE DA SUA VIDA! Tricard mais 1234 567A 9A7L 5432 0000 DESDE VALIDADE 00/00 00/00 GABRIEL LINS MOLINA KROLOW ![img-1.jpeg"
+      ],
+      "blockEvidence": [
+        "E BUM FAZER PARTE DA SUA VIDA! Tricard mais 1234 567A 9A7L 5432 0000 DESDE VALIDADE 00/00 00/00 GABRIEL LINS MOLINA KROLOW ![img-1.jpeg"
+      ],
+      "averageConfidence": 0.9208530355259767,
+      "minimumConfidence": 0.10219857588913976
     }
   ]
 }

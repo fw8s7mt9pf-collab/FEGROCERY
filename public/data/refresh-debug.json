@@ -1,23 +1,20 @@
 {
-  "generatedAt": "2026-08-09T14:54:04.191Z",
-  "sourceGeneratedAt": "2026-08-09T14:54:02.535Z",
-  "sourceCandidateCount": 4,
-  "sourceSkippedCount": 1,
-  "sourceSkipped": [
-    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-  ],
+  "generatedAt": "2026-08-09T14:58:44.236Z",
+  "sourceGeneratedAt": "2026-08-09T14:58:40.424Z",
+  "sourceCandidateCount": 5,
+  "sourceSkippedCount": 0,
+  "sourceSkipped": [],
   "publicDealCount": 4,
   "expiredDealCount": 0,
-  "warningCount": 2,
+  "warningCount": 1,
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-765769915-1524334669732203-5035713257261181849-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 4,
-    "succeeded": 4,
+    "attempted": 5,
+    "succeeded": 5,
     "failed": 0,
     "skipped": 0,
     "errors": []
