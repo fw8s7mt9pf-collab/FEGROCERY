@@ -31,14 +31,18 @@ export function collectGrupoRoxoCandidates(html: string, discoveredAt: string): 
       continue;
     }
 
+    const rawTitle = repairMojibake(decodeHtml(firstMatch(item, /title=["']([^"']+)["']/i) ?? ""));
+    const rawCaption = repairMojibake(decodeHtml(firstMatch(item, /alt=["']([^"']+)["']/i) ?? ""));
+    if (!/ofertas?/i.test(`${rawTitle} ${rawCaption}`)) continue;
+
     candidates.push({
       id: stableCandidateId("grupo-roxo", imageUrl, imageUrl),
       supermarket: "Grupo Roxo",
       sourceUrl: grupoRoxoPromotionsUrl,
       imageUrl: decodeHtml(imageUrl),
       discoveredAt,
-      rawTitle: repairMojibake(decodeHtml(firstMatch(item, /title=["']([^"']+)["']/i) ?? "")),
-      rawCaption: repairMojibake(decodeHtml(firstMatch(item, /alt=["']([^"']+)["']/i) ?? "")),
+      rawTitle,
+      rawCaption,
       mediaType: firstMatch(item, /data-media-type=["']([^"']+)["']/i),
     });
   }

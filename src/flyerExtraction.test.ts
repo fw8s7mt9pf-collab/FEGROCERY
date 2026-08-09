@@ -24,6 +24,13 @@ describe("parseValidityDates", () => {
       new Date("2026-08-03T02:59:59.000Z"),
     );
   });
+
+  it("extracts month-name ranges using the Portuguese à separator", () => {
+    expect(parseValidityDates("Ofertas válidas para os dias 7 à 9 de agosto", refreshedAt)).toEqual({
+      validFrom: new Date("2026-08-07T03:00:00.000Z"),
+      validUntil: new Date("2026-08-10T02:59:59.000Z"),
+    });
+  });
 });
 
 describe("extractDealsFromCandidates", () => {
@@ -73,6 +80,24 @@ describe("extractDealsFromCandidates", () => {
     });
     expect(result.deals[0].warning).toContain("Validade nao encontrada");
     expect(result.warnings).toHaveLength(1);
+  });
+
+  it("excludes non-offer images without a price, promotion text, or validity date", () => {
+    const result = extractDealsFromCandidates(
+      [
+        {
+          id: "krolow-card",
+          supermarket: "Krolow",
+          sourceUrl: "https://macroatacadokrolow.com.br/",
+          imageUrl: "https://macroatacadokrolow.com.br/card.jpg",
+          discoveredAt: refreshedAt.toISOString(),
+          visionText: "Parcele suas compras em 6x sem juros",
+        },
+      ],
+      refreshedAt,
+    );
+
+    expect(result.currentDeals).toEqual([]);
   });
 
   it("repairs mojibake titles from previously collected raw candidates", () => {

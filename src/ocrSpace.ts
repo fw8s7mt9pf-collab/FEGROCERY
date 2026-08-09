@@ -43,8 +43,7 @@ export async function enrichCandidatesWithOcrSpace(
   for (const candidate of candidates) {
     stats.attempted += 1;
     try {
-      const image = await fetcher(candidate.imageUrl, { signal: AbortSignal.timeout(30_000) });
-      if (!image.ok) throw new Error(`image fetch returned ${image.status}`);
+      const image = await fetchImage(fetcher, candidate.imageUrl);
       const file = await imageForOcr(image, candidate.imageUrl);
       const form = new FormData();
       form.append("file", file, "flyer.jpg");
@@ -82,6 +81,21 @@ export async function enrichCandidatesWithOcrSpace(
   }
 
   return { candidates: enriched, stats };
+}
+
+async function fetchImage(fetcher: typeof fetch, imageUrl: string): Promise<Response> {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    try {
+      const response = await fetcher(imageUrl, { signal: AbortSignal.timeout(45_000) });
+      if (!response.ok) throw new Error(`image fetch returned ${response.status}`);
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 1_000));
+    }
+  }
+  throw lastError;
 }
 
 async function imageForOcr(image: Response, imageUrl: string): Promise<Blob> {

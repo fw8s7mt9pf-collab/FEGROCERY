@@ -25,10 +25,11 @@ const categoryTerms: Array<{ category: Category; terms: string[] }> = [
 
 export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedAt: Date): ExtractionResult {
   const warnings: string[] = [];
-  const deals = inputs.map((input) => {
+  const deals = inputs.flatMap((input) => {
     const text = candidateText(input);
     const category = classifyCategory(text);
     const parsedDates = parseValidityDates(text, refreshedAt);
+    if (!isOfferCandidate(text, parsedDates)) return [];
     const warningParts: string[] = [];
 
     if (category === "Other") {
@@ -57,13 +58,17 @@ export function extractDealsFromCandidates(inputs: ExtractionInput[], refreshedA
       warnings.push(`${deal.id}: ${deal.warning}`);
     }
 
-    return deal;
+    return [deal];
   });
 
   const currentDeals = getVisibleDeals(deals, refreshedAt);
   const expiredDeals = deals.filter((deal) => !currentDeals.includes(deal));
 
   return { deals, currentDeals, expiredDeals, warnings };
+}
+
+function isOfferCandidate(text: string, dates: { validFrom?: Date; validUntil?: Date }): boolean {
+  return Boolean(dates.validUntil) || /ofertas?|promo[cç]|r\$\s*\d|pre[cç]o/i.test(text);
 }
 
 export function getVisibleDeals(deals: Deal[], now: Date): Deal[] {
@@ -89,7 +94,7 @@ export function parseValidityDates(text: string, referenceDate: Date): { validFr
     return { validFrom: from, validUntil: until };
   }
 
-  const days = normalized.match(/(?:dias?|válido dias?|valido dias?)\D{0,10}(\d{1,2})\D{1,8}(?:e|a|ate|até)\D{0,8}(\d{1,2})(?:\s+de)?\s+([a-zç]+)/i);
+  const days = normalized.match(/(?:dias?|válido dias?|valido dias?)\D{0,10}(\d{1,2})\D{1,8}(?:e|a|à|ate|até)\D{0,8}(\d{1,2})(?:\s+de)?\s+([a-zç]+)/i);
   if (days) {
     const month = monthNumber(days[3]);
     if (month) {
