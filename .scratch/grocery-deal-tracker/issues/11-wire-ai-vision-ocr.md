@@ -26,4 +26,4 @@ Populate the existing `visionText` extraction seam with real AI vision/OCR outpu
 
 ## Resolution
 
-Implemented scheduled OCR through OCR.Space. The adapter uses the `OCR_SPACE_API_KEY` secret, submits each public flyer URL with Portuguese OCR settings, enriches the existing `visionText` seam, and falls back per flyer when credentials or OCR calls fail. Google Vision was evaluated but ruled out because this account required a €25 prepayment.
+Implemented scheduled OCR through Mistral OCR. The adapter uses the `MISTRAL_API_KEY` secret, sends each public flyer URL directly to `mistral-ocr-latest`, including AVIF images, enriches the existing `visionText` seam, and falls back per flyer when credentials or OCR calls fail. Google Vision was evaluated but ruled out because this account required a €25 prepayment.

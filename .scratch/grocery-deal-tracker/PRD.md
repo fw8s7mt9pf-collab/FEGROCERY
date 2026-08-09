@@ -52,7 +52,7 @@ Known source notes:
 - Add flyer OCR fixtures and extraction tests - Done
 - Harden source refresh and duplicate handling - Done
 - Add refresh health summary - Done
-- Verify first end-to-end scheduled publication - Done with OCR.Space Free API
+- Verify first end-to-end scheduled publication - Done with Mistral OCR
 
 ## Out of scope
 

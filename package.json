@@ -18,8 +18,5 @@
     "typescript": "^7.0.2",
     "vite": "^8.2.0",
     "vitest": "^4.1.10"
-  },
-  "dependencies": {
-    "sharp": "^0.35.3"
   }
 }

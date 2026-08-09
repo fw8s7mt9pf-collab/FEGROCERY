@@ -35,10 +35,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Require Mistral API key
+        run: node -e "if (!process.env.MISTRAL_API_KEY) { console.error('MISTRAL_API_KEY is required for publication.'); process.exit(1); }"
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+
       - name: Refresh source data
         run: npm run refresh:data
         env:
-          OCR_SPACE_API_KEY: ${{ secrets.OCR_SPACE_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
 
       - name: Refuse empty publication
         run: node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/raw-candidates.json','utf8')); const d=JSON.parse(fs.readFileSync('public/data/deals.json','utf8')); if (!p.candidates?.length || !d.length) { console.error('Refresh returned zero publishable deals; refusing to publish.'); process.exit(1); }"
