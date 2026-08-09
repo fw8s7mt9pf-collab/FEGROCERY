@@ -1,27 +1,21 @@
 {
-  "generatedAt": "2026-08-09T12:34:46.288Z",
-  "sourceGeneratedAt": "2026-08-09T12:34:35.275Z",
-  "sourceCandidateCount": 6,
-  "sourceSkippedCount": 1,
+  "generatedAt": "2026-08-09T12:42:37.138Z",
+  "sourceGeneratedAt": "2026-08-09T12:42:26.221Z",
+  "sourceCandidateCount": 0,
+  "sourceSkippedCount": 2,
   "sourceSkipped": [
-    "Krolow homepage did not expose WhatsApp-Image flyer URLs"
+    "Collector failed: TypeError: fetch failed",
+    "Collector failed: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   ],
-  "publicDealCount": 6,
+  "publicDealCount": 0,
   "expiredDealCount": 0,
-  "warningCount": 6,
-  "warnings": [
-    "grupo-roxo-https-www-instagram-com-reel-dbxuplvrnjg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-reel-dbvdsiqopri: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbuesa-e2xd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbt-jw5gspd: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-reel-dbte7vqod5p: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-instagram-com-p-dbrahh9gmpy: Validade nao encontrada; oferta expira automaticamente em 48 horas."
-  ],
+  "warningCount": 0,
+  "warnings": [],
   "ocr": {
     "provider": "ocr.space",
     "enabled": true,
-    "attempted": 6,
-    "succeeded": 6,
+    "attempted": 0,
+    "succeeded": 0,
     "failed": 0,
     "skipped": 0,
     "errors": []
