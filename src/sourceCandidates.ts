@@ -14,7 +14,7 @@ export type CollectorResult = {
   skipped: string[];
 };
 
-const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp)/gi;
+const imageUrlPattern = /https?:\/\/[^"' <>)]+wp-content\/uploads\/[^"' <>)]+\.(?:jpe?g|png|webp|avif)/gi;
 const instagramLinkPattern = /https?:\/\/(?:www\.)?instagram\.com\/[^"' <>)]+/i;
 
 export function collectGrupoRoxoCandidates(html: string, discoveredAt: string): CollectorResult {
@@ -51,7 +51,7 @@ export function collectKrolowCandidates(html: string, discoveredAt: string): Col
   const candidates: SourceCandidate[] = [];
   const skipped: string[] = [];
   const urls = [...html.matchAll(imageUrlPattern)].map((match) => canonicalImageUrl(decodeHtml(match[0])));
-  const flyerUrls = urls.filter((url) => /WhatsApp-Image/i.test(url));
+  const flyerUrls = urls.filter((url) => /WhatsApp-Image|macro-atacado/i.test(url));
 
   for (const imageUrl of flyerUrls) {
     candidates.push({
