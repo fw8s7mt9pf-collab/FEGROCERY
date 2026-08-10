@@ -18,6 +18,7 @@ const categoryLabels: Record<Category, string> = {
   Cleaning: "Limpeza",
   Hygiene: "Higiene",
   Beverages: "Bebidas",
+  Alcohol: "Bebidas alcoolicas",
   Bakery: "Padaria",
   Frozen: "Congelados",
   Other: "Outros",

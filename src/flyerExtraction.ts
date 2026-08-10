@@ -27,7 +27,11 @@ const categoryTerms: Array<{ category: Category; terms: string[] }> = [
   { category: "Basic Groceries", terms: ["cesta", "arroz", "feijao", "oleo", "acucar", "mercearia", "basica"] },
   { category: "Cleaning", terms: ["limpeza", "detergente", "sabao", "amaciante", "desinfetante"] },
   { category: "Hygiene", terms: ["higiene", "shampoo", "sabonete", "creme dental", "papel higienico"] },
-  { category: "Beverages", terms: ["bebida", "bebidas", "refrigerante", "cerveja", "suco", "agua"] },
+  {
+    category: "Alcohol",
+    terms: ["alcool", "cerveja", "chopp", "vinho", "whisky", "whiskey", "cachaca", "conhaque", "vodka", "gin", "espumante", "licor", "rum", "tequila", "vermute"],
+  },
+  { category: "Beverages", terms: ["bebida", "bebidas", "refrigerante", "suco", "agua"] },
   { category: "Bakery", terms: ["padaria", "pao", "bolo", "cuca"] },
   { category: "Frozen", terms: ["congelado", "congelada", "congelados", "frozen"] },
 ];
@@ -39,6 +43,7 @@ const categoryTitles: Record<Category, string> = {
   Cleaning: "Limpeza",
   Hygiene: "Higiene",
   Beverages: "Bebidas",
+  Alcohol: "Bebidas alcoolicas",
   Bakery: "Padaria",
   Frozen: "Congelados",
   Other: "Ofertas variadas",

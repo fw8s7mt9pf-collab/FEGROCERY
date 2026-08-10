@@ -5,6 +5,7 @@ export const categories = [
   "Cleaning",
   "Hygiene",
   "Beverages",
+  "Alcohol",
   "Bakery",
   "Frozen",
   "Other",
@@ -39,7 +40,7 @@ export type DealFilters = {
 export function getCurrentDeals(deals: Deal[], filters: DealFilters): Deal[] {
   return deals
     .filter((deal) => new Date(deal.expiresAt) >= filters.now)
-    .filter((deal) => filters.category === "All" || deal.category === filters.category)
+    .filter((deal) => (filters.category === "All" ? deal.category !== "Alcohol" : deal.category === filters.category))
     .filter((deal) => filters.supermarket === "All" || deal.supermarket === filters.supermarket)
     .sort((a, b) => {
       const categoryOrder = categories.indexOf(a.category) - categories.indexOf(b.category);

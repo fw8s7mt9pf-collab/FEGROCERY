@@ -9,6 +9,12 @@ describe("classifyCategory", () => {
     expect(classifyCategory("Bife de ancho, costela bovina e frango congelado")).toBe("Meats");
     expect(classifyCategory("Ofertas do Hortifruti com banana e tomate")).toBe("Produce");
   });
+
+  it("classifies alcoholic drinks separately from other beverages", () => {
+    expect(classifyCategory("Cerveja Original pack com 12 unidades")).toBe("Alcohol");
+    expect(classifyCategory("Vinho tinto reservado 750ml")).toBe("Alcohol");
+    expect(classifyCategory("Suco de laranja e agua mineral")).toBe("Beverages");
+  });
 });
 
 describe("parseValidityDates", () => {
