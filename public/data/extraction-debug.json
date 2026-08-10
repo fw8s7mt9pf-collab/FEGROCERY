@@ -1,28 +1,21 @@
 {
-  "generatedAt": "2026-08-10T10:11:02.620Z",
+  "generatedAt": "2026-08-10T10:15:17.861Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2583399: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1701599: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1532840: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1592452: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508177: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1532824: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1922571: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481858: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508173: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2370048: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2305286: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490536: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557301: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2458344: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564184: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589736: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
@@ -56,7 +49,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer for Grupo Roxo featuring three beef products on promotion from August 7 to August 9, 2026.",
+        "summary": "Flyer for Grupo Roxo featuring three beef products on promotion from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -80,7 +73,7 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 7 to August 9, 2026.",
+        "summary": "Flyer from Grupo Roxo with produce offers valid from 7 to 9 August 2026, featuring Batata Branca, Cebola, and Ovo Branco.",
         "productNames": [
           "Batata Branca",
           "Cebola",
@@ -104,9 +97,9 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket featuring meat products including Fraldinha Frialto, Carne Moída 2ª, Coração de Frango, and Coxa C/ Sobrecoxa de Frango, valid from August 7 to August 9, 2026.",
+        "summary": "Flyer from Krolow supermarket featuring multiple meat products, including beef, chicken, and frozen items, valid from August 7 to August 9, 2026.",
         "productNames": [],
-        "productCount": 6,
+        "productCount": 7,
         "hasMoreThanThreeProducts": true
       }
     },
@@ -126,14 +119,39 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9461267108843202,
-      "minimumConfidence": 0.14383988767870837
+      "minimumConfidence": 0.14383988767870837,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-07T03:00:00.000Z",
+        "validUntil": "2026-08-10T02:59:59.000Z",
+        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09, including Pepino Salada, Batata Branca, Couve Flor, Mix Brócolis / Couve Flor, Tomate Longa Vida, Beterraba, Cebola, Batata Doce Branca, and Maçã Gala / Fuji.",
+        "productNames": [],
+        "productCount": 10,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9483378609887623,
-      "minimumConfidence": 0.06311898406357921
+      "minimumConfidence": 0.06311898406357921,
+      "parsedListing": {
+        "category": "Alcohol",
+        "validFrom": "2026-08-07T03:00:00.000Z",
+        "validUntil": "2026-08-10T02:59:59.000Z",
+        "summary": "Alcoholic beverages flyer from Krolow, valid from August 7 to August 9, 2026, featuring multiple beer and wine promotions.",
+        "productNames": [
+          "Vinho Di Bartolo",
+          "Sangue de Boi",
+          "Cerveja Proibida",
+          "Cerveja Brahma Chopp",
+          "Polar Export",
+          "Amstel"
+        ],
+        "productCount": 4,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif",
@@ -144,44 +162,15 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9414161318432139,
-      "minimumConfidence": 0.21724286474398052
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2583399",
-      "markdownEvidence": [],
-      "blockEvidence": [],
+      "minimumConfidence": 0.21724286474398052,
       "parsedListing": {
-        "productNames": [
-          "LEITE ELEGE INTEGRAL GARRAFA 1L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-01T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1701599",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BARRIL DE CHOPP HEINEKEN DE 5 LITRO"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1876371",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CERVEJA ORIGINAL PACK COM 12 UN DE 473ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
+        "category": "Produce",
+        "validFrom": "2026-08-07T03:00:00.000Z",
+        "validUntil": "2026-08-10T02:59:59.000Z",
+        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09.",
+        "productNames": [],
+        "productCount": 7,
+        "hasMoreThanThreeProducts": true
       }
     },
     {
@@ -204,19 +193,6 @@
       "parsedListing": {
         "productNames": [
           "BISCOITO MARIA PARATI 370GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557323",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CACHAÇA 51 965ML"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -250,19 +226,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2432469",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CONHAQUE DREHER DE 900ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -289,19 +252,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1922571",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ENERGÉTICO ELEV DE 2 LITROS"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481858",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -321,19 +271,6 @@
       "parsedListing": {
         "productNames": [
           "FEIJAO PRETO SABOR DE CASA 1KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508173",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "FRALDA BABY SEC"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -406,38 +343,12 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1520689",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PAPEL HIGIENICO PERSONAL FOLHA DUPLA 20M"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2305286",
       "markdownEvidence": [],
       "blockEvidence": [],
       "parsedListing": {
         "productNames": [
           "PEPINO BOM PRINCIPIO SUAVE OU TRADICIONAL DE 300GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490536",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PIZZA LEBON 400G"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -484,38 +395,12 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564184",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "VELHO BARREIRO 910ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564197",
       "markdownEvidence": [],
       "blockEvidence": [],
       "parsedListing": {
         "productNames": [
           "VINHO DOM BOSCO 750ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1869990",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "VINHO RESERVADO 750ML"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -555,45 +440,6 @@
       "parsedListing": {
         "productNames": [
           "MILHO VERDE BANDEJA UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575903",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "VINHO JOTA PE 1L TINTO SV E SECO, BRANCO SV E SECO"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2578170",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "WHISKY BLACK FIRE 1L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2022645",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BEBIDA LÁCTEA ELEGÊ 510GR"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
