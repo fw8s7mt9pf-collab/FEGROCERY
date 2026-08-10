@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T09:52:38.312Z",
+  "generatedAt": "2026-08-10T10:03:03.343Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Categoria inferida com baixa confianca.",
@@ -43,7 +43,7 @@
       "minimumConfidence": 0.14141379933663614,
       "parsedListing": {
         "category": "Other",
-        "summary": "No distinct promoted products identified in the OCR text.",
+        "summary": "No distinct promoted products identified from OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -63,7 +63,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer promoting beef cuts (Picanha, Vazio, and Ripa da Chuleta) with offers valid from August 7 to 9, 2026.",
+        "summary": "Flyer promoting three types of refrigerated beef cuts valid from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -87,7 +87,7 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer válido de 7 a 9 de agosto de 2026 com 3 produtos em destaque: Batata Branca, Cebola e Ovo Branco.",
+        "summary": "Grocery flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 7 to August 9, 2026.",
         "productNames": [
           "Batata Branca",
           "Cebola",
@@ -122,16 +122,7 @@
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9473779858198671,
-      "minimumConfidence": 0.19339297871568822,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.19339297871568822
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-3-avif",
@@ -142,16 +133,7 @@
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 07/08 ATÉ 09/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMÁGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9461267108843202,
-      "minimumConfidence": 0.14383988767870837,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring produce offers valid from 2026-08-07 to 2026-08-09, including items like Pepino Salada, Batata Branca, Couve Flor, and others.",
-        "productNames": [],
-        "productCount": 10,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.14383988767870837
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif",

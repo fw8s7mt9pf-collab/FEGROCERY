@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T09:52:38.312Z",
-  "sourceGeneratedAt": "2026-08-10T09:52:34.014Z",
+  "generatedAt": "2026-08-10T10:03:03.343Z",
+  "sourceGeneratedAt": "2026-08-10T10:02:58.630Z",
   "sourceCandidateCount": 46,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
@@ -54,10 +54,12 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 8,
-    "succeeded": 6,
-    "failed": 2,
+    "succeeded": 4,
+    "failed": 4,
     "skipped": 38,
     "errors": [
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-3-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
