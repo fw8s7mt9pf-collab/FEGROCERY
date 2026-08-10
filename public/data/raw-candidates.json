@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-10T10:15:14.701Z",
+  "generatedAt": "2026-08-10T15:18:25.883Z",
   "candidates": [
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg",
       "supermarket": "Grupo Roxo",
       "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
       "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/769168851_1019195627594298_6693626510354145851_n.jpg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "Ofertas do Final de Semana dos Pais ROXO💜💜💜\n\n#ofertas #diadospais #roxo",
       "rawCaption": "Ofertas do Final de Semana dos Pais ROXO💜💜💜\n\n#ofertas #diadospais #roxo",
       "mediaType": "video"
@@ -16,7 +16,7 @@
       "supermarket": "Grupo Roxo",
       "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
       "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/767597648_1525287002970303_2830941141718025952_n.jpg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "E tem mais Ofertas no Final de Semana dos Pais ROXO💜",
       "rawCaption": "E tem mais Ofertas no Final de Semana dos Pais ROXO💜",
       "mediaType": "carousel_album"
@@ -26,67 +26,382 @@
       "supermarket": "Grupo Roxo",
       "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
       "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/763103924_1525156969649973_2705718353681761323_n.jpg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "Ofertas do Hortifruti ROXO💜💜💜",
       "rawCaption": "Ofertas do Hortifruti ROXO💜💜💜",
       "mediaType": "carousel_album"
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-avif",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-avif",
       "supermarket": "Krolow",
       "sourceUrl": "https://macroatacadokrolow.com.br/",
-      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908.avif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/1.avif",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "Ofertas Krolow",
       "rawCaption": "Ofertas Krolow",
       "mediaType": "avif"
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-1-avif",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-avif",
       "supermarket": "Krolow",
       "sourceUrl": "https://macroatacadokrolow.com.br/",
-      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-_1_.avif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/2.avif",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "Ofertas Krolow",
       "rawCaption": "Ofertas Krolow",
       "mediaType": "avif"
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-3-avif",
-      "supermarket": "Krolow",
-      "sourceUrl": "https://macroatacadokrolow.com.br/",
-      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-_3_.avif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
-      "rawTitle": "Ofertas Krolow",
-      "rawCaption": "Ofertas Krolow",
-      "mediaType": "avif"
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/672/thumb/RackMultipart20260803-64422-12rhdu9.jfif",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "BANDEJA DE OVO BRANCO COM 20 UNIDADES",
+      "rawCaption": "BANDEJA DE OVO BRANCO COM 20 UNIDADES. BANDEJA DE OVO BRANCO COM 20 UNIDADES. Por Unidade. Expira em 3 dias. R$ 9,99",
+      "mediaType": "jfif",
+      "parsedListing": {
+        "productNames": [
+          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 11.99,
+        "dealPrice": 9.99,
+        "unitText": "Por Unidade"
+      }
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-2-avif",
-      "supermarket": "Krolow",
-      "sourceUrl": "https://macroatacadokrolow.com.br/",
-      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-_2_.avif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
-      "rawTitle": "Ofertas Krolow",
-      "rawCaption": "Ofertas Krolow",
-      "mediaType": "avif"
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/872/983/thumb/RackMultipart20260720-63713-t5l1q3.jfif",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "MILHO VERDE BANDEJA UN",
+      "rawCaption": "MILHO VERDE BANDEJA UN. MILHO VERDE BANDEJA UN. Por Unidade. Expira em 3 dias. R$ 4,99",
+      "mediaType": "jfif",
+      "parsedListing": {
+        "productNames": [
+          "MILHO VERDE BANDEJA UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 5.99,
+        "dealPrice": 4.99,
+        "unitText": "Por Unidade"
+      }
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-diak-0708-ate-0908-4-avif",
-      "supermarket": "Krolow",
-      "sourceUrl": "https://macroatacadokrolow.com.br/",
-      "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/DIAK-0708-ate-0908-_4_.avif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
-      "rawTitle": "Ofertas Krolow",
-      "rawCaption": "Ofertas Krolow",
-      "mediaType": "avif"
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589958",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/678/thumb/discount_image_8a8dc1d188f98753.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "MAÇÃ FUJI KG",
+      "rawCaption": "MAÇÃ FUJI KG. MAÇÃ FUJI KG. Por Quilograma. Expira em 3 dias. R$ 4,99",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "MAÇÃ FUJI KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 5.99,
+        "dealPrice": 4.99,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/386/359/thumb/RackMultipart20260807-33750-1xfrknh.jpg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "BATATA ROSA PROMOÇÃO KG",
+      "rawCaption": "BATATA ROSA PROMOÇÃO KG. BATATA ROSA PROMOÇÃO KG. Por Quilograma. Expira em 3 dias. R$ 2,99",
+      "mediaType": "jpg",
+      "parsedListing": {
+        "productNames": [
+          "BATATA ROSA PROMOÇÃO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.99,
+        "dealPrice": 2.99,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/217/004/thumb/discount_image_3f48e9788118db58.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "LARANJA SUCO KG",
+      "rawCaption": "LARANJA SUCO KG. LARANJA SUCO KG. Por Quilograma. Expira em 3 dias. R$ 2,39",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "LARANJA SUCO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 2.98,
+        "dealPrice": 2.39,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/829/334/thumb/discount_image_8b9b283a60e15f33.png",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "LARANJA UMBIGO KG",
+      "rawCaption": "LARANJA UMBIGO KG. LARANJA UMBIGO KG. Por Quilograma. Expira em 3 dias. R$ 3,49",
+      "mediaType": "png",
+      "parsedListing": {
+        "productNames": [
+          "LARANJA UMBIGO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.99,
+        "dealPrice": 3.49,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/590/436/thumb/discount_image_46c18328a6d707f2.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "ABACAXI UNIDADE",
+      "rawCaption": "ABACAXI UNIDADE. ABACAXI UNIDADE. Por Unidade. Expira em 3 dias. R$ 6,99",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "ABACAXI UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 7.99,
+        "dealPrice": 6.99,
+        "unitText": "Por Unidade"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/079/269/thumb/discount_image_ea0ce91e380ca5bd.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "ALFACE UN",
+      "rawCaption": "ALFACE UN. ALFACE UN. Por Unidade. Expira em 3 dias. R$ 2,69",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "ALFACE UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.49,
+        "dealPrice": 2.69,
+        "unitText": "Por Unidade"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963941",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/375/393/thumb/discount_image_689d1384375ec9cc.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "COUVE VERDE MOLHO UN",
+      "rawCaption": "COUVE VERDE MOLHO UN. COUVE VERDE MOLHO UN. Por Unidade. Expira em 3 dias. R$ 1,79",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "COUVE VERDE MOLHO UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 2.49,
+        "dealPrice": 1.79,
+        "unitText": "Por Unidade"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2540668",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/850/478/thumb/discount_image_0152de45aa03e12d.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "REPOLHO VERDE UNIDADE",
+      "rawCaption": "REPOLHO VERDE UNIDADE. REPOLHO VERDE UNIDADE. Por Unidade. Expira em 3 dias. R$ 3,49",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "REPOLHO VERDE UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.99,
+        "dealPrice": 3.49,
+        "unitText": "Por Unidade"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589953",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/674/thumb/discount_image_00b7f3eb272d4e5d.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "TOMATE RASTEIRO KG",
+      "rawCaption": "TOMATE RASTEIRO KG. TOMATE RASTEIRO KG. Por Quilograma. Expira em 3 dias. R$ 3,49",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "TOMATE RASTEIRO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 4.49,
+        "dealPrice": 3.49,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/093/977/thumb/discount_image_53351691f48c8b1a.png",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "CENOURA KG",
+      "rawCaption": "CENOURA KG. CENOURA KG. Por Quilograma. Expira em 3 dias. R$ 4,99",
+      "mediaType": "png",
+      "parsedListing": {
+        "productNames": [
+          "CENOURA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 5.69,
+        "dealPrice": 4.99,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/580/482/thumb/discount_image_fc1424811c7d22ee.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "BATATA DOCE KG",
+      "rawCaption": "BATATA DOCE KG. BATATA DOCE KG. Por Quilograma. Expira em 3 dias. R$ 3,49",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "BATATA DOCE KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.98,
+        "dealPrice": 3.49,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/474/299/thumb/discount_image_7a07bd79e69d0d7b.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "BETERRABA KG",
+      "rawCaption": "BETERRABA KG. BETERRABA KG. Por Quilograma. Expira em 3 dias. R$ 2,99",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "BETERRABA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 3.69,
+        "dealPrice": 2.99,
+        "unitText": "Por Quilograma"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1998406",
+      "supermarket": "Mercado Prado",
+      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
+      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/405/884/thumb/discount_image_c73eb49f9040b821.jpeg",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
+      "rawTitle": "BRÓCOLIS UNIDADE",
+      "rawCaption": "BRÓCOLIS UNIDADE. BRÓCOLIS UNIDADE. Por Unidade. Expira em 3 dias. R$ 1,99",
+      "mediaType": "jpeg",
+      "parsedListing": {
+        "productNames": [
+          "BRÓCOLIS UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-14T02:59:59.000Z"
+      },
+      "structuredOffer": {
+        "regularPrice": 2.99,
+        "dealPrice": 1.99,
+        "unitText": "Por Unidade"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1532840",
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/010/957/thumb/RackMultipart20250117-32136-jof7sw.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "PACK PROMOCIONAL BRAHMA 473ML C/12UN",
       "rawCaption": "PACK PROMOCIONAL BRAHMA 473ML C/12UN. PACK PROMOCIONAL BRAHMA 473ML C/12UN. Por Unidade. Limite de 5 unidades. Expira Hoje. R$ 47,88",
       "mediaType": "png",
@@ -110,7 +425,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/342/076/thumb/discount_image_2b29b4852b4b04b8.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "BISCOITO MARIA PARATI 370GR",
       "rawCaption": "BISCOITO MARIA PARATI 370GR. BISCOITO MARIA PARATI 370GR. Por Unidade. Expira Hoje. R$ 4,49",
       "mediaType": "png",
@@ -133,7 +448,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/057/135/thumb/RackMultipart20250622-54275-1ufjvn1.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "CAFE CABOCLO TRADICIONAL OU EXTRA FORTE 500G",
       "rawCaption": "CAFE CABOCLO TRADICIONAL OU EXTRA FORTE 500G . CAFE CABOCLO TRADICIONAL OU EXTRA FORTE 500G . Por Unidade. Expira Hoje. R$ 23,99",
       "mediaType": "png",
@@ -156,7 +471,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/824/546/thumb/discount_image_00d408a0c96cfc04.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "CANJIQUINHA TORDILHO 400G",
       "rawCaption": "CANJIQUINHA TORDILHO 400G. CANJIQUINHA TORDILHO 400G. Por Unidade. Expira Hoje. R$ 2,49",
       "mediaType": "jpeg",
@@ -179,7 +494,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/179/463/thumb/RackMultipart20250308-49382-ekcr4w.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "CREME DE TRATAMENTO SKALA DE 1 KG",
       "rawCaption": "CREME DE TRATAMENTO SKALA DE 1 KG. CREME DE TRATAMENTO SKALA DE 1 KG. Por Unidade. Expira Hoje. R$ 10,49",
       "mediaType": "jpeg",
@@ -202,7 +517,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/010/941/thumb/discount_image_bc5e4e9057b89c89.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "DOCE DE LEITE BOM PRINCIPIO 350GR",
       "rawCaption": "DOCE DE LEITE BOM PRINCIPIO 350GR. DOCE DE LEITE BOM PRINCIPIO 350GR. Por Unidade. Expira Hoje. R$ 5,99",
       "mediaType": "png",
@@ -225,7 +540,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/803/978/thumb/discount_image_781c0ad76e47d79a.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "ERVILHA ODERICH 2KG",
       "rawCaption": "ERVILHA ODERICH 2KG. ERVILHA ODERICH 2KG. Por Unidade. Expira Hoje. R$ 24,90",
       "mediaType": "jpeg",
@@ -248,7 +563,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/525/955/thumb/RackMultipart20250807-8621-1l5dxox.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "FEIJAO PRETO SABOR DE CASA 1KG",
       "rawCaption": "FEIJAO PRETO SABOR DE CASA 1KG. FEIJAO PRETO SABOR DE CASA 1KG. Por Unidade. Expira Hoje. R$ 5,49",
       "mediaType": "png",
@@ -271,7 +586,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/824/510/thumb/RackMultipart20260616-37458-1n2o7c5.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "LASANHA PERDIGÃO 600G",
       "rawCaption": "LASANHA PERDIGÃO 600G. LASANHA PERDIGÃO 600G. Por Unidade. Expira Hoje. R$ 11,99",
       "mediaType": "png",
@@ -294,7 +609,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/714/282/thumb/RackMultipart20260207-22167-1he9gnb.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "MARGARINA QUALY COM SAL DE 500GR",
       "rawCaption": "MARGARINA QUALY COM SAL DE 500GR. MARGARINA QUALY COM SAL DE 500GR. Por Unidade. Expira Hoje. R$ 8,99",
       "mediaType": "png",
@@ -317,7 +632,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/743/878/thumb/RackMultipart20260401-14565-1ppcc52.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR",
       "rawCaption": "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR. MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR. Por Unidade. Expira Hoje. R$ 2,49",
       "mediaType": "png",
@@ -340,7 +655,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/470/thumb/RackMultipart20260803-51669-162cdw8.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "MISTURA PARA BOLO NORDESTE 400G",
       "rawCaption": "MISTURA PARA BOLO NORDESTE 400G. MISTURA PARA BOLO NORDESTE 400G. Por Unidade. Expira Hoje. R$ 3,99",
       "mediaType": "png",
@@ -363,7 +678,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/450/thumb/discount_image_513854357c9807b6.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "MOLHO DE TOMATE BONARE 300G",
       "rawCaption": "MOLHO DE TOMATE BONARE 300G. MOLHO DE TOMATE BONARE 300G. Por Unidade. Expira Hoje. R$ 1,29",
       "mediaType": "jpeg",
@@ -386,7 +701,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/662/301/thumb/RackMultipart20251211-21204-1eairz7.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "PEPINO BOM PRINCIPIO SUAVE OU TRADICIONAL DE 300GR",
       "rawCaption": "PEPINO BOM PRINCIPIO SUAVE OU TRADICIONAL DE 300GR. PEPINO BOM PRINCIPIO SUAVE OU TRADICIONAL DE 300GR. Por Unidade. Expira Hoje. R$ 7,49",
       "mediaType": "jpeg",
@@ -409,7 +724,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/863/374/thumb/discount_image_2ea2f2c0d84a4101.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "POLENTA FRITZ E FRIDA 500G",
       "rawCaption": "POLENTA FRITZ E FRIDA 500G. POLENTA FRITZ E FRIDA 500G. Por Unidade. Expira Hoje. R$ 2,99",
       "mediaType": "png",
@@ -432,7 +747,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/784/119/thumb/discount_image_ebababbaf335dd5c.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "SABÃO EM PÓ OMO LAVAGEM PERFEITA 1,6KG",
       "rawCaption": "SABÃO EM PÓ OMO LAVAGEM PERFEITA 1,6KG. SABÃO EM PÓ OMO LAVAGEM PERFEITA 1,6KG. Por Unidade. Expira Hoje. R$ 24,99",
       "mediaType": "jpeg",
@@ -455,7 +770,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/824/531/thumb/RackMultipart20260525-20045-1nq38s3.jfif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "SABONETE SIENE 85G",
       "rawCaption": "SABONETE SIENE 85G. SABONETE SIENE 85G. Por Unidade. Expira Hoje. R$ 1,29",
       "mediaType": "jfif",
@@ -478,7 +793,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/868/499/thumb/RackMultipart20260714-45612-xmjo7t.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "VINHO DOM BOSCO 750ML",
       "rawCaption": "VINHO DOM BOSCO 750ML. VINHO DOM BOSCO 750ML. Por Unidade. Expira Hoje. R$ 9,99",
       "mediaType": "png",
@@ -501,7 +816,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/472/thumb/RackMultipart20260803-51813-174kxyl.jfif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "WAFER ORQUÍDEA 100G",
       "rawCaption": "WAFER ORQUÍDEA 100G. WAFER ORQUÍDEA 100G. Por Unidade. Expira Hoje. R$ 2,29",
       "mediaType": "jfif",
@@ -524,7 +839,7 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/884/527/thumb/discount_image_8f6d60532422f5d4.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "WHISKY NATU NOBILIS 1L",
       "rawCaption": "WHISKY NATU NOBILIS 1L. WHISKY NATU NOBILIS 1L. Por Unidade. Expira Hoje. R$ 39,90",
       "mediaType": "jpeg",
@@ -543,36 +858,13 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180",
-      "supermarket": "Mercado Prado",
-      "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
-      "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/872/983/thumb/RackMultipart20260720-63713-t5l1q3.jfif",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
-      "rawTitle": "MILHO VERDE BANDEJA UN",
-      "rawCaption": "MILHO VERDE BANDEJA UN. MILHO VERDE BANDEJA UN. Por Unidade. Expira Hoje. R$ 4,99",
-      "mediaType": "jfif",
-      "parsedListing": {
-        "productNames": [
-          "MILHO VERDE BANDEJA UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-11T02:59:59.000Z"
-      },
-      "structuredOffer": {
-        "regularPrice": 5.99,
-        "dealPrice": 4.99,
-        "unitText": "Por Unidade"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2316543",
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/671/071/thumb/discount_image_ea0ef9463f644d4f.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "ÁGUA FLUA COM GÁS DE 500ML",
-      "rawCaption": "ÁGUA FLUA COM GÁS DE 500ML. ÁGUA FLUA COM GÁS DE 500ML. Por Unidade. Expira em 22 dias. R$ 0,69",
+      "rawCaption": "ÁGUA FLUA COM GÁS DE 500ML. ÁGUA FLUA COM GÁS DE 500ML. Por Unidade. Expira em 21 dias. R$ 0,69",
       "mediaType": "jpeg",
       "parsedListing": {
         "productNames": [
@@ -580,7 +872,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-02T02:59:59.000Z"
+        "validUntil": "2026-09-01T02:59:59.000Z"
       },
       "structuredOffer": {
         "regularPrice": 0.99,
@@ -593,9 +885,9 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/790/834/thumb/discount_image_215836067df2479c.jpeg",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "MARGARINA DUALIS COM SAL 500G",
-      "rawCaption": "MARGARINA DUALIS COM SAL 500G. MARGARINA DUALIS COM SAL 500G. Por Unidade. Expira em 14 dias. R$ 3,49",
+      "rawCaption": "MARGARINA DUALIS COM SAL 500G. MARGARINA DUALIS COM SAL 500G. Por Unidade. Expira em 13 dias. R$ 3,49",
       "mediaType": "jpeg",
       "parsedListing": {
         "productNames": [
@@ -603,7 +895,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-24T02:59:59.000Z"
       },
       "structuredOffer": {
         "regularPrice": 4.49,
@@ -616,9 +908,9 @@
       "supermarket": "Mercado Prado",
       "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
       "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/662/268/thumb/discount_image_22b3cb79f9607979.png",
-      "discoveredAt": "2026-08-10T10:15:14.701Z",
+      "discoveredAt": "2026-08-10T15:18:25.883Z",
       "rawTitle": "FRUKITO DE FRUTAS CITRICAS DE 2 LITROS",
-      "rawCaption": "FRUKITO DE FRUTAS CITRICAS DE 2 LITROS. FRUKITO DE FRUTAS CITRICAS DE 2 LITROS. Por Unidade. Expira em 5 dias. R$ 4,99",
+      "rawCaption": "FRUKITO DE FRUTAS CITRICAS DE 2 LITROS. FRUKITO DE FRUTAS CITRICAS DE 2 LITROS. Por Unidade. Expira em 4 dias. R$ 4,99",
       "mediaType": "png",
       "parsedListing": {
         "productNames": [
@@ -626,7 +918,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-16T02:59:59.000Z"
+        "validUntil": "2026-08-15T02:59:59.000Z"
       },
       "structuredOffer": {
         "regularPrice": 5.99,
