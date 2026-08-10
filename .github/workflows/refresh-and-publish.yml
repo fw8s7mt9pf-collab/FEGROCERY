@@ -38,7 +38,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --no-audit --fund=false
 
       - name: Require Mistral API key
         run: node -e "if (!process.env.MISTRAL_API_KEY) { console.error('MISTRAL_API_KEY is required for publication.'); process.exit(1); }"
