@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T15:18:29.386Z",
-  "sourceGeneratedAt": "2026-08-10T15:18:25.883Z",
+  "generatedAt": "2026-08-10T17:11:55.977Z",
+  "sourceGeneratedAt": "2026-08-10T17:11:51.402Z",
   "sourceCandidateCount": 43,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
@@ -52,9 +52,11 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 5,
-    "succeeded": 5,
-    "failed": 0,
+    "succeeded": 4,
+    "failed": 1,
     "skipped": 38,
-    "errors": []
+    "errors": [
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+    ]
   }
 }
