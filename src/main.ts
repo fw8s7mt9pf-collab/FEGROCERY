@@ -1,5 +1,4 @@
 import "./styles.css";
-import { gsap } from "gsap";
 import { categories, getCurrentDeals, getSupermarkets, type Category, type Deal } from "./deals";
 
 function getAppRoot(): HTMLElement {
@@ -199,34 +198,6 @@ function render(): void {
     });
   });
 
-  animatePage();
-}
-
-function animatePage(): void {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-
-  gsap.from(".hero-copy, .hero-mark", {
-    opacity: 0,
-    y: 18,
-    duration: 0.55,
-    stagger: 0.08,
-    ease: "power3.out",
-  });
-  gsap.from(".flyer", {
-    opacity: 0,
-    y: 12,
-    duration: 0.35,
-    stagger: 0.045,
-    ease: "power2.out",
-    delay: 0.12,
-  });
-
-  app.querySelectorAll<HTMLElement>(".flyer").forEach((card) => {
-    const image = card.querySelector<HTMLElement>(".image-button");
-    if (!image) return;
-    card.addEventListener("mouseenter", () => gsap.to(image, { scale: 1.025, duration: 0.35, ease: "power2.out" }));
-    card.addEventListener("mouseleave", () => gsap.to(image, { scale: 1, duration: 0.35, ease: "power2.out" }));
-  });
 }
 
 function openFlyer(deal: Deal): void {
