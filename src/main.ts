@@ -1,4 +1,5 @@
 import "./styles.css";
+import { gsap } from "gsap";
 import { categories, getCurrentDeals, getSupermarkets, type Category, type Deal } from "./deals";
 
 function getAppRoot(): HTMLElement {
@@ -27,6 +28,10 @@ const categoryLabels: Record<Category, string> = {
 let allDeals: Deal[] = [];
 let selectedCategory: "All" | Category = "All";
 let selectedSupermarket = "All";
+type ThemeKey = "light" | "dark";
+let selectedTheme: ThemeKey = "light";
+type ViewMode = "list" | "grid";
+let viewMode: ViewMode = "list";
 
 async function loadDeals(): Promise<Deal[]> {
   let response = await fetch(`./data/deals.json?updated=${Date.now()}`, { cache: "no-store" });
@@ -49,6 +54,9 @@ function formatPrice(value: number): string {
 }
 
 function render(): void {
+  app.dataset.style = "ledger";
+  app.dataset.theme = selectedTheme;
+  app.dataset.view = viewMode;
   const supermarkets = getSupermarkets(allDeals);
   const deals = getCurrentDeals(allDeals, {
     category: selectedCategory,
@@ -57,43 +65,64 @@ function render(): void {
   });
 
   app.innerHTML = `
-    <section class="topbar">
-      <div>
-        <p class="eyebrow">Camaqua / RS</p>
-        <h1>Ofertas de mercado</h1>
+    <section class="hero">
+      <button class="sky-toggle" id="theme-toggle" type="button" role="switch" aria-checked="${selectedTheme === "dark"}" aria-label="Alternar tema claro e escuro">
+        <span class="sky-clouds" aria-hidden="true"></span>
+        <span class="sky-stars" aria-hidden="true">✦ &nbsp;✦</span>
+        <span class="sky-thumb" aria-hidden="true"><span class="sky-sun"></span><span class="sky-moon"></span></span>
+      </button>
+      <div class="hero-copy">
+        <p class="eyebrow">Camaqua, Rio Grande do Sul</p>
+        <h1>Ofertas que<br><em>valem a pena.</em></h1>
+        <p class="hero-description">Achados recentes dos mercados da cidade, em um so lugar.</p>
+        <p class="refresh">Atualizado automaticamente 2-3 vezes por dia</p>
       </div>
-      <p class="refresh">Atualizado automaticamente 2-3 vezes por dia</p>
+      <div class="hero-mark" aria-hidden="true">
+        <span>✦</span>
+        <small>DE OLHO<br>NO PRECO</small>
+      </div>
     </section>
 
-    <section class="filters" aria-label="Filtros">
-      <div class="filter-group" data-filter="category">
-        <button class="${selectedCategory === "All" ? "active" : ""}" data-category="All">Todas</button>
+    <section class="deal-board" aria-label="Ofertas atuais">
+      <div class="board-heading">
+        <div>
+          <p class="eyebrow">Selecione uma categoria</p>
+          <h2>Ofertas fresquinhas</h2>
+        </div>
+        <div class="board-actions">
+          <p class="summary" aria-live="polite"><strong>${deals.length}</strong> ofertas atuais</p>
+          <div class="view-switch" role="group" aria-label="Modo de visualizacao">
+            <button type="button" class="${viewMode === "list" ? "active" : ""}" data-view-mode="list">Lista</button>
+            <button type="button" class="${viewMode === "grid" ? "active" : ""}" data-view-mode="grid">Grade</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="filters" aria-label="Filtros">
+        <div class="filter-group" data-filter="category">
+          <button class="${selectedCategory === "All" ? "active" : ""}" data-category="All">Todas</button>
         ${categories
           .map(
             (category) =>
               `<button class="${selectedCategory === category ? "active" : ""}" data-category="${category}">${categoryLabels[category]}</button>`,
           )
           .join("")}
-      </div>
-      <label>
-        Mercado
-        <select id="supermarket-filter">
-          <option value="All">Todos</option>
-          ${supermarkets
-            .map(
-              (supermarket) =>
-                `<option value="${supermarket}" ${selectedSupermarket === supermarket ? "selected" : ""}>${supermarket}</option>`,
-            )
-            .join("")}
-        </select>
-      </label>
-    </section>
+        </div>
+        <label>
+          Mercado
+          <select id="supermarket-filter">
+            <option value="All">Todos</option>
+            ${supermarkets
+              .map(
+                (supermarket) =>
+                  `<option value="${supermarket}" ${selectedSupermarket === supermarket ? "selected" : ""}>${supermarket}</option>`,
+              )
+              .join("")}
+          </select>
+        </label>
+      </section>
 
-    <section class="summary" aria-live="polite">
-      <strong>${deals.length}</strong> ofertas atuais
-    </section>
-
-    <section class="grid">
+      <section class="grid">
       ${
         deals.length
           ? deals
@@ -112,7 +141,7 @@ function render(): void {
                       ${
                         deal.dealPrice !== undefined
                           ? `<div class="price-row">
-                              <strong>${formatPrice(deal.dealPrice)}</strong>
+                              <strong><small>R$</small>${formatPrice(deal.dealPrice).replace("R$", "")}</strong>
                               ${deal.regularPrice !== undefined && deal.regularPrice > deal.dealPrice ? `<s>${formatPrice(deal.regularPrice)}</s>` : ""}
                               ${deal.unitText ? `<span>${deal.unitText}</span>` : ""}
                             </div>`
@@ -121,7 +150,11 @@ function render(): void {
                       ${deal.limitText ? `<p class="limit">${deal.limitText}</p>` : ""}
                       <p class="validity">Valido: ${formatDate(deal.validFrom)} ate ${formatDate(deal.validUntil)}</p>
                       ${deal.warning ? `<p class="warning">${deal.warning}</p>` : ""}
-                      <a href="${deal.sourceUrl}" target="_blank" rel="noreferrer">Fonte</a>
+                      ${
+                        viewMode === "grid"
+                          ? `<button class="grid-open" type="button" data-open="${deal.id}">Ver oferta <span aria-hidden="true">→</span></button>`
+                          : `<a href="${deal.sourceUrl}" target="_blank" rel="noreferrer">Ver fonte <span aria-hidden="true">→</span></a>`
+                      }
                     </div>
                   </article>
                 `,
@@ -129,6 +162,7 @@ function render(): void {
               .join("")
           : `<p class="empty">Nenhuma oferta atual encontrada para estes filtros.</p>`
       }
+      </section>
     </section>
   `;
 
@@ -144,11 +178,54 @@ function render(): void {
     render();
   });
 
+  app.querySelectorAll<HTMLButtonElement>("[data-view-mode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      viewMode = button.dataset.viewMode as ViewMode;
+      render();
+    });
+  });
+
+  app.querySelector<HTMLButtonElement>("#theme-toggle")?.addEventListener("click", (event: MouseEvent) => {
+    selectedTheme = selectedTheme === "light" ? "dark" : "light";
+    app.dataset.theme = selectedTheme;
+    const button = event.currentTarget as HTMLButtonElement;
+    button.setAttribute("aria-checked", String(selectedTheme === "dark"));
+  });
+
   app.querySelectorAll<HTMLButtonElement>("[data-open]").forEach((button: HTMLButtonElement) => {
     button.addEventListener("click", () => {
       const deal = allDeals.find((candidate) => candidate.id === button.dataset.open);
       if (deal) openFlyer(deal);
     });
+  });
+
+  animatePage();
+}
+
+function animatePage(): void {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  gsap.from(".hero-copy, .hero-mark", {
+    opacity: 0,
+    y: 18,
+    duration: 0.55,
+    stagger: 0.08,
+    ease: "power3.out",
+  });
+  gsap.from(".flyer", {
+    opacity: 0,
+    y: 12,
+    duration: 0.35,
+    stagger: 0.045,
+    ease: "power2.out",
+    delay: 0.12,
+  });
+
+  app.querySelectorAll<HTMLElement>(".flyer").forEach((card) => {
+    const image = card.querySelector<HTMLElement>(".image-button");
+    if (!image) return;
+    card.addEventListener("mouseenter", () => gsap.to(image, { scale: 1.025, duration: 0.35, ease: "power2.out" }));
+    card.addEventListener("mouseleave", () => gsap.to(image, { scale: 1, duration: 0.35, ease: "power2.out" }));
   });
 }
 
@@ -157,7 +234,17 @@ function openFlyer(deal: Deal): void {
   dialog.className = "dialog";
   dialog.innerHTML = `
     <button class="close" aria-label="Fechar">Fechar</button>
-    <img src="${deal.imageUrl}" alt="${deal.title}">
+    <div class="dialog-content">
+      <img src="${deal.imageUrl}" alt="${deal.title}">
+      <div class="dialog-copy">
+        <p class="store">${deal.supermarket}</p>
+        <h2>${deal.title}</h2>
+        ${deal.dealPrice !== undefined ? `<strong class="dialog-price">${formatPrice(deal.dealPrice)}</strong>` : ""}
+        ${deal.unitText ? `<p class="limit">${deal.unitText}</p>` : ""}
+        <p class="validity">Valido: ${formatDate(deal.validFrom)} ate ${formatDate(deal.validUntil)}</p>
+        <a href="${deal.sourceUrl}" target="_blank" rel="noreferrer">Abrir fonte <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
   `;
   document.body.append(dialog);
   dialog.querySelector("button")?.addEventListener("click", () => dialog.close());

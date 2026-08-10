@@ -37,6 +37,12 @@
       "skillPath": "skills/deprecated/design-an-interface/SKILL.md",
       "computedHash": "7012bc90f6f71495e52632e0454c2f4c63bf0ebe21d5969be40220f06aef4a1a"
     },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "899b84384f74f540ea5284d9b2e9234e050998b42eacc805410b518d4226c0b3"
+    },
     "diagnosing-bugs": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -60,6 +66,12 @@
       "sourceType": "github",
       "skillPath": "skills/misc/git-guardrails-claude-code/SKILL.md",
       "computedHash": "09fcce45d14340a33146b939f65056ca98481b7e6439683f82c3cf600fb5ee98"
+    },
+    "gpt-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/gpt-tasteskill/SKILL.md",
+      "computedHash": "7bd1bfdda0e51016ca222693401a65fc0dd9bf9487e0bd5b1740ba510f6f963a"
     },
     "grill-me": {
       "source": "mattpocock/skills",

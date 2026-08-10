@@ -1,5 +1,9 @@
 be concise
 
+## Taste skill
+
+Use `.agents/skills/gpt-taste/SKILL.md` as the canonical Taste skill for frontend design work in this project. The older `design-taste-frontend` skill is not the governing variant.
+
 ## Agent skills
 
 ### Issue tracker
