@@ -114,6 +114,7 @@ export function mercadoPradoDiscountsToCandidates(
 
     const validUntil = expirationFromText(discount.text_expiration, discoveredAt);
     const sourceKey = `${portalUrl}oferta/${encodeURIComponent(key)}`;
+    const imageUrl = new URL(discount.image_url, graphQlUrl).toString();
     const priceText = formatPrice(discount.final_price ?? discount.price);
     const evidence = [
       discount.name,
@@ -129,11 +130,11 @@ export function mercadoPradoDiscountsToCandidates(
       id: stableCandidateId("mercado-prado", sourceKey, discount.image_url),
       supermarket: "Mercado Prado",
       sourceUrl: portalUrl,
-      imageUrl: discount.image_url,
+      imageUrl,
       discoveredAt,
       rawTitle: discount.name.trim(),
       rawCaption: evidence.join(". "),
-      mediaType: fileExtension(discount.image_url) ?? "image",
+      mediaType: fileExtension(imageUrl) ?? "image",
       parsedListing: {
         productNames: [discount.name.trim()],
         productCount: 1,

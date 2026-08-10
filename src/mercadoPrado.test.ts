@@ -41,6 +41,26 @@ describe("Mercado Prado club collector", () => {
     ]);
   });
 
+  it("resolves relative API image paths against the Cresce Vendas host", () => {
+    const result = mercadoPradoDiscountsToCandidates(
+      [
+        {
+          id: 43,
+          name: "ARROZ",
+          price: 10,
+          final_price: 8,
+          image_url: "/system/discount_images/files/043/thumb/arroz.png",
+          active: true,
+        },
+      ],
+      discoveredAt,
+    );
+
+    expect(result.candidates[0]?.imageUrl).toBe(
+      "https://www.crescevendas.com/system/discount_images/files/043/thumb/arroz.png",
+    );
+  });
+
   it("logs in with CPF digits, then requests authenticated home offers", async () => {
     const fetcher = vi.fn<typeof fetch>();
     fetcher
