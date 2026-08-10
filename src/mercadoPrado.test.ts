@@ -10,7 +10,7 @@ describe("Mercado Prado club collector", () => {
         {
           id: 42,
           name: "LEITE ELEGE INTEGRAL GARRAFA 1L",
-          price: 5.99,
+          price: 6.49,
           final_price: 5.49,
           image_url: "https://www.crescevendas.com/system/discounts/42/web/leite.png",
           text_expiration: "Expira em 2 dias",
@@ -32,7 +32,7 @@ describe("Mercado Prado club collector", () => {
           validUntil: "2026-08-12T02:59:59.000Z",
         }),
         structuredOffer: {
-          regularPrice: 5.99,
+          regularPrice: 6.49,
           dealPrice: 5.49,
           unitText: undefined,
           limitText: undefined,
@@ -61,6 +61,20 @@ describe("Mercado Prado club collector", () => {
     );
   });
 
+  it("keeps only offers discounted by strictly more than ten percent", () => {
+    const result = mercadoPradoDiscountsToCandidates(
+      [
+        { id: 1, name: "Above", price: 10, final_price: 8.99, image_url: "https://cdn.example/above.jpg" },
+        { id: 2, name: "Exactly", price: 10, final_price: 9, image_url: "https://cdn.example/exactly.jpg" },
+        { id: 3, name: "Below", price: 10, final_price: 9.01, image_url: "https://cdn.example/below.jpg" },
+        { id: 4, name: "Missing", final_price: 8, image_url: "https://cdn.example/missing.jpg" },
+      ],
+      discoveredAt,
+    );
+
+    expect(result.candidates.map((candidate) => candidate.rawTitle)).toEqual(["Above"]);
+  });
+
   it("logs in with CPF digits, then requests authenticated home offers", async () => {
     const fetcher = vi.fn<typeof fetch>();
     fetcher
@@ -73,7 +87,14 @@ describe("Mercado Prado club collector", () => {
                 carousels: [
                   {
                     discounts: [
-                      { id: "one", name: "Arroz", image_url: "https://cdn.example/arroz.jpg", active: true },
+                      {
+                        id: "one",
+                        name: "Arroz",
+                        price: 10,
+                        final_price: 8,
+                        image_url: "https://cdn.example/arroz.jpg",
+                        active: true,
+                      },
                     ],
                   },
                 ],

@@ -112,6 +112,10 @@ export function mercadoPradoDiscountsToCandidates(
       continue;
     }
 
+    const regularPrice = numericPrice(discount.price);
+    const dealPrice = numericPrice(discount.final_price);
+    if (!hasDiscountAboveTenPercent(regularPrice, dealPrice)) continue;
+
     const validUntil = expirationFromText(discount.text_expiration, discoveredAt);
     const sourceKey = `${portalUrl}oferta/${encodeURIComponent(key)}`;
     const imageUrl = new URL(discount.image_url, graphQlUrl).toString();
@@ -142,8 +146,8 @@ export function mercadoPradoDiscountsToCandidates(
         validUntil,
       },
       structuredOffer: {
-        regularPrice: numericPrice(discount.price),
-        dealPrice: numericPrice(discount.final_price ?? discount.price),
+        regularPrice,
+        dealPrice,
         unitText: discount.unit_text?.trim() || undefined,
         limitText: discount.text_limit?.trim() || undefined,
       },
@@ -152,6 +156,10 @@ export function mercadoPradoDiscountsToCandidates(
 
   if (!discounts.length) skipped.push("Mercado Prado club returned no current offers");
   return { candidates, skipped };
+}
+
+function hasDiscountAboveTenPercent(regularPrice: number | undefined, dealPrice: number | undefined): boolean {
+  return regularPrice !== undefined && regularPrice > 0 && dealPrice !== undefined && dealPrice < regularPrice * 0.9;
 }
 
 async function login(registration: string, password: string, fetcher: typeof fetch): Promise<string> {
