@@ -26,7 +26,7 @@ const categoryLabels: Record<Category, string> = {
 
 let allDeals: Deal[] = [];
 let selectedCategory: "All" | Category = "All";
-let selectedSupermarket = "All";
+let selectedSupermarkets: string[] = [];
 type ThemeKey = "light" | "dark";
 let selectedTheme: ThemeKey = "light";
 type ViewMode = "list" | "grid";
@@ -59,9 +59,9 @@ function render(): void {
   const supermarkets = getSupermarkets(allDeals);
   const deals = getCurrentDeals(allDeals, {
     category: selectedCategory,
-    supermarket: selectedSupermarket,
+    supermarket: "All",
     now: new Date(),
-  });
+  }).filter((deal) => selectedSupermarkets.length === 0 || selectedSupermarkets.includes(deal.supermarket));
 
   app.innerHTML = `
     <section class="hero">
@@ -71,9 +71,9 @@ function render(): void {
         <span class="sky-thumb" aria-hidden="true"><span class="sky-sun"></span><span class="sky-moon"></span></span>
       </button>
       <div class="hero-copy">
+        <h1>Ofertas em</h1>
         <p class="eyebrow">Camaqua, Rio Grande do Sul</p>
-        <h1>Ofertas que<br><em>valem a pena.</em></h1>
-        <p class="hero-description">Achados recentes dos mercados da cidade, em um so lugar.</p>
+        <p class="hero-description">Descontos ativos nos mercados da cidade.</p>
         <p class="refresh">Atualizado automaticamente 2-3 vezes por dia</p>
       </div>
       <div class="hero-mark" aria-hidden="true">
@@ -85,8 +85,7 @@ function render(): void {
     <section class="deal-board" aria-label="Ofertas atuais">
       <div class="board-heading">
         <div>
-          <p class="eyebrow">Selecione uma categoria</p>
-          <h2>Ofertas fresquinhas</h2>
+          <p class="eyebrow">Descontos ativos nos mercados da cidade</p>
         </div>
         <div class="board-actions">
           <p class="summary" aria-live="polite"><strong>${deals.length}</strong> ofertas atuais</p>
@@ -98,27 +97,20 @@ function render(): void {
       </div>
 
       <section class="filters" aria-label="Filtros">
-        <div class="filter-group" data-filter="category">
-          <button class="${selectedCategory === "All" ? "active" : ""}" data-category="All">Todas</button>
-        ${categories
-          .map(
-            (category) =>
-              `<button class="${selectedCategory === category ? "active" : ""}" data-category="${category}">${categoryLabels[category]}</button>`,
-          )
-          .join("")}
-        </div>
-        <label>
-          Mercado
-          <select id="supermarket-filter">
-            <option value="All">Todos</option>
-            ${supermarkets
-              .map(
-                (supermarket) =>
-                  `<option value="${supermarket}" ${selectedSupermarket === supermarket ? "selected" : ""}>${supermarket}</option>`,
-              )
-              .join("")}
-          </select>
-        </label>
+        <details class="filter-menu">
+          <summary>Categoria <span>${selectedCategory === "All" ? "Todas" : categoryLabels[selectedCategory]}</span></summary>
+          <div class="filter-options" role="menu">
+            <button class="${selectedCategory === "All" ? "active" : ""}" data-category="All">Todas</button>
+            ${categories.map((category) => `<button class="${selectedCategory === category ? "active" : ""}" data-category="${category}">${categoryLabels[category]}</button>`).join("")}
+          </div>
+        </details>
+        <details class="filter-menu market-menu">
+          <summary>Mercado <span>${selectedSupermarkets.length ? `${selectedSupermarkets.length} selecionados` : "Todos"}</span></summary>
+          <div class="filter-options" role="menu">
+            <label class="check-option"><input type="checkbox" data-supermarket="All" ${selectedSupermarkets.length === 0 ? "checked" : ""}> Todos</label>
+            ${supermarkets.map((supermarket) => `<label class="check-option"><input type="checkbox" data-supermarket="${supermarket}" ${selectedSupermarkets.includes(supermarket) ? "checked" : ""}> ${supermarket}</label>`).join("")}
+          </div>
+        </details>
       </section>
 
       <section class="grid">
@@ -172,9 +164,17 @@ function render(): void {
     });
   });
 
-  app.querySelector<HTMLSelectElement>("#supermarket-filter")?.addEventListener("change", (event: Event) => {
-    selectedSupermarket = (event.target as HTMLSelectElement).value;
-    render();
+  app.querySelectorAll<HTMLInputElement>("[data-supermarket]").forEach((input) => {
+    input.addEventListener("change", () => {
+      if (input.dataset.supermarket === "All") {
+        selectedSupermarkets = input.checked ? [] : selectedSupermarkets;
+      } else if (input.checked) {
+        selectedSupermarkets = [...selectedSupermarkets, input.dataset.supermarket!];
+      } else {
+        selectedSupermarkets = selectedSupermarkets.filter((market) => market !== input.dataset.supermarket);
+      }
+      render();
+    });
   });
 
   app.querySelectorAll<HTMLButtonElement>("[data-view-mode]").forEach((button) => {
