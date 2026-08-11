@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:04:54.219Z",
+  "generatedAt": "2026-08-11T20:11:56.614Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Categoria inferida com baixa confianca.",
@@ -69,7 +69,7 @@
         "category": "Cleaning",
         "validFrom": "2026-08-10T03:00:00.000Z",
         "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning products valid from August 10 to August 12, 2026.",
+        "summary": "Flyer from Grupo Roxo featuring cleaning products valid from August 10 to August 12, 2026.",
         "productNames": [
           "LAVA ROUPAS GIRANDO SOL 3L",
           "DESINFETANTE AQUAFAST 5L",
@@ -87,9 +87,11 @@
       "minimumConfidence": 0.14141379933663614,
       "parsedListing": {
         "category": "Other",
-        "summary": "No distinct promoted products identified in the OCR text.",
-        "productNames": [],
-        "productCount": 0,
+        "summary": "Flyer com um único produto não identificado, sem datas de validade ou categoria clara.",
+        "productNames": [
+          "Produto não identificado"
+        ],
+        "productCount": 1,
         "hasMoreThanThreeProducts": false
       }
     },
@@ -107,7 +109,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer promoting three types of refrigerated beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to August 9, 2026.",
+        "summary": "Grocery flyer for Grupo Roxo featuring three beef products on promotion from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
