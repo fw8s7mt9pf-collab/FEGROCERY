@@ -31,6 +31,97 @@ type ThemeKey = "light" | "dark";
 let selectedTheme: ThemeKey = "light";
 type ViewMode = "list" | "grid";
 let viewMode: ViewMode = "list";
+let stopHeroPlasma: (() => void) | undefined;
+
+const plasmaVertexShader = `
+  attribute vec2 a_position;
+  void main() { gl_Position = vec4(a_position, 0.0, 1.0); }
+`;
+
+const plasmaFragmentShader = `
+  precision mediump float;
+  uniform vec2 u_resolution;
+  uniform float u_time;
+  uniform float u_dark;
+
+  vec3 palette(float value) {
+    vec3 deepForest = vec3(0.035, 0.15, 0.075);
+    vec3 forest = vec3(0.07, 0.29, 0.13);
+    vec3 leaf = vec3(0.42, 0.64, 0.30);
+    vec3 paper = vec3(0.96, 0.91, 0.70);
+    vec3 shadow = vec3(0.015, 0.08, 0.04);
+    vec3 color = mix(deepForest, forest, smoothstep(0.12, 0.5, value));
+    color = mix(color, leaf, smoothstep(0.52, 0.86, value) * 0.36);
+    color = mix(color, paper, smoothstep(0.87, 1.0, value) * 0.18);
+    return mix(color, shadow, u_dark * 0.44);
+  }
+
+  void main() {
+    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+    vec2 p = (gl_FragCoord.xy - 0.5 * u_resolution.xy) / min(u_resolution.x, u_resolution.y);
+    float time = u_time * 0.15;
+    float field = sin(p.x * 4.1 + time)
+      + sin(p.y * 3.4 - time * 0.7)
+      + sin((p.x + p.y) * 2.8 + time * 0.5)
+      + sin(length(p) * 5.0 - time);
+    float value = 0.5 + 0.5 * sin(field);
+    float vignette = 1.0 - 0.32 * smoothstep(0.25, 1.05, length(uv - 0.5));
+    gl_FragColor = vec4(palette(value) * vignette, 1.0);
+  }
+`;
+
+function startHeroPlasma(canvas: HTMLCanvasElement): () => void {
+  const context = canvas.getContext("webgl", { alpha: false });
+  if (!context) return () => undefined;
+
+  const compile = (type: number, source: string): WebGLShader | undefined => {
+    const shader = context.createShader(type);
+    if (!shader) return undefined;
+    context.shaderSource(shader, source);
+    context.compileShader(shader);
+    return context.getShaderParameter(shader, context.COMPILE_STATUS) ? shader : undefined;
+  };
+  const vertex = compile(context.VERTEX_SHADER, plasmaVertexShader);
+  const fragment = compile(context.FRAGMENT_SHADER, plasmaFragmentShader);
+  if (!vertex || !fragment) return () => undefined;
+  const program = context.createProgram();
+  if (!program) return () => undefined;
+  context.attachShader(program, vertex);
+  context.attachShader(program, fragment);
+  context.linkProgram(program);
+  if (!context.getProgramParameter(program, context.LINK_STATUS)) return () => undefined;
+
+  const buffer = context.createBuffer();
+  const position = context.getAttribLocation(program, "a_position");
+  const resolution = context.getUniformLocation(program, "u_resolution");
+  const time = context.getUniformLocation(program, "u_time");
+  const dark = context.getUniformLocation(program, "u_dark");
+  if (!buffer || position < 0 || !resolution || !time || !dark) return () => undefined;
+  context.bindBuffer(context.ARRAY_BUFFER, buffer);
+  context.bufferData(context.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), context.STATIC_DRAW);
+
+  let frame = 0;
+  const draw = (milliseconds: number): void => {
+    const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+    const width = Math.max(1, Math.floor(canvas.clientWidth * pixelRatio));
+    const height = Math.max(1, Math.floor(canvas.clientHeight * pixelRatio));
+    if (canvas.width !== width || canvas.height !== height) {
+      canvas.width = width;
+      canvas.height = height;
+    }
+    context.viewport(0, 0, width, height);
+    context.useProgram(program);
+    context.enableVertexAttribArray(position);
+    context.vertexAttribPointer(position, 2, context.FLOAT, false, 0, 0);
+    context.uniform2f(resolution, width, height);
+    context.uniform1f(time, milliseconds / 1000);
+    context.uniform1f(dark, selectedTheme === "dark" ? 1 : 0);
+    context.drawArrays(context.TRIANGLE_STRIP, 0, 4);
+    frame = window.requestAnimationFrame(draw);
+  };
+  frame = window.requestAnimationFrame(draw);
+  return () => window.cancelAnimationFrame(frame);
+}
 
 async function loadDeals(): Promise<Deal[]> {
   let response = await fetch(`./data/deals.json?updated=${Date.now()}`, { cache: "no-store" });
@@ -53,6 +144,7 @@ function formatPrice(value: number): string {
 }
 
 function render(): void {
+  stopHeroPlasma?.();
   app.dataset.style = "ledger";
   app.dataset.theme = selectedTheme;
   app.dataset.view = viewMode;
@@ -65,6 +157,7 @@ function render(): void {
 
   app.innerHTML = `
     <section class="hero">
+      <canvas class="hero-plasma" aria-hidden="true"></canvas>
       <button class="sky-toggle" id="theme-toggle" type="button" role="switch" aria-checked="${selectedTheme === "dark"}" aria-label="Alternar tema claro e escuro">
         <span class="sky-clouds" aria-hidden="true"></span>
         <span class="sky-stars" aria-hidden="true">✦ &nbsp;✦</span>
@@ -156,6 +249,9 @@ function render(): void {
       </section>
     </section>
   `;
+
+  const plasmaCanvas = app.querySelector<HTMLCanvasElement>(".hero-plasma");
+  if (plasmaCanvas) stopHeroPlasma = startHeroPlasma(plasmaCanvas);
 
   app.querySelectorAll<HTMLButtonElement>("[data-category]").forEach((button: HTMLButtonElement) => {
     button.addEventListener("click", () => {

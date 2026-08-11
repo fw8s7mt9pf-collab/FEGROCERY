@@ -38,6 +38,16 @@ main { max-width: 1200px; margin: 0 auto; padding: 32px 28px 72px; overflow-x: h
   background-image: radial-gradient(rgb(245 241 231 / 10%) .6px, transparent .7px), linear-gradient(115deg, #12371d 0%, var(--forest-950) 64%);
   background-size: 5px 5px, auto;
 }
+.hero-plasma {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: .96;
+}
+.hero > :not(.hero-plasma):not(.sky-toggle) { position: relative; z-index: 1; }
 
 .hero::after {
   position: absolute;
@@ -157,7 +167,7 @@ a span { color: var(--tomato-600); font-size: 18px; }
 #app[data-theme="dark"] .filter-options { background: #102b19; }
 
 @media (max-width: 760px) {
-  #app[data-style="ledger"] .hero { min-height: 286px; padding: 24px 20px 34px; }
+  #app[data-style="ledger"] .hero { min-height: 0; padding: 24px 20px 34px; }
   #app[data-style="ledger"] .sky-toggle { position: absolute; top: 18px; right: 18px; left: auto; width: 40px; height: 25px; }
   #app[data-style="ledger"] .sky-thumb { top: 3px; left: 3px; width: 19px; height: 19px; }
   #app[data-style="ledger"] .sky-sun, #app[data-style="ledger"] .sky-moon { width: 14px; height: 14px; }
