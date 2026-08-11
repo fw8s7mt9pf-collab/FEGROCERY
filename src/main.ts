@@ -1,4 +1,5 @@
 import "./styles.css";
+import gsap from "gsap";
 import { categories, getCurrentDeals, getSupermarkets, type Category, type Deal } from "./deals";
 
 function getAppRoot(): HTMLElement {
@@ -31,96 +32,79 @@ type ThemeKey = "light" | "dark";
 let selectedTheme: ThemeKey = "light";
 type ViewMode = "list" | "grid";
 let viewMode: ViewMode = "list";
-let stopHeroPlasma: (() => void) | undefined;
+let stopHeroMotion: (() => void) | undefined;
 
-const plasmaVertexShader = `
-  attribute vec2 a_position;
-  void main() { gl_Position = vec4(a_position, 0.0, 1.0); }
-`;
-
-const plasmaFragmentShader = `
-  precision mediump float;
-  uniform vec2 u_resolution;
-  uniform float u_time;
-  uniform float u_dark;
-
-  vec3 palette(float value) {
-    vec3 deepForest = vec3(0.035, 0.15, 0.075);
-    vec3 forest = vec3(0.07, 0.29, 0.13);
-    vec3 leaf = vec3(0.42, 0.64, 0.30);
-    vec3 paper = vec3(0.96, 0.91, 0.70);
-    vec3 shadow = vec3(0.015, 0.08, 0.04);
-    vec3 color = mix(deepForest, forest, smoothstep(0.12, 0.5, value));
-    color = mix(color, leaf, smoothstep(0.52, 0.86, value) * 0.36);
-    color = mix(color, paper, smoothstep(0.87, 1.0, value) * 0.18);
-    return mix(color, shadow, u_dark * 0.44);
-  }
-
-  void main() {
-    vec2 uv = gl_FragCoord.xy / u_resolution.xy;
-    vec2 p = (gl_FragCoord.xy - 0.5 * u_resolution.xy) / min(u_resolution.x, u_resolution.y);
-    float time = u_time * 0.15;
-    float field = sin(p.x * 4.1 + time)
-      + sin(p.y * 3.4 - time * 0.7)
-      + sin((p.x + p.y) * 2.8 + time * 0.5)
-      + sin(length(p) * 5.0 - time);
-    float value = 0.5 + 0.5 * sin(field);
-    float vignette = 1.0 - 0.32 * smoothstep(0.25, 1.05, length(uv - 0.5));
-    gl_FragColor = vec4(palette(value) * vignette, 1.0);
-  }
-`;
-
-function startHeroPlasma(canvas: HTMLCanvasElement): () => void {
-  const context = canvas.getContext("webgl", { alpha: false });
-  if (!context) return () => undefined;
-
-  const compile = (type: number, source: string): WebGLShader | undefined => {
-    const shader = context.createShader(type);
-    if (!shader) return undefined;
-    context.shaderSource(shader, source);
-    context.compileShader(shader);
-    return context.getShaderParameter(shader, context.COMPILE_STATUS) ? shader : undefined;
-  };
-  const vertex = compile(context.VERTEX_SHADER, plasmaVertexShader);
-  const fragment = compile(context.FRAGMENT_SHADER, plasmaFragmentShader);
-  if (!vertex || !fragment) return () => undefined;
-  const program = context.createProgram();
-  if (!program) return () => undefined;
-  context.attachShader(program, vertex);
-  context.attachShader(program, fragment);
-  context.linkProgram(program);
-  if (!context.getProgramParameter(program, context.LINK_STATUS)) return () => undefined;
-
-  const buffer = context.createBuffer();
-  const position = context.getAttribLocation(program, "a_position");
-  const resolution = context.getUniformLocation(program, "u_resolution");
-  const time = context.getUniformLocation(program, "u_time");
-  const dark = context.getUniformLocation(program, "u_dark");
-  if (!buffer || position < 0 || !resolution || !time || !dark) return () => undefined;
-  context.bindBuffer(context.ARRAY_BUFFER, buffer);
-  context.bufferData(context.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), context.STATIC_DRAW);
-
-  let frame = 0;
-  const draw = (milliseconds: number): void => {
-    const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
-    const width = Math.max(1, Math.floor(canvas.clientWidth * pixelRatio));
-    const height = Math.max(1, Math.floor(canvas.clientHeight * pixelRatio));
-    if (canvas.width !== width || canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
+function startHeroMotion(hero: HTMLElement): () => void {
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const titleLayers = Array.from(hero.querySelectorAll<HTMLElement>(".hero-title-line, .hero-title-place"));
+  const fogClouds = Array.from(hero.querySelectorAll<HTMLElement>(".fog-cloud"));
+  const sceneLayers = [
+    { element: hero.querySelector<HTMLElement>(".hero-scene"), depth: 3 },
+    { element: hero.querySelector<HTMLElement>(".fog-back"), depth: 3.4 },
+    { element: hero.querySelector<HTMLElement>(".hero-copy"), depth: 13 },
+    { element: hero.querySelector<HTMLElement>(".fog-front"), depth: 4.2 },
+  ].filter((layer): layer is { element: HTMLElement; depth: number } => Boolean(layer.element));
+  const context = gsap.context(() => {
+    gsap.fromTo(
+      hero.querySelectorAll(".hero-kicker, .hero-title-line, .hero-title-place, .hero-description, .refresh"),
+      { opacity: 0, y: reduceMotion ? 0 : 22 },
+      { opacity: 1, y: 0, duration: reduceMotion ? 0.01 : 0.8, stagger: reduceMotion ? 0 : 0.07, ease: "power3.out" },
+    );
+    if (!reduceMotion) {
+      gsap.set(hero.querySelector(".hero-scene"), { scale: 1.008, transformOrigin: "50% 50%" });
+      hero.querySelectorAll<HTMLElement>(".fog-drift").forEach((fog, index) => {
+        gsap.to(fog, {
+          x: index % 2 ? -(16 + index * 2) : 14 + index * 2,
+          y: index % 3 === 0 ? -3 : 3,
+          scaleX: 1.025 + index * 0.006,
+          scaleY: .985 + index * 0.004,
+          duration: 15 + index * 2.6,
+          repeat: -1,
+          yoyo: true,
+          ease: "sine.inOut",
+        });
+      });
+      fogClouds.forEach((cloud, index) => {
+        const isBackLayer = index < 3;
+        gsap.to(cloud, {
+          opacity: isBackLayer ? (index % 2 ? .2 : .16) : (index % 2 ? .58 : .48),
+          scale: index % 2 ? 2.59 : 2.45,
+          duration: 8 + index * 1.5,
+          repeat: -1,
+          yoyo: true,
+          ease: "sine.inOut",
+        });
+      });
     }
-    context.viewport(0, 0, width, height);
-    context.useProgram(program);
-    context.enableVertexAttribArray(position);
-    context.vertexAttribPointer(position, 2, context.FLOAT, false, 0, 0);
-    context.uniform2f(resolution, width, height);
-    context.uniform1f(time, milliseconds / 1000);
-    context.uniform1f(dark, selectedTheme === "dark" ? 1 : 0);
-    context.drawArrays(context.TRIANGLE_STRIP, 0, 4);
-    frame = window.requestAnimationFrame(draw);
+  }, hero);
+
+  const sceneParallax = sceneLayers.map(({ element, depth }) => ({
+    x: gsap.quickTo(element, "x", { duration: .85, ease: "power3.out" }),
+    y: gsap.quickTo(element, "y", { duration: .85, ease: "power3.out" }),
+    depth,
+  }));
+  const onPointerMove = (event: PointerEvent): void => {
+    if (reduceMotion) return;
+    const bounds = hero.getBoundingClientRect();
+    const x = (event.clientX - bounds.left) / bounds.width - 0.5;
+    const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+    sceneParallax.forEach((layer) => {
+      layer.x(x * layer.depth);
+      layer.y(y * layer.depth * .72);
+    });
   };
-  frame = window.requestAnimationFrame(draw);
-  return () => window.cancelAnimationFrame(frame);
+  const onPointerLeave = (): void => {
+    if (reduceMotion) return;
+    sceneParallax.forEach((layer) => { layer.x(0); layer.y(0); });
+  };
+  hero.addEventListener("pointermove", onPointerMove);
+  hero.addEventListener("pointerleave", onPointerLeave);
+  return () => {
+    hero.removeEventListener("pointermove", onPointerMove);
+    hero.removeEventListener("pointerleave", onPointerLeave);
+    gsap.killTweensOf([...fogClouds, ...titleLayers, ...sceneLayers.map((layer) => layer.element)]);
+    context.revert();
+  };
 }
 
 async function loadDeals(): Promise<Deal[]> {
@@ -144,7 +128,7 @@ function formatPrice(value: number): string {
 }
 
 function render(): void {
-  stopHeroPlasma?.();
+  stopHeroMotion?.();
   app.dataset.style = "ledger";
   app.dataset.theme = selectedTheme;
   app.dataset.view = viewMode;
@@ -156,22 +140,44 @@ function render(): void {
   }).filter((deal) => selectedSupermarkets.length === 0 || selectedSupermarkets.includes(deal.supermarket));
 
   app.innerHTML = `
-    <section class="hero">
-      <canvas class="hero-plasma" aria-hidden="true"></canvas>
+    <section class="hero hero-v1">
+      <svg class="hero-fog-filters" aria-hidden="true">
+        <filter id="fog-distortion" x="-35%" y="-80%" width="170%" height="260%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.008 0.026" numOctaves="3" seed="11" result="noise" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="38" xChannelSelector="R" yChannelSelector="G" result="distorted" />
+          <feGaussianBlur in="distorted" stdDeviation="6" />
+        </filter>
+      </svg>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-scene">
+          <img class="hero-scene-day" src="./images/camaqua-watercolor.jpg" alt="">
+          <img class="hero-scene-night" src="./images/camaqua-watercolor-night-crescent.png" alt="">
+        </div>
+      </div>
+      <div class="fog-field fog-back" aria-hidden="true">
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
+      </div>
       <button class="sky-toggle" id="theme-toggle" type="button" role="switch" aria-checked="${selectedTheme === "dark"}" aria-label="Alternar tema claro e escuro">
         <span class="sky-clouds" aria-hidden="true"></span>
         <span class="sky-stars" aria-hidden="true">✦ &nbsp;✦</span>
         <span class="sky-thumb" aria-hidden="true"><span class="sky-sun"></span><span class="sky-moon"></span></span>
       </button>
       <div class="hero-copy">
-        <h1>Ofertas em</h1>
-        <p class="eyebrow">Camaqua, Rio Grande do Sul</p>
+        <p class="hero-kicker">Economia local, escolha inteligente</p>
+        <h1><span class="hero-title-line">Melhores Ofertas em</span> <em class="hero-title-place">Camaquã</em></h1>
         <p class="hero-description">Descontos ativos nos mercados da cidade.</p>
         <p class="refresh">Atualizado automaticamente 2-3 vezes por dia</p>
       </div>
       <div class="hero-mark" aria-hidden="true">
         <span>✦</span>
         <small>DE OLHO<br>NO PRECO</small>
+      </div>
+      <div class="fog-field fog-front" aria-hidden="true">
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
+        <span class="fog-drift"><span class="fog-cloud"></span></span>
       </div>
     </section>
 
@@ -250,8 +256,10 @@ function render(): void {
     </section>
   `;
 
-  const plasmaCanvas = app.querySelector<HTMLCanvasElement>(".hero-plasma");
-  if (plasmaCanvas) stopHeroPlasma = startHeroPlasma(plasmaCanvas);
+  const hero = app.querySelector<HTMLElement>(".hero");
+  if (hero) {
+    stopHeroMotion = startHeroMotion(hero);
+  }
 
   app.querySelectorAll<HTMLButtonElement>("[data-category]").forEach((button: HTMLButtonElement) => {
     button.addEventListener("click", () => {
