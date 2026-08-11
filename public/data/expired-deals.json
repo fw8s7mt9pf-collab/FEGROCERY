@@ -3,13 +3,13 @@
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Meats",
-    "title": "PICANHA BOVINA RESFRIADA, VAZIO BOVINO RESFRIADO, RIPA DA CHULETA BOVINA RESFRIADA",
+    "title": "Picanha Bovina Resfriada, Vazio Bovino Resfriado, Ripa da Chuleta Bovina Resfriada",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/767597648_1525287002970303_2830941141718025952_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-07T03:00:00.000Z",
     "validUntil": "2026-08-10T02:59:59.000Z",
     "expiresAt": "2026-08-10T02:59:59.000Z",
-    "lastRefreshed": "2026-08-10T21:03:32.511Z"
+    "lastRefreshed": "2026-08-11T09:25:58.422Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-763103924-1525156969649973-2705718353681761323-n-jpg",
@@ -21,6 +21,29 @@
     "validFrom": "2026-08-07T03:00:00.000Z",
     "validUntil": "2026-08-10T02:59:59.000Z",
     "expiresAt": "2026-08-10T02:59:59.000Z",
-    "lastRefreshed": "2026-08-10T21:03:32.511Z"
+    "lastRefreshed": "2026-08-11T09:25:58.422Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-avif",
+    "supermarket": "Krolow",
+    "category": "Other",
+    "title": "Ofertas variadas",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/1.avif",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validUntil": "2026-08-11T02:59:59.000Z",
+    "expiresAt": "2026-08-11T02:59:59.000Z",
+    "lastRefreshed": "2026-08-11T09:25:58.422Z",
+    "warning": "Categoria inferida com baixa confianca."
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-avif",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Carnes",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/2.avif",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validUntil": "2026-08-11T02:59:59.000Z",
+    "expiresAt": "2026-08-11T02:59:59.000Z",
+    "lastRefreshed": "2026-08-11T09:25:58.422Z"
   }
 ]
