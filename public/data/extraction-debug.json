@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-11T14:12:11.732Z",
+  "generatedAt": "2026-08-11T14:18:48.263Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
@@ -33,27 +34,8 @@
   "ocrDateDiagnostics": [
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
-      ],
-      "averageConfidence": 0.947862396415774,
-      "minimumConfidence": 0.14540508875851094,
-      "parsedListing": {
-        "category": "Cleaning",
-        "validFrom": "2026-08-10T03:00:00.000Z",
-        "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning products valid from 10 to 12 August 2026.",
-        "productNames": [
-          "LAVA ROUPAS GIRANDO SOL 3L",
-          "DESINFETANTE AQUAFAST 5L",
-          "ÁGUA SANITÁRIA IMPERIAL 5L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "markdownEvidence": [],
+      "blockEvidence": []
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg",
@@ -83,7 +65,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo featuring beef meat promotions valid from August 7 to August 9, 2026, including Picanha, Vazio, and Ripa da Chuleta.",
+        "summary": "Grocery flyer for Grupo Roxo featuring three beef products on promotion from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -107,7 +89,7 @@
         "category": "Produce",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with 3 produce items valid from 2026-08-07 to 2026-08-09.",
+        "summary": "Flyer válido para 7 a 9 de agosto de 2026, com ofertas em produtos como batata branca, cebola e ovo branco.",
         "productNames": [
           "Batata Branca",
           "Cebola",
@@ -126,7 +108,16 @@
         "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 11/08/2026 ATÉ 12/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9556111688902147,
-      "minimumConfidence": 0.1419438228237134
+      "minimumConfidence": 0.1419438228237134,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-11T03:00:00.000Z",
+        "validUntil": "2026-08-13T02:59:59.000Z",
+        "summary": "Flyer contains no identifiable promoted products.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122",

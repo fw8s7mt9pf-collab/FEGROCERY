@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-11T14:12:11.732Z",
-  "sourceGeneratedAt": "2026-08-11T14:12:08.253Z",
+  "generatedAt": "2026-08-11T14:18:48.263Z",
+  "sourceGeneratedAt": "2026-08-11T14:18:38.695Z",
   "sourceCandidateCount": 41,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
   "publicDealCount": 39,
   "expiredDealCount": 2,
-  "warningCount": 28,
+  "warningCount": 29,
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
@@ -41,20 +42,20 @@
     "provider": "mistral-ocr",
     "enabled": true,
     "attempted": 5,
-    "succeeded": 5,
-    "failed": 0,
-    "skipped": 36,
-    "errors": []
-  },
-  "aiParser": {
-    "provider": "mistral-chat",
-    "enabled": true,
-    "attempted": 5,
     "succeeded": 4,
     "failed": 1,
     "skipped": 36,
     "errors": [
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg: The operation was aborted due to timeout"
     ]
+  },
+  "aiParser": {
+    "provider": "mistral-chat",
+    "enabled": true,
+    "attempted": 4,
+    "succeeded": 4,
+    "failed": 0,
+    "skipped": 37,
+    "errors": []
   }
 }
