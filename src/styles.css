@@ -693,3 +693,20 @@ body,
 #app[data-theme="dark"] .fog-field {
   opacity: 0;
 }
+
+/* Keep the daytime atmosphere airy instead of letting the fog read as a dark band. */
+#app[data-theme="light"] .fog-field {
+  opacity: .64;
+}
+
+#app[data-theme="light"] .fog-cloud {
+  mix-blend-mode: screen;
+  filter: url("#fog-distortion") blur(8px) brightness(1.08);
+}
+
+/* The night mockup uses a luminous ivory headline; soften the paper texture so
+   it cannot overpower the foreground color and turn the title muddy. */
+#app[data-theme="dark"] .hero-title-line {
+  --title-ink: #fff0c9;
+  background-blend-mode: soft-light, normal;
+}
