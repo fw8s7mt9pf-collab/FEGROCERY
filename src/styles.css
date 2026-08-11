@@ -581,6 +581,115 @@ body,
   }
 }
 
+/* Mobile panorama composition */
+@media (max-width: 47.99rem) {
+  main {
+    padding: 16px 16px 44px;
+  }
+
+  .hero {
+    min-height: 650px;
+    margin: 0 0 26px;
+    aspect-ratio: auto;
+  }
+
+  #app .hero > .hero-art {
+    inset: 31% 0 0;
+  }
+
+  #app .hero > .hero-copy {
+    top: 8% !important;
+    right: 5% !important;
+    left: 5% !important;
+    display: block;
+    text-align: center !important;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+    font-size: clamp(3rem, 14.2vw, 4.2rem);
+    line-height: .89;
+    letter-spacing: -.065em;
+  }
+
+  .hero-title-line,
+  .hero-title-place {
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  .hero-kicker {
+    margin-bottom: 13px;
+    font-size: 11px;
+    letter-spacing: .12em;
+  }
+
+  .hero .hero-description {
+    max-width: 270px;
+    margin: 18px auto 7px;
+    font-size: 13px;
+  }
+
+  .hero .refresh {
+    font-size: 11px;
+    letter-spacing: .1em;
+  }
+
+  .hero-art img {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  #app[data-theme="dark"] .hero-art img {
+    object-fit: cover;
+    object-position: 50% 61%;
+  }
+
+  .deal-board {
+    margin-inline: 0;
+  }
+
+  .board-heading {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    margin-bottom: 16px;
+  }
+
+  .board-heading .eyebrow {
+    max-width: 100%;
+  }
+
+  .summary {
+    font-size: 14px;
+  }
+
+  .summary strong {
+    font-size: 27px;
+  }
+
+  .filters {
+    gap: 7px;
+    margin-bottom: 16px;
+  }
+
+  .filter-menu summary {
+    min-height: 40px;
+  }
+
+  .flyer {
+    grid-template-columns: 78px minmax(0, 1fr);
+  }
+
+  .image-button {
+    height: 78px;
+    margin: 10px 0 10px 10px;
+  }
+
+  .flyer-body {
+    padding: 12px 10px;
+  }
+}
+
 #app[data-theme="dark"] .fog-field {
   opacity: 0;
 }
