@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:17:33.354Z",
+  "generatedAt": "2026-08-11T20:04:54.219Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Categoria inferida com baixa confianca.",
@@ -32,6 +32,30 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-771822003-1528651442633859-5042028432100489659-n-jpg",
+      "markdownEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
+      ],
+      "blockEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
+      ],
+      "averageConfidence": 0.9532164262168233,
+      "minimumConfidence": 0.07753440242824652,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-11T03:00:00.000Z",
+        "validUntil": "2026-08-12T02:59:59.000Z",
+        "summary": "Flyer for Grupo Roxo featuring three beef products on sale for August 11, 2026.",
+        "productNames": [
+          "PALETA DO SETE BOVINA RESFRIADA",
+          "COSTELA SEGUNDA BOVINA RESFRIADA",
+          "PONTA AGULHA BOVINA RESFRIADA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg",
       "markdownEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
@@ -45,7 +69,7 @@
         "category": "Cleaning",
         "validFrom": "2026-08-10T03:00:00.000Z",
         "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning product promotions valid from August 10 to August 12, 2026.",
+        "summary": "Flyer from Grupo Roxo with cleaning products valid from August 10 to August 12, 2026.",
         "productNames": [
           "LAVA ROUPAS GIRANDO SOL 3L",
           "DESINFETANTE AQUAFAST 5L",
@@ -83,7 +107,7 @@
         "category": "Meats",
         "validFrom": "2026-08-07T03:00:00.000Z",
         "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Grocery flyer for Grupo Roxo featuring three beef products on promotion from August 7 to August 9, 2026.",
+        "summary": "Flyer promoting three types of refrigerated beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to August 9, 2026.",
         "productNames": [
           "PICANHA BOVINA RESFRIADA",
           "VAZIO BOVINO RESFRIADO",
@@ -102,20 +126,7 @@
         "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BATATA BRANCA ![i"
       ],
       "averageConfidence": 0.9485143455571686,
-      "minimumConfidence": 0.19140191439769433,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer válido para 7 a 9 de agosto de 2026, promovendo três produtos da categoria Produce: Batata Branca, Cebola e Ovo Branco.",
-        "productNames": [
-          "Batata Branca",
-          "Cebola",
-          "Ovo Branco"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.19140191439769433
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif",
@@ -126,16 +137,7 @@
         "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 11/08/2026 ATÉ 12/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9556111688902147,
-      "minimumConfidence": 0.1419438228237134,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-11T03:00:00.000Z",
-        "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1419438228237134
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122",
