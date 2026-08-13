@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-13T15:16:43.477Z",
-  "sourceGeneratedAt": "2026-08-13T15:16:40.088Z",
+  "generatedAt": "2026-08-13T21:05:32.684Z",
+  "sourceGeneratedAt": "2026-08-13T21:05:11.569Z",
   "sourceCandidateCount": 43,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 40,
-  "expiredDealCount": 3,
+  "publicDealCount": 41,
+  "expiredDealCount": 2,
   "warningCount": 29,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601114: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557259: Categoria inferida com baixa confianca.",
@@ -51,11 +51,9 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 6,
-    "succeeded": 5,
-    "failed": 1,
+    "succeeded": 6,
+    "failed": 0,
     "skipped": 37,
-    "errors": [
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
-    ]
+    "errors": []
   }
 }

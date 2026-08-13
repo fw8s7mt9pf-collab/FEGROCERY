@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T15:16:43.477Z",
+  "generatedAt": "2026-08-13T21:05:32.684Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601114: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557259: Categoria inferida com baixa confianca.",
@@ -32,6 +32,30 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
+      "markdownEvidence": [
+        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
+      ],
+      "blockEvidence": [
+        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
+      ],
+      "averageConfidence": 0.947696009130371,
+      "minimumConfidence": 0.1530234827984768,
+      "parsedListing": {
+        "category": "Beverages",
+        "validFrom": "2026-08-13T03:00:00.000Z",
+        "validUntil": "2026-08-17T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo with 3 beverage products valid from August 13 to August 16, 2026. Includes water and two types of beer.",
+        "productNames": [
+          "Água Cristal da Terra",
+          "Cerveja Proibida",
+          "Cerveja Original"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg",
       "markdownEvidence": [
@@ -70,7 +94,7 @@
         "category": "Meats",
         "validFrom": "2026-08-11T03:00:00.000Z",
         "validUntil": "2026-08-12T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo featuring three beef products on sale for August 11, 2026.",
+        "summary": "Grocery flyer from Grupo Roxo featuring three beef products on sale for August 11, 2026.",
         "productNames": [
           "PALETA DO SETE BOVINA RESFRIADA",
           "COSTELA SEGUNDA BOVINA RESFRIADA",
@@ -94,7 +118,7 @@
         "category": "Cleaning",
         "validFrom": "2026-08-10T03:00:00.000Z",
         "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning product promotions valid from August 10 to August 12, 2026.",
+        "summary": "Flyer from Grupo Roxo featuring cleaning products valid from August 10 to August 12, 2026.",
         "productNames": [
           "LAVA ROUPAS GIRANDO SOL 3L",
           "DESINFETANTE AQUAFAST 5L",
@@ -119,35 +143,19 @@
       }
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg",
-      "markdownEvidence": [
-        "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) A carne do Rio"
-      ],
-      "blockEvidence": [
-        "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) A carne do Rio"
-      ],
-      "averageConfidence": 0.952209865123197,
-      "minimumConfidence": 0.1289993538424898,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-07T03:00:00.000Z",
-        "validUntil": "2026-08-10T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo featuring three beef cuts: Picanha, Vazio, and Ripa da Chuleta, valid from August 7 to 9, 2026.",
-        "productNames": [
-          "PICANHA BOVINA RESFRIADA",
-          "VAZIO BOVINO RESFRIADO",
-          "RIPA DA CHULETA BOVINA RESFRIADA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-13082026-png",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9631879272922873,
-      "minimumConfidence": 0.14138618889285048
+      "minimumConfidence": 0.14138618889285048,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-13T03:00:00.000Z",
+        "summary": "No distinct promoted products visible in the provided OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601114",
