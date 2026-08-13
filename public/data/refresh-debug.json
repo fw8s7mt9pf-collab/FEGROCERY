@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T21:04:56.437Z",
-  "sourceGeneratedAt": "2026-08-12T21:04:53.374Z",
+  "generatedAt": "2026-08-13T09:36:36.089Z",
+  "sourceGeneratedAt": "2026-08-13T09:36:33.531Z",
   "sourceCandidateCount": 42,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 40,
-  "expiredDealCount": 2,
+  "publicDealCount": 38,
+  "expiredDealCount": 4,
   "warningCount": 28,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -50,12 +50,9 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 6,
-    "succeeded": 4,
-    "failed": 2,
+    "succeeded": 6,
+    "failed": 0,
     "skipped": 36,
-    "errors": [
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-767597648-1525287002970303-2830941141718025952-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
-    ]
+    "errors": []
   }
 }

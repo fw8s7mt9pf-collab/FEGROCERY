@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:04:56.437Z",
+  "generatedAt": "2026-08-13T09:36:36.089Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif: Categoria inferida com baixa confianca.",
@@ -45,7 +45,7 @@
         "category": "Produce",
         "validFrom": "2026-08-12T03:00:00.000Z",
         "validUntil": "2026-08-14T02:59:59.000Z",
-        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de produtos hortifrúti válidas para 12 e 13 de agosto de 2026.",
+        "summary": "Flyer for Grupo Roxo's anniversary promotion featuring 3 produce items: Couve Verde, Chuchu, and Couve-Flor, valid on August 12-13, 2026.",
         "productNames": [
           "Couve Verde",
           "Chuchu",
@@ -93,11 +93,11 @@
         "category": "Cleaning",
         "validFrom": "2026-08-10T03:00:00.000Z",
         "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning products valid from 10 to 12 August 2026.",
+        "summary": "Flyer from Grupo Roxo promoting cleaning products valid from August 10 to August 12, 2026.",
         "productNames": [
-          "LAVA ROUPAS GIRANDO SOL 3L",
-          "DESINFETANTE AQUAFAST 5L",
-          "ÁGUA SANITÁRIA IMPERIAL 5L"
+          "Lava Roupas Girando Sol 3L",
+          "Desinfetante Aquafast 5L",
+          "Água Sanitária Imperial 5L"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -126,7 +126,20 @@
         "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 7 À 9 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) A carne do Rio"
       ],
       "averageConfidence": 0.952209865123197,
-      "minimumConfidence": 0.1289993538424898
+      "minimumConfidence": 0.1289993538424898,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-07T03:00:00.000Z",
+        "validUntil": "2026-08-10T02:59:59.000Z",
+        "summary": "Flyer for Grupo Roxo featuring beef meat promotions valid from August 7 to August 9, 2026.",
+        "productNames": [
+          "PICANHA BOVINA RESFRIADA",
+          "VAZIO BOVINO RESFRIADO",
+          "RIPA DA CHULETA BOVINA RESFRIADA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-10-at-20-00-03-avif",
@@ -137,7 +150,16 @@
         "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 11/08/2026 ATÉ 12/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9556111688902147,
-      "minimumConfidence": 0.1419438228237134
+      "minimumConfidence": 0.1419438228237134,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-11T03:00:00.000Z",
+        "validUntil": "2026-08-13T02:59:59.000Z",
+        "summary": "Flyer contains no identifiable product names or categories from the provided OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122",
@@ -149,7 +171,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -162,7 +184,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -175,7 +197,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -188,7 +210,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -201,7 +223,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -214,7 +236,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -227,7 +249,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -240,7 +262,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -253,7 +275,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -266,7 +288,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -279,7 +301,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -292,7 +314,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -305,7 +327,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -318,7 +340,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -331,7 +353,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -344,7 +366,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -357,7 +379,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -370,7 +392,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -578,7 +600,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-01T02:59:59.000Z"
+        "validUntil": "2026-09-02T02:59:59.000Z"
       }
     },
     {
@@ -591,7 +613,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-24T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
