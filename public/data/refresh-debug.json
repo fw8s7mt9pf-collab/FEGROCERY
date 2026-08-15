@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-15T08:51:07.541Z",
-  "sourceGeneratedAt": "2026-08-15T08:49:55.968Z",
-  "sourceCandidateCount": 58,
-  "sourceSkippedCount": 1,
-  "sourceSkipped": [
-    "Reused previous candidates for: Grupo Roxo."
-  ],
-  "publicDealCount": 56,
-  "expiredDealCount": 2,
+  "generatedAt": "2026-08-15T14:41:21.474Z",
+  "sourceGeneratedAt": "2026-08-15T14:41:19.082Z",
+  "sourceCandidateCount": 61,
+  "sourceSkippedCount": 0,
+  "sourceSkipped": [],
+  "publicDealCount": 58,
+  "expiredDealCount": 3,
   "warningCount": 40,
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-webp: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-webp: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
@@ -47,30 +47,28 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557301: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
   ],
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 9,
-    "succeeded": 9,
+    "attempted": 11,
+    "succeeded": 11,
     "failed": 0,
-    "skipped": 49,
+    "skipped": 50,
     "errors": []
   },
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 9,
-    "succeeded": 6,
+    "attempted": 11,
+    "succeeded": 8,
     "failed": 3,
-    "skipped": 49,
+    "skipped": 50,
     "errors": [
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-771822003-1528651442633859-5042028432100489659-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
   }
 }

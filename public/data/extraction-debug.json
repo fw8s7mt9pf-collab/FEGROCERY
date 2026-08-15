@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-08-15T08:51:07.541Z",
+  "generatedAt": "2026-08-15T14:41:21.474Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-webp: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-webp: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
@@ -38,11 +40,167 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557301: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9307457825696271,
+      "minimumConfidence": 0.15731720162204033,
+      "parsedListing": {
+        "category": "Other",
+        "summary": "No identifiable grocery products or valid date information extracted from the OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773572653-1531333909032279-3259221166217220569-n-jpg",
+      "markdownEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
+      ],
+      "blockEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
+      ],
+      "averageConfidence": 0.9487096023318118,
+      "minimumConfidence": 0.1388531619495526,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-14T03:00:00.000Z",
+        "validUntil": "2026-08-17T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 14 to August 16, 2026.",
+        "productNames": [
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg",
+      "markdownEvidence": [
+        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
+      ],
+      "blockEvidence": [
+        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
+      ],
+      "averageConfidence": 0.9495477141174841,
+      "minimumConfidence": 0.14122494917822218,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-14T03:00:00.000Z",
+        "validUntil": "2026-08-17T02:59:59.000Z",
+        "summary": "Grocery flyer from Grupo Roxo featuring three beef products on promotion from August 14 to August 16, 2026.",
+        "productNames": [
+          "COXÃO DE FORA BOVINO RESFRIADO",
+          "CAPA DE COXÃO BOVINO RESFRIADO",
+          "COSTELA SEGUNDA BOVINA RESFRIADA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
+      "markdownEvidence": [
+        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
+      ],
+      "blockEvidence": [
+        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
+      ],
+      "averageConfidence": 0.947696009130371,
+      "minimumConfidence": 0.1530234827984768,
+      "parsedListing": {
+        "category": "Beverages",
+        "validFrom": "2026-08-13T03:00:00.000Z",
+        "validUntil": "2026-08-17T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo with 3 beverage products valid from August 13 to August 16, 2026.",
+        "productNames": [
+          "Água Cristal da Terra 500ml",
+          "Cerveja Proibida 473ml",
+          "Cerveja Original 473ml"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 12 À 13 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 12 À 13 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
+      ],
+      "averageConfidence": 0.9484775548813372,
+      "minimumConfidence": 0.13562188645732218,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-12T03:00:00.000Z",
+        "validUntil": "2026-08-14T02:59:59.000Z",
+        "summary": "Flyer for Grupo Roxo's anniversary promotion featuring produce offers valid on August 12-13, 2026.",
+        "productNames": [
+          "COUVE VERDE",
+          "CHUCHU",
+          "COUVE-FLOR"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-771822003-1528651442633859-5042028432100489659-n-jpg",
+      "markdownEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
+      ],
+      "blockEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
+      ],
+      "averageConfidence": 0.9532164262168233,
+      "minimumConfidence": 0.07753440242824652,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-11T03:00:00.000Z",
+        "validUntil": "2026-08-12T02:59:59.000Z",
+        "summary": "Flyer for Grupo Roxo featuring three beef cuts on sale for August 11, 2026.",
+        "productNames": [
+          "PALETA DO SETE BOVINA RESFRIADA",
+          "COSTELA SEGUNDA BOVINA RESFRIADA",
+          "PONTA AGULHA BOVINA RESFRIADA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
+      ],
+      "averageConfidence": 0.947862396415774,
+      "minimumConfidence": 0.14540508875851094,
+      "parsedListing": {
+        "category": "Cleaning",
+        "validFrom": "2026-08-10T03:00:00.000Z",
+        "validUntil": "2026-08-13T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo featuring cleaning products valid from August 10 to August 12, 2026.",
+        "productNames": [
+          "LAVA ROUPAS GIRANDO SOL 3L",
+          "DESINFETANTE AQUAFAST 5L",
+          "ÁGUA SANITÁRIA IMPERIAL 5L"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-4-webp",
       "markdownEvidence": [
@@ -57,7 +215,7 @@
         "category": "Meats",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer for Krolow supermarket featuring refrigerated beef cuts and one charcoal product, valid from 14/08/2026 to 16/08/2026.",
+        "summary": "Flyer featuring refrigerated beef cuts and one charcoal product, valid from 14/08/2026 to 16/08/2026.",
         "productNames": [],
         "productCount": 20,
         "hasMoreThanThreeProducts": true
@@ -72,16 +230,7 @@
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/08 ATÉ 16/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9496657258108204,
-      "minimumConfidence": 0.16764797073918145,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the flyer.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.16764797073918145
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-webp",
@@ -92,16 +241,7 @@
         "jpeg](img-2.jpeg) No Cartão OFERTAS VÁLIDAS DE 14/08 ATÉ 16/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9449771423571338,
-      "minimumConfidence": 0.1042595674109068,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket with 10 distinct promoted products in the Basic Groceries category, valid from August 14 to August 16, 2026.",
-        "productNames": [],
-        "productCount": 10,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.1042595674109068
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-webp",
@@ -112,15 +252,19 @@
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/08 ATÉ 16/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9467385714064093,
-      "minimumConfidence": 0.22828972994236088,
+      "minimumConfidence": 0.22828972994236088
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
+      "markdownEvidence": [],
+      "blockEvidence": [],
       "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
+        "productNames": [
+          "PALETA SUÍNA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-08-19T02:59:59.000Z"
       }
     },
     {
@@ -367,7 +511,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -380,7 +524,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -393,7 +537,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -406,7 +550,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -419,7 +563,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -432,7 +576,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -445,7 +589,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -458,7 +602,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -471,7 +615,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -484,7 +628,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-17T02:59:59.000Z"
       }
     },
     {
@@ -758,77 +902,6 @@
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
-      "markdownEvidence": [
-        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
-      ],
-      "blockEvidence": [
-        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 13 À 16 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL D"
-      ],
-      "averageConfidence": 0.947696009130371,
-      "minimumConfidence": 0.1530234827984768
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 12 À 13 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 12 À 13 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
-      ],
-      "averageConfidence": 0.9484775548813372,
-      "minimumConfidence": 0.13562188645732218
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-771822003-1528651442633859-5042028432100489659-n-jpg",
-      "markdownEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
-      ],
-      "blockEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 11 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
-      ],
-      "averageConfidence": 0.9532164262168233,
-      "minimumConfidence": 0.07753440242824652
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
-      ],
-      "averageConfidence": 0.947862396415774,
-      "minimumConfidence": 0.14540508875851094,
-      "parsedListing": {
-        "category": "Cleaning",
-        "validFrom": "2026-08-10T03:00:00.000Z",
-        "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning products valid from 10 to 12 August 2026.",
-        "productNames": [
-          "LAVA ROUPAS GIRANDO SOL 3L",
-          "DESINFETANTE AQUAFAST 5L",
-          "ÁGUA SANITÁRIA IMPERIAL 5L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-769168851-1019195627594298-6693626510354145851-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9402526161371428,
-      "minimumConfidence": 0.14141379933663614,
-      "parsedListing": {
-        "category": "Other",
-        "summary": "No distinct promoted products identified in the OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
       }
     }
   ]
