@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T14:41:18.407Z",
+  "generatedAt": "2026-08-16T20:40:03.941Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg: Categoria inferida com baixa confianca.",
@@ -52,7 +52,7 @@
       "minimumConfidence": 0.15731720162204033,
       "parsedListing": {
         "category": "Other",
-        "summary": "No identifiable grocery products or valid date information extracted from the OCR text.",
+        "summary": "No identifiable grocery products or dates found in the OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -72,11 +72,11 @@
         "category": "Produce",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with produce offers valid from 14 to 16 August 2026, featuring 3 products: Cebola, Batata Branca, and Ovo Branco.",
+        "summary": "Grocery flyer from Grupo Roxo featuring 3 produce items: CEBOLA, BATATA BRANCA, and OVO BRANCO, valid from August 14 to August 16, 2026.",
         "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Branco"
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -96,7 +96,7 @@
         "category": "Meats",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring three beef cuts on promotion from August 14 to 16, 2026.",
+        "summary": "Grocery flyer from Grupo Roxo featuring three meat products on promotion from August 14 to August 16, 2026.",
         "productNames": [
           "COXÃO DE FORA BOVINO RESFRIADO",
           "CAPA DE COXÃO BOVINO RESFRIADO",
@@ -117,10 +117,10 @@
       "averageConfidence": 0.947696009130371,
       "minimumConfidence": 0.1530234827984768,
       "parsedListing": {
-        "category": "Alcohol",
+        "category": "Beverages",
         "validFrom": "2026-08-13T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 products in the Alcohol and Beverages categories, valid from August 13 to August 16, 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 beverage products valid from 13 to 16 August 2026.",
         "productNames": [
           "Água Cristal da Terra",
           "Cerveja Proibida",
@@ -161,20 +161,7 @@
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 12 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) LAVA ROUPAS GI"
       ],
       "averageConfidence": 0.947862396415774,
-      "minimumConfidence": 0.14540508875851094,
-      "parsedListing": {
-        "category": "Cleaning",
-        "validFrom": "2026-08-10T03:00:00.000Z",
-        "validUntil": "2026-08-13T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with cleaning products valid from August 10 to August 12, 2026.",
-        "productNames": [
-          "LAVA ROUPAS GIRANDO SOL 3L",
-          "DESINFETANTE AQUAFAST 5L",
-          "ÁGUA SANITÁRIA IMPERIAL 5L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.14540508875851094
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-4-webp",
@@ -185,16 +172,7 @@
         "OFERTAS VÁLIDAS DE 14/08/2026 ATÉ 16/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "averageConfidence": 0.9446975901582412,
-      "minimumConfidence": 0.09928360020080693,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer for Krolow supermarket featuring refrigerated beef cuts and one charcoal product, valid from 14/08/2026 to 16/08/2026.",
-        "productNames": [],
-        "productCount": 20,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.09928360020080693
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-webp",
@@ -210,7 +188,7 @@
         "category": "Other",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the flyer.",
+        "summary": "No distinct promoted products visible in the provided OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -230,7 +208,7 @@
         "category": "Basic Groceries",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket with 11 distinct promoted products in the Basic Groceries category, valid from August 14 to August 16, 2026.",
+        "summary": "Krolow grocery flyer with 11 distinct promoted products in the Basic Groceries category, valid from August 14 to August 16, 2026.",
         "productNames": [],
         "productCount": 11,
         "hasMoreThanThreeProducts": true
@@ -245,7 +223,16 @@
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/08 ATÉ 16/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9467385714064093,
-      "minimumConfidence": 0.22828972994236088
+      "minimumConfidence": 0.22828972994236088,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-14T03:00:00.000Z",
+        "validUntil": "2026-08-17T02:59:59.000Z",
+        "summary": "No distinct promoted products visible in the provided OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
@@ -881,7 +868,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-02T02:59:59.000Z"
+        "validUntil": "2026-09-01T02:59:59.000Z"
       }
     },
     {
@@ -894,7 +881,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-24T02:59:59.000Z"
       }
     }
   ]
