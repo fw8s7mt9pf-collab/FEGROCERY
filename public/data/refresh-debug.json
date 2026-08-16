@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T20:41:02.129Z",
-  "sourceGeneratedAt": "2026-08-15T20:40:58.738Z",
+  "generatedAt": "2026-08-16T08:51:56.892Z",
+  "sourceGeneratedAt": "2026-08-16T08:51:52.596Z",
   "sourceCandidateCount": 61,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
@@ -63,13 +63,14 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 11,
-    "succeeded": 8,
-    "failed": 3,
+    "succeeded": 7,
+    "failed": 4,
     "skipped": 50,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-771822003-1528651442633859-5042028432100489659-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-770758894-1527636866068650-4672223579212860110-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-4-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
   }
 }
