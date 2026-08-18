@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T20:45:31.726Z",
+  "generatedAt": "2026-08-18T08:58:04.997Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -19,26 +19,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1629675: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424998: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601621: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589736: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551084: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601114: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557259: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2458337: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598017: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490524: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2323167: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603599: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2500125: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557301: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
@@ -50,7 +30,7 @@
       "minimumConfidence": 0.10510264139723,
       "parsedListing": {
         "category": "Meats",
-        "summary": "Grocery flyer from Grupo Roxo featuring a single meat product: Filezinho Sassami CVALE IQF 1Kg.",
+        "summary": "Grocery flyer from Grupo Roxo featuring one meat product: Filezinho Sassami CVALE IQF 1Kg.",
         "productNames": [
           "Filezinho Sassami CVALE IQF 1Kg"
         ],
@@ -72,10 +52,10 @@
         "category": "Meats",
         "validFrom": "2026-08-17T03:00:00.000Z",
         "validUntil": "2026-08-20T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 meat products on promotion from August 17 to August 19, 2026.",
+        "summary": "Flyer from Grupo Roxo featuring 3 meat products on promotion from August 17 to 19, 2026.",
         "productNames": [
-          "FILEZINHO SASSAMI C VALE IQF",
-          "SOBRECOXA AGROSUL IQF",
+          "FILEZINHO SASSAMI C VALE",
+          "SOBRECOXA AGROSUL",
           "MORTADELA GOURMET SEARA DEFUMADA"
         ],
         "productCount": 3,
@@ -110,11 +90,11 @@
         "category": "Produce",
         "validFrom": "2026-08-14T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer válido de 14 a 16 de agosto de 2026 com ofertas em produtos hortifrúti e ovos.",
+        "summary": "Flyer válido de 14 a 16 de agosto de 2026 com ofertas em produtos como cebola, batata branca e ovo branco.",
         "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Branco"
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -129,20 +109,7 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
       ],
       "averageConfidence": 0.9495477141174841,
-      "minimumConfidence": 0.14122494917822218,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring three meat products on promotion from August 14 to August 16, 2026.",
-        "productNames": [
-          "COXÃO DE FORA BOVINO RESFRIADO",
-          "CAPA DE COXÃO BOVINO RESFRIADO",
-          "COSTELA SEGUNDA BOVINA RESFRIADA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.14122494917822218
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
@@ -178,7 +145,16 @@
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9472902547020429,
-      "minimumConfidence": 0.141409028648799
+      "minimumConfidence": 0.141409028648799,
+      "parsedListing": {
+        "category": "Basic Groceries",
+        "validFrom": "2026-08-17T03:00:00.000Z",
+        "validUntil": "2026-08-18T02:59:59.000Z",
+        "summary": "Flyer from Krolow with 9 distinct promoted products in the Basic Groceries category, valid only on 17/08/2026.",
+        "productNames": [],
+        "productCount": 9,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-1-webp",
@@ -189,7 +165,16 @@
         "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 17/08/2026 ATÉ 19/08/2026, ENQUANTO DURAREM OS ESTOÇÕES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9507827967915968,
-      "minimumConfidence": 0.11961035698562873
+      "minimumConfidence": 0.11961035698562873,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-17T03:00:00.000Z",
+        "validUntil": "2026-08-20T02:59:59.000Z",
+        "summary": "No distinct product names extracted from the flyer.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304",
@@ -201,7 +186,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -214,7 +199,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -227,7 +212,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -240,7 +225,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -253,7 +238,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -266,7 +251,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -279,7 +264,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -292,7 +277,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -305,7 +290,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -318,7 +303,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -331,7 +316,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -344,7 +329,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -357,7 +342,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -370,7 +355,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -383,7 +368,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-22T02:59:59.000Z"
       }
     },
     {
@@ -396,7 +381,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -409,358 +394,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "SALSICHA HOT DOG SEARA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424998",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PACOTE DE SALSICHA HOT DOG SEARA DE 2,8KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601621",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "SALGADINHO KRO 100G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589736",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "WAFER ORQUÍDEA 100G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564197",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "VINHO DOM BOSCO 750ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA BRANCA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551084",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "OVO BRANCO BANDEJA 20 UNIDADES"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PÃO DE QUEIJO UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2601114",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PÃO CROISSANT 7 DAYS 45G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508122",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LASANHA PERDIGÃO 600G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557259",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BARRA DE CHOCOLATE SHOT E DIAMANTE NEGRO LAKA 145G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2458337",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BOLACHA MARIA ZEZÉ 240G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598017",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BOLACHA RECHEADA TRAKINAS 126G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CREME DE LEITE DALIA 200G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598008",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "DESINFETANTE PERFUMADO PINHO SOL 1L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490524",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LAVA ROUPAS SAIF 3L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2323167",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LENTILHA TORDILHO DE 400GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598020",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MISTURA PARA BOLO NORDESTE 400G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598021",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MOLHO DE TOMATE BONARE 300G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2251259",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PAPEL HIGIÊNICO DUETTO C/12 ROLOS DE 20M"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603599",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PESSEGO EXTRA E FATIAS SCHRAMM 450G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2500125",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "SABÃO EM PÓ ASSIM 800G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1915642",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "SABONETE NIVEA DE 85GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2557301",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "POLENTA FRITZ E FRIDA 500G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2136899",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "FEIJAO PRETO SABOR DE CASA 1KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BISCOITO MARIA PARATI 370GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-18T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -773,7 +407,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-01T02:59:59.000Z"
+        "validUntil": "2026-09-02T02:59:59.000Z"
       }
     },
     {
@@ -786,7 +420,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-24T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     }
   ]
