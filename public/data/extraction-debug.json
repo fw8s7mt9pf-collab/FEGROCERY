@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T14:54:23.972Z",
+  "generatedAt": "2026-08-19T20:47:15.460Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -46,7 +46,7 @@
         "category": "Meats",
         "validFrom": "2026-08-18T03:00:00.000Z",
         "validUntil": "2026-08-19T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo featuring three beef cuts on sale for August 18, 2026.",
+        "summary": "Flyer promoting three types of refrigerated beef cuts for August 18, 2026.",
         "productNames": [
           "Centro da Paleta Bovina Resfriada",
           "Ponta Agulha Bovina Resfriada",
@@ -64,7 +64,7 @@
       "minimumConfidence": 0.10510264139723,
       "parsedListing": {
         "category": "Meats",
-        "summary": "Grocery flyer from Grupo Roxo featuring one meat product: Filezinho Sassami CVALE IQF 1Kg.",
+        "summary": "Grocery flyer from Grupo Roxo featuring a single meat product: Filezinho Sassami CVALE IQF 1Kg.",
         "productNames": [
           "Filezinho Sassami CVALE IQF 1Kg"
         ],
@@ -86,7 +86,7 @@
         "category": "Meats",
         "validFrom": "2026-08-17T03:00:00.000Z",
         "validUntil": "2026-08-20T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 meat products on promotion from August 17 to August 19, 2026.",
+        "summary": "Flyer from Grupo Roxo featuring 3 meat products valid from August 17 to August 19, 2026.",
         "productNames": [
           "FILEZINHO SASSAMI C VALE IQF",
           "SOBRECOXA AGROSUL IQF",
@@ -104,7 +104,7 @@
       "minimumConfidence": 0.15731720162204033,
       "parsedListing": {
         "category": "Other",
-        "summary": "No identifiable grocery flyer content extracted from OCR text.",
+        "summary": "No identifiable grocery products or valid date information extracted from the OCR text.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -130,20 +130,7 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
       ],
       "averageConfidence": 0.9495477141174841,
-      "minimumConfidence": 0.14122494917822218,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring three meat products on promotion from August 14 to August 16, 2026.",
-        "productNames": [
-          "COXÃO DE FORA BOVINO RESFRIADO",
-          "CAPA DE COXÃO BOVINO RESFRIADO",
-          "COSTELA SEGUNDA BOVINA RESFRIADA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.14122494917822218
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
@@ -159,11 +146,11 @@
         "category": "Alcohol",
         "validFrom": "2026-08-13T03:00:00.000Z",
         "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring alcoholic and non-alcoholic beverages valid from August 13 to August 16, 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 beverage products, including water and two beers, valid from August 13 to August 16, 2026.",
         "productNames": [
-          "Água Cristal da Terra 500ml",
-          "Cerveja Proibida 473ml",
-          "Cerveja Original 473ml"
+          "Água Cristal da Terra",
+          "Cerveja Proibida",
+          "Cerveja Original"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -183,7 +170,7 @@
         "category": "Produce",
         "validFrom": "2026-08-12T03:00:00.000Z",
         "validUntil": "2026-08-14T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring produce offers valid on August 12-13, 2026, including Couve Verde, Chuchu, and Couve-Flor.",
+        "summary": "Flyer for Grupo Roxo's anniversary promotion featuring produce offers valid on August 12-13, 2026.",
         "productNames": [
           "Couve Verde",
           "Chuchu",
@@ -222,7 +209,16 @@
         "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/08/2026 ATÉ 19/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
       "averageConfidence": 0.9428239390279853,
-      "minimumConfidence": 0.12315060539148696
+      "minimumConfidence": 0.12315060539148696,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-18T03:00:00.000Z",
+        "validUntil": "2026-08-20T02:59:59.000Z",
+        "summary": "Flyer from Krolow supermarket featuring produce and poultry offers valid from 2026-08-18 to 2026-08-19.",
+        "productNames": [],
+        "productCount": 9,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
@@ -247,7 +243,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -260,7 +256,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -286,7 +282,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -299,7 +295,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -312,7 +308,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -325,7 +321,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -338,7 +334,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -351,7 +347,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -364,7 +360,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -377,7 +373,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -390,7 +386,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -403,7 +399,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -416,7 +412,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -429,7 +425,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -442,7 +438,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -455,7 +451,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -468,7 +464,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -676,7 +672,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -689,7 +685,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-26T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     },
     {
@@ -702,7 +698,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-02T02:59:59.000Z"
+        "validUntil": "2026-09-01T02:59:59.000Z"
       }
     },
     {
@@ -715,7 +711,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-24T02:59:59.000Z"
       }
     }
   ]
