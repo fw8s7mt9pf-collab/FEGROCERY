@@ -1,15 +1,27 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Meats",
+    "title": "Centro da Paleta Bovina Resfriada, Ponta Agulha Bovina Resfriada, Peito Bovino Resfriado",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/775871779_1535057231993280_8620949670659592550_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-18T03:00:00.000Z",
+    "validUntil": "2026-08-19T02:59:59.000Z",
+    "expiresAt": "2026-08-19T02:59:59.000Z",
+    "lastRefreshed": "2026-08-19T08:59:37.375Z"
+  },
+  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773572653-1531333909032279-3259221166217220569-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "Ofertas do Hortifruti ROXO💜💜💜",
+    "title": "CEBOLA, BATATA BRANCA, OVO BRANCO",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/773572653_1531333909032279_3259221166217220569_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-14T03:00:00.000Z",
     "validUntil": "2026-08-17T02:59:59.000Z",
     "expiresAt": "2026-08-17T02:59:59.000Z",
-    "lastRefreshed": "2026-08-18T20:42:20.503Z"
+    "lastRefreshed": "2026-08-19T08:59:37.375Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg",
@@ -21,19 +33,19 @@
     "validFrom": "2026-08-14T03:00:00.000Z",
     "validUntil": "2026-08-17T02:59:59.000Z",
     "expiresAt": "2026-08-17T02:59:59.000Z",
-    "lastRefreshed": "2026-08-18T20:42:20.503Z"
+    "lastRefreshed": "2026-08-19T08:59:37.375Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772547451-1530457529119917-4835596486528932041-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Alcohol",
-    "title": "CERVEJA PROIBIDA, CERVEJA ORIGINAL",
+    "title": "Ofertas do Final de Semana ROXO 💜",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/772547451_1530457529119917_4835596486528932041_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-13T03:00:00.000Z",
     "validUntil": "2026-08-17T02:59:59.000Z",
     "expiresAt": "2026-08-17T02:59:59.000Z",
-    "lastRefreshed": "2026-08-18T20:42:20.503Z"
+    "lastRefreshed": "2026-08-19T08:59:37.375Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-772271707-1529603795871957-5418748168407830782-n-jpg",
@@ -45,6 +57,6 @@
     "validFrom": "2026-08-12T03:00:00.000Z",
     "validUntil": "2026-08-14T02:59:59.000Z",
     "expiresAt": "2026-08-14T02:59:59.000Z",
-    "lastRefreshed": "2026-08-18T20:42:20.503Z"
+    "lastRefreshed": "2026-08-19T08:59:37.375Z"
   }
 ]
