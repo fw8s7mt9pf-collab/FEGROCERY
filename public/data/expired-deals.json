@@ -9,7 +9,7 @@
     "validFrom": "2026-08-19T03:00:00.000Z",
     "validUntil": "2026-08-20T02:59:59.000Z",
     "expiresAt": "2026-08-20T02:59:59.000Z",
-    "lastRefreshed": "2026-08-20T14:56:36.427Z"
+    "lastRefreshed": "2026-08-20T20:48:19.346Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
@@ -21,7 +21,7 @@
     "validFrom": "2026-08-18T03:00:00.000Z",
     "validUntil": "2026-08-19T02:59:59.000Z",
     "expiresAt": "2026-08-19T02:59:59.000Z",
-    "lastRefreshed": "2026-08-20T14:56:36.427Z"
+    "lastRefreshed": "2026-08-20T20:48:19.346Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777327860-1533916242107379-1190367662752393737-n-jpg",
@@ -33,19 +33,31 @@
     "validFrom": "2026-08-17T03:00:00.000Z",
     "validUntil": "2026-08-20T02:59:59.000Z",
     "expiresAt": "2026-08-20T02:59:59.000Z",
-    "lastRefreshed": "2026-08-20T14:56:36.427Z",
+    "lastRefreshed": "2026-08-20T20:48:19.346Z",
     "warning": "Categoria inferida com baixa confianca."
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773572653-1531333909032279-3259221166217220569-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "Ofertas do Hortifruti ROXO💜💜💜",
+    "title": "Cebola, Batata Branca, Ovo Branco",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/773572653_1531333909032279_3259221166217220569_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-14T03:00:00.000Z",
     "validUntil": "2026-08-17T02:59:59.000Z",
     "expiresAt": "2026-08-17T02:59:59.000Z",
-    "lastRefreshed": "2026-08-20T14:56:36.427Z"
+    "lastRefreshed": "2026-08-20T20:48:19.346Z"
+  },
+  {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Meats",
+    "title": "COX�O DE FORA BOVINO RESFRIADO, CAPA DE COX�O BOVINO RESFRIADO, COSTELA SEGUNDA BOVINA RES",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/774099766_1531331775699159_6286075053941570131_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-14T03:00:00.000Z",
+    "validUntil": "2026-08-17T02:59:59.000Z",
+    "expiresAt": "2026-08-17T02:59:59.000Z",
+    "lastRefreshed": "2026-08-20T20:48:19.346Z"
   }
 ]
