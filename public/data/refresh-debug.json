@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T20:47:15.460Z",
-  "sourceGeneratedAt": "2026-08-19T20:47:11.736Z",
+  "generatedAt": "2026-08-20T09:00:34.194Z",
+  "sourceGeneratedAt": "2026-08-20T09:00:30.359Z",
   "sourceCandidateCount": 48,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 44,
-  "expiredDealCount": 4,
+  "publicDealCount": 42,
+  "expiredDealCount": 6,
   "warningCount": 29,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -51,12 +51,14 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 10,
-    "succeeded": 8,
-    "failed": 2,
+    "succeeded": 6,
+    "failed": 4,
     "skipped": 38,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773572653-1531333909032279-3259221166217220569-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-1-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-2-webp: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
   }
 }
