@@ -1,16 +1,11 @@
 {
-  "generatedAt": "2026-08-20T20:48:19.346Z",
+  "generatedAt": "2026-08-21T09:02:44.956Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777327860-1533916242107379-1190367662752393737-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-2-webp: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-3-webp: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604867: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604883: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2605210: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490526: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2534345: Categoria inferida com baixa confianca.",
@@ -18,22 +13,59 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2370048: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2362251: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1629675: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777867249-1538002945032042-3001389130349874960-n-jpg",
+      "markdownEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
+      ],
+      "blockEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
+      ],
+      "averageConfidence": 0.9475209470101571,
+      "minimumConfidence": 0.15698392731787564,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-21T03:00:00.000Z",
+        "validUntil": "2026-08-24T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
+        "productNames": [
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775260543-1537085661790437-3090482598395135256-n-1-jpg",
+      "markdownEvidence": [
+        "-4.jpeg](img-4.jpeg) Ofertas válidas para os dias 20 À 23 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) BATATA UAI CON"
+      ],
+      "blockEvidence": [
+        "-4.jpeg](img-4.jpeg) Ofertas válidas para os dias 20 À 23 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) BATATA UAI CON"
+      ],
+      "averageConfidence": 0.9587876148493685,
+      "minimumConfidence": 0.10388509338238636,
+      "parsedListing": {
+        "category": "Frozen",
+        "validFrom": "2026-08-20T03:00:00.000Z",
+        "validUntil": "2026-08-24T02:59:59.000Z",
+        "summary": "Flyer válido de 20 a 23 de agosto de 2026 com 3 produtos congelados promovidos.",
+        "productNames": [
+          "BATATA UAI CONGELADA",
+          "COXINHA DAS ASAS AGROSUL",
+          "IOGURTE FRIMESA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg",
       "markdownEvidence": [
@@ -48,11 +80,11 @@
         "category": "Produce",
         "validFrom": "2026-08-19T03:00:00.000Z",
         "validUntil": "2026-08-21T02:59:59.000Z",
-        "summary": "Flyer válido para 19 e 20 de agosto de 2026, promovendo três produtos da categoria Produce: Cebola, Batata Branca e Ovo Branco.",
+        "summary": "Flyer from Grupo Roxo featuring 3 produce items: cebola, batata branca, and ovo branco, valid on August 19-20, 2026.",
         "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Branco"
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -91,36 +123,14 @@
         "D DOLPHIN GS OKM Ofertas válidas para o dia 18 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
       ],
       "averageConfidence": 0.9514289257682056,
-      "minimumConfidence": 0.1462016459348995,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-18T03:00:00.000Z",
-        "validUntil": "2026-08-19T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo featuring three beef cuts on promotion for August 18, 2026.",
-        "productNames": [
-          "Centro da Paleta Bovina Resfriada",
-          "Ponta Agulha Bovina Resfriada",
-          "Peito Bovino Resfriado"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1462016459348995
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9093786921766555,
-      "minimumConfidence": 0.10510264139723,
-      "parsedListing": {
-        "category": "Meats",
-        "summary": "Grocery flyer from Grupo Roxo featuring a single meat product: Filezinho Sassami CVALE IQF 1Kg.",
-        "productNames": [
-          "Filezinho Sassami CVALE IQF 1Kg"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.10510264139723
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777327860-1533916242107379-1190367662752393737-n-jpg",
@@ -134,88 +144,27 @@
       "minimumConfidence": 0.11199556494724854
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773359777-3706615149486637-1422907486983185832-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9307457825696271,
-      "minimumConfidence": 0.15731720162204033,
-      "parsedListing": {
-        "category": "Other",
-        "summary": "No identifiable grocery products or valid date information extracted from the OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-773572653-1531333909032279-3259221166217220569-n-jpg",
-      "markdownEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
-      ],
-      "blockEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
-      ],
-      "averageConfidence": 0.9487096023318118,
-      "minimumConfidence": 0.1388531619495526,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo's anniversary promotion featuring 3 produce items: Cebola, Batata Branca, and Ovo Branco, valid from August 14 to August 16, 2026.",
-        "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Branco"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-774099766-1531331775699159-6286075053941570131-n-jpg",
-      "markdownEvidence": [
-        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
-      ],
-      "blockEvidence": [
-        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **14 À 16 DE AGOSTO** enquanto durarem os estoques A carne do Rio Grande ![img-1.jpeg](im"
-      ],
-      "averageConfidence": 0.9495477141174841,
-      "minimumConfidence": 0.14122494917822218,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-14T03:00:00.000Z",
-        "validUntil": "2026-08-17T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring three meat products on promotion from August 14 to August 16, 2026.",
-        "productNames": [
-          "COXÃO DE FORA BOVINO RESFRIADO",
-          "CAPA DE COXÃO BOVINO RESFRIADO",
-          "COSTELA SEGUNDA BOVINA RESFRIADA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-1-2-webp",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9559822947168264,
-      "minimumConfidence": 0.13747736903734753,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-20T03:00:00.000Z",
-        "summary": "Flyer from Krolow with 7 distinct promoted products in the Basic Groceries category, valid from August 20, 2026.",
-        "productNames": [],
-        "productCount": 7,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.13747736903734753
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-2-3-webp",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9546765926635764,
-      "minimumConfidence": 0.26489074919878647
+      "minimumConfidence": 0.26489074919878647,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-20T03:00:00.000Z",
+        "validUntil": "2026-08-21T02:59:59.000Z",
+        "summary": "No distinct promoted products visible in the provided OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp",
@@ -226,19 +175,15 @@
         "OFERTAS VALIDAS DE 20/08/2026 ATE 23/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "averageConfidence": 0.9285124053787942,
-      "minimumConfidence": 0.058286275213805264
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
-      "markdownEvidence": [],
-      "blockEvidence": [],
+      "minimumConfidence": 0.058286275213805264,
       "parsedListing": {
-        "productNames": [
-          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "category": "Meats",
+        "validFrom": "2026-08-20T03:00:00.000Z",
+        "validUntil": "2026-08-24T02:59:59.000Z",
+        "summary": "Grocery flyer for Krolow supermarket featuring refrigerated meat cuts, valid from 20/08/2026 to 23/08/2026. Product names not listed as more than three products are promoted.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": true
       }
     },
     {
@@ -251,7 +196,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -264,20 +209,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2605210",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA BRANCA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -290,7 +222,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -303,7 +235,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -316,7 +248,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -329,7 +261,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -342,7 +274,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -355,7 +287,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -368,7 +300,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -381,7 +313,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -394,7 +326,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -407,7 +339,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -420,7 +352,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -433,7 +365,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -446,7 +378,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -459,7 +391,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -472,189 +404,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ABACAXI UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MORANGA CABUTIA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA DOCE KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620587",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "TOMATE RASTEIRO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ALFACE UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CENOURA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BETERRABA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MILHO VERDE BANDEJA UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAÇÃ GALA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA UMBIGO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA SUCO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAÇA FUJI KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "REPOLHO VERDE UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2182725",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BANANA PRATA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-21T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -667,7 +417,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -680,7 +430,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-26T02:59:59.000Z"
       }
     },
     {
@@ -693,7 +443,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-01T02:59:59.000Z"
+        "validUntil": "2026-09-02T02:59:59.000Z"
       }
     },
     {
@@ -706,7 +456,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-24T02:59:59.000Z"
+        "validUntil": "2026-08-25T02:59:59.000Z"
       }
     }
   ]
