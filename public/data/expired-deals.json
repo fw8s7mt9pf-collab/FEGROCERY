@@ -3,37 +3,25 @@
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "Cebola, Batata Branca, Ovo Branco",
+    "title": "CEBOLA, BATATA BRANCA, OVO BRANCO",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/778869916_1536370411861962_1929447908579595969_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-19T03:00:00.000Z",
     "validUntil": "2026-08-21T02:59:59.000Z",
     "expiresAt": "2026-08-21T02:59:59.000Z",
-    "lastRefreshed": "2026-08-21T14:54:55.810Z"
+    "lastRefreshed": "2026-08-21T20:42:55.205Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Basic Groceries",
-    "title": "Margarina Doriana 500g, Manteiga Kiformaggio 200g, Leite UHT 1L",
+    "title": "MARGARINA DORIANA 500g, MANTEIGA KIFORMAGGIO 200g, LEITE UHT 1L",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/778156955_1536369745195362_4190462723156457521_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-19T03:00:00.000Z",
     "validUntil": "2026-08-20T02:59:59.000Z",
     "expiresAt": "2026-08-20T02:59:59.000Z",
-    "lastRefreshed": "2026-08-21T14:54:55.810Z"
-  },
-  {
-    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
-    "supermarket": "Grupo Roxo",
-    "category": "Meats",
-    "title": "Centro da Paleta Bovina Resfriada, Ponta Agulha Bovina Resfriada, Peito Bovino Resfriado",
-    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/775871779_1535057231993280_8620949670659592550_n.jpg",
-    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
-    "validFrom": "2026-08-18T03:00:00.000Z",
-    "validUntil": "2026-08-19T02:59:59.000Z",
-    "expiresAt": "2026-08-19T02:59:59.000Z",
-    "lastRefreshed": "2026-08-21T14:54:55.810Z"
+    "lastRefreshed": "2026-08-21T20:42:55.205Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777327860-1533916242107379-1190367662752393737-n-jpg",
@@ -45,7 +33,7 @@
     "validFrom": "2026-08-17T03:00:00.000Z",
     "validUntil": "2026-08-20T02:59:59.000Z",
     "expiresAt": "2026-08-20T02:59:59.000Z",
-    "lastRefreshed": "2026-08-21T14:54:55.810Z",
+    "lastRefreshed": "2026-08-21T20:42:55.205Z",
     "warning": "Categoria inferida com baixa confianca."
   }
 ]
