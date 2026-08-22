@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-22T08:52:30.737Z",
+  "generatedAt": "2026-08-22T14:40:37.244Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-21-08-png: Categoria inferida com baixa confianca.",
@@ -43,8 +43,7 @@
       "minimumConfidence": 0.06264535028941806,
       "parsedListing": {
         "category": "Other",
-        "validUntil": "2027-01-24T02:59:59.000Z",
-        "summary": "Flyer promoting a contest to win a car, with no grocery products listed.",
+        "summary": "Flyer contains no promoted grocery products, only a promotional contest for a car.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -64,7 +63,7 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 produce items: CEBOLA, BATATA BRANCA, and OVO BRANCO, valid from August 21 to August 23, 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
         "productNames": [
           "CEBOLA",
           "BATATA BRANCA",
@@ -88,7 +87,7 @@
         "category": "Frozen",
         "validFrom": "2026-08-20T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 frozen products valid from 20 to 23 August 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 frozen products valid from August 20 to August 23, 2026.",
         "productNames": [
           "BATATA UAI CONGELADA",
           "COXINHA DAS ASAS AGROSUL",
@@ -112,7 +111,7 @@
         "category": "Produce",
         "validFrom": "2026-08-19T03:00:00.000Z",
         "validUntil": "2026-08-21T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid on August 19 and 20, 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid for August 19-20, 2026.",
         "productNames": [
           "CEBOLA",
           "BATATA BRANCA",
@@ -138,9 +137,9 @@
         "validUntil": "2026-08-20T02:59:59.000Z",
         "summary": "Flyer válido para 19 de agosto de 2026 com 3 produtos em promoção: margarina, manteiga e leite UHT.",
         "productNames": [
-          "Margarina Doriana 500g",
-          "Manteiga Kiformaggio 200g",
-          "Leite UHT 1L"
+          "MARGARINA DORIANA 500g",
+          "MANTEIGA KIFORMAGGIO 200g",
+          "LEITE UHT 1L"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -155,20 +154,7 @@
         "D DOLPHIN GS OKM Ofertas válidas para o dia 18 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
       ],
       "averageConfidence": 0.9514289257682056,
-      "minimumConfidence": 0.1462016459348995,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-18T03:00:00.000Z",
-        "validUntil": "2026-08-19T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo featuring three beef products on promotion for August 18, 2026.",
-        "productNames": [
-          "Centro da Paleta Bovina Resfriada",
-          "Ponta Agulha Bovina Resfriada",
-          "Peito Bovino Resfriado"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1462016459348995
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg",
@@ -753,7 +739,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
+        "validUntil": "2026-08-24T02:59:59.000Z"
       }
     }
   ]
