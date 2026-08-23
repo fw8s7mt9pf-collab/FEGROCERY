@@ -1,10 +1,9 @@
 {
-  "generatedAt": "2026-08-23T14:42:26.798Z",
+  "generatedAt": "2026-08-23T20:41:16.130Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-21-08-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1519069: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -67,7 +66,7 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
+        "summary": "Grocery flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
         "productNames": [
           "CEBOLA",
           "BATATA BRANCA",
@@ -134,20 +133,7 @@
         "D DOLPHIN GS 0KM Ofertas válidas para o dia 19 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MARGARINA DORIANA 500g ("
       ],
       "averageConfidence": 0.9537347067935188,
-      "minimumConfidence": 0.15298800657023037,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-19T03:00:00.000Z",
-        "validUntil": "2026-08-20T02:59:59.000Z",
-        "summary": "Flyer válido para 19 de agosto de 2026 com 3 produtos em promoção: margarina, manteiga e leite UHT.",
-        "productNames": [
-          "MARGARINA DORIANA 500g",
-          "MANTEIGA KIFORMAGGIO 200g",
-          "LEITE UHT 1L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.15298800657023037
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
@@ -198,7 +184,16 @@
         "OFERTAS VALIDAS DE 20/08/2026 ATE 23/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "averageConfidence": 0.9285124053787942,
-      "minimumConfidence": 0.058286275213805264
+      "minimumConfidence": 0.058286275213805264,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-20T03:00:00.000Z",
+        "validUntil": "2026-08-24T02:59:59.000Z",
+        "summary": "Grocery flyer for Krolow supermarket featuring refrigerated meat cuts, valid from 20/08/2026 to 23/08/2026. Product names not explicitly listed in OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-21-08-png",
@@ -209,7 +204,19 @@
         "g. Bergamota Comum kg. OFERTAS VÁLIDAS DE 21/08/2026 ATÉ 23/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
       ],
       "averageConfidence": 0.9560345083715871,
-      "minimumConfidence": 0.15727283669130837
+      "minimumConfidence": 0.15727283669130837,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-21T03:00:00.000Z",
+        "validUntil": "2026-08-24T02:59:59.000Z",
+        "summary": "Grocery flyer for Krolow supermarket featuring produce offers valid from August 21, 2026, to August 23, 2026.",
+        "productNames": [
+          "Repolho Verde",
+          "Bergamota Comum"
+        ],
+        "productCount": 2,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-insta-2108-ate-2308-png",
@@ -245,7 +252,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-02T02:59:59.000Z"
+        "validUntil": "2026-09-01T02:59:59.000Z"
       }
     },
     {
