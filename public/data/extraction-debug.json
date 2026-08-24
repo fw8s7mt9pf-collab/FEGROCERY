@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-08-24T09:09:05.654Z",
+  "generatedAt": "2026-08-24T15:02:14.977Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1519069: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -63,12 +64,10 @@
       "minimumConfidence": 0.06264535028941806,
       "parsedListing": {
         "category": "Other",
-        "validFrom": "2027-01-23T03:00:00.000Z",
-        "summary": "Flyer promoting a single product related to a supermarket anniversary event.",
-        "productNames": [
-          "Aniversário"
-        ],
-        "productCount": 1,
+        "validUntil": "2027-01-24T02:59:59.000Z",
+        "summary": "Flyer promoting a contest to win a car, with no grocery products listed.",
+        "productNames": [],
+        "productCount": 0,
         "hasMoreThanThreeProducts": false
       }
     },
@@ -86,11 +85,11 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de cebola, batata branca e ovo branco válidas de 21 a 23 de agosto de 2026.",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
         "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Branco"
+          "CEBOLA",
+          "BATATA BRANCA",
+          "OVO BRANCO"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -140,20 +139,7 @@
         "D DOLPHIN GS 0KM Ofertas válidas para o dia 19 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MARGARINA DORIANA 500g ("
       ],
       "averageConfidence": 0.9537347067935188,
-      "minimumConfidence": 0.15298800657023037,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-19T03:00:00.000Z",
-        "validUntil": "2026-08-20T02:59:59.000Z",
-        "summary": "Flyer válido para 19 de agosto de 2026 com 3 produtos em promoção na categoria Basic Groceries.",
-        "productNames": [
-          "MARGARINA DORIANA 500g",
-          "MANTEIGA KIFORMAGGIO 200g",
-          "LEITE UHT 1L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.15298800657023037
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
@@ -180,85 +166,35 @@
       }
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp",
-      "markdownEvidence": [
-        "OFERTAS VALIDAS DE 20/08/2026 ATE 23/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "blockEvidence": [
-        "OFERTAS VALIDAS DE 20/08/2026 ATE 23/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "averageConfidence": 0.9285124053787942,
-      "minimumConfidence": 0.058286275213805264,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-20T03:00:00.000Z",
-        "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer for Krolow supermarket featuring refrigerated meat cuts, valid from August 20 to August 23, 2026.",
-        "productNames": [
-          "Cortes Resfriados"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-21-08-png",
-      "markdownEvidence": [
-        "g. Bergamota Comum kg. OFERTAS VÁLIDAS DE 21/08/2026 ATÉ 23/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "blockEvidence": [
-        "g. Bergamota Comum kg. OFERTAS VÁLIDAS DE 21/08/2026 ATÉ 23/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "averageConfidence": 0.9560345083715871,
-      "minimumConfidence": 0.15727283669130837,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-21T03:00:00.000Z",
-        "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring 2 produce items: Repolho Verde and Bergamota Comum, valid from August 21 to August 23, 2026.",
-        "productNames": [
-          "Repolho Verde",
-          "Bergamota Comum"
-        ],
-        "productCount": 2,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-insta-2108-ate-2308-png",
-      "markdownEvidence": [
-        "C/ 100 Unidades R$ 6,99 Un. OFERTAS VÁLIDAS DE 21/08 ATÉ 23/08/2026, OU ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS"
-      ],
-      "blockEvidence": [
-        "C/ 100 Unidades R$ 6,99 Un. OFERTAS VÁLIDAS DE 21/08 ATÉ 23/08/2026, OU ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS"
-      ],
-      "averageConfidence": 0.949837262017525,
-      "minimumConfidence": 0.11550325542154323
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-ofertas-final-de-semana-arrumado-2108-a-2308-png",
-      "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 21/08 ATÉ 23/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Capa de",
-        "-14.jpeg) R$ 1,99 kg. ![img-15.jpeg](img-15.jpeg) Maionese Liza Caseira 400g R$ 4,99 kg. Lava Roupas Apyce 5LT. ![img-16.jpeg](img-16."
-      ],
-      "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 21/08 ATÉ 23/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Capa de",
-        "-14.jpeg) R$ 1,99 kg. ![img-15.jpeg](img-15.jpeg) Maionese Liza Caseira 400g R$ 4,99 kg. Lava Roupas Apyce 5LT. ![img-16.jpeg](img-16."
-      ],
-      "averageConfidence": 0.9436416562875477,
-      "minimumConfidence": 0.07010005720778043
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2316543",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-de-ofertas-24-08-png",
       "markdownEvidence": [],
       "blockEvidence": [],
+      "averageConfidence": 0.9457714330047967,
+      "minimumConfidence": 0.14225842818193907,
       "parsedListing": {
-        "productNames": [
-          "ÁGUA FLUA COM GÁS DE 500ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-02T02:59:59.000Z"
+        "category": "Basic Groceries",
+        "validFrom": "2026-08-24T03:00:00.000Z",
+        "validUntil": "2026-08-25T02:59:59.000Z",
+        "summary": "Flyer válido somente para o dia 24/08/2026, com 10 produtos em promoção, incluindo presunto, salsicha, bebida láctea, hambúrguer, lentilha, biscoito, sardinha, sobrecoxa de frango, farinha de trigo e lava-roupa em pó.",
+        "productNames": [],
+        "productCount": 10,
+        "hasMoreThanThreeProducts": true
+      }
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-de-ofertas-24-08-2-png",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9439403459775204,
+      "minimumConfidence": 0.14895448570213432,
+      "parsedListing": {
+        "category": "Cleaning",
+        "validFrom": "2026-08-24T03:00:00.000Z",
+        "validUntil": "2026-08-25T02:59:59.000Z",
+        "summary": "Flyer containing cleaning and hygiene products such as disinfectant, toilet paper, bleach, fabric softener, liquid laundry detergent, and dish detergent.",
+        "productNames": [],
+        "productCount": 7,
+        "hasMoreThanThreeProducts": true
       }
     },
     {

@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-24T09:09:05.654Z",
-  "sourceGeneratedAt": "2026-08-24T09:08:41.174Z",
-  "sourceCandidateCount": 51,
+  "generatedAt": "2026-08-24T15:02:14.977Z",
+  "sourceGeneratedAt": "2026-08-24T15:02:11.499Z",
+  "sourceCandidateCount": 48,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 42,
-  "expiredDealCount": 9,
-  "warningCount": 28,
+  "publicDealCount": 44,
+  "expiredDealCount": 4,
+  "warningCount": 29,
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1519069: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -40,23 +41,22 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 11,
-    "succeeded": 11,
+    "attempted": 9,
+    "succeeded": 9,
     "failed": 0,
-    "skipped": 40,
+    "skipped": 39,
     "errors": []
   },
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 11,
-    "succeeded": 8,
-    "failed": 3,
-    "skipped": 40,
+    "attempted": 9,
+    "succeeded": 7,
+    "failed": 2,
+    "skipped": 39,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-insta-2108-ate-2308-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-ofertas-final-de-semana-arrumado-2108-a-2308-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
   }
 }
