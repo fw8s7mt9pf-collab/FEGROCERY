@@ -1,8 +1,11 @@
 {
-  "generatedAt": "2026-08-24T15:02:14.977Z",
+  "generatedAt": "2026-08-24T20:49:58.438Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1519069: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -26,9 +29,7 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2534345: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604885: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2370048: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2362251: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1629675: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
@@ -65,7 +66,7 @@
       "parsedListing": {
         "category": "Other",
         "validUntil": "2027-01-24T02:59:59.000Z",
-        "summary": "Flyer promoting a contest to win a car, with no grocery products listed.",
+        "summary": "Flyer promoting a contest to win a car, with no distinct grocery products listed.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -85,11 +86,11 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
+        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de cebola, batata branca e ovo branco válidas de 21 a 23 de agosto de 2026.",
         "productNames": [
-          "CEBOLA",
-          "BATATA BRANCA",
-          "OVO BRANCO"
+          "Cebola",
+          "Batata Branca",
+          "Ovo Branco"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -150,36 +151,14 @@
         "D DOLPHIN GS OKM Ofertas válidas para o dia 18 DE AGOSTO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) A carne do Rio Grande !["
       ],
       "averageConfidence": 0.9514289257682056,
-      "minimumConfidence": 0.1462016459348995,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-18T03:00:00.000Z",
-        "validUntil": "2026-08-19T02:59:59.000Z",
-        "summary": "Flyer promoting three types of refrigerated beef cuts for August 18, 2026.",
-        "productNames": [
-          "Centro da Paleta Bovina Resfriada",
-          "Ponta Agulha Bovina Resfriada",
-          "Peito Bovino Resfriado"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1462016459348995
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-de-ofertas-24-08-png",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9457714330047967,
-      "minimumConfidence": 0.14225842818193907,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-24T03:00:00.000Z",
-        "validUntil": "2026-08-25T02:59:59.000Z",
-        "summary": "Flyer válido somente para o dia 24/08/2026, com 10 produtos em promoção, incluindo presunto, salsicha, bebida láctea, hambúrguer, lentilha, biscoito, sardinha, sobrecoxa de frango, farinha de trigo e lava-roupa em pó.",
-        "productNames": [],
-        "productCount": 10,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.14225842818193907
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-de-ofertas-24-08-2-png",
@@ -188,13 +167,85 @@
       "averageConfidence": 0.9439403459775204,
       "minimumConfidence": 0.14895448570213432,
       "parsedListing": {
-        "category": "Cleaning",
+        "category": "Basic Groceries",
         "validFrom": "2026-08-24T03:00:00.000Z",
         "validUntil": "2026-08-25T02:59:59.000Z",
-        "summary": "Flyer containing cleaning and hygiene products such as disinfectant, toilet paper, bleach, fabric softener, liquid laundry detergent, and dish detergent.",
+        "summary": "Flyer from Krolow with 9 distinct promoted products in the Basic Groceries category, valid only on 24/08/2026.",
         "productNames": [],
-        "productCount": 7,
+        "productCount": 9,
         "hasMoreThanThreeProducts": true
+      }
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png",
+      "markdownEvidence": [
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 24/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+      ],
+      "blockEvidence": [
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 24/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+      ],
+      "averageConfidence": 0.9634324816562337,
+      "minimumConfidence": 0.19596187993708672,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-08-24T03:00:00.000Z",
+        "validUntil": "2026-08-27T02:59:59.000Z",
+        "summary": "No distinct product names visible in the provided OCR text.",
+        "productNames": [],
+        "productCount": 0,
+        "hasMoreThanThreeProducts": false
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1839420",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LINGUIÇA TOSCANA NOBRE KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-01T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "PALETA SUÍNA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-01T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MASSA DE PASTEL SCATOLIN DL E DG 500G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-01T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604863",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CREME DENTAL COLGATE TOTAL 90G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-01T02:59:59.000Z"
       }
     },
     {
@@ -510,19 +561,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604863",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CREME DENTAL COLGATE TOTAL 90G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490527",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -588,38 +626,12 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1839420",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LINGUIÇA TOSCANA NOBRE KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2370048",
       "markdownEvidence": [],
       "blockEvidence": [],
       "parsedListing": {
         "productNames": [
           "MARGARINA QUALY COM SAL DE 500GR"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MASSA DE PASTEL SCATOLIN DL E DG 500G"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -672,19 +684,6 @@
       "parsedListing": {
         "productNames": [
           "SHAMPOO MONANGE 325ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PALETA SUÍNA KG"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
