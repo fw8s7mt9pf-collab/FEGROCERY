@@ -1,15 +1,51 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777867249-1538002945032042-3001389130349874960-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Produce",
+    "title": "Cebola, Batata Branca, Ovo Branco",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/777867249_1538002945032042_3001389130349874960_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-21T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775260543-1537085661790437-3090482598395135256-n-1-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Frozen",
+    "title": "BATATA UAI CONGELADA, COXINHA DAS ASAS AGROSUL, IOGURTE FRIMESA",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/775260543_1537085661790437_3090482598395135256_n-1.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-20T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "CEBOLA, BATATA BRANCA, OVO BRANCO",
+    "title": "Ofertas do Hortifruti ROXO💜",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/778869916_1536370411861962_1929447908579595969_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-19T03:00:00.000Z",
     "validUntil": "2026-08-21T02:59:59.000Z",
     "expiresAt": "2026-08-21T02:59:59.000Z",
-    "lastRefreshed": "2026-08-23T20:41:16.130Z"
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Basic Groceries",
+    "title": "MARGARINA DORIANA 500g, MANTEIGA KIFORMAGGIO 200g, LEITE UHT 1L",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/778156955_1536369745195362_4190462723156457521_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-19T03:00:00.000Z",
+    "validUntil": "2026-08-20T02:59:59.000Z",
+    "expiresAt": "2026-08-20T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
@@ -21,6 +57,54 @@
     "validFrom": "2026-08-18T03:00:00.000Z",
     "validUntil": "2026-08-19T02:59:59.000Z",
     "expiresAt": "2026-08-19T02:59:59.000Z",
-    "lastRefreshed": "2026-08-23T20:41:16.130Z"
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Cortes Resfriados",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/3-2.webp",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-08-20T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-21-08-png",
+    "supermarket": "Krolow",
+    "category": "Produce",
+    "title": "Repolho Verde, Bergamota Comum",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/final-de-semana-feira-21-08.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-08-21T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-insta-2108-ate-2308-png",
+    "supermarket": "Krolow",
+    "category": "Produce",
+    "title": "Hortifruti",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/findi-INSTA-2108-ate-2308.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-08-21T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-ofertas-final-de-semana-arrumado-2108-a-2308-png",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Carnes",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/Ofertas-Final-de-semana-arrumado-2108-a-2308.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-08-21T03:00:00.000Z",
+    "validUntil": "2026-08-24T02:59:59.000Z",
+    "expiresAt": "2026-08-24T02:59:59.000Z",
+    "lastRefreshed": "2026-08-24T09:09:05.654Z"
   }
 ]

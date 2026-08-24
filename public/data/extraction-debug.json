@@ -1,9 +1,7 @@
 {
-  "generatedAt": "2026-08-23T20:41:16.130Z",
+  "generatedAt": "2026-08-24T09:09:05.654Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1519069: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1603608: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -30,10 +28,33 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2362251: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1629675: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1629675: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-780909954-1540459278119742-4168183558738374326-n-jpg",
+      "markdownEvidence": [
+        "-4.jpeg](img-4.jpeg) Ofertas válidas para os dias 24 À 26 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) FILEZINHO SASS"
+      ],
+      "blockEvidence": [
+        "-4.jpeg](img-4.jpeg) Ofertas válidas para os dias 24 À 26 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) FILEZINHO SASS"
+      ],
+      "averageConfidence": 0.9594239022221999,
+      "minimumConfidence": 0.12096014145897974,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-24T03:00:00.000Z",
+        "validUntil": "2026-08-27T02:59:59.000Z",
+        "summary": "Grocery flyer from Grupo Roxo featuring 3 meat products on promotion from August 24 to August 26, 2026.",
+        "productNames": [
+          "FILEZINHO SASSAMI C VALE IQF",
+          "SOBRECOXA AGROSUL IQF",
+          "MORTADELA GOURMET SEARA DEFUMADA"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg",
       "markdownEvidence": [],
@@ -43,10 +64,9 @@
       "parsedListing": {
         "category": "Other",
         "validFrom": "2027-01-23T03:00:00.000Z",
-        "validUntil": "2027-01-24T02:59:59.000Z",
-        "summary": "Flyer promocional do Grupo Roxo para sorteio de carro, válido no aniversário da loja Centro em 23/01/2027.",
+        "summary": "Flyer promoting a single product related to a supermarket anniversary event.",
         "productNames": [
-          "Cupom para sorteio de carro"
+          "Aniversário"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false
@@ -66,11 +86,11 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with 3 promoted products in the Produce category, valid from August 21 to August 23, 2026.",
+        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de cebola, batata branca e ovo branco válidas de 21 a 23 de agosto de 2026.",
         "productNames": [
-          "CEBOLA",
-          "BATATA BRANCA",
-          "OVO BRANCO"
+          "Cebola",
+          "Batata Branca",
+          "Ovo Branco"
         ],
         "productCount": 3,
         "hasMoreThanThreeProducts": false
@@ -109,20 +129,7 @@
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 19 À 20 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
       ],
       "averageConfidence": 0.9477422462456392,
-      "minimumConfidence": 0.1369972863734984,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-19T03:00:00.000Z",
-        "validUntil": "2026-08-21T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 produce items: CEBOLA, BATATA BRANCA, and OVO BRANCO, valid from 2026-08-19 to 2026-08-20.",
-        "productNames": [
-          "CEBOLA",
-          "BATATA BRANCA",
-          "OVO BRANCO"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1369972863734984
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778156955-1536369745195362-4190462723156457521-n-jpg",
@@ -133,7 +140,20 @@
         "D DOLPHIN GS 0KM Ofertas válidas para o dia 19 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MARGARINA DORIANA 500g ("
       ],
       "averageConfidence": 0.9537347067935188,
-      "minimumConfidence": 0.15298800657023037
+      "minimumConfidence": 0.15298800657023037,
+      "parsedListing": {
+        "category": "Basic Groceries",
+        "validFrom": "2026-08-19T03:00:00.000Z",
+        "validUntil": "2026-08-20T02:59:59.000Z",
+        "summary": "Flyer válido para 19 de agosto de 2026 com 3 produtos em promoção na categoria Basic Groceries.",
+        "productNames": [
+          "MARGARINA DORIANA 500g",
+          "MANTEIGA KIFORMAGGIO 200g",
+          "LEITE UHT 1L"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775871779-1535057231993280-8620949670659592550-n-jpg",
@@ -160,22 +180,6 @@
       }
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775336845-2118293775760271-296846671194112469-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9093786921766555,
-      "minimumConfidence": 0.10510264139723,
-      "parsedListing": {
-        "category": "Meats",
-        "summary": "Grocery flyer from Grupo Roxo featuring a single meat product: Filezinho Sassami CVALE IQF 1Kg.",
-        "productNames": [
-          "Filezinho Sassami CVALE IQF 1Kg"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-3-2-webp",
       "markdownEvidence": [
         "OFERTAS VALIDAS DE 20/08/2026 ATE 23/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
@@ -189,10 +193,12 @@
         "category": "Meats",
         "validFrom": "2026-08-20T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer for Krolow supermarket featuring refrigerated meat cuts, valid from 20/08/2026 to 23/08/2026. Product names not explicitly listed in OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": true
+        "summary": "Grocery flyer for Krolow supermarket featuring refrigerated meat cuts, valid from August 20 to August 23, 2026.",
+        "productNames": [
+          "Cortes Resfriados"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false
       }
     },
     {
@@ -209,7 +215,7 @@
         "category": "Produce",
         "validFrom": "2026-08-21T03:00:00.000Z",
         "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Grocery flyer for Krolow supermarket featuring produce offers valid from August 21, 2026, to August 23, 2026.",
+        "summary": "Grocery flyer from Krolow featuring 2 produce items: Repolho Verde and Bergamota Comum, valid from August 21 to August 23, 2026.",
         "productNames": [
           "Repolho Verde",
           "Bergamota Comum"
@@ -252,7 +258,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-01T02:59:59.000Z"
+        "validUntil": "2026-09-02T02:59:59.000Z"
       }
     },
     {
@@ -760,19 +766,6 @@
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-08-25T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2466891",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MARGARINA DUALIS COM SAL 500G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-08-24T02:59:59.000Z"
       }
     }
   ]
