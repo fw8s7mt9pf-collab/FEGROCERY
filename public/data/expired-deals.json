@@ -1,15 +1,27 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-785313087-1045578595127044-4671779581801447871-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Frozen",
+    "title": "CARNE CONGELADA DE FRINGO COM OSSO SOBRE COXA",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/785313087_1045578595127044_4671779581801447871_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-07-20T03:00:00.000Z",
+    "validUntil": "2026-07-28T02:59:59.000Z",
+    "expiresAt": "2026-07-28T02:59:59.000Z",
+    "lastRefreshed": "2026-08-25T15:08:17.267Z"
+  },
+  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777867249-1538002945032042-3001389130349874960-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "Cebola, Batata Branca, Ovo Branco",
+    "title": "CEBOLA, BATATA BRANCA, OVO BRANCO",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/777867249_1538002945032042_3001389130349874960_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-21T03:00:00.000Z",
     "validUntil": "2026-08-24T02:59:59.000Z",
     "expiresAt": "2026-08-24T02:59:59.000Z",
-    "lastRefreshed": "2026-08-25T09:04:00.258Z"
+    "lastRefreshed": "2026-08-25T15:08:17.267Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775260543-1537085661790437-3090482598395135256-n-1-jpg",
@@ -21,31 +33,18 @@
     "validFrom": "2026-08-20T03:00:00.000Z",
     "validUntil": "2026-08-24T02:59:59.000Z",
     "expiresAt": "2026-08-24T02:59:59.000Z",
-    "lastRefreshed": "2026-08-25T09:04:00.258Z"
+    "lastRefreshed": "2026-08-25T15:08:17.267Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
-    "title": "Ofertas do Hortifruti ROXO💜",
+    "title": "CEBOLA, BATATA BRANCA, OVO BRANCO",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/778869916_1536370411861962_1929447908579595969_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validFrom": "2026-08-19T03:00:00.000Z",
     "validUntil": "2026-08-21T02:59:59.000Z",
     "expiresAt": "2026-08-21T02:59:59.000Z",
-    "lastRefreshed": "2026-08-25T09:04:00.258Z"
-  },
-  {
-    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-de-ofertas-24-08-png",
-    "supermarket": "Krolow",
-    "category": "Other",
-    "title": "Ofertas variadas",
-    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/segunda-de-ofertas-24-08.png",
-    "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "validFrom": "2026-08-24T03:00:00.000Z",
-    "validUntil": "2026-08-25T02:59:59.000Z",
-    "expiresAt": "2026-08-25T02:59:59.000Z",
-    "lastRefreshed": "2026-08-25T09:04:00.258Z",
-    "warning": "Categoria inferida com baixa confianca."
+    "lastRefreshed": "2026-08-25T15:08:17.267Z"
   }
 ]
