@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T15:08:17.267Z",
-  "sourceGeneratedAt": "2026-08-25T15:07:50.331Z",
+  "generatedAt": "2026-08-25T20:47:48.704Z",
+  "sourceGeneratedAt": "2026-08-25T20:47:45.512Z",
   "sourceCandidateCount": 68,
   "sourceSkippedCount": 1,
   "sourceSkipped": [
@@ -65,10 +65,14 @@
     "provider": "mistral-chat",
     "enabled": true,
     "attempted": 10,
-    "succeeded": 8,
-    "failed": 2,
+    "succeeded": 4,
+    "failed": 6,
     "skipped": 58,
     "errors": [
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-777867249-1538002945032042-3001389130349874960-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775260543-1537085661790437-3090482598395135256-n-1-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-1-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]

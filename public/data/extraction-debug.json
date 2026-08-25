@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:08:17.267Z",
+  "generatedAt": "2026-08-25T20:47:48.704Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-779017822-1029373236675438-7232958631948605792-n-jpg: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Categoria inferida com baixa confianca.",
@@ -75,7 +75,7 @@
       "averageConfidence": 0.86274208338353,
       "minimumConfidence": 0.1344477491564068,
       "parsedListing": {
-        "category": "Frozen",
+        "category": "Meats",
         "validFrom": "2026-07-20T03:00:00.000Z",
         "validUntil": "2026-07-28T02:59:59.000Z",
         "summary": "Flyer for frozen chicken with bone (thigh) from Grupo Roxo, valid from July 20 to July 27, 2026.",
@@ -100,7 +100,7 @@
         "category": "Meats",
         "validFrom": "2026-08-24T03:00:00.000Z",
         "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring 3 meat products on promotion from August 24 to 26, 2026.",
+        "summary": "Grocery flyer from Grupo Roxo featuring 3 meat products valid from August 24 to August 26, 2026.",
         "productNames": [
           "FILEZINHO SASSAMI C VALE IQF",
           "SOBRECOXA AGROSUL IQF",
@@ -119,7 +119,7 @@
       "parsedListing": {
         "category": "Other",
         "validUntil": "2027-01-24T02:59:59.000Z",
-        "summary": "Flyer promoting a contest to win a car, with no grocery products listed.",
+        "summary": "Flyer promoting a contest to win a car, with no distinct grocery products listed.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -134,20 +134,7 @@
         ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
       ],
       "averageConfidence": 0.9475209470101571,
-      "minimumConfidence": 0.15698392731787564,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-21T03:00:00.000Z",
-        "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de cebola, batata branca e ovo branco válidas de 21 a 23 de agosto de 2026.",
-        "productNames": [
-          "CEBOLA",
-          "BATATA BRANCA",
-          "OVO BRANCO"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.15698392731787564
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-775260543-1537085661790437-3090482598395135256-n-1-jpg",
@@ -158,20 +145,7 @@
         "-4.jpeg](img-4.jpeg) Ofertas válidas para os dias 20 À 23 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) BATATA UAI CON"
       ],
       "averageConfidence": 0.9587876148493685,
-      "minimumConfidence": 0.10388509338238636,
-      "parsedListing": {
-        "category": "Frozen",
-        "validFrom": "2026-08-20T03:00:00.000Z",
-        "validUntil": "2026-08-24T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 frozen products valid from August 20 to August 23, 2026.",
-        "productNames": [
-          "BATATA UAI CONGELADA",
-          "COXINHA DAS ASAS AGROSUL",
-          "IOGURTE FRIMESA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.10388509338238636
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-778869916-1536370411861962-1929447908579595969-n-jpg",
@@ -182,20 +156,7 @@
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 19 À 20 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA ![img-3"
       ],
       "averageConfidence": 0.9477422462456392,
-      "minimumConfidence": 0.1369972863734984,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-19T03:00:00.000Z",
-        "validUntil": "2026-08-21T02:59:59.000Z",
-        "summary": "Flyer for Grupo Roxo's anniversary promotion featuring produce and basic grocery items valid on August 19-20, 2026.",
-        "productNames": [
-          "CEBOLA",
-          "BATATA BRANCA",
-          "OVO BRANCO"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.1369972863734984
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png",
@@ -206,16 +167,7 @@
         "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 24/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9634324816562337,
-      "minimumConfidence": 0.19596187993708672,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-24T03:00:00.000Z",
-        "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.19596187993708672
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-1-png",
