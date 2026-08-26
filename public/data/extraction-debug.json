@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T15:56:12.097Z",
+  "generatedAt": "2026-08-26T23:36:53.409Z",
   "warnings": [
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
@@ -58,7 +58,7 @@
         "category": "Basic Groceries",
         "validFrom": "2026-08-26T03:00:00.000Z",
         "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Flyer válido para 26 de agosto de 2026 com 3 produtos em promoção: salame fatiado, pão de queijo e margarina.",
+        "summary": "Flyer from Grupo Roxo with 3 promoted products in Basic Groceries, valid only on August 26, 2026.",
         "productNames": [
           "SALAME SEARA GOURMET FATIADO",
           "PÃO QUEIJO FORNO MINAS TRADICIONAL",
@@ -79,17 +79,13 @@
       "averageConfidence": 0.9486221038806734,
       "minimumConfidence": 0.1478821801687523,
       "parsedListing": {
-        "category": "Produce",
+        "category": "Basic Groceries",
         "validFrom": "2026-08-26T03:00:00.000Z",
         "validUntil": "2026-08-28T02:59:59.000Z",
-        "summary": "Flyer de aniversário de 60 anos do Grupo Roxo com ofertas de cebola, batata branca e ovos vermelhos válidas para 26 e 27 de agosto de 2026.",
-        "productNames": [
-          "Cebola",
-          "Batata Branca",
-          "Ovo Vermelho"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
+        "summary": "Grocery flyer from Grupo Roxo with 4 promoted products, valid on August 26 and 27, 2026.",
+        "productNames": [],
+        "productCount": 4,
+        "hasMoreThanThreeProducts": true
       }
     },
     {
@@ -126,7 +122,7 @@
         "category": "Meats",
         "validFrom": "2026-08-25T03:00:00.000Z",
         "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring meat products, including chicken steak, frozen chicken breast, sausage, mortadella, and others, valid from August 25 to August 26, 2026.",
+        "summary": "Flyer from Krolow supermarket featuring meat products, including chicken steak, frozen chicken breast, sausage, mortadella, and others, valid from August 25 to August 26, 2026.",
         "productNames": [],
         "productCount": 6,
         "hasMoreThanThreeProducts": true
