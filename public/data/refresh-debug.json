@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-26T23:36:53.409Z",
-  "sourceGeneratedAt": "2026-08-26T23:36:50.157Z",
-  "sourceCandidateCount": 64,
+  "generatedAt": "2026-08-27T19:08:58.822Z",
+  "sourceGeneratedAt": "2026-08-27T19:08:54.491Z",
+  "sourceCandidateCount": 65,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
   "publicDealCount": 64,
-  "expiredDealCount": 0,
-  "warningCount": 41,
+  "expiredDealCount": 1,
+  "warningCount": 42,
   "warnings": [
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1998406: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -53,8 +54,8 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 5,
-    "succeeded": 5,
+    "attempted": 6,
+    "succeeded": 6,
     "failed": 0,
     "skipped": 59,
     "errors": []
@@ -62,12 +63,17 @@
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 5,
-    "succeeded": 4,
-    "failed": 1,
+    "attempted": 6,
+    "succeeded": 0,
+    "failed": 6,
     "skipped": 59,
     "errors": [
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-png: Mistral chat returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-789034382-1543773187788351-4264803805597407618-n-jpg: The operation was aborted due to timeout",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: The operation was aborted due to timeout",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg: The operation was aborted due to timeout",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-2708-folha-1-1-1-png: The operation was aborted due to timeout",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-folha-2-png: The operation was aborted due to timeout",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: The operation was aborted due to timeout"
     ]
   }
 }

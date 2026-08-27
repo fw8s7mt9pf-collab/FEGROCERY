@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-2708-folha-1-1-1-png",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Carnes",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/QUINTA-MALUCA-2708-Folha-1-1-1.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validUntil": "2026-05-28T02:59:59.000Z",
+    "expiresAt": "2026-05-28T02:59:59.000Z",
+    "lastRefreshed": "2026-08-27T19:08:58.822Z"
+  }
+]

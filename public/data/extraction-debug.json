@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-08-26T23:36:53.409Z",
+  "generatedAt": "2026-08-27T19:08:58.822Z",
   "warnings": [
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1998406: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
@@ -45,28 +46,26 @@
   ],
   "ocrDateDiagnostics": [
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-789034382-1543773187788351-4264803805597407618-n-jpg",
       "markdownEvidence": [
-        "peg](img-4.jpeg) Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
+        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
       "blockEvidence": [
-        "peg](img-4.jpeg) Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
+        "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
-      "averageConfidence": 0.9551258921980859,
-      "minimumConfidence": 0.12851512230383072,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-26T03:00:00.000Z",
-        "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with 3 promoted products in Basic Groceries, valid only on August 26, 2026.",
-        "productNames": [
-          "SALAME SEARA GOURMET FATIADO",
-          "PÃO QUEIJO FORNO MINAS TRADICIONAL",
-          "MARGARINA DORIANA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "averageConfidence": 0.9488098667010875,
+      "minimumConfidence": 0.17838012918633914
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
+      "markdownEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
+      ],
+      "blockEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
+      ],
+      "averageConfidence": 0.9602494137187364,
+      "minimumConfidence": 0.12851512230383072
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
@@ -77,67 +76,36 @@
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
       ],
       "averageConfidence": 0.9486221038806734,
-      "minimumConfidence": 0.1478821801687523,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-26T03:00:00.000Z",
-        "validUntil": "2026-08-28T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo with 4 promoted products, valid on August 26 and 27, 2026.",
-        "productNames": [],
-        "productCount": 4,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.1478821801687523
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-24-08-ata26-08-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-2708-folha-1-1-1-png",
       "markdownEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 24/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS PARA O DIA 27/05/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTR"
       ],
       "blockEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 24/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS PARA O DIA 27/05/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTR"
       ],
-      "averageConfidence": 0.9634324816562337,
-      "minimumConfidence": 0.19596187993708672,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-08-24T03:00:00.000Z",
-        "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "No distinct promoted products visible in the provided OCR text.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "averageConfidence": 0.9431214723994745,
+      "minimumConfidence": 0.1292651116510893
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-1-png",
-      "markdownEvidence": [
-        "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 25/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "blockEvidence": [
-        "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 25/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "averageConfidence": 0.946059560473034,
-      "minimumConfidence": 0.15966263201729436,
-      "parsedListing": {
-        "category": "Meats",
-        "validFrom": "2026-08-25T03:00:00.000Z",
-        "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Flyer from Krolow supermarket featuring meat products, including chicken steak, frozen chicken breast, sausage, mortadella, and others, valid from August 25 to August 26, 2026.",
-        "productNames": [],
-        "productCount": 6,
-        "hasMoreThanThreeProducts": true
-      }
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-folha-2-png",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9416696880512393,
+      "minimumConfidence": 0.06973863420201663
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-feira-real-arrumada-1808-ate-1908-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png",
       "markdownEvidence": [
-        "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 25/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "OFERTAS VALIDAS DE 27/08/2026 ATE 30/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "blockEvidence": [
-        "mg-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 25/08/2026 ATÉ 26/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "OFERTAS VALIDAS DE 27/08/2026 ATE 30/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
-      "averageConfidence": 0.9421729346708664,
-      "minimumConfidence": 0.19931590394907275
+      "averageConfidence": 0.9414227784894009,
+      "minimumConfidence": 0.17934219285516112
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582",
