@@ -1,5 +1,17 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Produce",
+    "title": "Ofertas do Hortifruti ROXO💜",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/787342188_1542418034590533_2308709394696119824_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-08-26T03:00:00.000Z",
+    "validUntil": "2026-08-28T02:59:59.000Z",
+    "expiresAt": "2026-08-28T02:59:59.000Z",
+    "lastRefreshed": "2026-08-28T04:22:41.994Z"
+  },
+  {
     "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-2708-folha-1-1-1-png",
     "supermarket": "Krolow",
     "category": "Meats",
@@ -8,6 +20,17 @@
     "sourceUrl": "https://macroatacadokrolow.com.br/",
     "validUntil": "2026-05-28T02:59:59.000Z",
     "expiresAt": "2026-05-28T02:59:59.000Z",
-    "lastRefreshed": "2026-08-27T23:48:05.920Z"
+    "lastRefreshed": "2026-08-28T04:22:41.994Z"
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-quinta-maluca-folha-2-png",
+    "supermarket": "Krolow",
+    "category": "Meats",
+    "title": "Carnes",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/08/Quinta-Maluca-folha-2.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validUntil": "2026-08-28T02:59:59.000Z",
+    "expiresAt": "2026-08-28T02:59:59.000Z",
+    "lastRefreshed": "2026-08-28T04:22:41.994Z"
   }
 ]
