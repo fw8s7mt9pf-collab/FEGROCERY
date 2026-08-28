@@ -1,10 +1,8 @@
 {
-  "generatedAt": "2026-08-28T20:14:24.716Z",
+  "generatedAt": "2026-08-28T23:33:51.501Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2298467: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2617761: Categoria inferida com baixa confianca.",
@@ -63,7 +61,7 @@
         "category": "Produce",
         "validFrom": "2026-08-28T03:00:00.000Z",
         "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring produce promotions valid from August 28 to August 30, 2026.",
+        "summary": "Flyer válido de 28 a 30 de agosto de 2026 com ofertas em produtos hortifrúti: Couve Verde, Moranga Cabotia e Alface Crespa.",
         "productNames": [
           "Couve Verde",
           "Moranga Cabotia",
@@ -81,7 +79,7 @@
       "minimumConfidence": 0.0752270420716797,
       "parsedListing": {
         "category": "Beverages",
-        "summary": "Flyer promoting Água Cristal de Terra (500ml) from Grupo Roxo.",
+        "summary": "Grocery flyer for Água Cristal de Terra (500ml) from Grupo Roxo.",
         "productNames": [
           "Água Cristal de Terra"
         ],
@@ -103,7 +101,7 @@
         "category": "Beverages",
         "validFrom": "2026-08-27T03:00:00.000Z",
         "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Flyer de aniversário do Grupo Roxo com ofertas de bebidas válidas de 27 a 30 de agosto de 2026.",
+        "summary": "Flyer de bebidas do Grupo Roxo com 3 produtos em promoção válida de 27 a 30 de agosto de 2026.",
         "productNames": [
           "Água Cristal da Terra 500ml",
           "Refrigerante Pepsi 2L",
@@ -201,7 +199,16 @@
         "-12.jpeg](img-12.jpeg) OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
       ],
       "averageConfidence": 0.9527113126768719,
-      "minimumConfidence": 0.10977332607575668
+      "minimumConfidence": 0.10977332607575668,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-28T03:00:00.000Z",
+        "validUntil": "2026-08-31T02:59:59.000Z",
+        "summary": "Grocery flyer for produce items including Abacate, Pêra Argentina, Mix Brócolis, Couve Flor, Pepino Salada, Cenoura, and Brócolis.",
+        "productNames": [],
+        "productCount": 7,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png",
@@ -212,7 +219,16 @@
         "OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. # BEBIDA"
       ],
       "averageConfidence": 0.9484293126037773,
-      "minimumConfidence": 0.10028509806149846
+      "minimumConfidence": 0.10028509806149846,
+      "parsedListing": {
+        "category": "Alcohol",
+        "validFrom": "2026-08-28T03:00:00.000Z",
+        "validUntil": "2026-08-31T02:59:59.000Z",
+        "summary": "Grocery flyer from Krolow featuring alcoholic and non-alcoholic beverages, including beers, wines, soft drinks, powdered drinks, and energy drinks. Valid from August 28, 2026, to August 30, 2026.",
+        "productNames": [],
+        "productCount": 12,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2298467",
