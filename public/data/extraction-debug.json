@@ -1,8 +1,11 @@
 {
-  "generatedAt": "2026-08-28T23:33:51.501Z",
+  "generatedAt": "2026-08-29T02:49:37.138Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2298467: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2617761: Categoria inferida com baixa confianca.",
@@ -56,36 +59,14 @@
         ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 28 À 30 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
       ],
       "averageConfidence": 0.9500906277888761,
-      "minimumConfidence": 0.14150727321502532,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-28T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Flyer válido de 28 a 30 de agosto de 2026 com ofertas em produtos hortifrúti: Couve Verde, Moranga Cabotia e Alface Crespa.",
-        "productNames": [
-          "Couve Verde",
-          "Moranga Cabotia",
-          "Alface Crespa"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.14150727321502532
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.8145810310471296,
-      "minimumConfidence": 0.0752270420716797,
-      "parsedListing": {
-        "category": "Beverages",
-        "summary": "Grocery flyer for Água Cristal de Terra (500ml) from Grupo Roxo.",
-        "productNames": [
-          "Água Cristal de Terra"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.0752270420716797
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-789034382-1543773187788351-4264803805597407618-n-jpg",
@@ -96,20 +77,7 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
       "averageConfidence": 0.9488098667010875,
-      "minimumConfidence": 0.17838012918633914,
-      "parsedListing": {
-        "category": "Beverages",
-        "validFrom": "2026-08-27T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Flyer de bebidas do Grupo Roxo com 3 produtos em promoção válida de 27 a 30 de agosto de 2026.",
-        "productNames": [
-          "Água Cristal da Terra 500ml",
-          "Refrigerante Pepsi 2L",
-          "Refrigerante Charrua 2L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.17838012918633914
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
@@ -120,20 +88,7 @@
         "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
       ],
       "averageConfidence": 0.9602494137187364,
-      "minimumConfidence": 0.12851512230383072,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-08-26T03:00:00.000Z",
-        "validUntil": "2026-08-27T02:59:59.000Z",
-        "summary": "Flyer válido para 26 de agosto de 2026 com 3 produtos em promoção: salame, pão de queijo e margarina.",
-        "productNames": [
-          "SALAME SEARA GOURMET FATIADO",
-          "PÃO QUEIJO FORNO MINAS TRADICIONAL",
-          "MARGARINA DORIANA"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.12851512230383072
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
@@ -199,16 +154,7 @@
         "-12.jpeg](img-12.jpeg) OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
       ],
       "averageConfidence": 0.9527113126768719,
-      "minimumConfidence": 0.10977332607575668,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-28T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Grocery flyer for produce items including Abacate, Pêra Argentina, Mix Brócolis, Couve Flor, Pepino Salada, Cenoura, and Brócolis.",
-        "productNames": [],
-        "productCount": 7,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.10977332607575668
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png",
@@ -219,16 +165,7 @@
         "OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. # BEBIDA"
       ],
       "averageConfidence": 0.9484293126037773,
-      "minimumConfidence": 0.10028509806149846,
-      "parsedListing": {
-        "category": "Alcohol",
-        "validFrom": "2026-08-28T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring alcoholic and non-alcoholic beverages, including beers, wines, soft drinks, powdered drinks, and energy drinks. Valid from August 28, 2026, to August 30, 2026.",
-        "productNames": [],
-        "productCount": 12,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.10028509806149846
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2298467",

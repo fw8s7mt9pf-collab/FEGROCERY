@@ -1,17 +1,5 @@
 [
   {
-    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
-    "supermarket": "Grupo Roxo",
-    "category": "Basic Groceries",
-    "title": "SALAME SEARA GOURMET FATIADO, P�O QUEIJO FORNO MINAS TRADICIONAL, MARGARINA DORIANA",
-    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/787342199_1542418591257144_6046399481308231404_n.jpg",
-    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
-    "validFrom": "2026-08-26T03:00:00.000Z",
-    "validUntil": "2026-08-27T02:59:59.000Z",
-    "expiresAt": "2026-08-27T02:59:59.000Z",
-    "lastRefreshed": "2026-08-28T23:33:51.501Z"
-  },
-  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
@@ -21,6 +9,6 @@
     "validFrom": "2026-08-26T03:00:00.000Z",
     "validUntil": "2026-08-28T02:59:59.000Z",
     "expiresAt": "2026-08-28T02:59:59.000Z",
-    "lastRefreshed": "2026-08-28T23:33:51.501Z"
+    "lastRefreshed": "2026-08-29T02:49:37.138Z"
   }
 ]
