@@ -1,11 +1,8 @@
 {
-  "generatedAt": "2026-08-30T22:46:35.056Z",
+  "generatedAt": "2026-08-31T16:13:30.195Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2619049: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2298467: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
@@ -57,15 +54,15 @@
       "blockEvidence": [
         ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 28 À 30 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
       ],
-      "averageConfidence": 0.9500906277888761,
-      "minimumConfidence": 0.14150727321502532
+      "averageConfidence": 0.9503047060497836,
+      "minimumConfidence": 0.16187309089373048
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.8145810310471296,
-      "minimumConfidence": 0.0752270420716797
+      "averageConfidence": 0.8144921835022079,
+      "minimumConfidence": 0.07692179955659742
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-789034382-1543773187788351-4264803805597407618-n-jpg",
@@ -75,8 +72,8 @@
       "blockEvidence": [
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
-      "averageConfidence": 0.9488098667010875,
-      "minimumConfidence": 0.17838012918633914
+      "averageConfidence": 0.9484984149326962,
+      "minimumConfidence": 0.15196312824721941
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
@@ -86,85 +83,48 @@
       "blockEvidence": [
         "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
       ],
-      "averageConfidence": 0.9602494137187364,
-      "minimumConfidence": 0.12851512230383072
+      "averageConfidence": 0.9600284578033659,
+      "minimumConfidence": 0.13059730949831494
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
       "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
       ],
       "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
       ],
-      "averageConfidence": 0.9486221038806734,
-      "minimumConfidence": 0.1478821801687523
+      "averageConfidence": 0.9486339253428634,
+      "minimumConfidence": 0.15045345668787397
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-acougue-2-fecha-mes-png",
-      "markdownEvidence": [
-        "OFERTAS VALIDAS DE 27/08/2026 ATE 30/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "blockEvidence": [
-        "OFERTAS VALIDAS DE 27/08/2026 ATE 30/08/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "averageConfidence": 0.9414227784894009,
-      "minimumConfidence": 0.17934219285516112
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-whatsapp-image-2026-08-30-at-01-53-43-jpeg",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9489816926104573,
+      "minimumConfidence": 0.10198284769158654
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-fecha-mes-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-horti-31-ate-02-jpeg",
       "markdownEvidence": [
-        "o ![img-3.jpeg](img-3.jpeg) OFERTAS VÁLIDAS DE 28/08 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-4."
+        "FRESQUINHO PARA VOS A! OFERTAS VÁLIDAS DE 31/08/2026 ATÉ 02/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "blockEvidence": [
-        "o ![img-3.jpeg](img-3.jpeg) OFERTAS VÁLIDAS DE 28/08 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-4."
+        "FRESQUINHO PARA VOS A! OFERTAS VÁLIDAS DE 31/08/2026 ATÉ 02/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
-      "averageConfidence": 0.9490271441398735,
-      "minimumConfidence": 0.1405375241206782
+      "averageConfidence": 0.9471612874294514,
+      "minimumConfidence": 0.06149135690876858
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-folha-2-2808-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-segunda-feira-3108-folha2-png",
       "markdownEvidence": [
-        "Chocolate 300G. R$ 3,99 Un. OFERTAS VÁLIDAS DE 28/08 ATÉ 30/08/2026, OU ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS"
+        "eg](img-8.jpeg) Bebida Nectar Nec 1L. R$ 5,99 Un. Maionese Arisco 196G. R$ 2,23 Un. Creme Dental Dentil 70g R$ 1,99 Un. Água Sanitária"
       ],
       "blockEvidence": [
-        "Chocolate 300G. R$ 3,99 Un. OFERTAS VÁLIDAS DE 28/08 ATÉ 30/08/2026, OU ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS"
+        "eg](img-8.jpeg) Bebida Nectar Nec 1L. R$ 5,99 Un. Maionese Arisco 196G. R$ 2,23 Un. Creme Dental Dentil 70g R$ 1,99 Un. Água Sanitária"
       ],
-      "averageConfidence": 0.9487694036499554,
-      "minimumConfidence": 0.12438891115354613
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-findi-folha-2-2808-ate-3008-png",
-      "markdownEvidence": [
-        "ida Baby Free C/ 100 Unidades R$ 6,99 Un. OFERTAS VALIDAS DE 28/08 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUS"
-      ],
-      "blockEvidence": [
-        "ida Baby Free C/ 100 Unidades R$ 6,99 Un. OFERTAS VALIDAS DE 28/08 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUS"
-      ],
-      "averageConfidence": 0.9440895943651082,
-      "minimumConfidence": 0.11193819742634241
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-final-de-semana-feira-png",
-      "markdownEvidence": [
-        "-12.jpeg](img-12.jpeg) OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "blockEvidence": [
-        "-12.jpeg](img-12.jpeg) OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "averageConfidence": 0.9527113126768719,
-      "minimumConfidence": 0.10977332607575668
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-card-bebida-fim-de-semana-png",
-      "markdownEvidence": [
-        "OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. # BEBIDA"
-      ],
-      "blockEvidence": [
-        "OFERTAS VÁLIDAS DE 28/08/2026 ATÉ 30/08/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. # BEBIDA"
-      ],
-      "averageConfidence": 0.9484293126037773,
-      "minimumConfidence": 0.10028509806149846
+      "averageConfidence": 0.9489220230259938,
+      "minimumConfidence": 0.0711059845686572
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2619049",
