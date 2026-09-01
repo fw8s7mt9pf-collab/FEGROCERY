@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:50:26.689Z",
+  "generatedAt": "2026-09-01T22:37:41.135Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -35,6 +35,17 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg",
+      "markdownEvidence": [
+        "YD DOLPHIN GS 0KM Ofertas válidas para o dia 1 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
+      ],
+      "blockEvidence": [
+        "YD DOLPHIN GS 0KM Ofertas válidas para o dia 1 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
+      ],
+      "averageConfidence": 0.9587571075644606,
+      "minimumConfidence": 0.147241122581685
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -50,7 +61,20 @@
         "DOLPHIN GS 0KM Ofertas válidas para os dias 31 DE AGOSTO À 2 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BANHA AL"
       ],
       "averageConfidence": 0.9595292182032328,
-      "minimumConfidence": 0.1838341485539135
+      "minimumConfidence": 0.1838341485539135,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-31T03:00:00.000Z",
+        "validUntil": "2026-09-03T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo featuring 3 meat products valid from August 31 to September 2, 2026.",
+        "productNames": [
+          "BANHA ALIBEM",
+          "FILÉ DE COXA SOBRECOXA NAT",
+          "STEAK DE FRANGO FRANGOSUL"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-781712406-1544363701062633-4223229034712913045-n-jpg",
@@ -79,20 +103,7 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
       "averageConfidence": 0.9484984149326962,
-      "minimumConfidence": 0.15196312824721941,
-      "parsedListing": {
-        "category": "Beverages",
-        "validFrom": "2026-08-27T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Promoção de bebidas do Grupo Roxo válida de 27 a 30 de agosto de 2026, incluindo água e refrigerantes.",
-        "productNames": [
-          "Água Cristal da Terra 500ml",
-          "Refrigerante Pepsi 2L",
-          "Refrigerante Charrua 2L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.15196312824721941
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
@@ -104,17 +115,6 @@
       ],
       "averageConfidence": 0.9600284578033659,
       "minimumConfidence": 0.13059730949831494
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342188-1542418034590533-2308709394696119824-n-jpg",
-      "markdownEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
-      ],
-      "blockEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 26 À 27 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) CEBOLA R$ 3,89"
-      ],
-      "averageConfidence": 0.9486339253428634,
-      "minimumConfidence": 0.15045345668787397
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-horti-31-ate-02-jpeg",
