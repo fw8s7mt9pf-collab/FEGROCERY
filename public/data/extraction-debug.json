@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T17:55:08.334Z",
+  "generatedAt": "2026-09-02T22:40:28.152Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0109-ate0209-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0109-ate0209-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
@@ -37,6 +37,28 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg",
+      "markdownEvidence": [
+        "jpeg](img-4.jpeg) Ofertas válidas para o dia 2 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) REQUEIJÃO FRIOLACK 180g"
+      ],
+      "blockEvidence": [
+        "jpeg](img-4.jpeg) Ofertas válidas para o dia 2 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) REQUEIJÃO FRIOLACK 180g"
+      ],
+      "averageConfidence": 0.957259199965444,
+      "minimumConfidence": 0.14642521642430034
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251109-1548701453962191-6748282210261394940-n-jpg",
+      "markdownEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 02 À 03 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+      ],
+      "blockEvidence": [
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 02 À 03 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+      ],
+      "averageConfidence": 0.948653590291006,
+      "minimumConfidence": 0.15499273691254212
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg",
       "markdownEvidence": [
         "YD DOLPHIN GS 0KM Ofertas válidas para o dia 1 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
@@ -49,7 +71,7 @@
       "parsedListing": {
         "category": "Meats",
         "validFrom": "2026-09-01T03:00:00.000Z",
-        "summary": "Flyer for Grupo Roxo featuring three meat products on promotion for September 1, 2026.",
+        "summary": "Flyer from Grupo Roxo featuring 3 meat products valid on September 1, 2026.",
         "productNames": [
           "LINGUIÇA BORRUSSIA",
           "CARNE MOÍDA AGROSUL",
@@ -68,7 +90,7 @@
       "parsedListing": {
         "category": "Other",
         "validUntil": "2027-01-24T02:59:59.000Z",
-        "summary": "Promotional flyer for a contest to win an electric car, no grocery products listed.",
+        "summary": "Promotion for a chance to win an electric car (BYD Dolphin) with purchases at Grupo Roxo. No specific grocery products listed.",
         "productNames": [],
         "productCount": 0,
         "hasMoreThanThreeProducts": false
@@ -83,7 +105,20 @@
         "DOLPHIN GS 0KM Ofertas válidas para os dias 31 DE AGOSTO À 2 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BANHA AL"
       ],
       "averageConfidence": 0.9595292182032328,
-      "minimumConfidence": 0.1838341485539135
+      "minimumConfidence": 0.1838341485539135,
+      "parsedListing": {
+        "category": "Meats",
+        "validFrom": "2026-08-31T03:00:00.000Z",
+        "validUntil": "2026-09-03T02:59:59.000Z",
+        "summary": "Flyer from Grupo Roxo featuring meat products with promotions valid from August 31 to September 2, 2026.",
+        "productNames": [
+          "BANHA ALIBEM",
+          "FILÉ DE COXA SOBRECOXA NAT",
+          "STEAK DE FRANGO FRANGOSUL"
+        ],
+        "productCount": 3,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-781712406-1544363701062633-4223229034712913045-n-jpg",
@@ -112,31 +147,7 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
       "averageConfidence": 0.9484984149326962,
-      "minimumConfidence": 0.15196312824721941,
-      "parsedListing": {
-        "category": "Beverages",
-        "validFrom": "2026-08-27T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with beverage promotions valid from August 27 to August 30, 2026, featuring 3 products.",
-        "productNames": [
-          "Água Cristal da Terra 500ml",
-          "Refrigerante Pepsi 2L",
-          "Refrigerante Charrua 2L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787342199-1542418591257144-6046399481308231404-n-jpg",
-      "markdownEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
-      ],
-      "blockEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 26 DE AGOSTO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
-      ],
-      "averageConfidence": 0.9600284578033659,
-      "minimumConfidence": 0.13059730949831494
+      "minimumConfidence": 0.15196312824721941
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-08-horti-31-ate-02-jpeg",
@@ -147,7 +158,16 @@
         "FRESQUINHO PARA VOS A! OFERTAS VÁLIDAS DE 31/08/2026 ATÉ 02/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
       ],
       "averageConfidence": 0.9471612874294514,
-      "minimumConfidence": 0.06149135690876858
+      "minimumConfidence": 0.06149135690876858,
+      "parsedListing": {
+        "category": "Produce",
+        "validFrom": "2026-08-31T03:00:00.000Z",
+        "validUntil": "2026-09-03T02:59:59.000Z",
+        "summary": "Hortifrúti flyer from Krolow with fresh produce offers valid from 31/08/2026 to 02/09/2026.",
+        "productNames": [],
+        "productCount": 9,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-terca-e-quarta-0209-feira-jpg",
@@ -158,16 +178,7 @@
         "fazendo parte da sua vida.* OFERTAS VÁLIDAS DE 01/09 ATÉ 02/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. **Ovos B"
       ],
       "averageConfidence": 0.9340622248371072,
-      "minimumConfidence": 0.040691396545700004,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-09-01T03:00:00.000Z",
-        "validUntil": "2026-09-03T02:59:59.000Z",
-        "summary": "Grocery flyer from Krolow featuring produce offers valid on September 1st and 2nd, 2026. Includes 8 distinct products.",
-        "productNames": [],
-        "productCount": 8,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.040691396545700004
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0109-ate0209-png",
@@ -178,7 +189,16 @@
         "ndo parte da sua vida. OFERTAS VÁLIDAS DE 01/09/2026 ATÉ 02/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "averageConfidence": 0.9254103379279146,
-      "minimumConfidence": 0.02684128574336368
+      "minimumConfidence": 0.02684128574336368,
+      "parsedListing": {
+        "category": "Other",
+        "validFrom": "2026-09-01T03:00:00.000Z",
+        "validUntil": "2026-09-03T02:59:59.000Z",
+        "summary": "Flyer combining produce, meats, dairy, and cleaning products with 5 distinct promoted items.",
+        "productNames": [],
+        "productCount": 5,
+        "hasMoreThanThreeProducts": true
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295",
