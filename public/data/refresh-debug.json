@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-09-02T22:40:28.152Z",
-  "sourceGeneratedAt": "2026-09-02T22:40:18.089Z",
-  "sourceCandidateCount": 48,
+  "generatedAt": "2026-09-03T12:53:10.439Z",
+  "sourceGeneratedAt": "2026-09-03T12:53:07.789Z",
+  "sourceCandidateCount": 47,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 46,
-  "expiredDealCount": 2,
-  "warningCount": 33,
+  "publicDealCount": 44,
+  "expiredDealCount": 3,
+  "warningCount": 32,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0109-ate0209-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-0309-2-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
@@ -45,8 +44,8 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 11,
-    "succeeded": 11,
+    "attempted": 10,
+    "succeeded": 10,
     "failed": 0,
     "skipped": 37,
     "errors": []
@@ -54,17 +53,17 @@
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 11,
-    "succeeded": 5,
+    "attempted": 10,
+    "succeeded": 4,
     "failed": 6,
     "skipped": 37,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251109-1548701453962191-6748282210261394940-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-781712406-1544363701062633-4223229034712913045-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-789034382-1543773187788351-4264803805597407618-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-terca-e-quarta-0209-feira-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787218081-1546635284168808-6829621619087286765-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
     ]
   }
 }
