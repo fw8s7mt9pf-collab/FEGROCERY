@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T17:53:04.497Z",
-  "sourceGeneratedAt": "2026-09-03T17:53:00.518Z",
+  "generatedAt": "2026-09-03T22:36:59.745Z",
+  "sourceGeneratedAt": "2026-09-03T22:36:54.660Z",
   "sourceCandidateCount": 47,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
@@ -58,9 +58,9 @@
     "failed": 10,
     "skipped": 37,
     "errors": [
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Mistral chat returned 503: upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251109-1548701453962191-6748282210261394940-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg: Mistral chat returned 503: upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787218081-1546635284168808-6829621619087286765-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-781712406-1544363701062633-4223229034712913045-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
