@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T12:53:10.439Z",
+  "generatedAt": "2026-09-03T17:53:04.497Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -95,20 +95,7 @@
         ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 28 À 30 DE AGOSTO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) COUVE VERDE !["
       ],
       "averageConfidence": 0.9503047060497836,
-      "minimumConfidence": 0.16187309089373048,
-      "parsedListing": {
-        "category": "Produce",
-        "validFrom": "2026-08-28T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Grocery flyer from Grupo Roxo featuring produce offers valid from August 28 to August 30, 2026.",
-        "productNames": [
-          "Couve Verde",
-          "Moranga Cabotia",
-          "Alface Crespa"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.16187309089373048
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787059474-1066421849265044-1912795829073713514-n-jpg",
@@ -126,52 +113,21 @@
         "D DOLPHIN GS 0KM** Ofertas válidas para os dias **27 À 30 DE AGOSTO** enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ÁGUA CRISTAL"
       ],
       "averageConfidence": 0.9484984149326962,
-      "minimumConfidence": 0.15196312824721941,
-      "parsedListing": {
-        "category": "Beverages",
-        "validFrom": "2026-08-27T03:00:00.000Z",
-        "validUntil": "2026-08-31T02:59:59.000Z",
-        "summary": "Flyer from Grupo Roxo with beverage promotions valid from August 27 to August 30, 2026, featuring 3 products.",
-        "productNames": [
-          "Água Cristal da Terra 500ml",
-          "Refrigerante Pepsi 2L",
-          "Refrigerante Charrua 2L"
-        ],
-        "productCount": 3,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.15196312824721941
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-0309-2-com-detalhe-png",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9484106991526554,
-      "minimumConfidence": 0.17918884091992507,
-      "parsedListing": {
-        "category": "Basic Groceries",
-        "validFrom": "2026-09-03T03:00:00.000Z",
-        "validUntil": "2026-09-04T02:59:59.000Z",
-        "summary": "Flyer from Krolow with 5 distinct promoted products in the Basic Groceries category, valid on 2026-09-03.",
-        "productNames": [],
-        "productCount": 5,
-        "hasMoreThanThreeProducts": true
-      }
+      "minimumConfidence": 0.17918884091992507
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-0309-2-png",
       "markdownEvidence": [],
       "blockEvidence": [],
       "averageConfidence": 0.9664356742927731,
-      "minimumConfidence": 0.22006982509420714,
-      "parsedListing": {
-        "category": "Other",
-        "validFrom": "2026-09-03T03:00:00.000Z",
-        "validUntil": "2026-09-04T02:59:59.000Z",
-        "summary": "Flyer contains only promotional headers and illustrative images without visible product names or details.",
-        "productNames": [],
-        "productCount": 0,
-        "hasMoreThanThreeProducts": false
-      }
+      "minimumConfidence": 0.22006982509420714
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295",
@@ -183,7 +139,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-30T02:59:59.000Z"
+        "validUntil": "2026-09-29T02:59:59.000Z"
       }
     },
     {
@@ -196,7 +152,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -209,7 +165,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -222,7 +178,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -235,7 +191,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -248,7 +204,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -261,7 +217,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -274,7 +230,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -287,7 +243,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -300,7 +256,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -313,7 +269,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -326,7 +282,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -339,7 +295,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -352,7 +308,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -365,7 +321,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -378,7 +334,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -391,7 +347,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -404,7 +360,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -417,7 +373,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -430,7 +386,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -443,7 +399,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -456,7 +412,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -469,7 +425,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -482,7 +438,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -495,7 +451,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -508,7 +464,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -521,7 +477,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -534,7 +490,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -547,7 +503,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -560,7 +516,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -573,7 +529,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -586,7 +542,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -599,7 +555,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -612,7 +568,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -625,7 +581,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -638,7 +594,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     },
     {
@@ -651,7 +607,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-09T02:59:59.000Z"
+        "validUntil": "2026-09-08T02:59:59.000Z"
       }
     }
   ]
