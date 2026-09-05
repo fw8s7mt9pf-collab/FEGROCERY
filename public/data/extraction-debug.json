@@ -1,8 +1,6 @@
 {
-  "generatedAt": "2026-09-04T22:22:12.295Z",
+  "generatedAt": "2026-09-05T11:52:18.181Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png: Categoria inferida com baixa confianca.",
@@ -37,6 +35,28 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-793935932-1551445353687801-7984055017312075855-n-jpg",
+      "markdownEvidence": [
+        "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 5 À 6 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) LAVA ROUPAS"
+      ],
+      "blockEvidence": [
+        "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 5 À 6 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) LAVA ROUPAS"
+      ],
+      "averageConfidence": 0.9527644390458356,
+      "minimumConfidence": 0.2138957594357167
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-782992750-1550607933771543-3473449278861896424-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MILHO VERDE"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MILHO VERDE"
+      ],
+      "averageConfidence": 0.9495331525373751,
+      "minimumConfidence": 0.0898156080684099
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-786313806-1550607213771615-2484452852312892530-n-jpg",
       "markdownEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg"
@@ -44,8 +64,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg"
       ],
-      "averageConfidence": 0.9486037656152791,
-      "minimumConfidence": 0.13716908547830964
+      "averageConfidence": 0.9485614104561851,
+      "minimumConfidence": 0.1372470731616756
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-786282373-1550187430480260-1886577718764626144-n-jpg",
@@ -55,70 +75,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 03 À 06 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) Não vendemos"
       ],
-      "averageConfidence": 0.9590929144387419,
-      "minimumConfidence": 0.18760689642791595
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-791144994-1549699677195702-1618466504702095046-n-jpg",
-      "markdownEvidence": [
-        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 03 À 06 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL"
-      ],
-      "blockEvidence": [
-        "# BYD DOLPHIN GS 0KM Ofertas válidas para os dias 03 À 06 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ÁGUA CRISTAL"
-      ],
-      "averageConfidence": 0.947940980246256,
-      "minimumConfidence": 0.14263998007397605
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-783028393-1549172647248405-6179851011760784739-n-jpg",
-      "markdownEvidence": [
-        "jpeg](img-4.jpeg) Ofertas válidas para o dia 2 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) REQUEIJÃO FRIOLACK 180g"
-      ],
-      "blockEvidence": [
-        "jpeg](img-4.jpeg) Ofertas válidas para o dia 2 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) REQUEIJÃO FRIOLACK 180g"
-      ],
-      "averageConfidence": 0.9574819428181408,
-      "minimumConfidence": 0.1368444938816479
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251109-1548701453962191-6748282210261394940-n-jpg",
-      "markdownEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 02 À 03 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "blockEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 02 À 03 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "averageConfidence": 0.9484293041184729,
-      "minimumConfidence": 0.15691245633217563
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-784251106-1548234180675585-1601019954963122880-n-jpg",
-      "markdownEvidence": [
-        "YD DOLPHIN GS 0KM Ofertas válidas para o dia 1 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
-      ],
-      "blockEvidence": [
-        "YD DOLPHIN GS 0KM Ofertas válidas para o dia 1 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) ![img-5.jpeg](img-5.jpeg"
-      ],
-      "averageConfidence": 0.9475377471394857,
-      "minimumConfidence": 0.1381136321022058
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-790912304-1579500716999202-5279972881232322579-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9216947884097405,
-      "minimumConfidence": 0.04589605672464266
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-787218081-1546635284168808-6829621619087286765-n-jpg",
-      "markdownEvidence": [
-        "DOLPHIN GS 0KM Ofertas válidas para os dias 31 DE AGOSTO À 2 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BANHA AL"
-      ],
-      "blockEvidence": [
-        "DOLPHIN GS 0KM Ofertas válidas para os dias 31 DE AGOSTO À 2 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) BANHA AL"
-      ],
-      "averageConfidence": 0.9567140150125577,
-      "minimumConfidence": 0.144007700797638
+      "averageConfidence": 0.9589679691612927,
+      "minimumConfidence": 0.17671447558530293
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png",
@@ -128,8 +86,8 @@
       "blockEvidence": [
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
-      "averageConfidence": 0.9355102920165284,
-      "minimumConfidence": 0.11234344143115924
+      "averageConfidence": 0.9354966923253215,
+      "minimumConfidence": 0.08689038967923507
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png",
@@ -139,8 +97,8 @@
       "blockEvidence": [
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
-      "averageConfidence": 0.947569908813212,
-      "minimumConfidence": 0.17694245137910172
+      "averageConfidence": 0.9473705773228559,
+      "minimumConfidence": 0.18727869429058305
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png",
@@ -150,8 +108,8 @@
       "blockEvidence": [
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9437766774185496,
-      "minimumConfidence": 0.2021082776242841
+      "averageConfidence": 0.9428548275563072,
+      "minimumConfidence": 0.20205275046388504
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-ok-png",
@@ -170,8 +128,8 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-0409-ate-0709-ok-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9460820759012859,
-      "minimumConfidence": 0.12463147164801143
+      "averageConfidence": 0.947179276366816,
+      "minimumConfidence": 0.1400210807722367
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-kfolha-4-png",
@@ -181,8 +139,8 @@
       "blockEvidence": [
         "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9541783364964324,
-      "minimumConfidence": 0.21380824147000557
+      "averageConfidence": 0.9539956582880856,
+      "minimumConfidence": 0.21210545544093623
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-queijo-vermelho-aviso-png",
@@ -192,8 +150,8 @@
       "blockEvidence": [
         "as cores) PAR. R$ 11,99 PAR OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
       ],
-      "averageConfidence": 0.9531681916167188,
-      "minimumConfidence": 0.080412105858942
+      "averageConfidence": 0.9532875532417849,
+      "minimumConfidence": 0.08095679014238931
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
@@ -205,7 +163,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -218,7 +176,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -231,7 +189,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -244,7 +202,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -257,7 +215,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -270,7 +228,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -283,7 +241,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -296,7 +254,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
     },
     {
@@ -309,7 +267,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -322,7 +280,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -335,7 +293,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -348,7 +306,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -361,7 +319,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -374,7 +332,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -387,7 +345,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -400,7 +358,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -413,7 +371,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -426,7 +384,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -439,7 +397,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -452,7 +410,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -465,7 +423,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -478,7 +436,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -491,7 +449,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -504,7 +462,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -517,7 +475,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -530,7 +488,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -543,7 +501,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -556,7 +514,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -569,7 +527,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -582,7 +540,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -595,7 +553,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -608,7 +566,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -621,7 +579,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -634,7 +592,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -647,7 +605,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     },
     {
@@ -660,7 +618,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-09T02:59:59.000Z"
       }
     }
   ]
