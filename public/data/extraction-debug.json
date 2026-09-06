@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T17:05:33.941Z",
+  "generatedAt": "2026-09-06T22:08:19.386Z",
   "warnings": [
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png: Categoria inferida com baixa confianca.",
@@ -75,8 +75,8 @@
       "blockEvidence": [
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
-      "averageConfidence": 0.9473705773228559,
-      "minimumConfidence": 0.18727869429058305
+      "averageConfidence": 0.947569908813212,
+      "minimumConfidence": 0.17694245137910172
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png",
@@ -86,8 +86,8 @@
       "blockEvidence": [
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9437766774185496,
-      "minimumConfidence": 0.2021082776242841
+      "averageConfidence": 0.9428548275563072,
+      "minimumConfidence": 0.20205275046388504
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-ok-png",
