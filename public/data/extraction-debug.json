@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T22:08:19.386Z",
+  "generatedAt": "2026-09-07T14:18:49.277Z",
   "warnings": [
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png: Categoria inferida com baixa confianca.",
@@ -35,6 +35,17 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-798080114-1553205423511794-6122110463967242759-n-jpg",
+      "markdownEvidence": [
+        "# BYD DOLPHIN GS OKM Ofertas válidas para os dias 8 À 9 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) FILEZINHO SA"
+      ],
+      "blockEvidence": [
+        "# BYD DOLPHIN GS OKM Ofertas válidas para os dias 8 À 9 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) FILEZINHO SA"
+      ],
+      "averageConfidence": 0.9621026370274257,
+      "minimumConfidence": 0.19352703945470598
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-793935932-1551445353687801-7984055017312075855-n-jpg",
       "markdownEvidence": [
         "g) UMA VIDA COM VOCÊ Ofertas válidas para os dias 5 À 6 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) LAVA ROUPAS"
@@ -44,17 +55,6 @@
       ],
       "averageConfidence": 0.9527644390458356,
       "minimumConfidence": 0.2138957594357167
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-782992750-1550607933771543-3473449278861896424-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MILHO VERDE"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 04 À 06 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) MILHO VERDE"
-      ],
-      "averageConfidence": 0.9495331525373751,
-      "minimumConfidence": 0.0898156080684099
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png",
@@ -75,8 +75,8 @@
       "blockEvidence": [
         "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
       ],
-      "averageConfidence": 0.947569908813212,
-      "minimumConfidence": 0.17694245137910172
+      "averageConfidence": 0.9473705773228559,
+      "minimumConfidence": 0.18727869429058305
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png",
@@ -401,7 +401,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-19T02:59:59.000Z"
+        "validUntil": "2026-09-20T02:59:59.000Z"
       }
     },
     {
@@ -505,7 +505,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
     },
     {
