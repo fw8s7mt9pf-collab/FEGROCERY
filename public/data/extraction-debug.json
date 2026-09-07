@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:44:54.524Z",
+  "generatedAt": "2026-09-07T22:51:34.779Z",
   "warnings": [
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png: Categoria inferida com baixa confianca.",
@@ -86,8 +86,8 @@
       "blockEvidence": [
         "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9437766774185496,
-      "minimumConfidence": 0.2021082776242841
+      "averageConfidence": 0.9428548275563072,
+      "minimumConfidence": 0.20205275046388504
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-ok-png",
@@ -106,8 +106,8 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-0409-ate-0709-ok-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.947179276366816,
-      "minimumConfidence": 0.1400210807722367
+      "averageConfidence": 0.9460820759012859,
+      "minimumConfidence": 0.12463147164801143
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-kfolha-4-png",
@@ -128,8 +128,8 @@
       "blockEvidence": [
         "as cores) PAR. R$ 11,99 PAR OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
       ],
-      "averageConfidence": 0.9531681916167188,
-      "minimumConfidence": 0.080412105858942
+      "averageConfidence": 0.9532875532417849,
+      "minimumConfidence": 0.08095679014238931
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381708",
