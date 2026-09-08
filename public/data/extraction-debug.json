@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-09-07T22:51:34.779Z",
+  "generatedAt": "2026-09-08T12:55:21.171Z",
   "warnings": [
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-kfolha-4-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-1-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-4-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2099478: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620648: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620630: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
@@ -18,20 +27,7 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620390: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1941656: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620597: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2099478: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
     {
@@ -42,8 +38,8 @@
       "blockEvidence": [
         "# BYD DOLPHIN GS OKM Ofertas válidas para os dias 8 À 9 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) FILEZINHO SA"
       ],
-      "averageConfidence": 0.9621026370274257,
-      "minimumConfidence": 0.19352703945470598
+      "averageConfidence": 0.9618686155809678,
+      "minimumConfidence": 0.18875485208578036
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-793935932-1551445353687801-7984055017312075855-n-jpg",
@@ -57,79 +53,220 @@
       "minimumConfidence": 0.2138957594357167
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-bebidas-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-4-png",
       "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "do parte da sua vida.* OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. **Leite"
       ],
       "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "do parte da sua vida.* OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. **Leite"
       ],
-      "averageConfidence": 0.9354966923253215,
-      "minimumConfidence": 0.08689038967923507
+      "averageConfidence": 0.9526842862837077,
+      "minimumConfidence": 0.18279363414417824
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-2-1-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha5-png",
       "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9473705773228559,
-      "minimumConfidence": 0.18727869429058305
+      "averageConfidence": 0.9398009806279681,
+      "minimumConfidence": 0.03063740974978016
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-feira-png",
-      "markdownEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "blockEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "averageConfidence": 0.9428548275563072,
-      "minimumConfidence": 0.20205275046388504
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-k-ok-png",
-      "markdownEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-2.",
-        "jpeg](img-2.jpeg) Maionese Liza Caseira Sachê 400G. R$ 4,99 UL ![img-3.jpeg](img-3.jpeg) Costela Bovin"
-      ],
-      "blockEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-2.",
-        "jpeg](img-2.jpeg) Maionese Liza Caseira Sachê 400G. R$ 4,99 UL ![img-3.jpeg](img-3.jpeg) Costela Bovin"
-      ],
-      "averageConfidence": 0.9426070243975214,
-      "minimumConfidence": 0.14628218821793562
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-0409-ate-0709-ok-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-1-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9460820759012859,
-      "minimumConfidence": 0.12463147164801143
+      "averageConfidence": 0.9270760191446671,
+      "minimumConfidence": 0.19770791244356783
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-dia-kfolha-4-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-2-png",
       "markdownEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "blockEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9539956582880856,
-      "minimumConfidence": 0.21210545544093623
+      "averageConfidence": 0.9462182032251981,
+      "minimumConfidence": 0.15315949950214058
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-diak-ok-queijo-vermelho-aviso-png",
-      "markdownEvidence": [
-        "as cores) PAR. R$ 11,99 PAR OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "blockEvidence": [
-        "as cores) PAR. R$ 11,99 PAR OFERTAS VÁLIDAS DE 04/09 ATÉ 07/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS."
-      ],
-      "averageConfidence": 0.9532875532417849,
-      "minimumConfidence": 0.08095679014238931
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-4-png",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9780594172243543,
+      "minimumConfidence": 0.028731188924755978
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BETERRABA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MILHO VERDE BANDEJA UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LARANJA SUCO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LARANJA UMBIGO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ALFACE UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CENOURA KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "REPOLHO VERDE UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620587",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "TOMATE RASTEIRO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MAÇA FUJI KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MAÇÃ GALA PROMOÇÃO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BATATA DOCE KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2099478",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BATATA ROSA PROMOÇÃO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-12T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381708",
@@ -401,98 +538,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-19T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MILHO VERDE BANDEJA UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA SUCO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA UMBIGO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CENOURA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620597",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAMÃO FORMOSA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA DOCE KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2099478",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA ROSA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-20T02:59:59.000Z"
       }
     },
     {
@@ -505,111 +551,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BETERRABA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077063",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MORANGA CABUTIA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ALFACE UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "REPOLHO VERDE UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620587",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "TOMATE RASTEIRO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAÇA FUJI KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAÇÃ GALA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-08T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
     }
   ]
