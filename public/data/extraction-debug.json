@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:34:33.718Z",
+  "generatedAt": "2026-09-10T12:58:07.151Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800825923-2124879188107121-4623028421728013646-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -37,8 +37,8 @@
       "blockEvidence": [
         "jpeg](img-4.jpeg) Ofertas válidas para o dia 9 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
       ],
-      "averageConfidence": 0.9532903467377652,
-      "minimumConfidence": 0.15740923404561855
+      "averageConfidence": 0.9534970866583227,
+      "minimumConfidence": 0.15764742480978056
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-796527688-1555033339995669-5792162458087573545-n-jpg",
@@ -95,8 +95,8 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-1-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9270760191446671,
-      "minimumConfidence": 0.19770791244356783
+      "averageConfidence": 0.9257172832721035,
+      "minimumConfidence": 0.21180073814969078
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-2-png",
@@ -113,8 +113,8 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-4-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9780594172243543,
-      "minimumConfidence": 0.028731188924755978
+      "averageConfidence": 0.9783555532124008,
+      "minimumConfidence": 0.027945151944769642
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381708",
@@ -126,7 +126,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -139,7 +139,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -164,7 +164,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -177,7 +177,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -190,7 +190,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -203,7 +203,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -216,7 +216,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -229,7 +229,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -242,7 +242,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -255,7 +255,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -268,7 +268,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -281,7 +281,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -294,7 +294,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -307,7 +307,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -320,7 +320,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -333,7 +333,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -346,7 +346,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -359,7 +359,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -372,7 +372,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -385,7 +385,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
+        "validUntil": "2026-09-16T02:59:59.000Z"
       }
     },
     {
@@ -567,7 +567,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-19T02:59:59.000Z"
+        "validUntil": "2026-09-20T02:59:59.000Z"
       }
     },
     {
@@ -580,7 +580,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
     }
   ]

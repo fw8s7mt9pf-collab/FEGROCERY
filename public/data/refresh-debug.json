@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-09T22:34:33.718Z",
-  "sourceGeneratedAt": "2026-09-09T22:34:29.318Z",
+  "generatedAt": "2026-09-10T12:58:07.151Z",
+  "sourceGeneratedAt": "2026-09-10T12:58:03.686Z",
   "sourceCandidateCount": 45,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 45,
-  "expiredDealCount": 0,
+  "publicDealCount": 41,
+  "expiredDealCount": 4,
   "warningCount": 26,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
