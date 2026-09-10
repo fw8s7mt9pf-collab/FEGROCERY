@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T12:58:07.151Z",
+  "generatedAt": "2026-09-10T17:43:22.085Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800825923-2124879188107121-4623028421728013646-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-1-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-4-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-1009-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598017: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
@@ -30,6 +30,24 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9461473196228858,
+      "minimumConfidence": 0.13395890615102543
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-801938999-1555947916570878-23974747758306020-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 13 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) COXINHA DA A"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 13 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) COXINHA DA A"
+      ],
+      "averageConfidence": 0.9504580314725468,
+      "minimumConfidence": 0.18826832635455204
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg",
       "markdownEvidence": [
         "jpeg](img-4.jpeg) Ofertas válidas para o dia 9 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
@@ -37,8 +55,8 @@
       "blockEvidence": [
         "jpeg](img-4.jpeg) Ofertas válidas para o dia 9 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
       ],
-      "averageConfidence": 0.9534970866583227,
-      "minimumConfidence": 0.15764742480978056
+      "averageConfidence": 0.9532903467377652,
+      "minimumConfidence": 0.15740923404561855
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-796527688-1555033339995669-5792162458087573545-n-jpg",
@@ -70,51 +88,22 @@
       "minimumConfidence": 0.19352703945470598
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-4-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-1009-2-png",
       "markdownEvidence": [
-        "do parte da sua vida.* OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. **Leite"
+        "rdilho 1Kg. R$ 5,99 Un. ![img-2.jpeg](img-2.jpeg) Maionese Lisa Caseira sachê 400G. R$ 5,29 Un. ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg"
       ],
       "blockEvidence": [
-        "do parte da sua vida.* OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. **Leite"
+        "rdilho 1Kg. R$ 5,99 Un. ![img-2.jpeg](img-2.jpeg) Maionese Lisa Caseira sachê 400G. R$ 5,29 Un. ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg"
       ],
-      "averageConfidence": 0.9526842862837077,
-      "minimumConfidence": 0.18279363414417824
+      "averageConfidence": 0.948078824364011,
+      "minimumConfidence": 0.15225477611506283
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha5-png",
-      "markdownEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "blockEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "averageConfidence": 0.9398009806279681,
-      "minimumConfidence": 0.03063740974978016
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-1-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-1009-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9257172832721035,
-      "minimumConfidence": 0.21180073814969078
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-2-png",
-      "markdownEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "blockEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 08/09/2026 ATÉ 09/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "averageConfidence": 0.9462182032251981,
-      "minimumConfidence": 0.15315949950214058
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-4-png",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9783555532124008,
-      "minimumConfidence": 0.027945151944769642
+      "averageConfidence": 0.9522758604828104,
+      "minimumConfidence": 0.2788488102800177
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381708",
@@ -126,7 +115,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -139,7 +128,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -164,7 +153,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-02T02:59:59.000Z"
+        "validUntil": "2026-10-01T02:59:59.000Z"
       }
     },
     {
@@ -177,7 +166,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -190,7 +179,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -203,7 +192,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -216,7 +205,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -229,7 +218,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -242,7 +231,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -255,7 +244,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -268,7 +257,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -281,7 +270,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -294,7 +283,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -307,7 +296,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -320,7 +309,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -333,7 +322,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -346,7 +335,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -359,7 +348,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -372,7 +361,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -385,7 +374,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-16T02:59:59.000Z"
+        "validUntil": "2026-09-15T02:59:59.000Z"
       }
     },
     {
@@ -567,7 +556,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-20T02:59:59.000Z"
+        "validUntil": "2026-09-19T02:59:59.000Z"
       }
     },
     {
@@ -580,7 +569,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-30T02:59:59.000Z"
+        "validUntil": "2026-09-29T02:59:59.000Z"
       }
     }
   ]

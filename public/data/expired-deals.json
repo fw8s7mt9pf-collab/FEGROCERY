@@ -9,42 +9,6 @@
     "validFrom": "2026-09-08T03:00:00.000Z",
     "validUntil": "2026-09-10T02:59:59.000Z",
     "expiresAt": "2026-09-10T02:59:59.000Z",
-    "lastRefreshed": "2026-09-10T12:58:07.151Z"
-  },
-  {
-    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-4-png",
-    "supermarket": "Krolow",
-    "category": "Meats",
-    "title": "Carnes",
-    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/folha-4.png",
-    "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "validFrom": "2026-09-08T03:00:00.000Z",
-    "validUntil": "2026-09-10T02:59:59.000Z",
-    "expiresAt": "2026-09-10T02:59:59.000Z",
-    "lastRefreshed": "2026-09-10T12:58:07.151Z"
-  },
-  {
-    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha5-png",
-    "supermarket": "Krolow",
-    "category": "Produce",
-    "title": "Hortifruti",
-    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/Feira-0809-ate-0909-folha5.png",
-    "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "validFrom": "2026-09-08T03:00:00.000Z",
-    "validUntil": "2026-09-10T02:59:59.000Z",
-    "expiresAt": "2026-09-10T02:59:59.000Z",
-    "lastRefreshed": "2026-09-10T12:58:07.151Z"
-  },
-  {
-    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-0809-ate-0909-folha-2-png",
-    "supermarket": "Krolow",
-    "category": "Produce",
-    "title": "Hortifruti",
-    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/Feira-0809-ate-0909-folha-2.png",
-    "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "validFrom": "2026-09-08T03:00:00.000Z",
-    "validUntil": "2026-09-10T02:59:59.000Z",
-    "expiresAt": "2026-09-10T02:59:59.000Z",
-    "lastRefreshed": "2026-09-10T12:58:07.151Z"
+    "lastRefreshed": "2026-09-10T17:43:22.085Z"
   }
 ]
