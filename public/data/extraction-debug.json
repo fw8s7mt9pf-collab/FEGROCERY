@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:45:55.750Z",
+  "generatedAt": "2026-09-11T22:36:52.940Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
@@ -48,13 +48,13 @@
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
       "markdownEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
+        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
       ],
       "blockEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
+        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
       ],
-      "averageConfidence": 0.9458584863477887,
-      "minimumConfidence": 0.1408627142710168
+      "averageConfidence": 0.9466284950877667,
+      "minimumConfidence": 0.13386475323090083
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
@@ -179,6 +179,32 @@
       ],
       "averageConfidence": 0.9409771720277657,
       "minimumConfidence": 0.1485775789740991
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ÁGUA MINERAL FLUA S/GÁS 500ML"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-01T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508091",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ÁGUA MINERAL FLUA C/GÁS 500ML"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-01T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2394250",

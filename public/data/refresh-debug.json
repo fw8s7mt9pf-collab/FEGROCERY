@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T17:45:55.750Z",
-  "sourceGeneratedAt": "2026-09-11T17:45:50.900Z",
-  "sourceCandidateCount": 53,
+  "generatedAt": "2026-09-11T22:36:52.940Z",
+  "sourceGeneratedAt": "2026-09-11T22:36:48.795Z",
+  "sourceCandidateCount": 55,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 51,
+  "publicDealCount": 53,
   "expiredDealCount": 2,
   "warningCount": 31,
   "warnings": [
@@ -46,7 +46,7 @@
     "attempted": 14,
     "succeeded": 14,
     "failed": 0,
-    "skipped": 39,
+    "skipped": 41,
     "errors": []
   },
   "aiParser": {
@@ -55,7 +55,7 @@
     "attempted": 14,
     "succeeded": 0,
     "failed": 14,
-    "skipped": 39,
+    "skipped": 41,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802243832-1556932109805792-1342722718375732262-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
