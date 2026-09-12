@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-12T17:12:31.775Z",
-  "sourceGeneratedAt": "2026-09-12T17:12:27.019Z",
-  "sourceCandidateCount": 55,
+  "generatedAt": "2026-09-12T22:19:56.599Z",
+  "sourceGeneratedAt": "2026-09-12T22:19:52.090Z",
+  "sourceCandidateCount": 54,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
   "publicDealCount": 53,
-  "expiredDealCount": 2,
+  "expiredDealCount": 1,
   "warningCount": 31,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -43,8 +43,8 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 14,
-    "succeeded": 14,
+    "attempted": 13,
+    "succeeded": 13,
     "failed": 0,
     "skipped": 41,
     "errors": []
@@ -52,9 +52,9 @@
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 14,
+    "attempted": 13,
     "succeeded": 0,
-    "failed": 14,
+    "failed": 13,
     "skipped": 41,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802243832-1556932109805792-1342722718375732262-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
@@ -64,7 +64,6 @@
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-796527688-1555033339995669-5792162458087573545-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800825923-2124879188107121-4623028421728013646-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-798080114-1553205423511794-6122110463967242759-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-hortifruti-final-de-semana-11-09-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-acougue-ok-dia-0309-ate-0609-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-4-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
