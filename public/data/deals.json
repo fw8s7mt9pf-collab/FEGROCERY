@@ -1,5 +1,18 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Other",
+    "title": "Ofertas de Início de Semana ROXO💜",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/807901011_1558691496296520_1568793145472053080_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-09-14T03:00:00.000Z",
+    "validUntil": "2026-09-17T02:59:59.000Z",
+    "expiresAt": "2026-09-17T02:59:59.000Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
+    "warning": "Categoria inferida com baixa confianca."
+  },
+  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802243832-1556932109805792-1342722718375732262-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
@@ -8,7 +21,7 @@
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validUntil": "2027-01-24T02:59:59.000Z",
     "expiresAt": "2027-01-24T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
@@ -20,7 +33,7 @@
     "validFrom": "2026-09-11T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
@@ -29,8 +42,8 @@
     "title": "Ofertas do Final de Semana ROXO💜💜💜",
     "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/802458091_18127364260814039_796699932279070978_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
-    "expiresAt": "2026-09-15T17:25:16.840Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "expiresAt": "2026-09-15T22:26:07.051Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "warning": "Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   },
   {
@@ -43,7 +56,7 @@
     "validFrom": "2026-09-10T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg",
@@ -54,19 +67,8 @@
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
     "validUntil": "2027-01-24T02:59:59.000Z",
     "expiresAt": "2027-01-24T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "warning": "Categoria inferida com baixa confianca."
-  },
-  {
-    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800825923-2124879188107121-4623028421728013646-n-jpg",
-    "supermarket": "Grupo Roxo",
-    "category": "Other",
-    "title": "Ofertas de Início de Semana ROXO💜💜💜",
-    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/800825923_2124879188107121_4623028421728013646_n.jpg",
-    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
-    "expiresAt": "2026-09-15T17:25:16.840Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
-    "warning": "Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   },
   {
     "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-hortifruti-final-de-semana-11-09-png",
@@ -78,7 +80,7 @@
     "validFrom": "2026-09-11T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "warning": "Categoria inferida com baixa confianca."
   },
   {
@@ -91,7 +93,7 @@
     "validFrom": "2026-09-10T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-4-png",
@@ -103,7 +105,7 @@
     "validFrom": "2026-09-11T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-f3-png",
@@ -115,7 +117,7 @@
     "validFrom": "2026-09-11T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "warning": "Categoria inferida com baixa confianca."
   },
   {
@@ -125,8 +127,8 @@
     "title": "Carnes",
     "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/findi-do-patrao-f-2.png",
     "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "expiresAt": "2026-09-15T17:25:16.840Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "expiresAt": "2026-09-15T22:26:07.051Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "warning": "Validade nao encontrada; oferta expira automaticamente em 48 horas."
   },
   {
@@ -139,7 +141,7 @@
     "validFrom": "2026-09-11T03:00:00.000Z",
     "validUntil": "2026-09-14T02:59:59.000Z",
     "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z"
+    "lastRefreshed": "2026-09-13T22:26:15.772Z"
   },
   {
     "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
@@ -150,7 +152,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-10-01T02:59:59.000Z",
     "expiresAt": "2026-10-01T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 1.29,
     "dealPrice": 0.99,
     "unitText": "Por Unidade"
@@ -164,7 +166,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-10-01T02:59:59.000Z",
     "expiresAt": "2026-10-01T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 1.29,
     "dealPrice": 0.99,
     "unitText": "Por Unidade"
@@ -178,7 +180,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 1.29,
     "dealPrice": 0.99,
     "unitText": "Por Unidade",
@@ -193,7 +195,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 2.89,
     "dealPrice": 1.99,
     "unitText": "Por Unidade",
@@ -208,7 +210,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 5.98,
     "dealPrice": 4.99,
     "unitText": "Por Unidade",
@@ -223,7 +225,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.99,
     "dealPrice": 3.49,
     "unitText": "Por Quilograma",
@@ -238,7 +240,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 2.99,
     "dealPrice": 2.39,
     "unitText": "Por Unidade",
@@ -253,7 +255,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 4.49,
     "dealPrice": 3.69,
     "unitText": "Por Unidade",
@@ -268,7 +270,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.99,
     "dealPrice": 2.99,
     "unitText": "Por Quilograma",
@@ -283,7 +285,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 7.39,
     "dealPrice": 6.49,
     "unitText": "Por Quilograma",
@@ -298,7 +300,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.49,
     "dealPrice": 2.59,
     "unitText": "Por Quilograma",
@@ -313,7 +315,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 2.99,
     "dealPrice": 2.29,
     "unitText": "Por Quilograma"
@@ -327,7 +329,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.49,
     "dealPrice": 2.69,
     "unitText": "Por Quilograma",
@@ -342,7 +344,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 8.49,
     "dealPrice": 7.49,
     "unitText": "Por Unidade",
@@ -357,7 +359,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 4.99,
     "dealPrice": 3.99,
     "unitText": "Por Quilograma"
@@ -371,7 +373,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 11.98,
     "dealPrice": 9.69,
     "unitText": "Por Unidade",
@@ -386,7 +388,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.99,
     "dealPrice": 2.99,
     "unitText": "Por Unidade",
@@ -401,7 +403,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.99,
     "dealPrice": 2.99,
     "unitText": "Por Unidade",
@@ -416,7 +418,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 16.99,
     "dealPrice": 14.99,
     "unitText": "Por Quilograma"
@@ -430,7 +432,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 12.99,
     "dealPrice": 9.99,
     "unitText": "Por Quilograma"
@@ -442,8 +444,8 @@
     "title": "PALETA SUÍNA KG",
     "imageUrl": "https://www.crescevendas.com/system/discount_images/files/002/723/237/thumb/RackMultipart20260815-26626-v4dh7w.webp",
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
-    "expiresAt": "2026-09-15T17:25:16.840Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "expiresAt": "2026-09-15T22:26:07.051Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 10.99,
     "dealPrice": 8.99,
     "unitText": "Por Quilograma",
@@ -458,7 +460,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-10-01T02:59:59.000Z",
     "expiresAt": "2026-10-01T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 14.99,
     "dealPrice": 11.99,
     "unitText": "Por Quilograma"
@@ -472,7 +474,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.98,
     "dealPrice": 3.49,
     "unitText": "Por Unidade"
@@ -486,7 +488,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 4.48,
     "dealPrice": 3.99,
     "unitText": "Por Unidade"
@@ -500,7 +502,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.49,
     "dealPrice": 2.89,
     "unitText": "Por Unidade",
@@ -515,7 +517,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 9.99,
     "dealPrice": 8.99,
     "unitText": "Por Unidade",
@@ -530,7 +532,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 11.99,
     "dealPrice": 10.49,
     "unitText": "Por Unidade",
@@ -545,7 +547,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 12.99,
     "dealPrice": 10.99,
     "unitText": "Por Unidade"
@@ -559,7 +561,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 19.9,
     "dealPrice": 16.99,
     "unitText": "Por Unidade",
@@ -574,7 +576,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 18.99,
     "dealPrice": 16.99,
     "unitText": "Por Unidade"
@@ -588,7 +590,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 8.99,
     "dealPrice": 7.99,
     "unitText": "Por Unidade",
@@ -603,7 +605,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 30.78,
     "dealPrice": 25.18,
     "unitText": "Por Unidade",
@@ -618,7 +620,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 12.99,
     "dealPrice": 10.99,
     "unitText": "Por Unidade"
@@ -632,7 +634,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 13.99,
     "dealPrice": 11.99,
     "unitText": "Por Unidade"
@@ -646,7 +648,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 2.99,
     "dealPrice": 2.59,
     "unitText": "Por Unidade"
@@ -660,7 +662,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.89,
     "dealPrice": 3.39,
     "unitText": "Por Unidade"
@@ -674,7 +676,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 10.99,
     "dealPrice": 8.99,
     "unitText": "Por Quilograma",
@@ -689,7 +691,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 3.99,
     "dealPrice": 2.99,
     "unitText": "Por Unidade",
@@ -704,7 +706,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-15T02:59:59.000Z",
     "expiresAt": "2026-09-15T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 2.99,
     "dealPrice": 2.49,
     "unitText": "Por Unidade",
@@ -719,7 +721,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-19T02:59:59.000Z",
     "expiresAt": "2026-09-19T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 13.99,
     "dealPrice": 10.99,
     "unitText": "Por Unidade"
@@ -733,7 +735,7 @@
     "sourceUrl": "https://clubeamigosdoprado.crescevendas.com/",
     "validUntil": "2026-09-29T02:59:59.000Z",
     "expiresAt": "2026-09-29T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T17:25:21.651Z",
+    "lastRefreshed": "2026-09-13T22:26:15.772Z",
     "regularPrice": 7.49,
     "dealPrice": 6.49,
     "unitText": "Por Unidade",
