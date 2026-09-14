@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-09-14T15:04:58.014Z",
+  "generatedAt": "2026-09-14T19:23:58.752Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2394250: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963941: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
@@ -21,13 +25,9 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598017: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2026846: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424998: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
@@ -68,8 +68,8 @@
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9455157418720354,
-      "minimumConfidence": 0.1339693184388773
+      "averageConfidence": 0.9461473196228858,
+      "minimumConfidence": 0.13395890615102543
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-801938999-1555947916570878-23974747758306020-n-jpg",
@@ -79,8 +79,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 13 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) COXINHA DA A"
       ],
-      "averageConfidence": 0.9477227121890605,
-      "minimumConfidence": 0.17577646100605232
+      "averageConfidence": 0.9504580314725468,
+      "minimumConfidence": 0.18826832635455204
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg",
@@ -96,13 +96,13 @@
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-796527688-1555033339995669-5792162458087573545-n-jpg",
       "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 09 À 10 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 09 À 10 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
       ],
       "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 09 À 10 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 09 À 10 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
       ],
-      "averageConfidence": 0.9465526091750593,
-      "minimumConfidence": 0.11434454692399491
+      "averageConfidence": 0.9464142235336247,
+      "minimumConfidence": 0.1051443468844708
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-14092026-1-png",
@@ -134,6 +134,84 @@
       ],
       "averageConfidence": 0.9411066520243447,
       "minimumConfidence": 0.17086596451632172
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2405379",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "AÇUCAR GUARANI REFINADO DE 1KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "PIPOCA YOKI 400G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BOMBOM LACTA FAVORITOS 131,4G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CREME DE TRATAMENTO SKALA DE 1 KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598008",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "DESINFETANTE PERFUMADO PINHO SOL 1L"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-09-22T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
@@ -408,19 +486,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2405379",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "AÇUCAR GUARANI REFINADO DE 1KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1701169",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -440,45 +505,6 @@
       "parsedListing": {
         "productNames": [
           "BOLACHA RECHEADA TRAKINAS 126G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BOMBOM LACTA FAVORITOS 131,4G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "CREME DE TRATAMENTO SKALA DE 1 KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598008",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "DESINFETANTE PERFUMADO PINHO SOL 1L"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
@@ -583,32 +609,6 @@
       "parsedListing": {
         "productNames": [
           "SALSICHA HOT DOG SEARA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PIPOCA YOKI 400G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
