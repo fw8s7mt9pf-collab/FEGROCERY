@@ -1,5 +1,29 @@
 [
   {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Meats",
+    "title": "E tem mais Oferta no Final de Semana ROXO💜",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/803465644_1556808139818189_6356412592937316667_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-09-11T03:00:00.000Z",
+    "validUntil": "2026-09-14T02:59:59.000Z",
+    "expiresAt": "2026-09-14T02:59:59.000Z",
+    "lastRefreshed": "2026-09-14T15:04:58.014Z"
+  },
+  {
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-801938999-1555947916570878-23974747758306020-n-jpg",
+    "supermarket": "Grupo Roxo",
+    "category": "Meats",
+    "title": "Ofertas do Final de Semana ROXO💜",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/801938999_1555947916570878_23974747758306020_n.jpg",
+    "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
+    "validFrom": "2026-09-10T03:00:00.000Z",
+    "validUntil": "2026-09-14T02:59:59.000Z",
+    "expiresAt": "2026-09-14T02:59:59.000Z",
+    "lastRefreshed": "2026-09-14T15:04:58.014Z"
+  },
+  {
     "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-796527688-1555033339995669-5792162458087573545-n-jpg",
     "supermarket": "Grupo Roxo",
     "category": "Produce",
@@ -9,6 +33,6 @@
     "validFrom": "2026-09-09T03:00:00.000Z",
     "validUntil": "2026-09-11T02:59:59.000Z",
     "expiresAt": "2026-09-11T02:59:59.000Z",
-    "lastRefreshed": "2026-09-13T22:26:15.772Z"
+    "lastRefreshed": "2026-09-14T15:04:58.014Z"
   }
 ]

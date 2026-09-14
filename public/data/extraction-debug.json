@@ -1,12 +1,10 @@
 {
-  "generatedAt": "2026-09-13T22:26:15.772Z",
+  "generatedAt": "2026-09-14T15:04:58.014Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-hortifruti-final-de-semana-11-09-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-f3-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-f-2-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2394250: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963941: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
@@ -26,7 +24,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2026846: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2617761: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424998: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466: Categoria inferida com baixa confianca.",
@@ -71,8 +68,8 @@
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9461473196228858,
-      "minimumConfidence": 0.13395890615102543
+      "averageConfidence": 0.9455157418720354,
+      "minimumConfidence": 0.1339693184388773
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-801938999-1555947916570878-23974747758306020-n-jpg",
@@ -82,8 +79,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 13 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) COXINHA DA A"
       ],
-      "averageConfidence": 0.9504580314725468,
-      "minimumConfidence": 0.18826832635455204
+      "averageConfidence": 0.9477227121890605,
+      "minimumConfidence": 0.17577646100605232
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg",
@@ -108,70 +105,35 @@
       "minimumConfidence": 0.11434454692399491
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-hortifruti-final-de-semana-11-09-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-14092026-1-png",
       "markdownEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS DE 11/09/2026 ATÉ 13/09/2026, ENQUANTO DURAREM OS ESTOQUES, IMAGENS MERAMENTE"
+        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS PARA O DIA 14/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTR",
+        "g](img-7.jpeg) Ervilha Citral Conserva/Lata 170G. Maionese Hellmann's Sachê 200G. Papel Higiênico Finopel F/S C/12 Rolos 30m. Suco de"
       ],
       "blockEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS DE 11/09/2026 ATÉ 13/09/2026, ENQUANTO DURAREM OS ESTOQUES, IMAGENS MERAMENTE"
+        "![img-0.jpeg](img-0.jpeg) OFERTAS VALIDAS PARA O DIA 14/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTR",
+        "g](img-7.jpeg) Ervilha Citral Conserva/Lata 170G. Maionese Hellmann's Sachê 200G. Papel Higiênico Finopel F/S C/12 Rolos 30m. Suco de"
       ],
-      "averageConfidence": 0.9502442503557114,
-      "minimumConfidence": 0.2996127924227666
+      "averageConfidence": 0.9440437491339255,
+      "minimumConfidence": 0.10030963254833816
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-acougue-ok-dia-0309-ate-0609-jpg",
-      "markdownEvidence": [
-        "OFERTAS VÁLIDAS DE 10/09/2026 ATE 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "blockEvidence": [
-        "OFERTAS VÁLIDAS DE 10/09/2026 ATE 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "averageConfidence": 0.9415018272323978,
-      "minimumConfidence": 0.04691850588467058
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-14092026-png",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.951068338607811,
+      "minimumConfidence": 0.15114166667826717
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-4-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
       "markdownEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS Cerveja E"
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "blockEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS Cerveja E"
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9487598390911441,
-      "minimumConfidence": 0.10259663737289214
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-f3-png",
-      "markdownEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-1.j"
-      ],
-      "blockEvidence": [
-        "![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-1.j"
-      ],
-      "averageConfidence": 0.9497370996966196,
-      "minimumConfidence": 0.21233567324896252
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-f-2-png",
-      "markdownEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-2.j"
-      ],
-      "blockEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-2.j"
-      ],
-      "averageConfidence": 0.9416831417085942,
-      "minimumConfidence": 0.0881756564205344
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-findi-do-patrao-1-png",
-      "markdownEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-2.j"
-      ],
-      "blockEvidence": [
-        "o ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 11/09 À 13/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS ![img-2.j"
-      ],
-      "averageConfidence": 0.9421802290406323,
-      "minimumConfidence": 0.1444637948550525
+      "averageConfidence": 0.9411066520243447,
+      "minimumConfidence": 0.17086596451632172
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
@@ -408,19 +370,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381708",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LOMBO SUÍNO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2057532",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -556,19 +505,6 @@
       "parsedListing": {
         "productNames": [
           "LINGUIÇA CALABRESA GROSSA MAIS FRANGO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-15T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2617761",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "NATA DÁLIA 300G"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
