@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:13:50.127Z",
+  "generatedAt": "2026-09-15T22:54:39.001Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
@@ -8,6 +8,7 @@
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2314164: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564211: Categoria inferida com baixa confianca.",
@@ -41,8 +42,8 @@
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.8945068607708317,
-      "minimumConfidence": 0.016406864795796387
+      "averageConfidence": 0.8942573560460095,
+      "minimumConfidence": 0.016445126663728937
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg",
@@ -52,8 +53,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE SETEMBRO enquanto durarem os estoques A CADA 100g R$ 1,99 ![img-3.jpeg](img-"
       ],
-      "averageConfidence": 0.9478372815032331,
-      "minimumConfidence": 0.14788790968187232
+      "averageConfidence": 0.9479243117920952,
+      "minimumConfidence": 0.1450892494002769
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802243832-1556932109805792-1342722718375732262-n-jpg",
@@ -63,26 +64,26 @@
       "blockEvidence": [
         ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
       ],
-      "averageConfidence": 0.9484515835954981,
-      "minimumConfidence": 0.1302391054183444
+      "averageConfidence": 0.9481077590009073,
+      "minimumConfidence": 0.12911193857157094
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
       "markdownEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
       ],
       "blockEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
       ],
-      "averageConfidence": 0.9466284950877667,
-      "minimumConfidence": 0.13386475323090083
+      "averageConfidence": 0.9458584863477887,
+      "minimumConfidence": 0.1408627142710168
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9461473196228858,
-      "minimumConfidence": 0.13395890615102543
+      "averageConfidence": 0.9455157418720354,
+      "minimumConfidence": 0.1339693184388773
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-801938999-1555947916570878-23974747758306020-n-jpg",
@@ -92,8 +93,8 @@
       "blockEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 10 À 13 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) COXINHA DA A"
       ],
-      "averageConfidence": 0.9504580314725468,
-      "minimumConfidence": 0.18826832635455204
+      "averageConfidence": 0.9477227121890605,
+      "minimumConfidence": 0.17577646100605232
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-797956522-1555034056662264-4547233023400976152-n-jpg",
@@ -103,8 +104,8 @@
       "blockEvidence": [
         "jpeg](img-4.jpeg) Ofertas válidas para o dia 9 DE SETEMBRO enquanto durarem os estoques ![img-5.jpeg](img-5.jpeg) ![img-6.jpeg](img-6.jpeg"
       ],
-      "averageConfidence": 0.9534970866583227,
-      "minimumConfidence": 0.15764742480978056
+      "averageConfidence": 0.9532903467377652,
+      "minimumConfidence": 0.15740923404561855
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
@@ -114,8 +115,8 @@
       "blockEvidence": [
         "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9411066520243447,
-      "minimumConfidence": 0.17086596451632172
+      "averageConfidence": 0.9413046995553762,
+      "minimumConfidence": 0.19874263340584655
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png",
@@ -136,8 +137,20 @@
       "blockEvidence": [
         "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Laranja"
       ],
-      "averageConfidence": 0.9342529282397982,
-      "minimumConfidence": 0.06365510208175433
+      "averageConfidence": 0.9336750368395555,
+      "minimumConfidence": 0.06387703547818807
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "VINHO VALE DA ITÁLIA BRANCO SECO 1,45L"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2314164",
