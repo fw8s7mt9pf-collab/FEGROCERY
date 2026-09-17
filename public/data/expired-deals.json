@@ -1,14 +1,28 @@
 [
   {
-    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
+    "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg",
     "supermarket": "Grupo Roxo",
-    "category": "Meats",
-    "title": "E tem mais Oferta no Final de Semana ROXO💜",
-    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/803465644_1556808139818189_6356412592937316667_n.jpg",
+    "category": "Other",
+    "title": "Ofertas de Início de Semana ROXO💜",
+    "imageUrl": "https://www.gruporoxo.com.br/wp-content/uploads/2018/12/807901011_1558691496296520_1568793145472053080_n.jpg",
     "sourceUrl": "https://www.gruporoxo.com.br/promocoes/",
-    "validFrom": "2026-09-11T03:00:00.000Z",
-    "validUntil": "2026-09-14T02:59:59.000Z",
-    "expiresAt": "2026-09-14T02:59:59.000Z",
-    "lastRefreshed": "2026-09-16T22:58:07.634Z"
+    "validFrom": "2026-09-14T03:00:00.000Z",
+    "validUntil": "2026-09-17T02:59:59.000Z",
+    "expiresAt": "2026-09-17T02:59:59.000Z",
+    "lastRefreshed": "2026-09-17T13:35:37.295Z",
+    "warning": "Categoria inferida com baixa confianca."
+  },
+  {
+    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
+    "supermarket": "Krolow",
+    "category": "Other",
+    "title": "Ofertas variadas",
+    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/feira-de-1409-ate-1609.png",
+    "sourceUrl": "https://macroatacadokrolow.com.br/",
+    "validFrom": "2026-09-14T03:00:00.000Z",
+    "validUntil": "2026-09-17T02:59:59.000Z",
+    "expiresAt": "2026-09-17T02:59:59.000Z",
+    "lastRefreshed": "2026-09-17T13:35:37.295Z",
+    "warning": "Categoria inferida com baixa confianca."
   }
 ]

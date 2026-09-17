@@ -1,19 +1,14 @@
 {
-  "generatedAt": "2026-09-16T22:58:07.634Z",
+  "generatedAt": "2026-09-17T13:35:37.295Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807590346-1561404242691912-912103531927023895-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2314164: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564211: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564217: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2583424: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620424: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2637895: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1608643: Categoria inferida com baixa confianca.",
@@ -34,9 +29,45 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png: Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 17 À 20 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) SOBRECOXA AG"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 17 À 20 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) SOBRECOXA AG"
+      ],
+      "averageConfidence": 0.9488004412608184,
+      "minimumConfidence": 0.08768551270565202
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807590346-1561404242691912-912103531927023895-n-jpg",
+      "markdownEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 16 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PÃO FORMA ROUFRE 400g R$"
+      ],
+      "blockEvidence": [
+        "D DOLPHIN GS 0KM Ofertas válidas para o dia 16 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PÃO FORMA ROUFRE 400g R$"
+      ],
+      "averageConfidence": 0.9521752481578231,
+      "minimumConfidence": 0.14146596710913556
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813420911-1561403476025322-1154864616844885003-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 16 À 17 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 16 À 17 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
+      ],
+      "averageConfidence": 0.9464760061859191,
+      "minimumConfidence": 0.2092928123856841
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-810731332-1560431046122565-870142303953968684-n-jpg",
       "markdownEvidence": [
@@ -67,66 +98,30 @@
       "minimumConfidence": 0.1450892494002769
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802243832-1556932109805792-1342722718375732262-n-jpg",
-      "markdownEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "blockEvidence": [
-        ") BYD DOLPHIN GS 0KM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "averageConfidence": 0.9481077590009073,
-      "minimumConfidence": 0.12911193857157094
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-803465644-1556808139818189-6356412592937316667-n-jpg",
-      "markdownEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
-      ],
-      "blockEvidence": [
-        ") BYD DOLPHIN GS OKM Ofertas válidas para os dias 11 À 13 DE SETEMBRO enquanto durarem os estoques ![img-1.jpeg](img-1.jpeg) ![img-2.jpeg"
-      ],
-      "averageConfidence": 0.9458584863477887,
-      "minimumConfidence": 0.1408627142710168
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-802458091-18127364260814039-796699932279070978-n-jpg",
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "averageConfidence": 0.9455157418720354,
-      "minimumConfidence": 0.1339693184388773
+      "parsedListing": {
+        "productNames": [
+          "ÁGUA MINERAL FLUA S/GÁS 500ML"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
-      "markdownEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "blockEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "averageConfidence": 0.9413046995553762,
-      "minimumConfidence": 0.19874263340584655
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png",
-      "markdownEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "blockEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "averageConfidence": 0.9495227892953961,
-      "minimumConfidence": 0.129313506858771
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png",
-      "markdownEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Laranja"
-      ],
-      "blockEvidence": [
-        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Laranja"
-      ],
-      "averageConfidence": 0.9336750368395555,
-      "minimumConfidence": 0.06387703547818807
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508091",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ÁGUA MINERAL FLUA C/GÁS 500ML"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222",
@@ -150,7 +145,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -167,19 +162,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564211",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "COXA SOBRE COXA AURORA KG NA CAIXA"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -189,7 +171,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -202,72 +184,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1520678",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "REFRIGERANTE CHARRUA 2L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2564217",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LEITE EM PÓ AURORA 400G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2583424",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LEITE TIROL INTEGRAL COM TAMPA 1L"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508114",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ÁGUA MINERAL FLUA S/GÁS 500ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2508091",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ÁGUA MINERAL FLUA C/GÁS 500ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-17T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -280,7 +197,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -293,7 +210,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -306,7 +223,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -319,7 +236,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -332,7 +249,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -345,7 +262,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -358,7 +275,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -371,7 +288,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -384,7 +301,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -397,7 +314,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -410,7 +327,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -423,7 +340,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -436,7 +353,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -449,7 +366,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -592,7 +509,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -605,7 +522,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -618,7 +535,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -631,7 +548,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -644,7 +561,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -657,7 +574,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -670,7 +587,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -696,8 +613,41 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
+      "markdownEvidence": [
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+      ],
+      "blockEvidence": [
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 14/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
+      ],
+      "averageConfidence": 0.9413046995553762,
+      "minimumConfidence": 0.19874263340584655
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png",
+      "markdownEvidence": [
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
+      ],
+      "blockEvidence": [
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
+      ],
+      "averageConfidence": 0.9495227892953961,
+      "minimumConfidence": 0.129313506858771
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png",
+      "markdownEvidence": [
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Laranja"
+      ],
+      "blockEvidence": [
+        "ndo parte da sua vida. OFERTAS VÁLIDAS DE 15/09/2026 ATÉ 16/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Laranja"
+      ],
+      "averageConfidence": 0.9336750368395555,
+      "minimumConfidence": 0.06387703547818807
     }
   ]
 }
