@@ -9,20 +9,7 @@
     "validFrom": "2026-09-14T03:00:00.000Z",
     "validUntil": "2026-09-17T02:59:59.000Z",
     "expiresAt": "2026-09-17T02:59:59.000Z",
-    "lastRefreshed": "2026-09-17T13:35:37.295Z",
-    "warning": "Categoria inferida com baixa confianca."
-  },
-  {
-    "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png",
-    "supermarket": "Krolow",
-    "category": "Other",
-    "title": "Ofertas variadas",
-    "imageUrl": "https://macroatacadokrolow.com.br/wp-content/uploads/2026/09/feira-de-1409-ate-1609.png",
-    "sourceUrl": "https://macroatacadokrolow.com.br/",
-    "validFrom": "2026-09-14T03:00:00.000Z",
-    "validUntil": "2026-09-17T02:59:59.000Z",
-    "expiresAt": "2026-09-17T02:59:59.000Z",
-    "lastRefreshed": "2026-09-17T13:35:37.295Z",
+    "lastRefreshed": "2026-09-17T18:16:29.262Z",
     "warning": "Categoria inferida com baixa confianca."
   }
 ]

@@ -1,21 +1,18 @@
 {
-  "generatedAt": "2026-09-17T13:35:37.295Z",
-  "sourceGeneratedAt": "2026-09-17T13:35:33.983Z",
-  "sourceCandidateCount": 49,
-  "sourceSkippedCount": 3,
-  "sourceSkipped": [
-    "Krolow WordPress API failed; used homepage HTML fallback.",
-    "Krolow \"Ofertas Especiais Feitas Para Voce\" section did not expose flyer images",
-    "Reused previous candidates for: Krolow."
-  ],
+  "generatedAt": "2026-09-17T18:16:29.262Z",
+  "sourceGeneratedAt": "2026-09-17T18:16:23.836Z",
+  "sourceCandidateCount": 48,
+  "sourceSkippedCount": 0,
+  "sourceSkipped": [],
   "publicDealCount": 47,
-  "expiredDealCount": 2,
-  "warningCount": 32,
+  "expiredDealCount": 1,
+  "warningCount": 30,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807590346-1561404242691912-912103531927023895-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-maluca-1709-1-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2314164: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
@@ -40,16 +37,13 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca."
   ],
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 9,
-    "succeeded": 9,
+    "attempted": 8,
+    "succeeded": 8,
     "failed": 0,
     "skipped": 40,
     "errors": []
@@ -57,9 +51,9 @@
   "aiParser": {
     "provider": "mistral-chat",
     "enabled": true,
-    "attempted": 9,
+    "attempted": 8,
     "succeeded": 0,
-    "failed": 9,
+    "failed": 8,
     "skipped": 40,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
@@ -68,9 +62,8 @@
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-810731332-1560431046122565-870142303953968684-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-1409-ate-1609-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-folha-2-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-15-1609-folha5-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-maluca-1709-1-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-quinta-maluca-1709-png: Mistral chat returned 403: {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
     ]
   }
 }
