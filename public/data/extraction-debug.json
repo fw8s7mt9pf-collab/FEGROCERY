@@ -1,10 +1,8 @@
 {
-  "generatedAt": "2026-09-18T22:36:10.782Z",
+  "generatedAt": "2026-09-19T12:33:55.068Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807590346-1561404242691912-912103531927023895-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-png: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-acougue-evidente-jpg: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180: Categoria inferida com baixa confianca.",
@@ -21,7 +19,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2314164: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620424: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2637895: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1608643: Categoria inferida com baixa confianca.",
@@ -38,6 +35,35 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9676672889904125,
+      "minimumConfidence": 0.0637301336456253
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-815268114-1563216925843977-4496938548288443795-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
+      ],
+      "averageConfidence": 0.9522151844282501,
+      "minimumConfidence": 0.19171327561911417
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-814310174-1563216062510730-3715443731439117965-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
+      ],
+      "averageConfidence": 0.947277371518752,
+      "minimumConfidence": 0.09215814499241133
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg",
       "markdownEvidence": [
         "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 17 À 20 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) SOBRECOXA AG"
@@ -47,57 +73,6 @@
       ],
       "averageConfidence": 0.9488004412608184,
       "minimumConfidence": 0.08768551270565202
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807590346-1561404242691912-912103531927023895-n-jpg",
-      "markdownEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 16 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PÃO FORMA ROUFRE 400g R$"
-      ],
-      "blockEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 16 DE SETEMBRO enquanto durarem os estoques ![img-4.jpeg](img-4.jpeg) PÃO FORMA ROUFRE 400g R$"
-      ],
-      "averageConfidence": 0.9521752481578231,
-      "minimumConfidence": 0.14146596710913556
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813420911-1561403476025322-1154864616844885003-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 16 À 17 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 16 À 17 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
-      ],
-      "averageConfidence": 0.9464760061859191,
-      "minimumConfidence": 0.2092928123856841
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-810731332-1560431046122565-870142303953968684-n-jpg",
-      "markdownEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 15 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg](img-4.jpeg"
-      ],
-      "blockEvidence": [
-        "D DOLPHIN GS 0KM Ofertas válidas para o dia 15 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) ![img-4.jpeg](img-4.jpeg"
-      ],
-      "averageConfidence": 0.9526189165121741,
-      "minimumConfidence": 0.1450936772403437
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-809766870-2279974992835928-413519378984938186-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.8942573560460095,
-      "minimumConfidence": 0.016445126663728937
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-807901011-1558691496296520-1568793145472053080-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE SETEMBRO enquanto durarem os estoques A CADA 100g R$ 1,99 ![img-3.jpeg](img-"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 14 À 16 DE SETEMBRO enquanto durarem os estoques A CADA 100g R$ 1,99 ![img-3.jpeg](img-"
-      ],
-      "averageConfidence": 0.9479243117920952,
-      "minimumConfidence": 0.1450892494002769
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-png",
@@ -190,7 +165,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -203,7 +178,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -216,7 +191,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -229,7 +204,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -242,7 +217,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -255,7 +230,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -268,7 +243,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -281,7 +256,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -294,7 +269,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -307,7 +282,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -320,7 +295,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -333,7 +308,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -346,7 +321,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -359,7 +334,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -372,20 +347,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1701599",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BARRIL DE CHOPP HEINEKEN DE 5 LITRO"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-20T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -398,7 +360,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -411,7 +373,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -436,33 +398,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2381710",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PALETA SUÍNA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2057532",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PERNIL SUINO COM PELE KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -475,7 +411,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -488,7 +424,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -501,7 +437,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -514,7 +450,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -527,7 +463,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -540,7 +476,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -553,7 +489,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -566,7 +502,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -579,7 +515,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -592,7 +528,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -605,7 +541,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -618,7 +554,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -631,7 +567,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -644,7 +580,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -657,7 +593,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -670,7 +606,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -683,7 +619,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -696,7 +632,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -709,7 +645,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -722,7 +658,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-22T02:59:59.000Z"
+        "validUntil": "2026-09-23T02:59:59.000Z"
       }
     },
     {
@@ -735,20 +671,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2626795",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LINGUIÇA TOSCANA ALIBEM 700G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-19T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -761,7 +684,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-09-30T02:59:59.000Z"
       }
     }
   ]
