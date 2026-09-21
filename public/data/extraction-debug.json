@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-09-21T15:10:11.283Z",
+  "generatedAt": "2026-09-21T19:30:51.015Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-818563566-1565851208913882-9064879301848221301-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-png: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-815268114-1563216925843977-4496938548288443795-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-814310174-1563216062510730-3715443731439117965-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
@@ -35,68 +39,38 @@
   "ocrDateDiagnostics": [
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-818563566-1565851208913882-9064879301848221301-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) BATATA BEM B"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) BATATA BEM B"
-      ],
-      "averageConfidence": 0.9492570495052692,
-      "minimumConfidence": 0.15162077079441144
+      "markdownEvidence": [],
+      "blockEvidence": []
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg",
       "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9676672889904125,
-      "minimumConfidence": 0.0637301336456253
+      "blockEvidence": []
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-815268114-1563216925843977-4496938548288443795-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS OKM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) TOMATE RASTE"
-      ],
-      "averageConfidence": 0.9522151844282501,
-      "minimumConfidence": 0.19171327561911417
+      "markdownEvidence": [],
+      "blockEvidence": []
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-814310174-1563216062510730-3715443731439117965-n-jpg",
-      "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 18 À 19 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) ![img-3.jpeg"
-      ],
-      "averageConfidence": 0.947277371518752,
-      "minimumConfidence": 0.09215814499241133
+      "markdownEvidence": [],
+      "blockEvidence": []
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png",
-      "markdownEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 21/09/2026 ATÉ 23/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "blockEvidence": [
-        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 21/09/2026 ATÉ 23/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
-      ],
-      "averageConfidence": 0.9342270103800573,
-      "minimumConfidence": 0.09911714301230805
+      "markdownEvidence": [],
+      "blockEvidence": []
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-1-png",
       "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9396906440987867,
-      "minimumConfidence": 0.028294757598794417
+      "blockEvidence": []
     },
     {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-png",
       "markdownEvidence": [],
-      "blockEvidence": [],
-      "averageConfidence": 0.9442754046265555,
-      "minimumConfidence": 0.08326407968996202
+      "blockEvidence": []
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180",
