@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-09-20T22:28:09.520Z",
+  "generatedAt": "2026-09-21T15:10:11.283Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-png: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
@@ -29,11 +30,20 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1741194: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-png: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-acougue-evidente-jpg: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-818563566-1565851208913882-9064879301848221301-n-jpg",
+      "markdownEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) BATATA BEM B"
+      ],
+      "blockEvidence": [
+        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 21 À 23 DE SETEMBRO enquanto durarem os estoques ![img-3.jpeg](img-3.jpeg) BATATA BEM B"
+      ],
+      "averageConfidence": 0.9492570495052692,
+      "minimumConfidence": 0.15162077079441144
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-811102522-18128212147814039-6981682812130153638-n-jpg",
       "markdownEvidence": [],
@@ -64,28 +74,29 @@
       "minimumConfidence": 0.09215814499241133
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-813428702-1562227189276284-4271387431215624888-n-jpg",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png",
       "markdownEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 17 À 20 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) SOBRECOXA AG"
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 21/09/2026 ATÉ 23/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
       "blockEvidence": [
-        "1 BYD DOLPHIN GS 0KM Ofertas válidas para os dias 17 À 20 DE SETEMBRO enquanto durarem os estoques ![img-2.jpeg](img-2.jpeg) SOBRECOXA AG"
+        "mg-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 21/09/2026 ATÉ 23/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-1."
       ],
-      "averageConfidence": 0.9488004412608184,
-      "minimumConfidence": 0.08768551270565202
+      "averageConfidence": 0.9342270103800573,
+      "minimumConfidence": 0.09911714301230805
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1520697",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-1-png",
       "markdownEvidence": [],
       "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LINGUICA MISTA NOBRE 700G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-21T02:59:59.000Z"
-      }
+      "averageConfidence": 0.9396906440987867,
+      "minimumConfidence": 0.028294757598794417
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-segunda-de-ofertas-21-09-png",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "averageConfidence": 0.9442754046265555,
+      "minimumConfidence": 0.08326407968996202
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2570180",
@@ -594,19 +605,6 @@
       }
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1839420",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LINGUIÇA TOSCANA NOBRE KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-01T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2170295",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -618,74 +616,6 @@
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-09-29T02:59:59.000Z"
       }
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-png",
-      "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "averageConfidence": 0.936827265383511,
-      "minimumConfidence": 0.09866363432711374
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-de-semana-18-09-ate-20-09-png",
-      "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3.",
-        "ntrecot ou Contra-filé Congelado Kg. R$ 43,99 Kg. Maionese Liza Caseira 400G. R$ 4,99 Un. ![img-9.jpeg](img-9.jpeg) Pão de Alho DaBoa"
-      ],
-      "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3.",
-        "ntrecot ou Contra-filé Congelado Kg. R$ 43,99 Kg. Maionese Liza Caseira 400G. R$ 4,99 Un. ![img-9.jpeg](img-9.jpeg) Pão de Alho DaBoa"
-      ],
-      "averageConfidence": 0.9375336876873819,
-      "minimumConfidence": 0.07837615358332621
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-de-semana-18-09-ate-20-09-1-png",
-      "markdownEvidence": [
-        ") ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 18/09 ATE 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Paleta S"
-      ],
-      "blockEvidence": [
-        ") ![img-1.jpeg](img-1.jpeg) OFERTAS VÁLIDAS DE 18/09 ATE 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Paleta S"
-      ],
-      "averageConfidence": 0.9696389931885143,
-      "minimumConfidence": 0.09631258178327405
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-final-de-semana-18-09-ate-20-09-3-png",
-      "markdownEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "blockEvidence": [
-        "o ![img-2.jpeg](img-2.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-3."
-      ],
-      "averageConfidence": 0.9530022186363197,
-      "minimumConfidence": 0.17116636268998353
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-feira-final-de-semana-png",
-      "markdownEvidence": [
-        "! ![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Cebola K"
-      ],
-      "blockEvidence": [
-        "! ![img-0.jpeg](img-0.jpeg) OFERTAS VÁLIDAS DE 18/09 ATÉ 20/09/2026, ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. Cebola K"
-      ],
-      "averageConfidence": 0.9431925422734947,
-      "minimumConfidence": 0.111643149181126
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-card-acougue-evidente-jpg",
-      "markdownEvidence": [
-        "OFERTAS VÁLIDAS DE 16/09/2026 ATE 20/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "blockEvidence": [
-        "OFERTAS VÁLIDAS DE 16/09/2026 ATE 20/09/2026. ENQUANTO DURAREM OS ESTOQUES. IMAGENS MERAMENTE ILUSTRATIVAS. ![img-0."
-      ],
-      "averageConfidence": 0.946860415534104,
-      "minimumConfidence": 0.1720584431867177
     }
   ]
 }
