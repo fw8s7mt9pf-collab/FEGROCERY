@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-24T18:26:35.448Z",
-  "sourceGeneratedAt": "2026-09-24T18:26:30.788Z",
-  "sourceCandidateCount": 49,
+  "generatedAt": "2026-09-24T23:13:57.395Z",
+  "sourceGeneratedAt": "2026-09-24T23:13:52.847Z",
+  "sourceCandidateCount": 62,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 49,
+  "publicDealCount": 62,
   "expiredDealCount": 0,
-  "warningCount": 37,
+  "warningCount": 45,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799675935-1568527668646236-1518774557324356491-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799561595-1567670042065332-1384389428497125132-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -17,6 +17,14 @@
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-oferta-terca-e-quarta-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-oferta-terca-e-quarta-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-de-2109-ate-2309-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2272693: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551098: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2649149: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1806799: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1846609: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2612600: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604890: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2649119: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2645854: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2327293: Categoria inferida com baixa confianca.",
@@ -52,7 +60,7 @@
     "attempted": 9,
     "succeeded": 0,
     "failed": 9,
-    "skipped": 40,
+    "skipped": 53,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799675935-1568527668646236-1518774557324356491-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799561595-1567670042065332-1384389428497125132-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -71,7 +79,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 49,
+    "skipped": 62,
     "errors": []
   }
 }
