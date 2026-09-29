@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:53:34.250Z",
+  "generatedAt": "2026-09-29T19:26:27.952Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829226080-18129212485814039-5143586154290927066-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-825273862-1572213211611015-956926184733831340-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -8,7 +8,6 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800826297-1569570465208623-5230404104784737511-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799675935-1568527668646236-1518774557324356491-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799561595-1567670042065332-1384389428497125132-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799948463-1567669275398742-2789682464032404997-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -71,11 +70,6 @@
       "blockEvidence": []
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799948463-1567669275398742-2789682464032404997-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-png",
       "markdownEvidence": [],
       "blockEvidence": []
@@ -100,7 +94,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -113,7 +107,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -126,7 +120,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -139,7 +133,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -152,7 +146,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -165,7 +159,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -178,7 +172,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -191,7 +185,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -204,7 +198,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -217,7 +211,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -230,7 +224,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -243,7 +237,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -256,7 +250,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -269,7 +263,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-03T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {

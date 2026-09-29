@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-29T14:53:34.250Z",
-  "sourceGeneratedAt": "2026-09-29T14:53:29.656Z",
-  "sourceCandidateCount": 41,
+  "generatedAt": "2026-09-29T19:26:27.952Z",
+  "sourceGeneratedAt": "2026-09-29T19:26:17.585Z",
+  "sourceCandidateCount": 40,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 41,
+  "publicDealCount": 40,
   "expiredDealCount": 0,
-  "warningCount": 32,
+  "warningCount": 31,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829226080-18129212485814039-5143586154290927066-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-825273862-1572213211611015-956926184733831340-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -15,7 +15,6 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800826297-1569570465208623-5230404104784737511-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799675935-1568527668646236-1518774557324356491-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799561595-1567670042065332-1384389428497125132-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799948463-1567669275398742-2789682464032404997-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -44,9 +43,9 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 11,
+    "attempted": 10,
     "succeeded": 0,
-    "failed": 11,
+    "failed": 10,
     "skipped": 30,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829226080-18129212485814039-5143586154290927066-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -56,7 +55,6 @@
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-800826297-1569570465208623-5230404104784737511-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799675935-1568527668646236-1518774557324356491-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799561595-1567670042065332-1384389428497125132-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-799948463-1567669275398742-2789682464032404997-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-1-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-1-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
@@ -68,7 +66,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 41,
+    "skipped": 40,
     "errors": []
   }
 }
