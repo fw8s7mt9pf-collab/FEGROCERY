@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T20:34:39.136Z",
+  "generatedAt": "2026-09-29T00:23:21.185Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829226080-18129212485814039-5143586154290927066-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-825273862-1572213211611015-956926184733831340-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -12,19 +12,19 @@
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-ofertas-segunda-28092026-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-09-feira-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2306367: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2201146: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963941: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620582: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2306367: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620597: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628230: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2272693: Categoria inferida com baixa confianca.",
@@ -109,84 +109,6 @@
       "blockEvidence": []
     },
     {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BATATA BRANCA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2306367",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MANGA TOMMY KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620587",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "TOMATE PROMOÇÃO"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "REPOLHO VERDE UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ABACAXI UNIDADE"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2575454",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -196,59 +118,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MAÇÃ GALA PROMOÇÃO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA UMBIGO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LARANJA SUCO KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "MILHO VERDE BANDEJA UN"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -261,7 +131,46 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2416080",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MILHO VERDE BANDEJA UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "REPOLHO VERDE UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2589951",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BANDEJA DE OVO BRANCO COM 20 UNIDADES"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -274,7 +183,33 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620587",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "TOMATE PROMOÇÃO"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BATATA BRANCA PROMOÇÃO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -287,7 +222,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-09-29T02:59:59.000Z"
+        "validUntil": "2026-10-02T02:59:59.000Z"
       }
     },
     {
@@ -297,6 +232,71 @@
       "parsedListing": {
         "productNames": [
           "ALFACE UN"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490593",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MAÇÃ GALA PROMOÇÃO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1780322",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LARANJA SUCO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2514224",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LARANJA UMBIGO KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2214304",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ABACAXI UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-02T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2306367",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MANGA TOMMY KG"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
