@@ -1,11 +1,8 @@
 {
-  "generatedAt": "2026-10-03T23:06:11.371Z",
+  "generatedAt": "2026-10-04T14:09:07.509Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831192916-28906892555574089-7733751609774221875-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829518144-1576866547812348-4232366125639701586-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831324437-18129524080814039-6792786261750631148-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829363159-1575749337924069-407531644819853517-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-827208425-1574761798022823-5287981913273537643-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829310713-1574761201356216-8276218053150320309-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-carne-suina-oferta-destaque-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2605210: Categoria inferida com baixa confianca.",
@@ -42,27 +39,12 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831192916-28906892555574089-7733751609774221875-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829518144-1576866547812348-4232366125639701586-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831324437-18129524080814039-6792786261750631148-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829363159-1575749337924069-407531644819853517-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-827208425-1574761798022823-5287981913273537643-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829310713-1574761201356216-8276218053150320309-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
     },
@@ -320,7 +302,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-13T02:59:59.000Z"
+        "validUntil": "2026-10-14T02:59:59.000Z"
       }
     },
     {

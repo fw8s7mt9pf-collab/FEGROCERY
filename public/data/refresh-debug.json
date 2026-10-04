@@ -1,18 +1,15 @@
 {
-  "generatedAt": "2026-10-03T23:06:11.371Z",
-  "sourceGeneratedAt": "2026-10-03T23:06:07.625Z",
-  "sourceCandidateCount": 51,
+  "generatedAt": "2026-10-04T14:09:07.509Z",
+  "sourceGeneratedAt": "2026-10-04T14:09:01.379Z",
+  "sourceCandidateCount": 48,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 51,
+  "publicDealCount": 48,
   "expiredDealCount": 0,
-  "warningCount": 38,
+  "warningCount": 35,
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831192916-28906892555574089-7733751609774221875-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829518144-1576866547812348-4232366125639701586-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831324437-18129524080814039-6792786261750631148-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829363159-1575749337924069-407531644819853517-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-827208425-1574761798022823-5287981913273537643-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829310713-1574761201356216-8276218053150320309-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-carne-suina-oferta-destaque-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2605210: Categoria inferida com baixa confianca.",
@@ -50,16 +47,13 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 7,
+    "attempted": 4,
     "succeeded": 0,
-    "failed": 7,
+    "failed": 4,
     "skipped": 44,
     "errors": [
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831192916-28906892555574089-7733751609774221875-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829518144-1576866547812348-4232366125639701586-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-831324437-18129524080814039-6792786261750631148-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829363159-1575749337924069-407531644819853517-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-827208425-1574761798022823-5287981913273537643-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-829310713-1574761201356216-8276218053150320309-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-carne-suina-oferta-destaque-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
     ]
@@ -70,7 +64,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 51,
+    "skipped": 48,
     "errors": []
   }
 }
