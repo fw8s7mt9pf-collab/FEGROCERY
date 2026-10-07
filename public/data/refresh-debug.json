@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-10-06T23:50:30.989Z",
-  "sourceGeneratedAt": "2026-10-06T23:50:26.587Z",
-  "sourceCandidateCount": 42,
+  "generatedAt": "2026-10-07T15:38:02.894Z",
+  "sourceGeneratedAt": "2026-10-07T15:37:53.995Z",
+  "sourceCandidateCount": 44,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 42,
+  "publicDealCount": 44,
   "expiredDealCount": 0,
-  "warningCount": 31,
+  "warningCount": 33,
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836813895-1581912357307767-7020296392390407750-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840026082-1581911783974491-6734807381410532596-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836333087-1580975204068149-1454435234786138454-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-835721786-4647160972271529-7545004921836676742-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-833377758-1579771190855217-689928425188057235-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -43,11 +45,13 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 7,
+    "attempted": 9,
     "succeeded": 0,
-    "failed": 7,
+    "failed": 9,
     "skipped": 35,
     "errors": [
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836813895-1581912357307767-7020296392390407750-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840026082-1581911783974491-6734807381410532596-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836333087-1580975204068149-1454435234786138454-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-835721786-4647160972271529-7545004921836676742-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-833377758-1579771190855217-689928425188057235-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -63,7 +67,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 42,
+    "skipped": 44,
     "errors": []
   }
 }
