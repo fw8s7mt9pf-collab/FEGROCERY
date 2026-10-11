@@ -1,13 +1,10 @@
 {
-  "generatedAt": "2026-10-10T23:35:06.799Z",
+  "generatedAt": "2026-10-11T14:58:02.768Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840365415-1583703643795305-4082437330259386010-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836459653-1583702777128725-4504070365406196185-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-825286714-1582945777204425-2203623730432975953-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-839842800-1582944830537853-6478135151034617976-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-patrao-findi-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2388201: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1998406: Categoria inferida com baixa confianca.",
@@ -42,7 +39,10 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1941656: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2220991: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2639222: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-patrao-findi-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocrDateDiagnostics": [
     {
@@ -62,21 +62,6 @@
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-839842800-1582944830537853-6478135151034617976-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-patrao-findi-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-1-png",
       "markdownEvidence": [],
       "blockEvidence": []
     },
@@ -311,7 +296,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -336,7 +321,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-30T02:59:59.000Z"
+        "validUntil": "2026-10-31T02:59:59.000Z"
       }
     },
     {
@@ -635,7 +620,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-14T02:59:59.000Z"
+        "validUntil": "2026-10-15T02:59:59.000Z"
       }
     },
     {
@@ -661,7 +646,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-20T02:59:59.000Z"
+        "validUntil": "2026-10-21T02:59:59.000Z"
       }
     },
     {
@@ -688,6 +673,21 @@
         "productCount": 1,
         "hasMoreThanThreeProducts": false
       }
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-patrao-findi-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-findi-0910-a-1210-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
     }
   ]
 }
