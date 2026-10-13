@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-10-13T16:07:03.561Z",
+  "generatedAt": "2026-10-13T20:15:55.453Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-844860373-1587431633422506-548763328531868539-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840365415-1583703643795305-4082437330259386010-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836459653-1583702777128725-4504070365406196185-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-1-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2534333: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604874: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1789369: Categoria inferida com baixa confianca.",
@@ -58,6 +59,19 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-1-1-png",
       "markdownEvidence": [],
       "blockEvidence": []
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BISCOITO MARIA PARATI 370GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-11-12T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2395374",

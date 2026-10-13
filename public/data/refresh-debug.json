@@ -1,18 +1,19 @@
 {
-  "generatedAt": "2026-10-13T16:07:03.561Z",
-  "sourceGeneratedAt": "2026-10-13T16:06:58.446Z",
-  "sourceCandidateCount": 42,
+  "generatedAt": "2026-10-13T20:15:55.453Z",
+  "sourceGeneratedAt": "2026-10-13T20:15:50.324Z",
+  "sourceCandidateCount": 43,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 42,
+  "publicDealCount": 43,
   "expiredDealCount": 0,
-  "warningCount": 31,
+  "warningCount": 32,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-844860373-1587431633422506-548763328531868539-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840365415-1583703643795305-4082437330259386010-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-836459653-1583702777128725-4504070365406196185-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-1-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2534333: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2604874: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1789369: Categoria inferida com baixa confianca.",
@@ -46,7 +47,7 @@
     "attempted": 5,
     "succeeded": 0,
     "failed": 5,
-    "skipped": 37,
+    "skipped": 38,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-844860373-1587431633422506-548763328531868539-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-840365415-1583703643795305-4082437330259386010-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -61,7 +62,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 42,
+    "skipped": 43,
     "errors": []
   }
 }
