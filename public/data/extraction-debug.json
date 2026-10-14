@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T13:50:57.403Z",
+  "generatedAt": "2026-10-14T18:39:23.824Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-846449673-1588395153326154-2513368773085702141-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-841297020-1980954365934470-2827065473022289906-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -58,7 +58,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-13T02:59:59.000Z"
+        "validUntil": "2026-11-12T02:59:59.000Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-28T02:59:59.000Z"
+        "validUntil": "2026-10-27T02:59:59.000Z"
       }
     },
     {
@@ -265,7 +265,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-31T02:59:59.000Z"
+        "validUntil": "2026-10-30T02:59:59.000Z"
       }
     },
     {
@@ -278,7 +278,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-21T02:59:59.000Z"
+        "validUntil": "2026-10-20T02:59:59.000Z"
       }
     }
   ]
