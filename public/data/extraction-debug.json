@@ -1,13 +1,25 @@
 {
-  "generatedAt": "2026-10-14T23:16:00.166Z",
+  "generatedAt": "2026-10-15T13:32:04.350Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-849560334-1589221613243508-1836689055089386156-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-849042416-1589220739910262-7434173228000782859-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-846449673-1588395153326154-2513368773085702141-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-841297020-1980954365934470-2827065473022289906-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-844860373-1587431633422506-548763328531868539-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-1-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-14-10-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-1410-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-carne-suina-oferta-destaque-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620630: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2637895: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2657053: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551098: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1846609: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1986561: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2500125: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1976166: Categoria inferida com baixa confianca.",
@@ -51,14 +63,232 @@
       "blockEvidence": []
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-2-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-14-10-png",
       "markdownEvidence": [],
       "blockEvidence": []
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-13-10-1-1-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-1410-png",
       "markdownEvidence": [],
       "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-carne-suina-oferta-destaque-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2511466",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "PIPOCA YOKI 400G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1520673",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MOLHO DE TOMATE CAJAMAR 300G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620630",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "PEPINO EM CONSERVA SINO DE OURO 300G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2408739",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "MASSA MOSMANN PENNE, PARAFUSO OU TORTILHONE DE 300GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2637895",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BOLACHAS RECHEADAS RANCHEIRO 90G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2657053",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BATATA PALHA ZEZÉ 70G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551098",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BOLACHAO ZEZE 400G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1846609",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CREME DE LEITE TIROL 200GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1986561",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "LEITE CONDENSADO TIROL 395GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1880440",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "SABONETE ABOVE 75GR"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2490527",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CREME DENTAL SORRISO KOLYNOS 90G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1561843",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ARROZ VO MOCINHA 5KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1472252",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "FEIJAO FRITZ & FRIDA 1KG"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "ENERGÉTICO BALY TADALA 2L"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1524107",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "DETERGENTE LIMPOL 500ML"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2500125",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "SABÃO EM PÓ ASSIM 800G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-10-21T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129",
@@ -70,7 +300,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-12T02:59:59.000Z"
+        "validUntil": "2026-11-13T02:59:59.000Z"
       }
     },
     {
@@ -252,7 +482,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -277,7 +507,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-30T02:59:59.000Z"
+        "validUntil": "2026-10-31T02:59:59.000Z"
       }
     },
     {
@@ -290,7 +520,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-20T02:59:59.000Z"
+        "validUntil": "2026-10-21T02:59:59.000Z"
       }
     }
   ]
