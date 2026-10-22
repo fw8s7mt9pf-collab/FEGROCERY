@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T23:23:08.642Z",
+  "generatedAt": "2026-10-22T13:54:54.594Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-858266170-1595606915938311-3162868798847997317-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-857344979-1595605212605148-808133851228273140-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -8,6 +8,9 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855011363-1593465769485759-1548179160381008585-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-853049048-1591144009717935-258625634635893759-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-854457967-1591143193051350-6271098514309880214-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-maluca-arrumado-29-07-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-maluca-arrumado-29-07-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-1-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2677238: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2337010: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2677254: Categoria inferida com baixa confianca.",
@@ -34,10 +37,8 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2095936: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1555297: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2229111: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-20-10-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-20-10-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2229111: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
     {
@@ -76,6 +77,21 @@
       "blockEvidence": []
     },
     {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-maluca-arrumado-29-07-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-quinta-maluca-arrumado-29-07-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-1-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1835360",
       "markdownEvidence": [],
       "blockEvidence": [],
@@ -98,7 +114,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -111,7 +127,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -124,7 +140,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -137,7 +153,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -150,7 +166,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -163,7 +179,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -176,7 +192,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -189,7 +205,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -202,7 +218,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -215,7 +231,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -228,7 +244,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -254,7 +270,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -267,7 +283,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -280,7 +296,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -293,7 +309,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -306,7 +322,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -488,7 +504,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -501,7 +517,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-04T02:59:59.000Z"
+        "validUntil": "2026-11-05T02:59:59.000Z"
       }
     },
     {
@@ -514,7 +530,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-12T02:59:59.000Z"
+        "validUntil": "2026-11-13T02:59:59.000Z"
       }
     },
     {
@@ -527,7 +543,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-27T02:59:59.000Z"
+        "validUntil": "2026-10-28T02:59:59.000Z"
       }
     },
     {
@@ -539,7 +555,8 @@
           "BOMBOM LACTA FAVORITOS 131,4G"
         ],
         "productCount": 1,
-        "hasMoreThanThreeProducts": false
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-11-22T02:59:59.000Z"
       }
     },
     {
@@ -552,18 +569,8 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-10-30T02:59:59.000Z"
+        "validUntil": "2026-10-31T02:59:59.000Z"
       }
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-20-10-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-20-10-1-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
     }
   ]
 }
