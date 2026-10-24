@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-23T23:10:17.876Z",
-  "sourceGeneratedAt": "2026-10-23T23:10:12.280Z",
+  "generatedAt": "2026-10-24T12:46:40.857Z",
+  "sourceGeneratedAt": "2026-10-24T12:46:37.721Z",
   "sourceCandidateCount": 69,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
   "publicDealCount": 69,
   "expiredDealCount": 0,
-  "warningCount": 53,
+  "warningCount": 52,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-859218213-1597720842393585-3317659893371444364-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-859218211-1597719145727088-3884821258532154682-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -32,7 +32,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2658398: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2680738: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2146299: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1998410: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2658396: Categoria inferida com baixa confianca.",
