@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T19:36:13.052Z",
-  "sourceGeneratedAt": "2026-10-28T19:36:02.898Z",
-  "sourceCandidateCount": 63,
+  "generatedAt": "2026-10-29T00:01:13.784Z",
+  "sourceGeneratedAt": "2026-10-29T00:01:08.072Z",
+  "sourceCandidateCount": 65,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 63,
+  "publicDealCount": 65,
   "expiredDealCount": 0,
   "warningCount": 48,
   "warnings": [
@@ -63,7 +63,7 @@
     "attempted": 9,
     "succeeded": 0,
     "failed": 9,
-    "skipped": 54,
+    "skipped": 56,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-861763786-1602613028571033-3581126622600515168-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-864479185-1600383795460623-4667794704774860300-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -82,7 +82,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 63,
+    "skipped": 65,
     "errors": []
   }
 }
