@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-10-29T00:01:13.784Z",
-  "sourceGeneratedAt": "2026-10-29T00:01:08.072Z",
+  "generatedAt": "2026-10-29T15:17:57.565Z",
+  "sourceGeneratedAt": "2026-10-29T15:17:54.829Z",
   "sourceCandidateCount": 65,
-  "sourceSkippedCount": 0,
-  "sourceSkipped": [],
+  "sourceSkippedCount": 3,
+  "sourceSkipped": [
+    "Krolow WordPress API failed; used homepage HTML fallback.",
+    "Krolow \"Ofertas Especiais Feitas Para Voce\" section did not expose flyer images",
+    "Reused previous candidates for: Krolow."
+  ],
   "publicDealCount": 65,
   "expiredDealCount": 0,
   "warningCount": 48,
@@ -15,8 +19,6 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855508535-1596588572506812-4673568277008912901-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-858266170-1595606915938311-3162868798847997317-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-857344979-1595605212605148-808133851228273140-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-27-10-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-27-10-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2545152: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2394250: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2598017: Categoria inferida com baixa confianca.",
@@ -55,7 +57,9 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2095936: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-27-10-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-horti-27-10-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocr": {
     "provider": "mistral-ocr",
