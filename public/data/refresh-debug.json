@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T23:50:32.882Z",
-  "sourceGeneratedAt": "2026-10-30T23:50:28.028Z",
-  "sourceCandidateCount": 72,
+  "generatedAt": "2026-10-31T14:35:58.235Z",
+  "sourceGeneratedAt": "2026-10-31T14:35:55.380Z",
+  "sourceCandidateCount": 71,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 72,
+  "publicDealCount": 71,
   "expiredDealCount": 0,
-  "warningCount": 53,
+  "warningCount": 52,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -54,7 +54,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2305263: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2337010: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681923: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681920: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681695: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -68,7 +67,7 @@
     "attempted": 12,
     "succeeded": 0,
     "failed": 12,
-    "skipped": 60,
+    "skipped": 59,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -90,7 +89,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 72,
+    "skipped": 71,
     "errors": []
   }
 }
