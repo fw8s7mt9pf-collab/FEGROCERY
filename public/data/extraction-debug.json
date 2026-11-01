@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:25:13.655Z",
+  "generatedAt": "2026-11-01T15:17:50.971Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -13,7 +13,7 @@
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-3-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-card-acougue-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1631227: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1631227: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620619: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2496860: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1520695: Categoria inferida com baixa confianca.",
@@ -125,7 +125,8 @@
           "CORONA EXTRA LONG NECK 330ML"
         ],
         "productCount": 1,
-        "hasMoreThanThreeProducts": false
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-12-01T02:59:59.000Z"
       }
     },
     {
@@ -161,19 +162,6 @@
       "parsedListing": {
         "productNames": [
           "QUEIJO BELLA ESTÂNCIA KG NA PEÇA"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-02T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2668293",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "LINGUIÇA FRIMESA TOSCANA KG"
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
