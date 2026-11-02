@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-11-02T18:32:03.460Z",
-  "sourceGeneratedAt": "2026-11-02T18:31:59.017Z",
-  "sourceCandidateCount": 24,
+  "generatedAt": "2026-11-02T22:47:31.963Z",
+  "sourceGeneratedAt": "2026-11-02T22:47:17.781Z",
+  "sourceCandidateCount": 25,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 24,
+  "publicDealCount": 25,
   "expiredDealCount": 0,
-  "warningCount": 20,
+  "warningCount": 21,
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-865146168-1608619417970394-468487199170125424-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855053360-1605267658305570-3605081026654306413-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -32,18 +33,19 @@
   "ocr": {
     "provider": "mistral-ocr",
     "enabled": true,
-    "attempted": 12,
+    "attempted": 13,
     "succeeded": 0,
-    "failed": 12,
+    "failed": 13,
     "skipped": 12,
     "errors": [
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-865146168-1608619417970394-468487199170125424-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Mistral OCR returned 503: upstream connect error or disconnect/reset before headers. reset reason: remote connection failure",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855053360-1605267658305570-3605081026654306413-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-869227500-1604218978410438-2529728920297861376-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-861763786-1602613028571033-3581126622600515168-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-861763786-1602613028571033-3581126622600515168-n-jpg: Mistral OCR returned 503: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-864479185-1600383795460623-4667794704774860300-n-jpg: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
-      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+      "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-png: Mistral OCR returned 503: upstream connect error or disconnect/reset before headers. reset reason: remote connection failure",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-3-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-4-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
       "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-10-fecha-mes-3-1-png: Mistral OCR returned 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
@@ -57,7 +59,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 24,
+    "skipped": 25,
     "errors": []
   }
 }

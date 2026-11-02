@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-02T18:32:03.460Z",
+  "generatedAt": "2026-11-02T22:47:31.963Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-865146168-1608619417970394-468487199170125424-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-874287520-1161949712836114-3340145167274092705-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855053360-1605267658305570-3605081026654306413-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -23,6 +24,11 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-865146168-1608619417970394-468487199170125424-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg",
       "markdownEvidence": [],
