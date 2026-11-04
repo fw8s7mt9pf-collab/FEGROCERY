@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:25:13.822Z",
+  "generatedAt": "2026-11-04T20:49:43.224Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-865146168-1608619417970394-468487199170125424-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-871645937-1605793681586301-3882203955939156298-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -8,8 +8,6 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-869227500-1604218978410438-2529728920297861376-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-861763786-1602613028571033-3581126622600515168-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-864479185-1600383795460623-4667794704774860300-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681695: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2337010: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1875854: Categoria inferida com baixa confianca.",
@@ -35,7 +33,9 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681920: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
   ],
   "ocrDateDiagnostics": [
     {
@@ -70,16 +70,6 @@
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-864479185-1600383795460623-4667794704774860300-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png",
       "markdownEvidence": [],
       "blockEvidence": []
     },
@@ -523,6 +513,16 @@
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-11-21T02:59:59.000Z"
       }
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
     }
   ]
 }
