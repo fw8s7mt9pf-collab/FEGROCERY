@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:54:43.834Z",
+  "generatedAt": "2026-11-05T16:33:15.452Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-890299755-1611199264379076-5536080225583599068-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-883406366-1610166971148972-134602189668542381-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -9,9 +9,8 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-855053360-1605267658305570-3605081026654306413-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-869227500-1604218978410438-2529728920297861376-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-861763786-1602613028571033-3581126622600515168-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681695: Categoria inferida com baixa confianca.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-maluca-05-11-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-maluca-0511-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2337010: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1875854: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2545152: Categoria inferida com baixa confianca.",
@@ -33,7 +32,7 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2077113: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1620619: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681920: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1926129: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca."
   ],
@@ -79,27 +78,14 @@
       "blockEvidence": []
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-3-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-maluca-05-11-png",
       "markdownEvidence": [],
       "blockEvidence": []
     },
     {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-3-4-11-png",
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-maluca-0511-1-png",
       "markdownEvidence": [],
       "blockEvidence": []
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681695",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "ACHOCOLATADO TODDYNHO 200ML"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-07T02:59:59.000Z"
-      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2337010",
@@ -474,7 +460,8 @@
           "FARINHA DE MILHO FINA FRITZ & FRIDA 1KG"
         ],
         "productCount": 1,
-        "hasMoreThanThreeProducts": false
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-12-05T02:59:59.000Z"
       }
     },
     {
