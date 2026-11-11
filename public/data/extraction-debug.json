@@ -1,11 +1,14 @@
 {
-  "generatedAt": "2026-11-11T00:40:29.178Z",
+  "generatedAt": "2026-11-11T16:19:47.951Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903846680-1618552133643789-4658291278895291751-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903063445-1618551576977178-2254231219416036004-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-899469743-1616909193808083-6096974318856079423-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-891043228-1485399313649566-4736702470243717682-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-896003810-1615672293931773-8829384705080500137-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-1011-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-1011-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2696588: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2677254: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620424: Categoria inferida com baixa confianca.",
@@ -35,6 +38,16 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903846680-1618552133643789-4658291278895291751-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903063445-1618551576977178-2254231219416036004-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-899469743-1616909193808083-6096974318856079423-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
@@ -58,6 +71,19 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-1011-png",
       "markdownEvidence": [],
       "blockEvidence": []
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1963945",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "REPOLHO VERDE UNIDADE"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-11-13T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2696588",
