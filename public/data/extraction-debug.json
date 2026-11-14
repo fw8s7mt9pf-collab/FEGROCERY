@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:54:43.882Z",
+  "generatedAt": "2026-11-14T00:53:56.090Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903838992-1621062653392737-718369183814202627-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903400528-1621061153392887-2277996605476018598-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -8,6 +8,13 @@
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-903063445-1618551576977178-2254231219416036004-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-899469743-1616909193808083-6096974318856079423-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-891043228-1485399313649566-4736702470243717682-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao5-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-4-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1551084: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2701750: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481839: Categoria inferida com baixa confianca.",
@@ -43,14 +50,7 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2696587: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2545157: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao5-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-4-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas."
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620402: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
     {
@@ -85,6 +85,41 @@
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-891043228-1485399313649566-4736702470243717682-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao5-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-3-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-4-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-1-png",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
+      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-png",
       "markdownEvidence": [],
       "blockEvidence": []
     },
@@ -711,41 +746,6 @@
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-11-21T02:59:59.000Z"
       }
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao5-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-3-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-1-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-4-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-final-patrao-2-1-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-png",
-      "markdownEvidence": [],
-      "blockEvidence": []
     }
   ]
 }
