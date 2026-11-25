@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T18:42:02.236Z",
-  "sourceGeneratedAt": "2026-11-25T18:41:57.779Z",
-  "sourceCandidateCount": 59,
+  "generatedAt": "2026-11-25T23:07:14.849Z",
+  "sourceGeneratedAt": "2026-11-25T23:07:09.886Z",
+  "sourceCandidateCount": 58,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 59,
+  "publicDealCount": 58,
   "expiredDealCount": 0,
-  "warningCount": 41,
+  "warningCount": 40,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -44,7 +44,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2424993: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2699767: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2653466: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2701750: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481839: Categoria inferida com baixa confianca.",
@@ -56,7 +55,7 @@
     "attempted": 6,
     "succeeded": 0,
     "failed": 6,
-    "skipped": 53,
+    "skipped": 52,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg: Mistral OCR returned 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"billing_no_api_budget_configured\",\"param\":null,\"code\":\"2314\",\"raw_status_code\":402}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg: Mistral OCR returned 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"billing_no_api_budget_configured\",\"param\":null,\"code\":\"2314\",\"raw_status_code\":402}",
@@ -72,7 +71,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 59,
+    "skipped": 58,
     "errors": []
   }
 }
