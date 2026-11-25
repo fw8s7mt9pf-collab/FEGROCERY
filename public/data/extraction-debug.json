@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-25T03:33:24.700Z",
+  "generatedAt": "2026-11-25T18:42:02.236Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-925408131-1632975885534747-8709309020964370004-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-926592578-1632975105534825-187513142660979958-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-922067949-1632974635534872-2384077147036516797-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-921810120-1632974182201584-4689702870337108547-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-17-11usrdt-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-17-11-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2714209: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2709211: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2272693: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2711261: Categoria inferida com baixa confianca.",
@@ -45,6 +45,11 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
@@ -60,16 +65,6 @@
       "blockEvidence": []
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-922067949-1632974635534872-2384077147036516797-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-921810120-1632974182201584-4689702870337108547-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-17-11usrdt-png",
       "markdownEvidence": [],
       "blockEvidence": []
@@ -78,6 +73,18 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-horti-17-11-1-png",
       "markdownEvidence": [],
       "blockEvidence": []
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2714209",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "BISCOITO SALGADO CREAM CRACKER GIRASSOL 250G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2709211",
@@ -89,7 +96,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-01T02:59:59.000Z"
+        "validUntil": "2026-11-30T02:59:59.000Z"
       }
     },
     {
@@ -167,7 +174,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -284,7 +291,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -427,7 +434,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-14T02:59:59.000Z"
+        "validUntil": "2026-12-13T02:59:59.000Z"
       }
     },
     {
@@ -440,7 +447,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -453,7 +460,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -466,7 +473,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -479,7 +486,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -492,7 +499,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -505,7 +512,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -518,7 +525,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -531,7 +538,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -544,7 +551,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
+        "validUntil": "2026-11-27T02:59:59.000Z"
       }
     },
     {
@@ -661,7 +668,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-02T02:59:59.000Z"
+        "validUntil": "2026-12-01T02:59:59.000Z"
       }
     },
     {
@@ -674,7 +681,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-12T02:59:59.000Z"
+        "validUntil": "2026-12-11T02:59:59.000Z"
       }
     },
     {
@@ -687,7 +694,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-02T02:59:59.000Z"
+        "validUntil": "2026-12-01T02:59:59.000Z"
       }
     },
     {
@@ -713,7 +720,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-02T02:59:59.000Z"
+        "validUntil": "2026-12-01T02:59:59.000Z"
       }
     },
     {
@@ -726,7 +733,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-29T02:59:59.000Z"
+        "validUntil": "2026-11-28T02:59:59.000Z"
       }
     },
     {
@@ -739,7 +746,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-29T02:59:59.000Z"
+        "validUntil": "2026-11-28T02:59:59.000Z"
       }
     },
     {
@@ -752,7 +759,7 @@
         ],
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-12-06T02:59:59.000Z"
+        "validUntil": "2026-12-05T02:59:59.000Z"
       }
     }
   ]
