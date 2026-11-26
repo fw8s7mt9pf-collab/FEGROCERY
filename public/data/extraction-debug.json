@@ -1,10 +1,9 @@
 {
-  "generatedAt": "2026-11-26T18:29:22.030Z",
+  "generatedAt": "2026-11-26T23:00:04.916Z",
   "warnings": [
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-931092451-1629666174830453-449951992277408733-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-925408131-1632975885534747-8709309020964370004-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-926592578-1632975105534825-187513142660979958-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-14-10-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-quinta-14-10-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
@@ -47,22 +46,17 @@
   ],
   "ocrDateDiagnostics": [
     {
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-931092451-1629666174830453-449951992277408733-n-jpg",
+      "markdownEvidence": [],
+      "blockEvidence": []
+    },
+    {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
     },
     {
       "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-925408131-1632975885534747-8709309020964370004-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-926592578-1632975105534825-187513142660979958-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
     },
