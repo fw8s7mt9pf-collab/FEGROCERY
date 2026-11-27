@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-27T18:16:35.010Z",
+  "generatedAt": "2026-11-27T22:43:52.487Z",
   "warnings": [
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-931092451-1629666174830453-449951992277408733-n-jpg: Categoria inferida com baixa confianca.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg: Validade nao encontrada; oferta expira automaticamente em 48 horas.",
-    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-932360936-1516015773757247-2249269752165440440-n-jpg: Categoria inferida com baixa confianca.",
+    "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-934669609-18135312178814039-676869814546167002-n-jpg: Categoria inferida com baixa confianca.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-card-acougue-2-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-27-11-ate-29-11-2026-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-27-11-ate-29-11-2026-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-2711-ate-29112026-3-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-2711-ate-29112026-1-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
     "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-2711-ate-29112-png: Categoria inferida com baixa confianca. Validade nao encontrada; oferta expira automaticamente em 48 horas.",
+    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2665230: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1568070: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2718499: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1642743: Categoria inferida com baixa confianca.",
@@ -56,17 +56,12 @@
   ],
   "ocrDateDiagnostics": [
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-931092451-1629666174830453-449951992277408733-n-jpg",
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-932360936-1516015773757247-2249269752165440440-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
     },
     {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924342038-1634678938697775-403569178971234372-n-jpg",
-      "markdownEvidence": [],
-      "blockEvidence": []
-    },
-    {
-      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-924749925-1632976382201364-2970179943302288145-n-jpg",
+      "id": "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-934669609-18135312178814039-676869814546167002-n-jpg",
       "markdownEvidence": [],
       "blockEvidence": []
     },
@@ -99,6 +94,19 @@
       "id": "krolow-https-macroatacadokrolow-com-br-wp-content-uploads-2026-11-ofertas-de-2711-ate-29112-png",
       "markdownEvidence": [],
       "blockEvidence": []
+    },
+    {
+      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2665230",
+      "markdownEvidence": [],
+      "blockEvidence": [],
+      "parsedListing": {
+        "productNames": [
+          "CAFÉ 3 CORAÇÕES TRADICIONAL E EXTRA FORTE 500G"
+        ],
+        "productCount": 1,
+        "hasMoreThanThreeProducts": false,
+        "validUntil": "2026-12-01T02:59:59.000Z"
+      }
     },
     {
       "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1568070",
