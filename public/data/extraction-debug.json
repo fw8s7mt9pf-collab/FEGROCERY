@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T22:43:52.487Z",
+  "generatedAt": "2026-11-28T02:44:00.724Z",
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-932360936-1516015773757247-2249269752165440440-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-934669609-18135312178814039-676869814546167002-n-jpg: Categoria inferida com baixa confianca.",
@@ -26,7 +26,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2680738: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1802342: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2677525: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620648: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2715925: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2709336: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2095936: Categoria inferida com baixa confianca.",
@@ -50,8 +49,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2653466: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2701750: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481839: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca."
   ],
   "ocrDateDiagnostics": [
@@ -366,19 +363,6 @@
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-12-01T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620648",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PALETA SUÍNA KG"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
       }
     },
     {
@@ -859,32 +843,6 @@
         "productCount": 1,
         "hasMoreThanThreeProducts": false,
         "validUntil": "2026-12-01T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2701750",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PÃO BISNAGUINHA FARIAS 300G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
-      }
-    },
-    {
-      "id": "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481839",
-      "markdownEvidence": [],
-      "blockEvidence": [],
-      "parsedListing": {
-        "productNames": [
-          "PÃO DE FORMA FARIAS 500G"
-        ],
-        "productCount": 1,
-        "hasMoreThanThreeProducts": false,
-        "validUntil": "2026-11-28T02:59:59.000Z"
       }
     },
     {

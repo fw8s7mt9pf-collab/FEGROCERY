@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-27T22:43:52.487Z",
-  "sourceGeneratedAt": "2026-11-27T22:43:49.168Z",
-  "sourceCandidateCount": 70,
+  "generatedAt": "2026-11-28T02:44:00.724Z",
+  "sourceGeneratedAt": "2026-11-28T02:43:49.115Z",
+  "sourceCandidateCount": 67,
   "sourceSkippedCount": 0,
   "sourceSkipped": [],
-  "publicDealCount": 70,
+  "publicDealCount": 67,
   "expiredDealCount": 0,
-  "warningCount": 52,
+  "warningCount": 49,
   "warnings": [
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-932360936-1516015773757247-2249269752165440440-n-jpg: Categoria inferida com baixa confianca.",
     "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-934669609-18135312178814039-676869814546167002-n-jpg: Categoria inferida com baixa confianca.",
@@ -33,7 +33,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2680738: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-1802342: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2677525: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2620648: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2715925: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2709336: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2095936: Categoria inferida com baixa confianca.",
@@ -57,8 +56,6 @@
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2628216: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2672817: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2653466: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2701750: Categoria inferida com baixa confianca.",
-    "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2481839: Categoria inferida com baixa confianca.",
     "mercado-prado-https-clubeamigosdoprado-crescevendas-com-oferta-2681674: Categoria inferida com baixa confianca."
   ],
   "ocr": {
@@ -67,7 +64,7 @@
     "attempted": 8,
     "succeeded": 0,
     "failed": 8,
-    "skipped": 62,
+    "skipped": 59,
     "errors": [
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-932360936-1516015773757247-2249269752165440440-n-jpg: Mistral OCR returned 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"billing_no_api_budget_configured\",\"param\":null,\"code\":\"2314\",\"raw_status_code\":402}",
       "grupo-roxo-https-www-gruporoxo-com-br-wp-content-uploads-2018-12-934669609-18135312178814039-676869814546167002-n-jpg: Mistral OCR returned 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"billing_no_api_budget_configured\",\"param\":null,\"code\":\"2314\",\"raw_status_code\":402}",
@@ -85,7 +82,7 @@
     "attempted": 0,
     "succeeded": 0,
     "failed": 0,
-    "skipped": 70,
+    "skipped": 67,
     "errors": []
   }
 }
